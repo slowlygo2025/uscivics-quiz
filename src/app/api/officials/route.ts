@@ -91,7 +91,7 @@ export async function GET(request: Request) {
       representatives,
       ambiguous: Boolean(data.ambiguous) || representatives.length > 1,
       sourceNote:
-        "Congressional data via RepsContact. Governor/capital from local reference (Aug 2026). Verify before your interview at uscis.gov/citizenship/testupdates.",
+        "Congressional data via RepsContact. Governor/capital from local reference (Aug 2026). Verify current officials before your interview.",
     };
 
     return NextResponse.json(body, {

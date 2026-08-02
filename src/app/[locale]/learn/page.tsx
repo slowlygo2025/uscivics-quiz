@@ -4,8 +4,6 @@ import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { isLocale } from "@/lib/locales";
 import { BRANCHES, KEY_AMENDMENTS, KEY_NUMBERS } from "@/lib/study-guide";
-import { USCIS_TEST_UPDATES_URL } from "@/lib/changing-answers";
-import OfficialResources from "@/components/OfficialResources";
 import { notFound } from "next/navigation";
 
 export async function generateMetadata({
@@ -117,16 +115,6 @@ export default async function LearnPage({
             <li key={t}>{t}</li>
           ))}
         </ol>
-        <p className="mt-4 text-sm text-muted">
-          <a
-            href={USCIS_TEST_UPDATES_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-signal underline-offset-2 hover:underline"
-          >
-            {dict.changingBannerLink}
-          </a>
-        </p>
       </section>
 
       <section>
@@ -150,8 +138,6 @@ export default async function LearnPage({
           ))}
         </div>
       </section>
-
-      <OfficialResources dict={dict} />
     </div>
   );
 }

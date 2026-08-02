@@ -3,7 +3,6 @@
 import { useEffect, useState, type FormEvent } from "react";
 import type { Dictionary } from "@/lib/dictionary";
 import type { OfficialsResponse } from "@/lib/officials";
-import { USCIS_TEST_UPDATES_URL } from "@/lib/changing-answers";
 
 const ZIP_STORAGE_KEY = "uscivics-zip";
 
@@ -144,17 +143,7 @@ export default function ZipOfficials({ dict }: { dict: Dictionary }) {
             />
           </dl>
 
-          <p className="text-xs leading-relaxed text-muted">
-            {dict.zipVerify}{" "}
-            <a
-              href={USCIS_TEST_UPDATES_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-signal underline-offset-2 hover:underline"
-            >
-              {dict.changingBannerLink}
-            </a>
-          </p>
+          <p className="text-xs leading-relaxed text-muted">{dict.zipVerify}</p>
         </div>
       )}
     </section>

@@ -21,7 +21,6 @@ import {
 import { getInterviewConfig } from "@/lib/quiz-config";
 import {
   isChangingAnswer,
-  USCIS_TEST_UPDATES_URL,
 } from "@/lib/changing-answers";
 import {
   loadProgress,
@@ -398,15 +397,7 @@ function ChangingAnswersBanner({ dict }: { dict: Dictionary }) {
     <aside className="rounded-2xl border border-amber/25 bg-amber-soft/80 px-5 py-4 sm:px-6">
       <p className="text-sm font-semibold text-amber">{dict.changingBannerTitle}</p>
       <p className="mt-1 text-sm leading-relaxed text-ink-soft">
-        {dict.changingBannerBody}{" "}
-        <a
-          href={USCIS_TEST_UPDATES_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-semibold text-signal underline-offset-2 hover:underline"
-        >
-          {dict.changingBannerLink}
-        </a>
+        {dict.changingBannerBody}
       </p>
     </aside>
   );

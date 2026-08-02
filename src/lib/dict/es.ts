@@ -131,7 +131,7 @@ export const es: Dictionary = {
   themeToDark: "Cambiar a modo oscuro",
   uscisAlertTitle: "¿Qué examen cívico te toca?",
   uscisAlertBody:
-    "Presentaste el N-400 antes del 20 oct 2025 → examen 2008 (100 preguntas). Ese día o después → 2025 (128). Confirmá en USCIS.",
+    "Presentaste el N-400 antes del 20 oct 2025 → examen 2008 (100 preguntas). Ese día o después → 2025 (128). Usá Descubrir mi versión para confirmar.",
   uscisResourcesHeading: "Recursos oficiales de USCIS",
   uscisResourcesLead:
     "Materiales y actualizaciones de U.S. Citizenship and Immigration Services. Enlazamos a USCIS — no alojamos PDFs oficiales.",
@@ -176,7 +176,7 @@ export const es: Dictionary = {
     "Normalmente es en inglés. Excepciones: 65/20 (idioma de elección) y exenciones de inglés 50/20 o 55/15 con intérprete para civics.",
   faqQ5: "¿Algunas respuestas cambian?",
   faqA5:
-    "Sí — presidente, vicepresidente, speaker, juez presidente, senadores, representante, gobernador y capital. Revisá uscis.gov/citizenship/testupdates y usá la búsqueda por ZIP.",
+    "Sí — presidente, vicepresidente, speaker, juez presidente, senadores, representante, gobernador y capital. Usá nuestra lista de oficiales y la búsqueda por ZIP.",
   federalTitle: "Oficiales federales actuales",
   federalLead:
     "Estas respuestas cambian con elecciones o nombramientos. Estudiá los nombres que acepta USCIS.",

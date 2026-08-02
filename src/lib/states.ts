@@ -1,6 +1,6 @@
 /**
  * State capitals (stable) + governors (as of Aug 2026).
- * Always remind users to verify at uscis.gov/citizenship/testupdates.
+ * State capitals and governors used for ZIP lookup answers.
  */
 export type StateInfo = {
   name: string;

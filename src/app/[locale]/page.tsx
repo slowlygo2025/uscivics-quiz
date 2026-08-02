@@ -2,9 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
-import OfficialResources from "@/components/OfficialResources";
 import BrandLogo from "@/components/BrandLogo";
-import { USCIS_STUDY_FOR_TEST } from "@/lib/uscis-links";
 
 export async function generateMetadata({
   params,
@@ -29,15 +27,7 @@ export default async function HomePage({
       <div className="gw-alert gw-rise mb-8">
         <p className="font-bold text-ink">{dict.uscisAlertTitle}</p>
         <p className="mt-1 text-sm leading-relaxed text-muted sm:text-base">
-          {dict.uscisAlertBody}{" "}
-          <a
-            href={USCIS_STUDY_FOR_TEST}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-signal underline-offset-2 hover:underline"
-          >
-            uscis.gov
-          </a>
+          {dict.uscisAlertBody}
         </p>
       </div>
 
@@ -131,8 +121,6 @@ export default async function HomePage({
           </Link>
         </div>
       </section>
-
-      <OfficialResources dict={dict} />
     </div>
   );
 }

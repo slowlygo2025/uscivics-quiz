@@ -4,7 +4,6 @@ import type { Dictionary } from "@/lib/dictionary";
 import {
   FEDERAL_OFFICIALS,
   FEDERAL_OFFICIALS_AS_OF,
-  USCIS_TEST_UPDATES_URL,
 } from "@/lib/federal-officials";
 
 const LABELS: Record<string, keyof Dictionary> = {
@@ -40,15 +39,7 @@ export default function FederalOfficials({ dict }: { dict: Dictionary }) {
       </dl>
 
       <p className="mt-4 text-xs text-muted">
-        {dict.federalAsOf} {FEDERAL_OFFICIALS_AS_OF}.{" "}
-        <a
-          href={USCIS_TEST_UPDATES_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-semibold text-signal underline-offset-2 hover:underline"
-        >
-          {dict.changingBannerLink}
-        </a>
+        {dict.federalAsOf} {FEDERAL_OFFICIALS_AS_OF}.
       </p>
     </section>
   );

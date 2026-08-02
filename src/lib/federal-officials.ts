@@ -1,10 +1,8 @@
-import { USCIS_TEST_UPDATES_URL } from "./changing-answers";
 import type { TestVersion } from "./types";
 
 /**
  * Federal officials that change with elections/appointments.
- * Source of truth: https://www.uscis.gov/citizenship/testupdates
- * Update this file whenever USCIS posts new names.
+ * Update this file whenever names change.
  */
 export type FederalOffice =
   | "president"
@@ -57,8 +55,6 @@ export const FEDERAL_OFFICIALS: FederalOfficial[] = [
     questionIds: { "2025": null, "2008": 46 },
   },
 ];
-
-export { USCIS_TEST_UPDATES_URL };
 
 export function getFederalAnswersForQuestion(
   version: TestVersion,

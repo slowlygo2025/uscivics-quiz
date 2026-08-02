@@ -129,7 +129,7 @@ export const en = {
   themeToDark: "Switch to dark mode",
   uscisAlertTitle: "Which civics test do you take?",
   uscisAlertBody:
-    "File Form N-400 before Oct 20, 2025 → 2008 test (100 questions). On or after that date → 2025 test (128 questions). Confirm on USCIS.",
+    "File Form N-400 before Oct 20, 2025 → 2008 test (100 questions). On or after that date → 2025 test (128 questions). Use Find my test version to confirm.",
   uscisResourcesHeading: "Official USCIS resources",
   uscisResourcesLead:
     "Study materials and updates from U.S. Citizenship and Immigration Services. We link out — we do not host official PDFs.",
@@ -174,7 +174,7 @@ export const en = {
     "Normally the civics test is in English. Exceptions: 65/20 (language of choice), and English exemptions 50/20 or 55/15 for the English portion with an interpreter for civics.",
   faqQ5: "Do some answers change?",
   faqA5:
-    "Yes — president, vice president, speaker, chief justice, your senators, representative, governor, and state capital. Check uscis.gov/citizenship/testupdates and use our ZIP lookup.",
+    "Yes — president, vice president, speaker, chief justice, your senators, representative, governor, and state capital. Use our current officials list and ZIP lookup to stay up to date.",
   federalTitle: "Current federal officials",
   federalLead:
     "These answers change with elections or appointments. Study the accepted names USCIS lists.",
