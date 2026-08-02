@@ -129,9 +129,22 @@ export const es: Dictionary = {
   navHome: "Inicio",
   themeToLight: "Cambiar a modo claro",
   themeToDark: "Cambiar a modo oscuro",
-  uscisAlertTitle: "¿Qué examen cívico te toca?",
+  uscisUpdatesPageTitle: "Consultar actualizaciones del examen",
+  uscisAlertLabel: "ALERTA:",
   uscisAlertBody:
-    "Presentaste el N-400 antes del 20 oct 2025 → examen 2008 (100 preguntas). Ese día o después → 2025 (128). Usá Descubrir mi versión para confirmar.",
+    "USCIS está implementando el examen de educación cívica de naturalización 2025 para alinearlo con la Orden Ejecutiva 14161. Las personas que presenten el Formulario N-400 para solicitar la naturalización antes del 20 de oct. de 2025 tomarán el examen de educación cívica de naturalización 2008. Las personas que presenten el Formulario N-400 el 20 de oct. de 2025 o después tomarán el examen 2025. El nuevo examen 2025 se basa en el examen de educación cívica de naturalización 2020, con algunas modificaciones en la administración del examen.",
+  uscisFilingColDate: "Fecha de presentación del N-400",
+  uscisFilingColVersion: "Versión del examen de educación cívica",
+  uscisFilingBefore: "Antes del 20 de oct. de 2025",
+  uscisFilingBeforeVersion: "Examen de educación cívica de naturalización 2008",
+  uscisFilingAfter: "El 20 de oct. de 2025 o después",
+  uscisFilingAfterVersion: "Examen de educación cívica de naturalización 2025",
+  uscis2008Heading: "Examen de educación cívica de naturalización 2008",
+  uscis2008Body:
+    "Administraremos el examen de educación cívica de naturalización 2008 a las personas que soliciten la naturalización y presenten el Formulario N-400 antes del 20 de oct. de 2025.",
+  uscis2025Heading: "Examen de educación cívica de naturalización 2025",
+  uscis2025Body:
+    "Administraremos el examen de educación cívica de naturalización 2025 a las personas que soliciten la naturalización y presenten el Formulario N-400 el 20 de oct. de 2025 o después.",
   uscisResourcesHeading: "Recursos oficiales de USCIS",
   uscisResourcesLead:
     "Materiales y actualizaciones de U.S. Citizenship and Immigration Services. Enlazamos a USCIS — no alojamos PDFs oficiales.",

@@ -312,6 +312,36 @@ html.dark .gw-alert {
   background: color-mix(in srgb, var(--signal) 12%, var(--surface));
 }
 
+/* USCIS-style info alert (messages--info) */
+.gw-uscis-alert {
+  border-left: 0.5rem solid #00bde3;
+  background: #e7f6f8;
+  padding: 0.85rem 1rem;
+}
+
+html.dark .gw-uscis-alert {
+  border-left-color: #97d4e3;
+  background: color-mix(in srgb, #00bde3 14%, var(--surface));
+}
+
+.gw-uscis-table th,
+.gw-uscis-table td {
+  border: 1px solid var(--line);
+  padding: 0.65rem 0.85rem;
+  text-align: start;
+  vertical-align: top;
+}
+
+.gw-uscis-table thead th {
+  background: var(--mist);
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.gw-uscis-table tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--mist) 55%, transparent);
+}
+
 .gw-card {
   border: 1px solid var(--line);
   background: var(--surface);

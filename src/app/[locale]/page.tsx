@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import BrandLogo from "@/components/BrandLogo";
+import TestVersionNotice from "@/components/TestVersionNotice";
 
 export async function generateMetadata({
   params,
@@ -24,12 +25,7 @@ export default async function HomePage({
 
   return (
     <div className="flex flex-col">
-      <div className="gw-alert gw-rise mb-8">
-        <p className="font-bold text-ink">{dict.uscisAlertTitle}</p>
-        <p className="mt-1 text-sm leading-relaxed text-muted sm:text-base">
-          {dict.uscisAlertBody}
-        </p>
-      </div>
+      <TestVersionNotice dict={dict} locale={locale} />
 
       <section
         className="relative min-h-[min(58dvh,640px)] overflow-hidden border border-line text-white sm:min-h-[min(64dvh,680px)]"

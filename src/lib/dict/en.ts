@@ -127,9 +127,22 @@ export const en = {
   navHome: "Home",
   themeToLight: "Switch to light mode",
   themeToDark: "Switch to dark mode",
-  uscisAlertTitle: "Which civics test do you take?",
+  uscisUpdatesPageTitle: "Check for Test Updates",
+  uscisAlertLabel: "ALERT:",
   uscisAlertBody:
-    "File Form N-400 before Oct 20, 2025 → 2008 test (100 questions). On or after that date → 2025 test (128 questions). Use Find my test version to confirm.",
+    "USCIS is implementing the 2025 naturalization civics test to align with Executive Order 14161. Aliens who file Form N-400 to apply for naturalization before Oct. 20, 2025, will take the 2008 naturalization civics test. Aliens who file Form N-400 to apply for naturalization on or after Oct. 20, 2025, will take the 2025 test. The new 2025 test is based on the 2020 naturalization civics test, with some modifications to the administration of the test.",
+  uscisFilingColDate: "N-400 Filing Date",
+  uscisFilingColVersion: "Version of Civics Test",
+  uscisFilingBefore: "Before Oct. 20, 2025",
+  uscisFilingBeforeVersion: "2008 Naturalization Civics Test",
+  uscisFilingAfter: "On or After Oct. 20, 2025",
+  uscisFilingAfterVersion: "2025 Naturalization Civics Test",
+  uscis2008Heading: "2008 Naturalization Civics Test",
+  uscis2008Body:
+    "We will administer the 2008 naturalization civics test to aliens applying for naturalization who file a Form N-400 naturalization application before Oct. 20, 2025.",
+  uscis2025Heading: "2025 Naturalization Civics Test",
+  uscis2025Body:
+    "We will administer the 2025 naturalization civics test to aliens applying for naturalization who file Form N-400 on or after Oct. 20, 2025.",
   uscisResourcesHeading: "Official USCIS resources",
   uscisResourcesLead:
     "Study materials and updates from U.S. Citizenship and Immigration Services. We link out — we do not host official PDFs.",
