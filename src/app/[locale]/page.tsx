@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import OfficialResources from "@/components/OfficialResources";
+import BrandLogo from "@/components/BrandLogo";
 import { USCIS_STUDY_FOR_TEST } from "@/lib/uscis-links";
 
 export async function generateMetadata({
@@ -62,11 +63,13 @@ export default async function HomePage({
         />
 
         <div className="relative z-10 flex h-full flex-col justify-end gap-5 px-5 py-9 sm:gap-6 sm:px-10 sm:py-14 lg:max-w-[62%] lg:justify-center lg:py-16">
-          <p className="gw-rise text-xs font-bold uppercase tracking-[0.16em] text-white/75">
-            {dict.officialBadge}
-          </p>
-          <h1 className="gw-rise font-[family-name:var(--font-display)] text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            {dict.brand}
+          <h1 className="gw-rise">
+            <BrandLogo
+              title={dict.brand}
+              subtitle={dict.officialBadge}
+              variant="onDark"
+              size="lg"
+            />
           </h1>
           <div className="gw-rise gw-rise-delay-1 space-y-3">
             <p className="max-w-xl text-xl font-semibold leading-snug text-white sm:text-2xl">

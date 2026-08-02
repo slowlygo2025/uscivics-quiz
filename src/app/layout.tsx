@@ -36,6 +36,9 @@ export const metadata: Metadata = {
   },
   description:
     "Free USCIS naturalization civics test practice. Official 100 and 128 questions in multiple languages, no sign-up. Prep for the citizenship interview.",
+  icons: {
+    icon: [{ url: "/brand-seal.svg", type: "image/svg+xml" }],
+  },
   keywords: [
     "US citizenship test",
     "US civics quiz",

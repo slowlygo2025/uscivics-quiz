@@ -2,6 +2,7 @@ import type { Dictionary } from "./en";
 
 export const es: Dictionary = {
   brand: "USCivics Quiz",
+  logoSubtitle: "Práctica cívica",
   siteName: "USCivics Quiz",
   tagline:
     "Práctica gratis del examen cívico de ciudadanía de EE.UU. — preguntas USCIS 2008 y 2025.",

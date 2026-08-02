@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="USCivics Quiz">
+  <circle cx="32" cy="32" r="31" fill="#003a5d" stroke="#c0c2c4" stroke-width="1.5"/>
+  <circle cx="32" cy="32" r="27.5" fill="none" stroke="#c0c2c4" stroke-width="0.85"/>
+  <defs>
+    <path id="r" d="M32,32 m-22,0 a22,22 0 1,1 44,0 a22,22 0 1,1 -44,0"/>
+  </defs>
+  <text fill="#fff" font-size="4.2" font-family="system-ui,sans-serif" font-weight="700" letter-spacing="1.6">
+    <textPath href="#r" startOffset="8%">USCIVICS PRACTICE</textPath>
+  </text>
+  <g fill="#fff">
+    <circle cx="32" cy="18" r="1.2"/>
+    <circle cx="26.5" cy="19.8" r="1"/>
+    <circle cx="37.5" cy="19.8" r="1"/>
+  </g>
+  <path d="M16 27c5.8-1.8 10.4-1.1 16 2 5.6-3.1 10.2-3.8 16-2v14.5c-5.8-1.7-10.4-1-16 2.1-5.6-3.1-10.2-3.8-16-2.1V27z" fill="#fff"/>
+  <path d="M32 29.1v14.4" stroke="#003a5d" stroke-width="1.35" stroke-linecap="round"/>
+  <path d="M19.5 31.8h8.5M19.5 34.8h7.5M19.5 37.8h6.5M36 31.8h8.5M36 34.8h7.5M36 37.8h6.5" stroke="#003a5d" stroke-width="1.05" stroke-linecap="round"/>
+  <rect x="22" y="47.5" width="20" height="2" rx="0.35" fill="#c41230"/>
+</svg>

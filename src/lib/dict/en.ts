@@ -1,6 +1,7 @@
 /** Shared English dictionary — source of truth for keys. */
 export const en = {
   brand: "USCivics Quiz",
+  logoSubtitle: "Civics practice",
   siteName: "USCivics Quiz",
   tagline: "Free US citizenship civics test practice — 2008 & 2025 USCIS questions.",
   heroSupport:

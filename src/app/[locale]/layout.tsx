@@ -7,6 +7,7 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import MobileNav from "@/components/MobileNav";
 import ThemeToggle from "@/components/ThemeToggle";
 import OfficialSiteBanner from "@/components/OfficialSiteBanner";
+import BrandLogo from "@/components/BrandLogo";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -34,9 +35,14 @@ export default async function LocaleLayout({
           <div className="flex min-w-0 items-center gap-4 md:gap-8">
             <Link
               href={`/${locale}`}
-              className="truncate font-[family-name:var(--font-display)] text-lg font-bold tracking-tight sm:text-xl"
+              className="min-w-0 shrink opacity-100 transition-opacity hover:opacity-90"
             >
-              {dict.brand}
+              <BrandLogo
+                title={dict.brand}
+                subtitle={dict.logoSubtitle}
+                variant="onDark"
+                size="sm"
+              />
             </Link>
             <nav className="hidden items-center gap-5 text-sm font-semibold md:flex">
               <Link
@@ -76,9 +82,12 @@ export default async function LocaleLayout({
 
       <footer className="gw-safe-bottom border-t-4 border-[var(--header)] bg-surface">
         <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
-          <p className="font-[family-name:var(--font-display)] text-lg font-bold text-ink">
-            {dict.brand}
-          </p>
+          <BrandLogo
+            title={dict.brand}
+            subtitle={dict.logoSubtitle}
+            variant="onLight"
+            size="md"
+          />
           <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
             {dict.disclaimer}
           </p>
