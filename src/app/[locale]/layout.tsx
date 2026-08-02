@@ -43,6 +43,12 @@ export default async function LocaleLayout({
             </Link>
             <nav className="hidden items-center gap-6 text-sm font-semibold md:flex">
               <Link
+                href={`/${locale}/questions`}
+                className="min-h-10 inline-flex items-center opacity-90 transition-opacity hover:opacity-100 hover:underline"
+              >
+                {dict.navQuestions}
+              </Link>
+              <Link
                 href={`/${locale}/practice/2025`}
                 className="min-h-10 inline-flex items-center opacity-90 transition-opacity hover:opacity-100 hover:underline"
               >

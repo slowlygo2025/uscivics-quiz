@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
-import { isLocale } from "@/lib/locales";
+import { LOCALES, isLocale } from "@/lib/locales";
 import EnglishPractice from "@/components/EnglishPractice";
+
+export function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata({
   params,
@@ -13,10 +17,10 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale);
-  return { title: dict.englishTitle, description: dict.englishLead };
+  return { title: dict.seoWritingTitle, description: dict.seoWritingLead };
 }
 
-export default async function EnglishPage({
+export default async function EnglishWritingPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -24,5 +28,13 @@ export default async function EnglishPage({
   const { locale: raw } = await params;
   if (!isLocale(raw)) notFound();
   const dict = getDictionary(raw as Locale);
-  return <EnglishPractice dict={dict} locale={raw} />;
+  return (
+    <div className="space-y-4">
+      <header className="mx-auto max-w-3xl">
+        <h1 className="sr-only">{dict.seoWritingTitle}</h1>
+        <p className="text-sm leading-relaxed text-muted">{dict.seoWritingLead}</p>
+      </header>
+      <EnglishPractice dict={dict} locale={raw} initialTab="writing" />
+    </div>
+  );
 }

@@ -31,8 +31,11 @@ export default function MobileNav({
 
   const links = [
     { href: `/${locale}`, label: dict.navHome },
+    { href: `/${locale}/questions`, label: dict.navQuestions },
     { href: `/${locale}/practice/2025`, label: dict.navPractice },
     { href: `/${locale}/english`, label: dict.navEnglish },
+    { href: `/${locale}/english/reading`, label: dict.readingTitle },
+    { href: `/${locale}/english/writing`, label: dict.writingTitle },
     { href: `/${locale}/learn`, label: dict.navLearn },
     { href: `/${locale}/eligibility`, label: dict.startEligibility },
   ];

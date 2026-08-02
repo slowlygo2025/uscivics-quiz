@@ -75,7 +75,7 @@ export default async function HomePage({
 
         <div className="mt-6 grid gap-3 sm:grid-cols-2 sm:gap-4">
           <Link
-            href={`/${locale}/practice/2008`}
+            href={`/${locale}/questions/all-100`}
             className="gw-practice-link group"
           >
             <p className="text-[0.7rem] font-bold uppercase tracking-[0.16em] text-signal">
@@ -90,7 +90,7 @@ export default async function HomePage({
             </span>
           </Link>
           <Link
-            href={`/${locale}/practice/2025`}
+            href={`/${locale}/questions/all-128`}
             className="gw-practice-link group"
           >
             <p className="text-[0.7rem] font-bold uppercase tracking-[0.16em] text-signal">
@@ -105,6 +105,21 @@ export default async function HomePage({
             </span>
           </Link>
         </div>
+        <p className="mt-4 text-sm text-muted">
+          <Link
+            href={`/${locale}/questions`}
+            className="font-semibold text-signal underline-offset-2 hover:underline"
+          >
+            {dict.seoAllLandings}
+          </Link>
+          {" · "}
+          <Link
+            href={`/${locale}/practice/2025`}
+            className="font-semibold text-signal underline-offset-2 hover:underline"
+          >
+            {dict.navPractice}
+          </Link>
+        </p>
       </section>
     </div>
   );

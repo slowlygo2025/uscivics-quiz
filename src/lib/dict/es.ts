@@ -223,4 +223,39 @@ export const es: Dictionary = {
   writingCorrect: "¡Correcto!",
   writingTryAgain: "Intentá de nuevo — oración objetivo",
   nextSentence: "Siguiente oración",
+  navQuestions: "Preguntas",
+  navResources: "Recursos",
+  seoQuestionsHubTitle: "Preguntas cívicas USCIS — landings gratis",
+  seoQuestionsHubLead:
+    "Explorá las 100 y 128 preguntas oficiales por versión, tema, 65/20 o estados principales — con audio gratis.",
+  seoAll128Title: "Las 128 preguntas cívicas USCIS (2025)",
+  seoAll128Lead:
+    "Lista completa del examen cívico 2025. Escuchá cada pregunta gratis y practicá en modo entrevista.",
+  seoAll100Title: "Las 100 preguntas cívicas USCIS (2008)",
+  seoAll100Lead:
+    "Lista completa del examen cívico 2008. Para quienes presentaron el N-400 antes del 20 de octubre de 2025.",
+  seoSeniorTitle: "Preguntas especiales 65/20",
+  seoSeniorLead:
+    "Si tenés 65+ y sos residente permanente hace 20+ años, estudiá estas preguntas marcadas. Piden 10; necesitás 6. El civismo puede ser en tu idioma.",
+  seoStartPractice: "Abrir práctica interactiva",
+  seoAllLandings: "Todas las landings",
+  seoQuestionsCount: "preguntas en esta página",
+  seoBadge2025: "Examen 2025 · 128 preguntas",
+  seoBadge2008: "Examen 2008 · 100 preguntas",
+  seoTopicsHeading: "Practicar por tema",
+  seoStatesHeading: "Páginas por estado (top)",
+  seoStateLead:
+    "Revisá capital y gobernador para respuestas que cambian, y practicá el set completo. Usá ZIP en la práctica para senadores y representante.",
+  seoStateCapital: "Capital del estado",
+  seoStateGovernor: "Gobernador/a",
+  seoStatePractice: "Practicar civismo para tu entrevista",
+  seoReadingTitle: "Práctica de reading en inglés — vocabulario USCIS",
+  seoReadingLead:
+    "Practicá oraciones con el vocabulario oficial de reading del examen de naturalización.",
+  seoWritingTitle: "Práctica de writing en inglés — vocabulario USCIS",
+  seoWritingLead:
+    "Escuchá y escribí oraciones con el vocabulario oficial de writing. La ortografía cuenta.",
+  learnPostsHeading: "Guías y recursos",
+  learnPostBack: "Volver a aprender",
+  learnReadMore: "Leer más",
 };

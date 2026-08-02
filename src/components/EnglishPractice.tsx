@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import type { Dictionary } from "@/lib/dictionary";
 import {
   READING_SENTENCES,
@@ -12,8 +13,16 @@ import SpeakButton from "@/components/SpeakButton";
 import { TTS_LANG } from "@/lib/locales";
 import { normalizeSpeech } from "@/lib/speech-match";
 
-export default function EnglishPractice({ dict }: { dict: Dictionary }) {
-  const [tab, setTab] = useState<"reading" | "writing">("reading");
+export default function EnglishPractice({
+  dict,
+  locale = "en",
+  initialTab = "reading",
+}: {
+  dict: Dictionary;
+  locale?: string;
+  initialTab?: "reading" | "writing";
+}) {
+  const [tab, setTab] = useState<"reading" | "writing">(initialTab);
   const [rIndex, setRIndex] = useState(0);
   const [wIndex, setWIndex] = useState(0);
   const [written, setWritten] = useState("");
@@ -56,6 +65,22 @@ export default function EnglishPractice({ dict }: { dict: Dictionary }) {
           {dict.englishLead}
         </p>
       </header>
+
+      <div className="flex flex-wrap gap-2">
+        <Link
+          href={`/${locale}/english/reading`}
+          className="text-sm font-semibold text-signal underline-offset-2 hover:underline"
+        >
+          {dict.seoReadingTitle}
+        </Link>
+        <span className="text-muted">·</span>
+        <Link
+          href={`/${locale}/english/writing`}
+          className="text-sm font-semibold text-signal underline-offset-2 hover:underline"
+        >
+          {dict.seoWritingTitle}
+        </Link>
+      </div>
 
       <div className="flex flex-wrap gap-2">
         <button

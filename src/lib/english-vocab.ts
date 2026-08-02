@@ -161,6 +161,16 @@ export const READING_SENTENCES = [
   "Who lives in the White House?",
   "When do we vote for President?",
   "What is the Bill of Rights?",
+  "Who is the Father of Our Country?",
+  "Where is Washington, D.C.?",
+  "When is Memorial Day?",
+  "What is the capital city?",
+  "Who can vote?",
+  "What country is north of the United States?",
+  "When is Thanksgiving?",
+  "Who meets in Congress?",
+  "What is on the dollar bill?",
+  "Where do Senators meet?",
 ];
 
 /** Sample writing sentences (officer dictates; applicant writes). */
@@ -175,4 +185,14 @@ export const WRITING_SENTENCES = [
   "Senators meet in Congress.",
   "The flag is red, white, and blue.",
   "Citizens elect Congress.",
+  "Adams was President.",
+  "Alaska is the largest state.",
+  "California is a state.",
+  "Mexico is south of the United States.",
+  "Citizens pay taxes.",
+  "The White House is in Washington, D.C.",
+  "Memorial Day is in May.",
+  "Labor Day is in September.",
+  "American Indians lived here.",
+  "Freedom of speech is a right.",
 ];

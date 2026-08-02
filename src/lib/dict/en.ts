@@ -221,6 +221,41 @@ export const en = {
   writingCorrect: "Correct!",
   writingTryAgain: "Try again — target sentence",
   nextSentence: "Next sentence",
+  navQuestions: "Questions",
+  navResources: "Resources",
+  seoQuestionsHubTitle: "USCIS civics questions — free study landings",
+  seoQuestionsHubLead:
+    "Browse all 100 and 128 official civics questions by version, topic, 65/20, or top states — with free audio.",
+  seoAll128Title: "All 128 USCIS Civics Questions (2025)",
+  seoAll128Lead:
+    "Full list of the 2025 naturalization civics test questions and answers. Hear each question aloud for free, then practice in interview mode.",
+  seoAll100Title: "All 100 USCIS Civics Questions (2008)",
+  seoAll100Lead:
+    "Full list of the 2008 naturalization civics test questions and answers. For applicants who filed Form N-400 before October 20, 2025.",
+  seoSeniorTitle: "65/20 Special Civics Questions",
+  seoSeniorLead:
+    "If you are 65 or older and a permanent resident for 20+ years, study these starred questions. Officers ask 10; you need 6 correct. Civics may be in your language of choice.",
+  seoStartPractice: "Open interactive practice",
+  seoAllLandings: "All question landings",
+  seoQuestionsCount: "questions on this page",
+  seoBadge2025: "2025 test · 128 questions",
+  seoBadge2008: "2008 test · 100 questions",
+  seoTopicsHeading: "Practice by topic",
+  seoStatesHeading: "Top state study pages",
+  seoStateLead:
+    "Review your state capital and governor for changing civics answers, then practice the full interview set. Use ZIP lookup in practice for senators and your representative.",
+  seoStateCapital: "State capital",
+  seoStateGovernor: "Governor",
+  seoStatePractice: "Practice civics for your interview",
+  seoReadingTitle: "English reading practice — USCIS vocabulary",
+  seoReadingLead:
+    "Practice reading sentences built from the official USCIS English reading vocabulary for the naturalization interview.",
+  seoWritingTitle: "English writing practice — USCIS vocabulary",
+  seoWritingLead:
+    "Listen and write sentences using the official USCIS English writing vocabulary. Spelling counts on test day.",
+  learnPostsHeading: "Guides & resources",
+  learnPostBack: "Back to learn",
+  learnReadMore: "Read more",
 } as const;
 
 export type DictKeys = keyof typeof en;
