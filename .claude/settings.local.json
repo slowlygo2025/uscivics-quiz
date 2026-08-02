@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "WebSearch",
+      "WebFetch(domain:monetag.com)",
+      "WebFetch(domain:www.similarweb.com)",
+      "WebFetch(domain:www.boundless.com)",
+      "WebFetch(domain:civicsquestions.com)",
+      "Bash(npm -v)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --eslint --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)"
+    ]
+  }
+}
