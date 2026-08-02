@@ -1,0 +1,97 @@
+{
+  "source": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates",
+  "scrapedAt": "2026-08-02T20:54:41.005Z",
+  "alert": "USCIS is implementing the 2025 naturalization civics test to align with Executive Order 14161 . Aliens who file Form N-400 to apply for naturalization before Oct. 20, 2025, will take the 2008 naturalization civics test. Aliens who file Form N-400 to apply for naturalization on or after Oct. 20, 2025, will take the 2025 test. The new 2025 test is based on the 2020 naturalization civics test, with some modifications to the administration of the test.",
+  "officials": [
+    {
+      "office": "president",
+      "name": "Donald J. Trump",
+      "answers": [
+        "Donald J. Trump",
+        "Donald Trump",
+        "Trump"
+      ],
+      "questionIds": {
+        "2008": 28,
+        "2025": 38
+      },
+      "sources": [
+        "2008",
+        "2025"
+      ]
+    },
+    {
+      "office": "vicePresident",
+      "name": "JD Vance",
+      "answers": [
+        "JD Vance",
+        "Vance"
+      ],
+      "questionIds": {
+        "2008": 29,
+        "2025": 39
+      },
+      "sources": [
+        "2008",
+        "2025"
+      ]
+    },
+    {
+      "office": "chiefJustice",
+      "name": "John Roberts",
+      "answers": [
+        "John Roberts",
+        "John G. Roberts, Jr.",
+        "Roberts"
+      ],
+      "questionIds": {
+        "2008": 40,
+        "2025": 57
+      },
+      "sources": [
+        "2008",
+        "2025"
+      ]
+    },
+    {
+      "office": "presidentParty",
+      "name": "Republican (Party)",
+      "answers": [
+        "Republican (Party)",
+        "Republican",
+        "Republican Party"
+      ],
+      "questionIds": {
+        "2008": 46,
+        "2025": null
+      },
+      "sources": [
+        "2008"
+      ]
+    },
+    {
+      "office": "speaker",
+      "name": "Mike Johnson",
+      "answers": [
+        "Mike Johnson",
+        "Johnson",
+        "James Michael Johnson"
+      ],
+      "questionIds": {
+        "2008": 47,
+        "2025": 30
+      },
+      "sources": [
+        "2008",
+        "2025"
+      ]
+    }
+  ],
+  "extras": {
+    "supremeCourtJustices": "nine (9)"
+  },
+  "rawCounts": {
+    "2008": 9,
+    "2025": 7
+  }
+}

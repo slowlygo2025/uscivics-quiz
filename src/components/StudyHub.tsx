@@ -36,8 +36,12 @@ import ZipOfficials from "@/components/ZipOfficials";
 import FederalOfficials from "@/components/FederalOfficials";
 import SpeakButton from "@/components/SpeakButton";
 import SpeakPracticeMode from "@/components/SpeakPracticeMode";
+import {
+  UscisUpdatesProvider,
+  useFederalAnswers,
+  useUscisUpdatesContext,
+} from "@/components/UscisUpdatesProvider";
 import { TTS_LANG } from "@/lib/locales";
-import { getFederalAnswersForQuestion } from "@/lib/federal-officials";
 
 type StudyMode =
   | "flashcards"
@@ -170,6 +174,7 @@ export default function StudyHub({
   }
 
   return (
+    <UscisUpdatesProvider>
     <div className="space-y-8">
       <header className="gw-rise flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
@@ -281,6 +286,7 @@ export default function StudyHub({
         />
       )}
     </div>
+    </UscisUpdatesProvider>
   );
 }
 
@@ -393,12 +399,18 @@ function Stat({ label, value }: { label: string; value: string }) {
 }
 
 function ChangingAnswersBanner({ dict }: { dict: Dictionary }) {
+  const updates = useUscisUpdatesContext();
   return (
     <aside className="rounded-2xl border border-amber/25 bg-amber-soft/80 px-5 py-4 sm:px-6">
       <p className="text-sm font-semibold text-amber">{dict.changingBannerTitle}</p>
       <p className="mt-1 text-sm leading-relaxed text-ink-soft">
         {dict.changingBannerBody}
       </p>
+      {updates.alert ? (
+        <p className="mt-2 text-xs leading-relaxed text-muted line-clamp-3">
+          {updates.alert}
+        </p>
+      ) : null}
     </aside>
   );
 }
@@ -532,7 +544,7 @@ function QuestionCard({
 }) {
   const changing = isChangingAnswer(version, question.id);
   const english = getEnglishQuestion(version, question.id);
-  const federalAnswers = getFederalAnswersForQuestion(version, question.id);
+  const federalAnswers = useFederalAnswers(version, question.id);
   const displayAnswers = federalAnswers ?? question.answers;
   const englishAnswers = federalAnswers ?? english?.answers ?? question.answers;
 

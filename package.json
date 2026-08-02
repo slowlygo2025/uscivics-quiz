@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "build:questions": "node scripts/build-questions.mjs",
-    "build:languages": "node scripts/build-p1-languages.mjs"
+    "build:languages": "node scripts/build-p1-languages.mjs",
+    "scrape:uscis": "node scripts/scrape-uscis-updates.mjs"
   },
   "dependencies": {
     "firebase": "^12.17.0",

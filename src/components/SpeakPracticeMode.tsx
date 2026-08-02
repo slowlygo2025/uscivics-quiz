@@ -4,11 +4,11 @@ import { useEffect, useRef, useState } from "react";
 import type { CivicsQuestion, Locale, TestVersion } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionary";
 import { getEnglishQuestion, getSmartQuestions } from "@/lib/questions";
-import { getFederalAnswersForQuestion } from "@/lib/federal-officials";
 import { speechMatchesAnswer } from "@/lib/speech-match";
 import type { VersionProgress } from "@/lib/progress";
 import SpeakButton from "@/components/SpeakButton";
 import { TTS_LANG } from "@/lib/locales";
+import { useFederalAnswers } from "@/components/UscisUpdatesProvider";
 
 type SR = SpeechRecognition;
 
@@ -68,10 +68,11 @@ export default function SpeakPracticeMode({
     };
   }, []);
 
+  const federal = useFederalAnswers(version, current?.id ?? 0);
+
   if (!current) return null;
 
   const english = getEnglishQuestion(version, current.id) ?? current;
-  const federal = getFederalAnswersForQuestion(version, current.id);
   const accepted = federal ?? english.answers;
 
   function stopListen() {

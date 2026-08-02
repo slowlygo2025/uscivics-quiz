@@ -1,10 +1,11 @@
 "use client";
 
 import type { Dictionary } from "@/lib/dictionary";
+import { asOfDate } from "@/lib/federal-officials";
 import {
-  FEDERAL_OFFICIALS,
-  FEDERAL_OFFICIALS_AS_OF,
-} from "@/lib/federal-officials";
+  useFederalOfficialsLive,
+  useUscisUpdatesContext,
+} from "@/components/UscisUpdatesProvider";
 
 const LABELS: Record<string, keyof Dictionary> = {
   president: "federalPresident",
@@ -15,7 +16,9 @@ const LABELS: Record<string, keyof Dictionary> = {
 };
 
 export default function FederalOfficials({ dict }: { dict: Dictionary }) {
-  const shown = FEDERAL_OFFICIALS.filter((o) => o.office !== "presidentParty");
+  const officials = useFederalOfficialsLive();
+  const updates = useUscisUpdatesContext();
+  const shown = officials.filter((o) => o.office !== "presidentParty");
 
   return (
     <section className="rounded-2xl border border-line bg-surface/90 p-5 sm:p-6">
@@ -39,7 +42,8 @@ export default function FederalOfficials({ dict }: { dict: Dictionary }) {
       </dl>
 
       <p className="mt-4 text-xs text-muted">
-        {dict.federalAsOf} {FEDERAL_OFFICIALS_AS_OF}.
+        {dict.federalAsOf} {asOfDate(updates.scrapedAt)}
+        {updates.live ? " · live" : ""}.
       </p>
     </section>
   );
