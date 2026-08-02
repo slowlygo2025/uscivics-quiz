@@ -116,12 +116,6 @@ export const ar = completeDict({
   navHome: "الرئيسية",
   themeToLight: "التبديل إلى الوضع الفاتح",
   themeToDark: "التبديل إلى الوضع الداكن",
-  govBannerLead: "موقع تدريب غير رسمي — ليس موقعًا حكوميًا أمريكيًا.",
-  govBannerHow: "كيف تعرف ذلك",
-  govBannerOfficial:
-    "مواقع USCIS الرسمية تستخدم .gov وتنشرها الحكومة. هذا أداة دراسة مستقلة.",
-  govBannerSecure:
-    "تحقق دائمًا من الإجابات والقواعد المتغيرة على uscis.gov قبل مقابلتك.",
   uscisAlertTitle: "أي اختبار تربية مدنية ستخوض؟",
   uscisAlertBody:
     "قدّمت N-400 قبل 20 أكتوبر 2025 ← اختبار 2008 (100 سؤال). في ذلك اليوم أو بعده ← 2025 (128). أكّد على USCIS.",

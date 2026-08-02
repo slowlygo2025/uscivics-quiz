@@ -6,7 +6,6 @@ import { LOCALES, isLocale, isRtlLocale } from "@/lib/locales";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import MobileNav from "@/components/MobileNav";
 import ThemeToggle from "@/components/ThemeToggle";
-import OfficialSiteBanner from "@/components/OfficialSiteBanner";
 import BrandLogo from "@/components/BrandLogo";
 
 export function generateStaticParams() {
@@ -28,8 +27,6 @@ export default async function LocaleLayout({
 
   return (
     <div className="gw-shell" lang={locale} dir={rtl ? "rtl" : "ltr"}>
-      <OfficialSiteBanner dict={dict} />
-
       <header className="gw-safe-top sticky top-0 z-40 bg-[var(--header)] text-[var(--header-ink)] shadow-sm">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
           <div className="flex min-w-0 items-center gap-4 md:gap-8">

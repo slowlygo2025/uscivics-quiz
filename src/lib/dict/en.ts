@@ -127,13 +127,6 @@ export const en = {
   navHome: "Home",
   themeToLight: "Switch to light mode",
   themeToDark: "Switch to dark mode",
-  govBannerLead:
-    "An unofficial practice website — not a U.S. government site.",
-  govBannerHow: "Here’s how you know",
-  govBannerOfficial:
-    "Official USCIS websites use .gov and are published by the U.S. government. This site is an independent study tool.",
-  govBannerSecure:
-    "Always verify changing answers and rules on uscis.gov before your interview.",
   uscisAlertTitle: "Which civics test do you take?",
   uscisAlertBody:
     "File Form N-400 before Oct 20, 2025 → 2008 test (100 questions). On or after that date → 2025 test (128 questions). Confirm on USCIS.",

@@ -129,13 +129,6 @@ export const es: Dictionary = {
   navHome: "Inicio",
   themeToLight: "Cambiar a modo claro",
   themeToDark: "Cambiar a modo oscuro",
-  govBannerLead:
-    "Sitio de práctica no oficial — no es un sitio del gobierno de EE.UU.",
-  govBannerHow: "Cómo saberlo",
-  govBannerOfficial:
-    "Los sitios oficiales de USCIS usan .gov y los publica el gobierno. Este es una herramienta de estudio independiente.",
-  govBannerSecure:
-    "Verificá siempre respuestas y reglas que cambian en uscis.gov antes de tu entrevista.",
   uscisAlertTitle: "¿Qué examen cívico te toca?",
   uscisAlertBody:
     "Presentaste el N-400 antes del 20 oct 2025 → examen 2008 (100 preguntas). Ese día o después → 2025 (128). Confirmá en USCIS.",
