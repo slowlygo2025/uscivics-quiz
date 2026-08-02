@@ -1,16 +1,35 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { LOCALES, isLocale } from "@/lib/locales";
 import {
   INDEXING_STEPS,
   buildIndexingChecklist,
   SITE_ORIGIN,
 } from "@/lib/indexing-priority";
 
-export const metadata: Metadata = {
-  title: "Indexing checklist (internal)",
-  robots: { index: false, follow: false, googleBot: { index: false, follow: false } },
-};
+export function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }));
+}
 
-export default function IndexingChecklistPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Indexing checklist (internal)",
+    robots: {
+      index: false,
+      follow: false,
+      googleBot: { index: false, follow: false },
+    },
+  };
+}
+
+export default async function IndexingChecklistPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!isLocale(locale)) notFound();
+
   const rows = buildIndexingChecklist(["en", "es"]);
   const byTier = {
     1: rows.filter((r) => r.tier === 1),
@@ -20,11 +39,11 @@ export default function IndexingChecklistPage() {
   };
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-10 font-sans text-ink">
+    <main className="mx-auto max-w-4xl space-y-2">
       <p className="text-xs font-bold uppercase tracking-[0.14em] text-signal">
         Internal · noindex
       </p>
-      <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-bold">
+      <h1 className="font-[family-name:var(--font-display)] text-3xl font-bold text-ink">
         Google Search Console — indexing checklist
       </h1>
       <p className="mt-3 text-muted">
@@ -35,7 +54,7 @@ export default function IndexingChecklistPage() {
         </a>
       </p>
 
-      <ol className="mt-6 list-decimal space-y-2 pl-5 text-sm leading-relaxed">
+      <ol className="mt-6 list-decimal space-y-2 pl-5 text-sm leading-relaxed text-ink-soft">
         {INDEXING_STEPS.map((s) => (
           <li key={s}>{s}</li>
         ))}
@@ -43,7 +62,7 @@ export default function IndexingChecklistPage() {
 
       {([1, 2, 3, 4] as const).map((tier) => (
         <section key={tier} className="mt-10">
-          <h2 className="font-[family-name:var(--font-display)] text-xl font-bold">
+          <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-ink">
             Tier {tier}
           </h2>
           <ul className="mt-3 space-y-2">

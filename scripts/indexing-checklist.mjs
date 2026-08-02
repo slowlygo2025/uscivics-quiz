@@ -23,7 +23,7 @@ async function main() {
   const out = "indexing-checklist.md";
   writeFileSync(out, lines.join("\n"), "utf8");
   console.log(`Wrote ${out} (${rows.length} URLs)`);
-  console.log(`Open ${mod.SITE_ORIGIN}/indexing-checklist after deploy`);
+  console.log(`Open ${mod.SITE_ORIGIN}/en/indexing-checklist after deploy`);
 }
 
 main().catch((e) => {

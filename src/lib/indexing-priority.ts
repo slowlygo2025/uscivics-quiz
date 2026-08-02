@@ -329,7 +329,7 @@ export function buildIndexingChecklist(locales: Locale[] = ["en", "es"]) {
 
 export const INDEXING_STEPS = [
   "Search Console → Sitemaps → add https://uscivics-quiz.com/sitemap.xml",
-  "Open /indexing-checklist (noindex) and work Tier 1 EN/ES: Inspect URL → Request indexing",
+  "Open /en/indexing-checklist (noindex) and work Tier 1 EN/ES: Inspect URL → Request indexing",
   "Continue Tier 2 (drills, CA/TX/FL/NY, top learn posts)",
   "Let sitemap + internal links pull Tier 3–4; spot-check any URL that stays “Discovered / not indexed”",
   "After each major content deploy, re-request Tier 1 only",
