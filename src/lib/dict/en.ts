@@ -124,6 +124,8 @@ export const en = {
   menuOpen: "Open menu",
   menuClose: "Close menu",
   navHome: "Home",
+  themeToLight: "Switch to light mode",
+  themeToDark: "Switch to dark mode",
   learnTitle: "Study guide & FAQ",
   learnLead: "Key numbers, facts, and answers to common questions about the civics test.",
   keyNumbersTitle: "Critical numbers to memorize",

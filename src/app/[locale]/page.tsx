@@ -24,13 +24,15 @@ export default async function HomePage({
   return (
     <div className="flex flex-col">
       {/* Hero — one composition */}
-      <section className="relative min-h-[min(72dvh,760px)] overflow-hidden rounded-2xl border border-line bg-ink text-white shadow-[0_30px_80px_rgba(11,28,44,0.18)] sm:rounded-[1.75rem]">
+      <section className="relative min-h-[min(72dvh,760px)] overflow-hidden rounded-2xl border border-line text-white shadow-[0_30px_80px_rgba(11,28,44,0.18)] sm:rounded-[1.75rem]"
+        style={{ background: "var(--hero-deep)" }}
+      >
         <div
           aria-hidden
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(ellipse 80% 60% at 70% 20%, rgba(26,95,212,0.45), transparent 55%), radial-gradient(ellipse 50% 40% at 10% 90%, rgba(91,141,239,0.25), transparent 50%), linear-gradient(145deg, #0b1c2c 0%, #12304a 55%, #0b1c2c 100%)",
+              "radial-gradient(ellipse 80% 60% at 70% 20%, rgba(26,95,212,0.45), transparent 55%), radial-gradient(ellipse 50% 40% at 10% 90%, rgba(91,141,239,0.25), transparent 50%), linear-gradient(145deg, var(--hero-deep) 0%, var(--hero-mid) 55%, var(--hero-deep) 100%)",
           }}
         />
         {/* Abstract path / wire motif */}
@@ -82,7 +84,7 @@ export default async function HomePage({
             </Link>
             <Link
               href={`/${locale}/learn`}
-              className="gw-btn gw-btn-secondary gw-btn-block-sm"
+              className="gw-btn gw-btn-block-sm border border-white/30 bg-white/12 text-white backdrop-blur-sm hover:bg-white/20"
             >
               {dict.navLearn}
             </Link>

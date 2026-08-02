@@ -126,6 +126,8 @@ export const es: Dictionary = {
   menuOpen: "Abrir menú",
   menuClose: "Cerrar menú",
   navHome: "Inicio",
+  themeToLight: "Cambiar a modo claro",
+  themeToDark: "Cambiar a modo oscuro",
   learnTitle: "Guía de estudio y FAQ",
   learnLead: "Números clave, datos y respuestas a preguntas frecuentes sobre el examen cívico.",
   keyNumbersTitle: "Números críticos para memorizar",

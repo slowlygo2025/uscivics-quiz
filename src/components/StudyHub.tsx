@@ -450,7 +450,7 @@ function ModeTabs({
               onClick={() => onChange(t.id)}
               className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-semibold touch-manipulation transition-colors min-h-11 ${
                 active
-                  ? "bg-ink text-white shadow-[0_8px_24px_rgba(11,28,44,0.18)]"
+                  ? "bg-ink text-paper shadow-[0_8px_24px_rgba(11,28,44,0.18)]"
                   : "border border-line bg-surface/80 text-ink-soft hover:border-signal/35 hover:text-ink"
               }`}
             >

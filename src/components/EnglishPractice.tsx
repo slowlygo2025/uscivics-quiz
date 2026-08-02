@@ -63,7 +63,7 @@ export default function EnglishPractice({ dict }: { dict: Dictionary }) {
           onClick={() => setTab("reading")}
           className={`min-h-11 rounded-full px-4 py-2.5 text-sm font-semibold touch-manipulation ${
             tab === "reading"
-              ? "bg-ink text-white"
+              ? "bg-ink text-paper"
               : "border border-line bg-surface text-ink-soft"
           }`}
         >
@@ -74,7 +74,7 @@ export default function EnglishPractice({ dict }: { dict: Dictionary }) {
           onClick={() => setTab("writing")}
           className={`min-h-11 rounded-full px-4 py-2.5 text-sm font-semibold touch-manipulation ${
             tab === "writing"
-              ? "bg-ink text-white"
+              ? "bg-ink text-paper"
               : "border border-line bg-surface text-ink-soft"
           }`}
         >

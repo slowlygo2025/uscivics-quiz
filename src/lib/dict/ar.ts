@@ -114,6 +114,8 @@ export const ar = completeDict({
   menuOpen: "فتح القائمة",
   menuClose: "إغلاق القائمة",
   navHome: "الرئيسية",
+  themeToLight: "التبديل إلى الوضع الفاتح",
+  themeToDark: "التبديل إلى الوضع الداكن",
   navEnglish: "اختبار الإنجليزية",
   modeSpeak: "تحدّث بصوت عالٍ",
   modeSpeakHint:

@@ -17,8 +17,35 @@
   --amber-soft: #fff6e0;
   --muted: color-mix(in srgb, var(--ink) 58%, transparent);
   --glow: color-mix(in srgb, var(--signal) 28%, transparent);
+  --hero-deep: #0b1c2c;
+  --hero-mid: #12304a;
   --background: var(--paper);
   --foreground: var(--ink);
+  color-scheme: light;
+}
+
+html.dark {
+  --ink: #e7eef6;
+  --ink-soft: #c2cfdb;
+  --mist: #152536;
+  --paper: #0a1420;
+  --surface: #121f2e;
+  --line: color-mix(in srgb, var(--ink) 14%, transparent);
+  --signal: #6b9aef;
+  --signal-hover: #8bb0f5;
+  --pass: #3dba7e;
+  --pass-soft: #123528;
+  --miss: #e86a62;
+  --miss-soft: #3a1a18;
+  --amber: #e0b34e;
+  --amber-soft: #3a2c12;
+  --muted: color-mix(in srgb, var(--ink) 58%, transparent);
+  --glow: color-mix(in srgb, var(--signal) 20%, transparent);
+  --hero-deep: #071018;
+  --hero-mid: #0f2438;
+  --background: var(--paper);
+  --foreground: var(--ink);
+  color-scheme: dark;
 }
 
 @theme inline {
@@ -80,7 +107,7 @@ textarea {
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--signal) 28%, white);
+  background: color-mix(in srgb, var(--signal) 28%, transparent);
   color: var(--ink);
 }
 
@@ -131,9 +158,21 @@ textarea {
   z-index: -2;
   background:
     radial-gradient(900px 520px at 12% -8%, var(--glow), transparent 60%),
-    radial-gradient(700px 480px at 92% 8%, color-mix(in srgb, #5b8def 18%, transparent), transparent 55%),
+    radial-gradient(700px 480px at 92% 8%, color-mix(in srgb, var(--signal) 16%, transparent), transparent 55%),
     radial-gradient(800px 600px at 70% 100%, color-mix(in srgb, var(--ink) 6%, transparent), transparent 50%),
-    linear-gradient(180deg, #eef3f9 0%, var(--paper) 42%, #eef2f7 100%);
+    linear-gradient(180deg, color-mix(in srgb, var(--mist) 70%, var(--paper)) 0%, var(--paper) 42%, color-mix(in srgb, var(--mist) 55%, var(--paper)) 100%);
+}
+
+html.dark .gw-shell::before {
+  background:
+    radial-gradient(900px 520px at 12% -8%, var(--glow), transparent 58%),
+    radial-gradient(700px 480px at 92% 8%, color-mix(in srgb, var(--signal) 12%, transparent), transparent 55%),
+    radial-gradient(800px 600px at 70% 100%, color-mix(in srgb, #000 35%, transparent), transparent 50%),
+    linear-gradient(180deg, #0c1826 0%, var(--paper) 45%, #08111a 100%);
+}
+
+html.dark .gw-shell::after {
+  opacity: 0.18;
 }
 
 .gw-shell::after {

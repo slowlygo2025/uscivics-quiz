@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { Fraunces, Manrope } from "next/font/google";
 import FirebaseAnalytics from "@/components/FirebaseAnalytics";
+import { themeBootScript } from "@/components/ThemeToggle";
 import "./globals.css";
 
 const display = Fraunces({
@@ -19,7 +21,7 @@ export const viewport: Viewport = {
   viewportFit: "cover",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#f4f7fb" },
-    { media: "(prefers-color-scheme: dark)", color: "#0b1c2c" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a1420" },
   ],
 };
 
@@ -54,8 +56,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className={`${display.variable} ${body.variable} h-full antialiased`}>
-      <body className="min-h-dvh font-sans text-ink">
+    <html
+      className={`${display.variable} ${body.variable} h-full antialiased`}
+      suppressHydrationWarning
+    >
+      <body className="min-h-dvh bg-paper font-sans text-ink">
+        <Script id="theme-boot" strategy="beforeInteractive">
+          {themeBootScript}
+        </Script>
         <FirebaseAnalytics />
         {children}
       </body>

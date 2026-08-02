@@ -5,6 +5,7 @@ import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale, isRtlLocale } from "@/lib/locales";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import MobileNav from "@/components/MobileNav";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -25,7 +26,7 @@ export default async function LocaleLayout({
 
   return (
     <div className="gw-shell" lang={locale} dir={rtl ? "rtl" : "ltr"}>
-      <header className="gw-safe-top sticky top-0 z-40 border-b border-line/80 bg-paper/75 backdrop-blur-md">
+      <header className="gw-safe-top sticky top-0 z-40 border-b border-line/80 bg-paper/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-3.5">
           <div className="flex min-w-0 items-center gap-4 md:gap-6">
             <Link
@@ -56,6 +57,10 @@ export default async function LocaleLayout({
             </nav>
           </div>
           <div className="flex shrink-0 items-center gap-2">
+            <ThemeToggle
+              labelLight={dict.themeToLight}
+              labelDark={dict.themeToDark}
+            />
             <LanguageSwitcher locale={locale} />
             <MobileNav locale={locale} dict={dict} />
           </div>
