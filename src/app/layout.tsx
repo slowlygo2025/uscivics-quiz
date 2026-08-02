@@ -39,6 +39,9 @@ export const metadata: Metadata = {
   icons: {
     icon: [{ url: "/brand-seal.svg", type: "image/svg+xml" }],
   },
+  other: {
+    monetag: "a2a48b5bafa9b9ba7333961556718f08",
+  },
   keywords: [
     "US citizenship test",
     "US civics quiz",
