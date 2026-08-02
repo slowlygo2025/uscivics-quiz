@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Merriweather, Source_Sans_3 } from "next/font/google";
 import FirebaseAnalytics from "@/components/FirebaseAnalytics";
+import MonetagAds from "@/components/MonetagAds";
 import { themeBootScript } from "@/components/ThemeToggle";
 import "./globals.css";
 
@@ -73,6 +74,7 @@ export default function RootLayout({
           {themeBootScript}
         </Script>
         <FirebaseAnalytics />
+        <MonetagAds />
         {children}
       </body>
     </html>
