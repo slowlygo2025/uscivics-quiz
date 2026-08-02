@@ -262,6 +262,10 @@ async function main() {
   );
 
   for (const locale of LOCALES_2025) {
+    if (locale === "ar") {
+      console.log("Skip 2025-ar here — run: node scripts/build-2025-ar.mjs");
+      continue;
+    }
     const pdfPath = path.join(rawDir, `2025-${locale}.pdf`);
     if (!fs.existsSync(pdfPath)) {
       console.warn(`Skip missing ${pdfPath}`);
@@ -276,6 +280,10 @@ async function main() {
   }
 
   for (const locale of LOCALES_2008) {
+    if (locale === "ar") {
+      console.log("Skip 2008-ar here — run: node scripts/build-2008-ar.mjs");
+      continue;
+    }
     const pdfPath = path.join(rawDir, `2008-${locale}.pdf`);
     if (!fs.existsSync(pdfPath)) {
       console.warn(`Skip missing 2008-${locale}`);

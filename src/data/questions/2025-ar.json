@@ -219,9 +219,9 @@
   {
     "id": 23,
     "category": "الحكومة الأمريكية",
-    "question": "من ھو أحد أعضاء مجلس الشیوخ في ولایتك الآن؟ سوف تتباین .الإجابات یجب] علي سكان مقاطعة كولومبیا و المقیمین في الأقالیم الأمریكیة الإجابة على أن العاصمة أو) الإقلیم الذي یعیش فیھ مقدم (الطلب لیس لدیھ أعضاء في مجلس الشیوخ [.الأمریكي اعثر على أعضاء مجلس الشیوخ في :ولایتك senate.gov",
+    "question": "من ھو أحد أعضاء مجلس الشیوخ في ولایتك الآن؟",
     "answers": [
-      "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. senators.]"
+      "سوف تتباین .الإجابات یجب] علي سكان مقاطعة كولومبیا و المقیمین في الأقالیم الأمریكیة الإجابة على أن العاصمة أو) الإقلیم الذي یعیش فیھ مقدم (الطلب لیس لدیھ أعضاء في مجلس الشیوخ [.الأمریكي اعثر على أعضاء مجلس الشیوخ في :ولایتك senate.gov"
     ]
   },
   {
@@ -349,9 +349,8 @@
   {
     "id": 38,
     "category": "الحكومة الأمريكية",
-    "question": "What is the name of the President of the United States now?",
+    "question": "ما ھو اسم رئیس الولایات المتحدة الحالي؟",
     "answers": [
-      "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States. ٣٨ ما. ھو اسم رئیس الولایات المتحدة الحالي؟",
       "اذھب إلى uscis.gov/citizenship/testupdates لمعرفة اسم رئیس الولایات .المتحدة"
     ],
     "senior": true
@@ -534,10 +533,10 @@
   {
     "id": 56,
     "category": "الحكومة الأمريكية",
-    "question": "Supreme Court justices serve for life. Why?",
+    "question": "لماذا یخدم قضاة المحكمة العلیا مدى الحياة؟",
     "answers": [
-      "To be independent (of politics)",
-      "To limit outside (political) influence"
+      "أن تكون ً مستقلا عن) (السیاسة",
+      "الحد من التأثیر الخارجي (السیاسي)"
     ]
   },
   {
@@ -564,13 +563,8 @@
   {
     "id": 59,
     "category": "الحكومة الأمريكية",
-    "question": "Name one power that is only for the states.",
+    "question": "اذكر إحدى الصلاحیات التي تقتصر على الولایات .فقط",
     "answers": [
-      "Provide schooling and education",
-      "Provide protection (police)",
-      "Provide safety (fire departments)",
-      "Give a driver’s license",
-      "Approve zoning and land use ٥٩اذكر. إحدى الصلاحیات التي تقتصر على الولایات .فقط",
       "توفیر التعلیم والتدریس",
       "توفیر الحمایة (الشرطة)",
       "توفیر السلامة خدمات) (الإطفاء",
@@ -714,11 +708,11 @@
   {
     "id": 72,
     "category": "الحكومة الأمريكية",
-    "question": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+    "question": "من المھم أن یسجل جمیع الرجال الذین تتراوح أعمارھم بین ١٨ و٢٥ ا ً عام في نظام الخدمة .الانتقائیة اذكر ا ً سبب ا ً واحد .لذلك",
     "answers": [
-      "Required by law",
-      "Civic duty",
-      "Makes the draft fair, if needed"
+      "مطلوب بموجب القانون",
+      "واجب مدني",
+      "یجعل التجنید الإجباري ، ً عادلا إذا لزم الأمر"
     ]
   },
   {
@@ -736,10 +730,8 @@
   {
     "id": 74,
     "category": "الحكومة الأمريكية",
-    "question": "Who lived in America before the Europeans arrived?",
+    "question": "من كان یعیش في أمریكا قبل وصول الأوروبیین؟",
     "answers": [
-      "American Indians",
-      "Native",
       "الھنود الأمریكیون",
       "الأمریكیون الأصلیون"
     ],
@@ -862,61 +854,61 @@
   {
     "id": 85,
     "category": "التاريخ الأمريكي",
-    "question": "Benjamin Franklin is famous for many things. Name one.",
+    "question": "اشتھر بنجامین فرانكلین بعدة .أمور اذكر ً واحدا .منھا",
     "answers": [
-      "Founded the first free public libraries",
-      "First Postmaster General of the United States",
-      "Helped write the Declaration of Independence",
-      "Inventor",
-      "U.S. diplomat"
+      "أسس أول المكتبات العامة المجانیة",
+      "كان أول مدیر عام لمكتب البرید للولایات المتحدة",
+      "ساعد في كتابة إعلان الاستقلال",
+      "مخترع",
+      "دبلوماسي أمریكي"
     ]
   },
   {
     "id": 86,
     "category": "التاريخ الأمريكي",
-    "question": "George Washington is famous for many things. Name one.",
+    "question": "اشتھر جورج واشنطن بعدة .أشیاء اذكر ً واحدا .منھا",
     "answers": [
-      "“Father of Our Country”",
-      "First president of the United States",
-      "General of the Continental Army",
-      "President of the Constitutional Convention"
+      "أبو\" \"بلدنا",
+      "أول رئیس للولایات المتحدة",
+      "جنرال للجیش القاري",
+      "رئیس المؤتمر الدستوري"
     ],
     "senior": true
   },
   {
     "id": 87,
     "category": "التاريخ الأمريكي",
-    "question": "Thomas Jefferson is famous for many things. Name one.",
+    "question": "اشتھر توماس جیفرسون بعدة .أشیاء اذكر ً واحدا .منھا",
     "answers": [
-      "Writer of the Declaration of Independence",
-      "Third president of the United States",
-      "Doubled the size of the United States (Louisiana Purchase)",
-      "First Secretary of State",
-      "Founded the University of Virginia",
-      "Writer of the Virginia Statute on Religious Freedom"
+      "كاتب لإعلان الاستقلال",
+      "الرئیس الثالث للولایات المتحدة",
+      "ضاعف حجم الولایات المتحدة شراء) (لویزیانا",
+      "وزیر الخارجیة الأول",
+      "أسس جامعة فیرجینیا",
+      "كاتب قانون فیرجینیا بشأن الحریة الدینیة"
     ]
   },
   {
     "id": 88,
     "category": "التاريخ الأمريكي",
-    "question": "James Madison is famous for many things. Name one.",
+    "question": "اشتھر جیمس مادیسون بعدة .أشیاء اذكر ً واحدا .منھا",
     "answers": [
-      "“Father of the Constitution”",
-      "Fourth president of the United States",
-      "President during the War of 1812",
-      "One of the writers of the Federalist Papers"
+      "أبو\" \"الدستور",
+      "رابع رئیس للولایات المتحدة",
+      "كان ً رئیسا خلال حرب ١٨١٢",
+      "أحد كتاب الأوراق\" \"الفیدرالیة"
     ]
   },
   {
     "id": 89,
     "category": "التاريخ الأمريكي",
-    "question": "Alexander Hamilton is famous for many things. Name one.",
+    "question": "اشتھر ألكسندر ھاملتون بعدة .أشیاء اذكر ً واحدا .منھا",
     "answers": [
-      "First Secretary of the Treasury",
-      "One of the writers of the Federalist Papers",
-      "Helped establish the First Bank of the United States",
-      "Aide to General George Washington",
-      "Member of the Continental Congress"
+      "أول سكرتیر للخزانة",
+      "أحد مؤلفي الأوراق الفیدرالیة",
+      "ساعد في إنشاء أول بنك للولایات المتحدة",
+      "مساعد الجنرال جورج واشنطن",
+      "عضو في الكونجرس القاري"
     ]
   },
   {
@@ -942,9 +934,8 @@
   {
     "id": 92,
     "category": "التاريخ الأمريكي",
-    "question": "Name the U.S. war between the North and the South.",
+    "question": "اذكر اسم الحرب الأمریكیة بین الشمال والجنوب",
     "answers": [
-      "The Civil War ٩٢ اذكر. اسم الحرب الأمریكیة بین الشمال والجنوب",
       "الحرب الأھلیة"
     ]
   },
@@ -966,25 +957,21 @@
   {
     "id": 94,
     "category": "التاريخ الأمريكي",
-    "question": "Abraham Lincoln is famous for many things. Name one.",
+    "question": "اشتھر ابراھام لنكولن بعدة .أشیاء اذكر ً واحدا .منھا",
     "answers": [
-      "Freed the slaves (Emancipation Proclamation)",
-      "Saved (or preserved) the Union",
-      "Led the United States during the Civil War",
-      "16th president of the United States",
-      "Delivered the Gettysburg Address"
+      "حرر العبید إعلان) تحریر (العبید",
+      "أنقذ أو) (حافظ على الاتحاد",
+      "قاد الولایات المتحدة خلال الحرب الأھلیة",
+      "الرئیس السادس عشر للولایات المتحدة",
+      "ألقى خطاب جیتیسبیرغ"
     ],
     "senior": true
   },
   {
     "id": 95,
     "category": "التاريخ الأمريكي",
-    "question": "What did the Emancipation Proclamation do?",
+    "question": "إلى ماذا أدى إعلان التحریر؟",
     "answers": [
-      "Freed the slaves",
-      "Freed slaves in the Confederacy",
-      "Freed slaves in the Confederate states",
-      "Freed slaves in most Southern states ٩٥ إلى. ماذا أدى إعلان التحریر؟",
       "تحریر العبید",
       "تحریر العبید في الولایات الإحدى عشر التي انفصلت عن أمریكا",
       "تحریر العبید في الولایات الكونفدرالیة",
@@ -1068,7 +1055,7 @@
     "category": "التاريخ الأمريكي",
     "question": "ماذا كان الكساد العظیم؟",
     "answers": [
-      "أطول ركود اقتصادي في التاریخ الحدیث"
+      "أطول ركود اقتصادي في"
     ]
   },
   {
@@ -1083,9 +1070,8 @@
   {
     "id": 105,
     "category": "التاريخ الأمريكي",
-    "question": "Who was president during the Great Depression and World War II?",
+    "question": "من كان الرئیس أثناء الكساد أو الركود الاقتصادي الكبیر والحرب العالمیة الثانیة؟",
     "answers": [
-      "(Franklin) Roosevelt ١٠٥ من. كان الرئیس أثناء الكساد أو الركود الاقتصادي الكبیر والحرب العالمیة الثانیة؟",
       "(فرانكلین) روزفلت"
     ]
   },
@@ -1103,12 +1089,12 @@
   {
     "id": 107,
     "category": "التاريخ الأمريكي",
-    "question": "Dwight Eisenhower is famous for many things. Name one.",
+    "question": "اشتھر دوایت أیزنھاور بعدة .أشیاء اذكر ً واحدا .منھا",
     "answers": [
-      "General during World War II",
-      "President at the end of (during) the Korean War",
-      "34th president of the United States",
-      "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
+      "جنرال أثناء الحرب العالمیة .الثانیة",
+      "الرئیس في نھایة (أثناء) الحرب الكوریة",
+      "الرئیس الرابع والثلاثین للولایات المتحدة",
+      "وقع على قانون الطرق السریعة الفیدرالیة لعام ١٩٥٦ إنشاء) النظام بین (الولایات"
     ]
   },
   {
@@ -1157,11 +1143,11 @@
   {
     "id": 113,
     "category": "التاريخ الأمريكي",
-    "question": "Martin Luther King, Jr. is famous for many things. Name one.",
+    "question": "اشتھر مارتن لوثر كینغ الابن بأشیاء .كثیرة اذكر ً واحدا .منھا",
     "answers": [
-      "Fought for civil rights",
-      "Worked for equality for all",
-      "Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”"
+      "حارب من أجل الحقوق المدنیة",
+      "عمل من أجل المساواة لجمیع الأمریكیین",
+      "عمل على ضمان عدم\" الحكم على الأشخاص من خلال لون بشرتھم ، ولكن من خلال محتوى \"شخصیتھم"
     ],
     "senior": true
   },
@@ -1289,10 +1275,8 @@
   {
     "id": 124,
     "category": "الرموز والعطل",
-    "question": "The Nation’s first motto was “E Pluribus Unum.” What does that mean?",
+    "question": "كان أول شعار للأمة ھو \"E Pluribus Unum.\" ماذا یعني ذلك؟",
     "answers": [
-      "Out of many, one",
-      "We all become one ١٢٤- كان أول شعار للأمة ھو \"E Pluribus Unum.\" ماذا یعني ذلك؟",
       "واحد من الكثیرین",
       "كلنا نصبح ا ً واحد"
     ]
