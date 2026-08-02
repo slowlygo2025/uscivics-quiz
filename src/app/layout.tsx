@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Merriweather, Source_Sans_3 } from "next/font/google";
 import FirebaseAnalytics from "@/components/FirebaseAnalytics";
-import MonetagAds from "@/components/MonetagAds";
 import { themeBootScript } from "@/components/ThemeToggle";
 import "./globals.css";
 
@@ -69,12 +68,20 @@ export default function RootLayout({
       className={`${display.variable} ${body.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        {/* Monetag Multitag — must be in SSR HTML for their installation check */}
+        <script
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="266272"
+          async
+          data-cfasync="false"
+        />
+      </head>
       <body className="min-h-dvh bg-paper font-sans text-ink">
         <Script id="theme-boot" strategy="beforeInteractive">
           {themeBootScript}
         </Script>
         <FirebaseAnalytics />
-        <MonetagAds />
         {children}
       </body>
     </html>
