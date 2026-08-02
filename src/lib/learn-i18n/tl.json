@@ -204,5 +204,269 @@
         "body": "I-memorize muna ang matatag na history at government facts. Suriin muli ang changing answers malapit sa appointment para hindi ka magdala ng luma nang pangalan sa interview."
       }
     ]
+  },
+  "how-many-questions": {
+    "title": "Ilang Tanong ang Mayroon sa U.S. Citizenship Civics Test?",
+    "description": "Ilang tanong sa civics ang itatanong ng USCIS sa interview para sa 2008 at 2025 tests, ilan ang kailangan mong tama, at paano mag-practice sa buong question bank.",
+    "sections": [
+      {
+        "heading": "Maikling sagot",
+        "body": "Sa 2008 civics test, hanggang 10 tanong mula sa bank ng 100 ang itatanong ng opisyal; kailangan mo ng 6 na tama para pumasa. Sa 2025 civics test, hanggang 20 tanong mula sa bank ng 128; kailangan mo ng 12 na tama para pumasa. Depende ang bersyon mo sa kung kailan mo hinain ang Form N-400."
+      },
+      {
+        "heading": "Bakit nalilito ang mga tao sa “100” at “10”",
+        "body": "Nag-aaral ka ng malaking opisyal na listahan (100 o 128). Sa interview hindi ka tinatanong ng lahat — sample lang. Ang pagpasa ay tungkol sa pag-abot ng threshold sa sample na iyon, hindi sa pag-memorize ng isang swerteng set ng sampung sagot."
+      },
+      {
+        "heading": "Espesyal na konsiderasyon na 65/20",
+        "body": "Kung kwalipikado ka para sa 65/20, mag-aaral ka ng 20 starred questions. 10 ang itatanong; kailangan mo ng 6 na tama. Maaaring sa wikang pipiliin mo ang civics sa ilalim ng konsiderasyong iyon — kumpirmahin ang kasalukuyang patakaran para sa kaso mo."
+      },
+      {
+        "heading": "Paano mag-practice",
+        "body": "Gamitin ang aming eligibility checker para kumpirmahin ang 2008 vs 2025, pagkatapos buksan ang tumutugmang buong listahan (lahat ng 100 o lahat ng 128) na may libreng audio. Tapusin sa interview simulation hanggang tuloy-tuloy mong maabot ang 6/10 o 12/20."
+      }
+    ]
+  },
+  "pass-score": {
+    "title": "Anong Score ang Kailangan para Pumasa sa Civics Test?",
+    "description": "Mga passing threshold para sa USCIS naturalization civics test: 6 sa 10 (2008), 12 sa 20 (2025), at 6 sa 10 para sa 65/20 — kasama kung paano maaaring huminto nang maaga ang mga opisyal.",
+    "sections": [
+      {
+        "heading": "Passing score sa 2008",
+        "body": "Para sa 2008 naturalization civics test: hanggang 10 tanong ang itatanong, 6 na tama para pumasa. Maaaring huminto ang mga opisyal kapag pumasa o bumagsak ka na."
+      },
+      {
+        "heading": "Passing score sa 2025",
+        "body": "Para sa 2025 naturalization civics test: hanggang 20 tanong ang itatanong, 12 na tama para pumasa. Mas mataas ang bar kaya dapat kang mag-practice hanggang maging routine ang 12/20 sa simulation mode."
+      },
+      {
+        "heading": "Passing score sa 65/20",
+        "body": "Sa ilalim ng espesyal na konsiderasyon na 65/20: 10 tanong mula sa starred set na 20, kailangan ng 6 na tama."
+      },
+      {
+        "heading": "Layunin sa pag-aaral",
+        "body": "Huwag mag-target ng “pasang-pasa lang na 6” sa practice. Mag-target nang mas mataas para hindi ka bumaba sa linya dahil sa kaba sa interview. Gamitin ang smart review para sa mahihinang item at sabihin ang mga sagot nang malakas — oral ang tunay na test."
+      }
+    ]
+  },
+  "fail-citizenship-test": {
+    "title": "Ano ang Mangyayari Kung Bumagsak Ka sa Citizenship Civics o English Test?",
+    "description": "Ano ang karaniwang nangyayari kung hindi ka pumasa sa Ingles o civics sa naturalization interview, at paano maghanda para sa retest gamit ang libreng practice tools.",
+    "sections": [
+      {
+        "heading": "Karaniwang may isa pang pagkakataon",
+        "body": "Kung bumagsak ka sa bahagi ng Ingles o civics, karaniwang binibigyan ka ng USCIS ng isa pang pagkakataon para kunin ang bahaging nabagsakan. Ang eksaktong timing at proseso ay sumusunod sa kasalukuyang patakaran ng USCIS para sa kaso mo — hindi legal advice ang site na ito."
+      },
+      {
+        "heading": "Gamitin nang matalino ang paghihintay",
+        "body": "Huwag maghintay hanggang dumating ang susunod na abiso bago mag-aral. Mas mabuti ang maikling araw-araw na session kaysa cramming sa huling minuto. Tumutok sa bahaging nabagsakan mo: civics bank, pagbabasa, pagsulat, o pagsasalita."
+      },
+      {
+        "heading": "Paghahanda sa civics retest",
+        "body": "Kumpirmahin kung aling bersyon ang kukunin mo (2008 vs 2025). I-drill ang mahihinang tanong, mga nagbabagong opisyal, at magpatakbo ng interview simulations hanggang malampasan mo ang passing threshold na may puwang."
+      },
+      {
+        "heading": "Paghahanda sa English retest",
+        "body": "Mag-practice ng opisyal na reading at writing vocabulary sentences na may audio. Para sa pagsasalita, mag-practice ng malinaw na pagsagot sa mga tanong sa aplikasyon — mas mahalaga ang malinaw na komunikasyon kaysa perpektong grammar."
+      }
+    ]
+  },
+  "30-day-study-plan": {
+    "title": "30-Araw na Study Plan para sa U.S. Citizenship Civics Test",
+    "description": "Praktikal na 30-araw na plano para maghanda sa naturalization civics interview: version check, araw-araw na drills, oral practice, at simulation week.",
+    "sections": [
+      {
+        "heading": "Araw 1–2: Kumpirmahin ang bersyon mo",
+        "body": "Gamitin ang Find my test version. Ang paghahain ng Form N-400 bago vs sa/pagkatapos ng Oktubre 20, 2025 ang magdedesisyon ng 2008 (100 Q) vs 2025 (128 Q). Sayang ang buong buwan kung maling bank ang pinag-aralan."
+      },
+      {
+        "heading": "Araw 3–14: Sakupin ang bank",
+        "body": "Mag-aral ng 15–25 minuto araw-araw gamit ang flashcards at topic drills. Markahan ang mahihinang item. Pakinggan ang mga tanong sa Ingles nang malakas kahit nag-aaral ka rin sa ibang wika — sa Ingles tinatanong ang civics questions sa interview maliban kung may naaangkop na exception."
+      },
+      {
+        "heading": "Araw 15–24: Ayusin ang weak spots + nagbabagong sagot",
+        "body": "Gamitin ang smart review. Suriing muli ang Presidente, mga senador, representative, gobernador, at kapitolyo gamit ang ZIP lookup. I-drill ang mga petsa at pangalan kung iyon ang madalas na ikabagsak mo."
+      },
+      {
+        "heading": "Araw 25–30: Simulation week ng interview",
+        "body": "Magpatakbo ng buong interview simulations araw-araw hanggang tuloy-tuloy kang pumasa (6/10 o 12/20). Magdagdag ng English reading/writing sessions. Magpahinga nang maayos bago ang appointment."
+      }
+    ]
+  },
+  "n-400-filing-date": {
+    "title": "Petsa ng Paghahain ng N-400 at Aling Civics Test ang Kukunin Mo (2008 vs 2025)",
+    "description": "Paano ang petsa ng paghahain ng Form N-400 ang magdedesisyon kung kukunin mo ang 2008 o 2025 USCIS civics test — at paano mag-practice sa tamang bank.",
+    "sections": [
+      {
+        "heading": "Pangkalahatang tuntunin",
+        "body": "Ang mga aplikanteng naghain ng Form N-400 bago ang Oktubre 20, 2025 ay karaniwang kumukuha ng 2008 civics test. Ang mga naghain sa petsang iyon o pagkatapos ay karaniwang kumukuha ng 2025 civics test. Laging kumpirmahin laban sa kasalukuyang gabay ng USCIS para sa sitwasyon mo."
+      },
+      {
+        "heading": "Bakit mas mahalaga ang petsa ng paghahain kaysa “petsa ngayon”",
+        "body": "Madalas default na pinag-aaralan ng mga tao ang pinakabagong 128-question list. Kung ang petsa ng paghahain mo ay sa 2008 test, dapat kang mag-practice sa 100-question bank at sa 6-of-10 pass rule."
+      },
+      {
+        "heading": "Suriin bago mag-memorize",
+        "body": "Tingnan ang ebidensya ng paghahain mo, pagkatapos gamitin ang aming libreng eligibility flow. Buksan ang all-100 o all-128 para tumugma. Idagdag ang 65/20 lamang kung naaangkop sa iyo ang konsiderasyong iyon."
+      },
+      {
+        "heading": "Hindi pa rin sigurado?",
+        "body": "Hindi masusuri ng site na ito ang status ng USCIS case mo. Kung hindi malinaw ang papeles mo, tanungin ang abogado o accredited representative mo — pagkatapos mag-practice sa bank na kumpirmahin nila."
+      }
+    ]
+  },
+  "hardest-civics-questions": {
+    "title": "Pinakamahirap na Tanong sa U.S. Civics Test — Ano ang Nagpapabagsak sa mga Aplikante",
+    "description": "Aling mga paksa sa civics ang pinakamahirap sa naturalization interview: nagbabagong opisyal, petsa, pangalan, at numero — at paano i-drill nang libre.",
+    "sections": [
+      {
+        "heading": "Mga sagot na nagbabago",
+        "body": "Ang Presidente, Bise Presidente, Speaker, Chief Justice, mga senador, representative, gobernador, at kapitolyo ay nagbabago dahil sa halalan o appointment. Karaniwang pagkakamali ang pag-memorize ng lumang PDF. Suriing muli malapit sa araw ng interview."
+      },
+      {
+        "heading": "Mga petsa at numero",
+        "body": "Madaling malito ang mga taon, bilang ng amendment, at mga tanong na “kailan” sa ilalim ng stress. Gamitin ang aming dates drill landing at sabihin ang taon nang malakas."
+      },
+      {
+        "heading": "Mga sikat na pangalan",
+        "body": "Madalas lumalabas ang mga founder, presidente, at lider ng civil rights. Gamitin ang names drill, pagkatapos baliktarin ang mga card hanggang makasagot ka nang hindi sumisilip."
+      },
+      {
+        "heading": "Pattern ng pag-practice",
+        "body": "Stable facts muna, nagbabagong sagot sa huling linggo, oral simulation araw-araw sa huling stretch. Ang libreng audio sa question lists ay tumutulong marinig ang Ingles na ginagamit ng mga opisyal."
+      }
+    ]
+  },
+  "senators-by-zip": {
+    "title": "Paano Hanapin ang Iyong mga Senador at Representative para sa Civics Test",
+    "description": "Paano pag-aralan ang mga sagot sa civics ng USCIS para sa iyong U.S. senators at House representative gamit ang ZIP lookup — kasama ang gobernador at kapitolyo.",
+    "sections": [
+      {
+        "heading": "Bakit mahalaga ang ZIP",
+        "body": "Statewide ang mga senador, pero ang House representative mo ay depende sa distrito mo. Ang ZIP lookup ang pinakamabilis na paraan para pag-aralan ang tamang pangalan para sa lugar na tinitirhan mo."
+      },
+      {
+        "heading": "Ano ang kailangang i-memorize",
+        "body": "Alamin ang parehong U.S. senators ng estado mo, ang representative mo, ang gobernador mo, at ang kapitolyo ng estado. Federal names (Presidente, VP, Speaker, Chief Justice) ay kabilang din sa nagbabagong sagot."
+      },
+      {
+        "heading": "Gamitin ang practice ZIP lookup",
+        "body": "Buksan ang civics practice, ilagay ang ZIP mo, at pag-aralan ang mga opisyal na ibinalik. Kung ang isang ZIP ay sumasaklaw sa maraming distrito, alamin ang distrito mo bago ang araw ng interview."
+      },
+      {
+        "heading": "Suriing muli bago ang appointment",
+        "body": "May special elections at pagbibitiw. I-verify muli ang mga pangalan sa linggo ng interview mo para hindi ka sumagot ng taong umalis na sa puwesto."
+      }
+    ]
+  },
+  "interview-day-checklist": {
+    "title": "Checklist para sa Araw ng Naturalization Interview",
+    "description": "Praktikal na checklist para sa araw ng naturalization interview: mga dokumento, mindset sa civics at Ingles, at ano ang aasahan sa oral test.",
+    "sections": [
+      {
+        "heading": "Mga dokumento at logistics",
+        "body": "Dalhin ang appointment notice at kinakailangang dokumento. Dumating nang maaga. Suriin ang iyong mga sagot sa N-400 — tatanungin ka ng opisyal tungkol sa aplikasyon mo, hindi lang civics trivia."
+      },
+      {
+        "heading": "Mindset sa civics",
+        "body": "Pakinggan ang buong tanong. Sumagot nang malinaw sa Ingles (maliban kung may naaangkop na exception). Para sa nagbabagong sagot, gamitin ang opisyal na nagsisilbi sa araw ng interview."
+      },
+      {
+        "heading": "Bahagi ng Ingles",
+        "body": "Magsalita para maintindihan ka ng opisyal. Para sa pagbabasa at pagsulat, karaniwang kailangan mong tama ang isa sa tatlong attempt — mag-practice ng opisyal na vocabulary sentences beforehand."
+      },
+      {
+        "heading": "Bago matulog",
+        "body": "Gumawa ng maikling simulation, suriing muli ang mga opisyal, pagkatapos tumigil sa cramming. Mas mabuti ang pahinga kaysa all-nighter para sa oral recall."
+      }
+    ]
+  },
+  "oath-ceremony": {
+    "title": "Pagkatapos Pumasa: Oath Ceremony at Susunod na Hakbang",
+    "description": "Ano ang karaniwang sumusunod pagkatapos pumasa sa naturalization interview: mga batayan ng oath ceremony, Certificate of Naturalization, pasaporte, at pagrehistro ng boto.",
+    "sections": [
+      {
+        "heading": "Naaprubahan ang interview — ano ang susunod?",
+        "body": "Kung pumasa ka sa Ingles at civics at naaprubahan ang aplikasyon mo, ang susunod na malaking hakbang ay karaniwang ang oath ceremony. Nag-iiba ang scheduling ayon sa field office."
+      },
+      {
+        "heading": "Certificate of Naturalization",
+        "body": "Pagkatapos kunin ang Oath of Allegiance, makakatanggap ka ng Certificate of Naturalization. Itago itong ligtas — kakailanganin mo ito para sa U.S. passport at iba pang updates."
+      },
+      {
+        "heading": "Praktikal na susunod na hakbang",
+        "body": "Mag-apply para sa pasaporte, i-update ang Social Security at ID kung kinakailangan, at magrehistro para bumoto kung pipiliin mo. Tingnan ang aming gabay sa mga gagawin pagkatapos maging citizen."
+      },
+      {
+        "heading": "Tulungan ang iba mag-aral",
+        "body": "Maraming bagong citizen ang tumutulong maghanda sa pamilya. Ibahagi ang libreng practice tools at paalalahanan ang mga nag-aaral na oral ang civics interview."
+      }
+    ]
+  },
+  "reading-writing-tips": {
+    "title": "USCIS English Reading at Writing Test — Libreng Practice Tips",
+    "description": "Paano gumagana ang naturalization English reading at writing tests, paano gamitin ang opisyal na vocabulary, at saan mag-practice ng libreng sentences na may audio.",
+    "sections": [
+      {
+        "heading": "Ano ang kailangan mong ipakita",
+        "body": "Maliban kung exempt, kailangan mong ipakita ang basic English: pagsasalita sa interview, tamang pagbasa ng isang sentence, at tamang pagsulat ng isang sentence (mula sa maliit na set ng attempts)."
+      },
+      {
+        "heading": "Manatili sa opisyal na vocabulary",
+        "body": "Gumagamit ang pagbabasa at pagsulat ng USCIS vocabulary lists. Mas kaunting tulong ang random English apps kaysa sentences mula sa mga salitang iyon — mga tao, civics terms, lugar, holidays, at karaniwang verbs."
+      },
+      {
+        "heading": "Paraan ng pag-practice",
+        "body": "Pakinggan ang sentence, basahin nang malakas, pagkatapos isulat mula sa dictation. Suriin ang spelling. Ulitin ang mga nabagsak na sentence kinabukasan."
+      },
+      {
+        "heading": "Mag-practice dito nang libre",
+        "body": "Buksan ang aming English reading at writing pages. Pagsamahin sa civics speak mode para pamilyar ang buong interview."
+      }
+    ]
+  },
+  "flashcards-vs-simulation": {
+    "title": "Flashcards vs Interview Simulation — Pinakamahusay na Paraan para Mag-aral ng Civics",
+    "description": "Kailan gumamit ng flashcards, smart review, at interview simulation para sa USCIS civics test — libreng study sequence na tumutugma sa araw ng test.",
+    "sections": [
+      {
+        "heading": "Nagtatayo ng coverage ang flashcards",
+        "body": "Sa simula, tumutulong ang flashcards at browse mode na makita ang buong bank. Markahan nang tapat ang mahihinang tanong."
+      },
+      {
+        "heading": "Pinapatakip ng smart review ang mga butas",
+        "body": "Kapag may coverage ka na, inuuna ng smart review ang mahihina at hindi pa nakikita para hindi ka paulit-ulit na nag-aaral ng alam mo na."
+      },
+      {
+        "heading": "Nagpapalakas ng interview fitness ang simulation",
+        "body": "Gumagamit ang simulation ng pass/fail thresholds tulad ng USCIS at maaaring huminto nang maaga. Iyon ang punto ng pressure — nagsasanay ng timing at oral confidence."
+      },
+      {
+        "heading": "Inirerekomendang sequence",
+        "body": "Coverage → ayusin ang weak spots → araw-araw na simulation sa huling 1–2 linggo, kasama ang dates/names/officials drills para sa karaniwang bitag."
+      }
+    ]
+  },
+  "california-civics-answers": {
+    "title": "Mga Sagot sa Civics Test ng California — Kapitolyo, Gobernador, at Lokal na Opisyal",
+    "description": "Paano pag-aralan ang nagbabagong USCIS civics answers para sa California: kapitolyo ng estado, gobernador, mga senador, at representative — may libreng practice links.",
+    "sections": [
+      {
+        "heading": "Mga katotohanan sa estado",
+        "body": "Para sa mga aplikante sa California, alamin ang kapitolyo ng estado (Sacramento) at ang kasalukuyang gobernador. Klasiko itong “answers that change” items kasama ang federal officials."
+      },
+      {
+        "heading": "Mga senador at representative",
+        "body": "May dalawang U.S. senators ang California. Ang House representative mo ay depende sa distrito mo — gumamit ng ZIP lookup sa practice imbes na hulaan mula sa pambansang listahan."
+      },
+      {
+        "heading": "Landas ng pag-practice",
+        "body": "Buksan ang California state landing para sa kapitolyo at gobernador, pagkatapos mag-practice ng 2025 o 2008 base sa petsa ng paghahain ng N-400 mo. Idagdag ang officials drill bago ang interview week."
+      },
+      {
+        "heading": "Ibang mga estado",
+        "body": "May study pages kami para sa lahat ng estado at D.C. Piliin ang estado mo mula sa questions hub kung hindi ka nakatira sa California."
+      }
+    ]
   }
 }

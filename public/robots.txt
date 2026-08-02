@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /indexing-checklist
 
 Sitemap: https://uscivics-quiz.com/sitemap.xml

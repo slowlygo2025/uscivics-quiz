@@ -204,5 +204,269 @@
         "body": "Mémorisez d'abord les faits stables d'histoire et de gouvernement. Revérifiez les réponses qui changent à l'approche du rendez-vous pour ne pas apporter un nom obsolète à l'entretien."
       }
     ]
+  },
+  "how-many-questions": {
+    "title": "Combien de questions compte le test civique de citoyenneté américaine ?",
+    "description": "Combien de questions d'éducation civique USCIS pose lors de l'entretien pour les tests 2008 et 2025, combien il faut en avoir justes et comment s'entraîner sur la banque complète.",
+    "sections": [
+      {
+        "heading": "Réponse courte",
+        "body": "Au test civique 2008, l'agent pose jusqu'à 10 questions tirées d'une banque de 100 ; il faut 6 bonnes réponses pour réussir. Au test civique 2025, l'agent pose jusqu'à 20 questions tirées d'une banque de 128 ; il faut 12 bonnes réponses pour réussir. Votre version dépend de la date de dépôt de votre Form N-400."
+      },
+      {
+        "heading": "Pourquoi on confond « 100 » et « 10 »",
+        "body": "Vous étudiez une longue liste officielle (100 ou 128). À l'entretien, on ne vous pose pas toutes les questions — seulement un échantillon. Réussir, c'est atteindre le seuil sur cet échantillon, pas mémoriser un jeu chanceux de dix réponses."
+      },
+      {
+        "heading": "Considération spéciale 65/20",
+        "body": "Si vous êtes admissible au 65/20, vous étudiez 20 questions marquées d'une étoile. L'agent en pose 10 ; il faut 6 bonnes réponses. L'éducation civique peut se faire dans la langue de votre choix dans ce cadre — confirmez les règles en vigueur pour votre cas."
+      },
+      {
+        "heading": "Comment s'entraîner",
+        "body": "Utilisez notre vérificateur d'éligibilité pour confirmer 2008 ou 2025, puis ouvrez la liste complète correspondante (les 100 ou les 128) avec audio gratuit. Terminez par une simulation d'entretien jusqu'à atteindre régulièrement 6/10 ou 12/20."
+      }
+    ]
+  },
+  "pass-score": {
+    "title": "Quel score faut-il pour réussir le test civique ?",
+    "description": "Seuils de réussite pour le test civique de naturalisation USCIS : 6 sur 10 (2008), 12 sur 20 (2025) et 6 sur 10 pour le 65/20 — plus la façon dont les agents peuvent s'arrêter tôt.",
+    "sections": [
+      {
+        "heading": "Score de réussite 2008",
+        "body": "Pour le test civique de naturalisation 2008 : jusqu'à 10 questions posées, 6 bonnes réponses pour réussir. Les agents peuvent s'arrêter une fois que vous avez réussi ou échoué."
+      },
+      {
+        "heading": "Score de réussite 2025",
+        "body": "Pour le test civique de naturalisation 2025 : jusqu'à 20 questions posées, 12 bonnes réponses pour réussir. L'exigence plus élevée signifie que vous devriez vous entraîner jusqu'à ce que 12/20 devienne routinier en mode simulation."
+      },
+      {
+        "heading": "Score de réussite 65/20",
+        "body": "Sous la considération spéciale 65/20 : 10 questions tirées de l'ensemble de 20 marquées d'une étoile, il faut 6 bonnes réponses."
+      },
+      {
+        "heading": "Objectif d'étude",
+        "body": "Ne visez pas « à peine 6 » en pratique. Visez plus haut pour que le stress de l'entretien ne vous fasse pas passer sous le seuil. Utilisez la révision intelligente pour les points faibles et dites les réponses à voix haute — le vrai test est oral."
+      }
+    ]
+  },
+  "fail-citizenship-test": {
+    "title": "Que se passe-t-il si vous échouez au test civique ou d'anglais de citoyenneté ?",
+    "description": "Ce qui se passe généralement si vous ne réussissez pas l'anglais ou l'éducation civique à l'entretien de naturalisation, et comment vous préparer à une nouvelle tentative avec des outils de pratique gratuits.",
+    "sections": [
+      {
+        "heading": "Vous avez généralement une autre chance",
+        "body": "Si vous échouez à la partie anglais ou éducation civique, USCIS vous donne en général une autre occasion de repasser la partie échouée. Le calendrier et la procédure exacts suivent la politique USCIS en vigueur pour votre cas — ce site ne constitue pas un conseil juridique."
+      },
+      {
+        "heading": "Profitez de l'attente",
+        "body": "N'attendez pas l'arrivée du prochain avis pour étudier. De courtes sessions quotidiennes valent mieux qu'un bachotage de dernière minute. Concentrez-vous sur la partie manquée : banque civique, lecture, écriture ou expression orale."
+      },
+      {
+        "heading": "Préparation au nouveau test civique",
+        "body": "Confirmez quelle version vous passez (2008 ou 2025). Travaillez les questions faibles, les réponses qui changent et lancez des simulations d'entretien jusqu'à dépasser le seuil de réussite avec une marge confortable."
+      },
+      {
+        "heading": "Préparation au nouveau test d'anglais",
+        "body": "Pratiquez les phrases officielles de vocabulaire de lecture et d'écriture avec audio. Pour l'expression orale, entraînez-vous à répondre clairement aux questions de la demande — une grammaire parfaite compte moins qu'une communication claire."
+      }
+    ]
+  },
+  "30-day-study-plan": {
+    "title": "Plan d'étude de 30 jours pour le test civique de citoyenneté américaine",
+    "description": "Un plan pratique de 30 jours pour préparer l'entretien civique de naturalisation : vérification de version, exercices quotidiens, pratique orale et semaine de simulation.",
+    "sections": [
+      {
+        "heading": "Jour 1–2 : Confirmez votre version",
+        "body": "Utilisez Find my test version. Déposer le Form N-400 avant ou à/partir du 20 octobre 2025 détermine 2008 (100 Q) ou 2025 (128 Q). La mauvaise banque gâche tout le mois."
+      },
+      {
+        "heading": "Jour 3–14 : Couvrir la banque",
+        "body": "Étudiez 15 à 25 minutes par jour avec des fiches et des exercices par thème. Marquez les points faibles. Écoutez les questions en anglais à voix haute même si vous étudiez aussi dans une autre langue — à l'entretien, les questions civiques sont posées en anglais sauf exception applicable."
+      },
+      {
+        "heading": "Jour 15–24 : Corriger les points faibles et les réponses qui changent",
+        "body": "Utilisez la révision intelligente. Revérifiez le Président, les sénateurs, le représentant, le gouverneur et la capitale avec la recherche par ZIP. Travaillez les dates et les noms si ceux-ci vous bloquent."
+      },
+      {
+        "heading": "Jour 25–30 : Semaine de simulation d'entretien",
+        "body": "Lancez des simulations d'entretien complètes chaque jour jusqu'à réussir régulièrement (6/10 ou 12/20). Ajoutez des sessions de lecture et d'écriture en anglais. Dormez bien avant le rendez-vous."
+      }
+    ]
+  },
+  "n-400-filing-date": {
+    "title": "Date de dépôt du N-400 et quel test civique vous passez (2008 vs 2025)",
+    "description": "Comment la date de dépôt de votre Form N-400 détermine si vous passez le test civique USCIS 2008 ou 2025 — et comment s'entraîner sur la bonne banque.",
+    "sections": [
+      {
+        "heading": "Règle générale",
+        "body": "Les candidats qui ont déposé le Form N-400 avant le 20 octobre 2025 passent généralement le test civique 2008. Ceux qui l'ont déposé à cette date ou après passent généralement le test civique 2025. Confirmez toujours avec l'orientation USCIS en vigueur pour votre situation."
+      },
+      {
+        "heading": "Pourquoi la date de dépôt compte plus que « la date d'aujourd'hui »",
+        "body": "Beaucoup de monde étudie par défaut la liste la plus récente de 128 questions. Si votre date de dépôt vous place au test 2008, vous devriez pratiquer la banque de 100 questions et la règle de réussite à 6 sur 10."
+      },
+      {
+        "heading": "Vérifiez avant de mémoriser",
+        "body": "Consultez votre preuve de dépôt, puis utilisez notre outil d'éligibilité gratuit. Ouvrez all-100 ou all-128 en conséquence. Ajoutez le 65/20 seulement si cette considération s'applique à vous."
+      },
+      {
+        "heading": "Toujours incertain ?",
+        "body": "Ce site ne peut pas consulter l'état de votre dossier USCIS. Si vos documents ne sont pas clairs, demandez à votre avocat ou représentant accrédité — puis pratiquez la banque qu'ils confirment."
+      }
+    ]
+  },
+  "hardest-civics-questions": {
+    "title": "Les questions les plus difficiles du test civique américain — Ce qui bloque les candidats",
+    "description": "Quels sujets civiques semblent les plus difficiles à l'entretien de naturalisation : responsables qui changent, dates, noms et chiffres — et comment les travailler gratuitement.",
+    "sections": [
+      {
+        "heading": "Réponses qui changent",
+        "body": "Le Président, le Vice-président, le Président de la Chambre, le juge en chef, les sénateurs, le représentant, le gouverneur et la capitale changent avec les élections ou les nominations. Mémoriser un ancien PDF est une erreur fréquente. Revérifiez près du jour de l'entretien."
+      },
+      {
+        "heading": "Dates et chiffres",
+        "body": "Les années, le nombre d'amendements et les questions « quand » se mélangent facilement sous le stress. Utilisez notre page d'exercices sur les dates et dites l'année à voix haute."
+      },
+      {
+        "heading": "Noms célèbres",
+        "body": "Fondateurs, présidents et leaders des droits civiques reviennent souvent. Utilisez l'exercice sur les noms, puis retournez les fiches jusqu'à pouvoir répondre sans regarder."
+      },
+      {
+        "heading": "Schéma de pratique",
+        "body": "D'abord les faits stables, la dernière semaine les réponses qui changent, simulation orale chaque jour dans la dernière ligne droite. L'audio gratuit sur les listes de questions vous aide à entendre la formulation anglaise que les agents utilisent."
+      }
+    ]
+  },
+  "senators-by-zip": {
+    "title": "Comment trouver vos sénateurs et votre représentant pour le test civique",
+    "description": "Comment étudier les réponses civiques USCIS pour vos sénateurs américains et votre représentant à la Chambre avec la recherche par ZIP — plus le gouverneur et la capitale.",
+    "sections": [
+      {
+        "heading": "Pourquoi le ZIP compte",
+        "body": "Les sénateurs sont au niveau de l'État, mais votre représentant à la Chambre dépend de votre district. La recherche par ZIP est le moyen le plus rapide d'étudier les bons noms pour l'endroit où vous vivez."
+      },
+      {
+        "heading": "Ce qu'il faut mémoriser",
+        "body": "Connaissez les deux sénateurs américains de votre État, votre représentant, votre gouverneur et la capitale de votre État. Les noms fédéraux (Président, VP, Président de la Chambre, juge en chef) comptent aussi parmi les réponses qui changent."
+      },
+      {
+        "heading": "Utilisez la recherche par ZIP de pratique",
+        "body": "Ouvrez la pratique civique, saisissez votre ZIP et étudiez les responsables renvoyés. Si un ZIP couvre plusieurs districts, apprenez le vôtre avant le jour de l'entretien."
+      },
+      {
+        "heading": "Revérifiez avant le rendez-vous",
+        "body": "Élections partielles et démissions arrivent. Vérifiez à nouveau les noms la semaine de votre entretien pour ne pas citer quelqu'un qui a quitté ses fonctions."
+      }
+    ]
+  },
+  "interview-day-checklist": {
+    "title": "Liste de contrôle pour le jour de l'entretien de naturalisation",
+    "description": "Une liste pratique pour le jour de l'entretien de naturalisation : documents, état d'esprit civique et anglais, et à quoi s'attendre pour le test oral.",
+    "sections": [
+      {
+        "heading": "Documents et logistique",
+        "body": "Apportez l'avis de convocation et les documents requis. Arrivez tôt. Revoyez vos réponses au N-400 — l'agent posera des questions sur votre demande, pas seulement des questions civiques."
+      },
+      {
+        "heading": "État d'esprit pour le civique",
+        "body": "Écoutez la question entière. Répondez clairement en anglais (sauf exception applicable). Pour les réponses qui changent, indiquez le responsable en fonction le jour de l'entretien."
+      },
+      {
+        "heading": "Partie anglais",
+        "body": "Parlez de façon à ce que l'agent vous comprenne. Pour la lecture et l'écriture, vous devez généralement réussir un essai sur trois — pratiquez à l'avance les phrases officielles de vocabulaire."
+      },
+      {
+        "heading": "La veille",
+        "body": "Faites une courte simulation, revérifiez les responsables, puis arrêtez le bachotage. Se reposer vaut mieux qu'une nuit blanche pour la mémoire orale."
+      }
+    ]
+  },
+  "oath-ceremony": {
+    "title": "Après la réussite : cérémonie de serment et prochaines étapes",
+    "description": "Ce qui suit généralement la réussite de l'entretien de naturalisation : bases de la cérémonie de serment, Certificate of Naturalization, passeport et inscription sur les listes électorales.",
+    "sections": [
+      {
+        "heading": "Entretien réussi — et ensuite ?",
+        "body": "Si vous réussissez l'anglais et l'éducation civique et que votre demande est approuvée, la prochaine étape majeure est en général la cérémonie de serment. La planification varie selon le bureau de terrain."
+      },
+      {
+        "heading": "Certificate of Naturalization",
+        "body": "Après avoir prêté l'Oath of Allegiance, vous recevez un Certificate of Naturalization. Conservez-le précieusement — vous en aurez besoin pour un passeport américain et d'autres démarches."
+      },
+      {
+        "heading": "Prochaines étapes pratiques",
+        "body": "Demandez un passeport, mettez à jour la Sécurité sociale et vos pièces d'identité si nécessaire, et inscrivez-vous pour voter si vous le souhaitez. Consultez notre guide sur ce qu'il faut faire après devenir citoyen."
+      },
+      {
+        "heading": "Aider les autres à étudier",
+        "body": "Beaucoup de nouveaux citoyens aident leur famille à se préparer. Partagez les outils de pratique gratuits et rappelez aux apprenants que l'entretien civique est oral."
+      }
+    ]
+  },
+  "reading-writing-tips": {
+    "title": "Tests de lecture et d'écriture en anglais USCIS — Conseils de pratique gratuite",
+    "description": "Comment fonctionnent les tests de lecture et d'écriture en anglais de naturalisation, comment utiliser le vocabulaire officiel et où pratiquer des phrases gratuites avec audio.",
+    "sections": [
+      {
+        "heading": "Ce que vous devez démontrer",
+        "body": "Sauf exemption, vous devez démontrer un anglais de base : expression orale pendant l'entretien, lire une phrase correctement et en écrire une correctement (à partir de petits ensembles d'essais)."
+      },
+      {
+        "heading": "Restez sur le vocabulaire officiel",
+        "body": "Lecture et écriture utilisent les listes de vocabulaire USCIS. Des applis d'anglais au hasard aident moins que des phrases construites avec ces mots — personnes, termes civiques, lieux, fêtes et verbes courants."
+      },
+      {
+        "heading": "Méthode de pratique",
+        "body": "Écoutez la phrase, lisez-la à voix haute, puis écrivez-la sous dictée. Vérifiez l'orthographe. Reprenez le lendemain les phrases manquées."
+      },
+      {
+        "heading": "Pratiquez ici gratuitement",
+        "body": "Ouvrez nos pages de lecture et d'écriture en anglais. Combinez avec le mode oral civique pour que l'ensemble de l'entretien vous soit familier."
+      }
+    ]
+  },
+  "flashcards-vs-simulation": {
+    "title": "Fiches vs simulation d'entretien — Meilleure façon d'étudier l'éducation civique",
+    "description": "Quand utiliser les fiches, la révision intelligente et la simulation d'entretien pour le test civique USCIS — une séquence d'étude gratuite qui reflète le jour de l'examen.",
+    "sections": [
+      {
+        "heading": "Les fiches couvrent la banque",
+        "body": "Au début, les fiches et le mode parcours vous aident à voir la banque complète. Marquez honnêtement les questions faibles."
+      },
+      {
+        "heading": "La révision intelligente comble les lacunes",
+        "body": "Une fois la couverture faite, la révision intelligente priorise le faible et l'inédit pour ne pas réétudier ce que vous savez déjà."
+      },
+      {
+        "heading": "La simulation prépare à l'entretien",
+        "body": "La simulation utilise des seuils réussite/échec comme USCIS et peut s'arrêter tôt. Cette pression est le but — elle entraîne le timing et la confiance orale."
+      },
+      {
+        "heading": "Séquence recommandée",
+        "body": "Couverture → correction des points faibles → simulation quotidienne dans les 1 à 2 dernières semaines, plus des exercices dates/noms/responsables pour les pièges courants."
+      }
+    ]
+  },
+  "california-civics-answers": {
+    "title": "Réponses au test civique de Californie — Capitale, gouverneur et responsables locaux",
+    "description": "Comment étudier les réponses civiques USCIS qui changent pour la Californie : capitale d'État, gouverneur, sénateurs et représentant — avec des liens de pratique gratuits.",
+    "sections": [
+      {
+        "heading": "Faits sur l'État",
+        "body": "Pour les candidats de Californie, connaissez la capitale d'État (Sacramento) et le gouverneur actuel. Ce sont des éléments classiques « réponses qui changent » avec les responsables fédéraux."
+      },
+      {
+        "heading": "Sénateurs et représentant",
+        "body": "La Californie a deux sénateurs américains. Votre représentant à la Chambre dépend de votre district — utilisez la recherche par ZIP en pratique plutôt que de deviner à partir d'une liste nationale."
+      },
+      {
+        "heading": "Parcours de pratique",
+        "body": "Ouvrez la page d'État Californie pour la capitale et le gouverneur, puis pratiquez 2025 ou 2008 selon la date de dépôt de votre N-400. Ajoutez l'exercice sur les responsables avant la semaine de l'entretien."
+      },
+      {
+        "heading": "Autres États",
+        "body": "Nous publions des pages d'étude pour tous les États et D.C. Choisissez votre État depuis le hub des questions si vous ne vivez pas en Californie."
+      }
+    ]
   }
 }

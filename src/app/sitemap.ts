@@ -3,8 +3,7 @@ import { LOCALES } from "@/lib/locales";
 import { SEO_TOPICS, SEO_STATE_CODES } from "@/lib/seo-topics";
 import { SEO_DRILLS } from "@/lib/seo-drills";
 import { LEARN_POSTS } from "@/lib/learn-posts";
-
-const BASE = "https://uscivics-quiz.com";
+import { SITE_ORIGIN, sitemapMetaForPath } from "@/lib/indexing-priority";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = [
@@ -30,38 +29,47 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const locale of LOCALES) {
     for (const path of staticPaths) {
+      const meta = sitemapMetaForPath(path);
       entries.push({
-        url: `${BASE}/${locale}${path}`,
-        changeFrequency: "weekly",
-        priority: path === "" ? 1 : 0.7,
+        url: `${SITE_ORIGIN}/${locale}${path}`,
+        changeFrequency: meta.changeFrequency,
+        priority: meta.priority,
       });
     }
     for (const t of SEO_TOPICS) {
+      const path = `/questions/topic/${t.slug}`;
+      const meta = sitemapMetaForPath(path);
       entries.push({
-        url: `${BASE}/${locale}/questions/topic/${t.slug}`,
-        changeFrequency: "weekly",
-        priority: 0.8,
+        url: `${SITE_ORIGIN}/${locale}${path}`,
+        changeFrequency: meta.changeFrequency,
+        priority: meta.priority,
       });
     }
     for (const d of SEO_DRILLS) {
+      const path = `/questions/drill/${d.slug}`;
+      const meta = sitemapMetaForPath(path);
       entries.push({
-        url: `${BASE}/${locale}/questions/drill/${d.slug}`,
-        changeFrequency: "weekly",
-        priority: 0.85,
+        url: `${SITE_ORIGIN}/${locale}${path}`,
+        changeFrequency: meta.changeFrequency,
+        priority: meta.priority,
       });
     }
     for (const code of SEO_STATE_CODES) {
+      const path = `/questions/state/${code.toLowerCase()}`;
+      const meta = sitemapMetaForPath(path);
       entries.push({
-        url: `${BASE}/${locale}/questions/state/${code.toLowerCase()}`,
-        changeFrequency: "monthly",
-        priority: 0.75,
+        url: `${SITE_ORIGIN}/${locale}${path}`,
+        changeFrequency: meta.changeFrequency,
+        priority: meta.priority,
       });
     }
     for (const p of LEARN_POSTS) {
+      const path = `/learn/${p.slug}`;
+      const meta = sitemapMetaForPath(path);
       entries.push({
-        url: `${BASE}/${locale}/learn/${p.slug}`,
-        changeFrequency: "monthly",
-        priority: 0.7,
+        url: `${SITE_ORIGIN}/${locale}${path}`,
+        changeFrequency: meta.changeFrequency,
+        priority: meta.priority,
       });
     }
   }

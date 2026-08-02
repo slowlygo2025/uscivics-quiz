@@ -204,5 +204,269 @@
         "body": "Memorizá primero los hechos estables de historia y gobierno. Revisá las respuestas que cambian cerca de la cita para no llevar un nombre desactualizado a la entrevista."
       }
     ]
+  },
+  "how-many-questions": {
+    "title": "¿Cuántas preguntas tiene el examen cívico de ciudadanía estadounidense?",
+    "description": "Cuántas preguntas de educación cívica hace USCIS en la entrevista para los exámenes 2008 y 2025, cuántas necesitás acertar y cómo practicar con el banco completo.",
+    "sections": [
+      {
+        "heading": "Respuesta breve",
+        "body": "En el examen cívico 2008, el oficial hace hasta 10 preguntas de un banco de 100; necesitás 6 correctas para aprobar. En el examen cívico 2025, hace hasta 20 preguntas de un banco de 128; necesitás 12 correctas para aprobar. Tu versión depende de cuándo presentaste el Formulario N-400."
+      },
+      {
+        "heading": "Por qué la gente confunde «100» y «10»",
+        "body": "Estudiás una lista oficial grande (100 o 128). En la entrevista no te preguntan todo — solo una muestra. Aprobar depende de alcanzar el umbral en esa muestra, no de memorizar un conjunto afortunado de diez respuestas."
+      },
+      {
+        "heading": "Consideración especial 65/20",
+        "body": "Si calificás para 65/20, estudiás 20 preguntas marcadas con estrella. El oficial hace 10; necesitás 6 correctas. La educación cívica puede ser en el idioma de tu elección bajo esa consideración — confirmá las reglas vigentes para tu caso."
+      },
+      {
+        "heading": "Cómo practicar",
+        "body": "Usá nuestro verificador de elegibilidad para confirmar 2008 vs 2025, luego abrí la lista completa correspondiente (las 100 o las 128) con audio gratis. Terminá con simulación de entrevista hasta que alcances de forma constante 6/10 o 12/20."
+      }
+    ]
+  },
+  "pass-score": {
+    "title": "¿Qué puntaje necesitás para aprobar el examen cívico?",
+    "description": "Umbrales para aprobar el examen cívico de naturalización de USCIS: 6 de 10 (2008), 12 de 20 (2025) y 6 de 10 para 65/20 — además de cómo los oficiales pueden detenerse antes.",
+    "sections": [
+      {
+        "heading": "Puntaje para aprobar 2008",
+        "body": "Para el examen cívico de naturalización 2008: hasta 10 preguntas, 6 correctas para aprobar. Los oficiales pueden detenerse una vez que aprobaste o reprobaste."
+      },
+      {
+        "heading": "Puntaje para aprobar 2025",
+        "body": "Para el examen cívico de naturalización 2025: hasta 20 preguntas, 12 correctas para aprobar. La exigencia mayor implica que deberías practicar hasta que 12/20 te resulte rutinario en modo simulación."
+      },
+      {
+        "heading": "Puntaje para aprobar 65/20",
+        "body": "Bajo la consideración especial 65/20: 10 preguntas del conjunto de 20 marcadas con estrella, necesitás 6 correctas."
+      },
+      {
+        "heading": "Meta de estudio",
+        "body": "No apuntes a «apenas 6» en la práctica. Apuntá más alto para que los nervios de la entrevista no te dejen por debajo del umbral. Usá repaso inteligente para los temas débiles y decí las respuestas en voz alta — el examen real es oral."
+      }
+    ]
+  },
+  "fail-citizenship-test": {
+    "title": "¿Qué pasa si reprobás el examen cívico o de inglés de ciudadanía?",
+    "description": "Qué suele ocurrir si no aprobás inglés o educación cívica en la entrevista de naturalización, y cómo prepararte para un nuevo intento con herramientas de práctica gratuitas.",
+    "sections": [
+      {
+        "heading": "Generalmente tenés otra oportunidad",
+        "body": "Si reprobás la parte de inglés o educación cívica, USCIS generalmente te da otra oportunidad para rendir la parte que no aprobaste. El plazo y el proceso exactos siguen la política vigente de USCIS para tu caso — este sitio no es asesoramiento legal."
+      },
+      {
+        "heading": "Aprovechá la espera",
+        "body": "No esperes a que llegue el próximo aviso para estudiar. Sesiones cortas diarias superan el estudio de último momento. Concentrate en la parte que no aprobaste: banco cívico, lectura, escritura o conversación."
+      },
+      {
+        "heading": "Preparación para el nuevo intento cívico",
+        "body": "Confirmá qué versión rendís (2008 vs 2025). Repasá las preguntas débiles, las respuestas que cambian y hacé simulaciones de entrevista hasta superar el umbral para aprobar con margen."
+      },
+      {
+        "heading": "Preparación para el nuevo intento de inglés",
+        "body": "Practicá las oraciones oficiales de vocabulario de lectura y escritura con audio. Para la conversación, practicá responder las preguntas de la solicitud con claridad — la gramática perfecta importa menos que comunicarte bien."
+      }
+    ]
+  },
+  "30-day-study-plan": {
+    "title": "Plan de estudio de 30 días para el examen cívico de ciudadanía estadounidense",
+    "description": "Un plan práctico de 30 días para prepararte para la entrevista cívica de naturalización: verificación de versión, repasos diarios, práctica oral y semana de simulación.",
+    "sections": [
+      {
+        "heading": "Día 1–2: Confirmá tu versión",
+        "body": "Usá Find my test version. Presentar el Formulario N-400 antes vs en/después del 20 de octubre de 2025 define 2008 (100 preguntas) vs 2025 (128 preguntas). El banco equivocado te hace perder todo el mes."
+      },
+      {
+        "heading": "Día 3–14: Cubrí el banco",
+        "body": "Estudiá 15–25 minutos al día con tarjetas y repasos por tema. Marcá los temas débiles. Escuchá las preguntas en inglés en voz alta aunque también estudies en otro idioma — en la entrevista las preguntas cívicas se hacen en inglés salvo que tengas una excepción aplicable."
+      },
+      {
+        "heading": "Día 15–24: Corregí puntos débiles y respuestas que cambian",
+        "body": "Usá repaso inteligente. Revisá Presidente, senadores, representante, gobernador y capital con búsqueda por ZIP. Repasá fechas y nombres si esos temas te traban."
+      },
+      {
+        "heading": "Día 25–30: Semana de simulación de entrevista",
+        "body": "Hacé simulaciones completas de entrevista a diario hasta aprobar de forma constante (6/10 o 12/20). Sumá sesiones de lectura y escritura en inglés. Descansá bien antes de la cita."
+      }
+    ]
+  },
+  "n-400-filing-date": {
+    "title": "Fecha de presentación del N-400 y qué examen cívico rendís (2008 vs 2025)",
+    "description": "Cómo la fecha de presentación de tu Formulario N-400 define si rendís el examen cívico 2008 o 2025 de USCIS — y cómo practicar con el banco correcto.",
+    "sections": [
+      {
+        "heading": "Regla general",
+        "body": "Los solicitantes que presentaron el Formulario N-400 antes del 20 de octubre de 2025 generalmente rinden el examen cívico 2008. Quienes lo presentaron en esa fecha o después generalmente rinden el examen cívico 2025. Siempre confirmá con la orientación vigente de USCIS para tu situación."
+      },
+      {
+        "heading": "Por qué importa más la fecha de presentación que «la fecha de hoy»",
+        "body": "Mucha gente estudia por defecto la lista más nueva de 128 preguntas. Si tu fecha de presentación te corresponde el examen 2008, deberías practicar el banco de 100 preguntas y la regla de aprobar con 6 de 10."
+      },
+      {
+        "heading": "Verificá antes de memorizar",
+        "body": "Revisá tu comprobante de presentación, luego usá nuestro flujo gratuito de elegibilidad. Abrí all-100 o all-128 según corresponda. Sumá 65/20 solo si esa consideración aplica en tu caso."
+      },
+      {
+        "heading": "¿Todavía no estás seguro?",
+        "body": "Este sitio no puede consultar el estado de tu caso en USCIS. Si tu documentación no está clara, consultá a tu abogado o representante acreditado — y luego practicá el banco que te confirmen."
+      }
+    ]
+  },
+  "hardest-civics-questions": {
+    "title": "Las preguntas más difíciles del examen cívico estadounidense — Qué traba a los solicitantes",
+    "description": "Qué temas cívicos resultan más difíciles en la entrevista de naturalización: funcionarios que cambian, fechas, nombres y números — y cómo repasarlos gratis.",
+    "sections": [
+      {
+        "heading": "Respuestas que cambian",
+        "body": "Presidente, Vicepresidente, Presidente de la Cámara, Presidente de la Corte Suprema, senadores, representante, gobernador y capital cambian con elecciones o nombramientos. Memorizar un PDF viejo es un error común. Revisá cerca del día de la entrevista."
+      },
+      {
+        "heading": "Fechas y números",
+        "body": "Años, cantidad de enmiendas y preguntas de «cuándo» son fáciles de confundir bajo estrés. Usá nuestra página de repaso de fechas y decí el año en voz alta."
+      },
+      {
+        "heading": "Nombres famosos",
+        "body": "Fundadores, presidentes y líderes de derechos civiles aparecen seguido. Usá el repaso de nombres, luego dale vuelta a las tarjetas hasta responder sin mirar."
+      },
+      {
+        "heading": "Patrón de práctica",
+        "body": "Primero los hechos estables, la última semana las respuestas que cambian, simulación oral todos los días en la recta final. El audio gratis en las listas de preguntas te ayuda a oír la redacción en inglés que usan los oficiales."
+      }
+    ]
+  },
+  "senators-by-zip": {
+    "title": "Cómo encontrar tus senadores y representante para el examen cívico",
+    "description": "Cómo estudiar las respuestas cívicas de USCIS para tus senadores estadounidenses y tu representante en la Cámara usando búsqueda por ZIP — además de gobernador y capital.",
+    "sections": [
+      {
+        "heading": "Por qué importa el ZIP",
+        "body": "Los senadores son a nivel estatal, pero tu representante en la Cámara depende de tu distrito. La búsqueda por ZIP es la forma más rápida de estudiar los nombres correctos para donde vivís."
+      },
+      {
+        "heading": "Qué memorizar",
+        "body": "Conocé a los dos senadores estadounidenses de tu estado, tu representante, tu gobernador y la capital de tu estado. Los nombres federales (Presidente, VP, Presidente de la Cámara, Presidente de la Corte Suprema) también son respuestas que cambian."
+      },
+      {
+        "heading": "Usá la búsqueda por ZIP de práctica",
+        "body": "Abrí la práctica cívica, ingresá tu ZIP y estudiá los funcionarios que devuelve. Si un ZIP abarca varios distritos, aprendé cuál es el tuyo antes del día de la entrevista."
+      },
+      {
+        "heading": "Revisá antes de la cita",
+        "body": "Hay elecciones especiales y renuncias. Verificá los nombres otra vez la semana de tu entrevista para no responder con alguien que ya dejó el cargo."
+      }
+    ]
+  },
+  "interview-day-checklist": {
+    "title": "Lista de verificación para el día de la entrevista de naturalización",
+    "description": "Una lista práctica para el día de la entrevista de naturalización: documentos, mentalidad para cívica e inglés, y qué esperar del examen oral.",
+    "sections": [
+      {
+        "heading": "Documentos y logística",
+        "body": "Llevá la notificación de cita y los documentos requeridos. Llegá temprano. Repasá tus respuestas del N-400 — el oficial preguntará sobre tu solicitud, no solo trivia cívica."
+      },
+      {
+        "heading": "Mentalidad para la cívica",
+        "body": "Escuchá la pregunta completa. Respondé con claridad en inglés (salvo que aplique una excepción). Para las respuestas que cambian, usá el funcionario que esté en el cargo el día de la entrevista."
+      },
+      {
+        "heading": "Parte de inglés",
+        "body": "Hablá de forma que el oficial te entienda. En lectura y escritura, generalmente tenés que acertar uno de tres intentos — practicá antes las oraciones oficiales de vocabulario."
+      },
+      {
+        "heading": "La noche anterior",
+        "body": "Hacé una simulación corta, revisá los funcionarios y dejá de estudiar de corrido. Descansar supera trasnochar para recordar en voz alta."
+      }
+    ]
+  },
+  "oath-ceremony": {
+    "title": "Después de aprobar: ceremonia del juramento y próximos pasos",
+    "description": "Qué suele seguir después de aprobar la entrevista de naturalización: lo básico de la ceremonia del juramento, Certificate of Naturalization, pasaporte e inscripción para votar.",
+    "sections": [
+      {
+        "heading": "Entrevista aprobada — ¿qué sigue?",
+        "body": "Si aprobás inglés y educación cívica y tu solicitud es aprobada, el próximo paso importante suele ser la ceremonia del juramento. La programación varía según la oficina de campo."
+      },
+      {
+        "heading": "Certificate of Naturalization",
+        "body": "Después de prestar el Oath of Allegiance, recibís un Certificate of Naturalization. Guardalo bien — lo vas a necesitar para el pasaporte estadounidense y otras actualizaciones."
+      },
+      {
+        "heading": "Próximos pasos prácticos",
+        "body": "Solicitá un pasaporte, actualizá el Seguro Social y tu identificación donde corresponda, e inscribite para votar si querés. Mirá nuestra guía sobre qué hacer después de convertirte en ciudadano."
+      },
+      {
+        "heading": "Ayudá a otros a estudiar",
+        "body": "Muchos ciudadanos nuevos ayudan a su familia a prepararse. Compartí herramientas de práctica gratuitas y recordá a quienes estudian que la entrevista cívica es oral."
+      }
+    ]
+  },
+  "reading-writing-tips": {
+    "title": "Examen de lectura y escritura en inglés de USCIS — Consejos de práctica gratuita",
+    "description": "Cómo funcionan los exámenes de lectura y escritura en inglés de naturalización, cómo usar el vocabulario oficial y dónde practicar oraciones gratis con audio.",
+    "sections": [
+      {
+        "heading": "Qué tenés que demostrar",
+        "body": "Salvo exención, tenés que demostrar inglés básico: conversación durante la entrevista, leer una oración correctamente y escribir una oración correctamente (de conjuntos pequeños de intentos)."
+      },
+      {
+        "heading": "Quedate con el vocabulario oficial",
+        "body": "Lectura y escritura usan las listas de vocabulario de USCIS. Las apps de inglés al azar ayudan menos que oraciones armadas con esas palabras — personas, términos cívicos, lugares, feriados y verbos comunes."
+      },
+      {
+        "heading": "Método de práctica",
+        "body": "Escuchá la oración, leela en voz alta y luego escribila de dictado. Revisá la ortografía. Repetí al día siguiente las oraciones que fallaste."
+      },
+      {
+        "heading": "Practicá acá gratis",
+        "body": "Abrí nuestras páginas de lectura y escritura en inglés. Combiná con el modo de habla cívica para que toda la entrevista te resulte familiar."
+      }
+    ]
+  },
+  "flashcards-vs-simulation": {
+    "title": "Tarjetas vs simulación de entrevista — La mejor forma de estudiar educación cívica",
+    "description": "Cuándo usar tarjetas, repaso inteligente y simulación de entrevista para el examen cívico de USCIS — una secuencia de estudio gratuita que refleja el día del examen.",
+    "sections": [
+      {
+        "heading": "Las tarjetas cubren el banco",
+        "body": "Al principio, las tarjetas y el modo explorar te ayudan a ver el banco completo. Marcá con honestidad las preguntas débiles."
+      },
+      {
+        "heading": "El repaso inteligente tapa huecos",
+        "body": "Cuando ya cubriste el banco, el repaso inteligente prioriza lo débil y lo que no viste para no seguir repasando lo que ya sabés."
+      },
+      {
+        "heading": "La simulación entrena para la entrevista",
+        "body": "La simulación usa umbrales de aprobar/reprobar como USCIS y puede detenerse antes. Esa presión es el punto — entrena el timing y la confianza oral."
+      },
+      {
+        "heading": "Secuencia recomendada",
+        "body": "Cobertura → reparar puntos débiles → simulación diaria en las últimas 1–2 semanas, más repasos de fechas/nombres/funcionarios para las trampas comunes."
+      }
+    ]
+  },
+  "california-civics-answers": {
+    "title": "Respuestas del examen cívico de California — Capital, gobernador y funcionarios locales",
+    "description": "Cómo estudiar las respuestas cívicas de USCIS que cambian para California: capital estatal, gobernador, senadores y representante — con enlaces de práctica gratuita.",
+    "sections": [
+      {
+        "heading": "Datos del estado",
+        "body": "Para solicitantes de California, conocé la capital estatal (Sacramento) y el gobernador actual. Son ítems clásicos de «respuestas que cambian» junto con los funcionarios federales."
+      },
+      {
+        "heading": "Senadores y representante",
+        "body": "California tiene dos senadores estadounidenses. Tu representante en la Cámara depende de tu distrito — usá búsqueda por ZIP en la práctica en lugar de adivinar desde una lista nacional."
+      },
+      {
+        "heading": "Ruta de práctica",
+        "body": "Abrí la página estatal de California para capital y gobernador, luego practicá 2025 o 2008 según la fecha de presentación de tu N-400. Sumá el repaso de funcionarios antes de la semana de la entrevista."
+      },
+      {
+        "heading": "Otros estados",
+        "body": "Publicamos páginas de estudio para todos los estados y D.C. Elegí tu estado desde el hub de preguntas si no vivís en California."
+      }
+    ]
   }
 }

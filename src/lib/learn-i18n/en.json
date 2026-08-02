@@ -204,5 +204,269 @@
         "body": "Memorize stable history and government facts first. Recheck changing answers close to the appointment so you do not carry an outdated name into the interview."
       }
     ]
+  },
+  "how-many-questions": {
+    "title": "How Many Questions Are on the U.S. Citizenship Civics Test?",
+    "description": "How many civics questions USCIS asks in the interview for the 2008 and 2025 tests, how many you need correct, and how to practice the full bank.",
+    "sections": [
+      {
+        "heading": "Short answer",
+        "body": "On the 2008 civics test, the officer asks up to 10 questions from a bank of 100; you need 6 correct to pass. On the 2025 civics test, the officer asks up to 20 questions from a bank of 128; you need 12 correct to pass. Your version depends on when you filed Form N-400."
+      },
+      {
+        "heading": "Why people confuse “100” and “10”",
+        "body": "You study a large official list (100 or 128). At the interview you are not asked every question — only a sample. Passing is about hitting the threshold on that sample, not memorizing one lucky set of ten answers."
+      },
+      {
+        "heading": "65/20 special consideration",
+        "body": "If you qualify for 65/20, you study 20 starred questions. The officer asks 10; you need 6 correct. Civics may be in your language of choice under that consideration — confirm current rules for your case."
+      },
+      {
+        "heading": "How to practice",
+        "body": "Use our eligibility checker to confirm 2008 vs 2025, then open the matching full list (all 100 or all 128) with free audio. Finish with interview simulation until you consistently clear 6/10 or 12/20."
+      }
+    ]
+  },
+  "pass-score": {
+    "title": "What Score Do You Need to Pass the Civics Test?",
+    "description": "Pass thresholds for the USCIS naturalization civics test: 6 of 10 (2008), 12 of 20 (2025), and 6 of 10 for 65/20 — plus how officers may stop early.",
+    "sections": [
+      {
+        "heading": "2008 pass score",
+        "body": "For the 2008 naturalization civics test: up to 10 questions asked, 6 correct to pass. Officers may stop once you have passed or failed."
+      },
+      {
+        "heading": "2025 pass score",
+        "body": "For the 2025 naturalization civics test: up to 20 questions asked, 12 correct to pass. The higher bar means you should practice until 12/20 feels routine in simulation mode."
+      },
+      {
+        "heading": "65/20 pass score",
+        "body": "Under 65/20 special consideration: 10 questions from the starred set of 20, need 6 correct."
+      },
+      {
+        "heading": "Study goal",
+        "body": "Do not aim for “barely 6” in practice. Aim higher so interview nerves do not drop you under the line. Use smart review for weak items and say answers out loud — the real test is oral."
+      }
+    ]
+  },
+  "fail-citizenship-test": {
+    "title": "What Happens If You Fail the Citizenship Civics or English Test?",
+    "description": "What typically happens if you do not pass English or civics at the naturalization interview, and how to prepare for a retest using free practice tools.",
+    "sections": [
+      {
+        "heading": "You usually get another chance",
+        "body": "If you fail the English or civics portion, USCIS generally gives you another opportunity to take the failed portion. Exact timing and process follow current USCIS policy for your case — this site is not legal advice."
+      },
+      {
+        "heading": "Use the wait wisely",
+        "body": "Do not wait until the next notice arrives to study. Daily short sessions beat last-minute cramming. Focus on the part you missed: civics bank, reading, writing, or speaking."
+      },
+      {
+        "heading": "Civics retest prep",
+        "body": "Confirm which version you take (2008 vs 2025). Drill weak questions, changing officials, and run interview simulations until you clear the pass threshold with room to spare."
+      },
+      {
+        "heading": "English retest prep",
+        "body": "Practice official reading and writing vocabulary sentences with audio. For speaking, practice answering application questions clearly — perfect grammar is less important than clear communication."
+      }
+    ]
+  },
+  "30-day-study-plan": {
+    "title": "30-Day Study Plan for the U.S. Citizenship Civics Test",
+    "description": "A practical 30-day plan to prepare for the naturalization civics interview: version check, daily drills, oral practice, and simulation week.",
+    "sections": [
+      {
+        "heading": "Day 1–2: Confirm your version",
+        "body": "Use Find my test version. Filing Form N-400 before vs on/after October 20, 2025 decides 2008 (100 Q) vs 2025 (128 Q). Wrong bank wastes the whole month."
+      },
+      {
+        "heading": "Day 3–14: Cover the bank",
+        "body": "Study 15–25 minutes daily with flashcards and topic drills. Mark weak items. Hear English questions aloud even if you also study in another language — the interview civics questions are asked in English unless you have an applicable exception."
+      },
+      {
+        "heading": "Day 15–24: Fix weak spots + changing answers",
+        "body": "Use smart review. Recheck President, senators, representative, governor, and capital with ZIP lookup. Drill dates and names landings if those trip you up."
+      },
+      {
+        "heading": "Day 25–30: Simulate interview week",
+        "body": "Run full interview simulations daily until you consistently pass (6/10 or 12/20). Add English reading/writing sessions. Sleep well before the appointment."
+      }
+    ]
+  },
+  "n-400-filing-date": {
+    "title": "N-400 Filing Date and Which Civics Test You Take (2008 vs 2025)",
+    "description": "How your Form N-400 filing date decides whether you take the 2008 or 2025 USCIS civics test — and how to practice the right bank.",
+    "sections": [
+      {
+        "heading": "The rule of thumb",
+        "body": "Applicants who filed Form N-400 before October 20, 2025 generally take the 2008 civics test. Applicants who filed on or after that date generally take the 2025 civics test. Always confirm against current USCIS guidance for your situation."
+      },
+      {
+        "heading": "Why the filing date matters more than “today’s date”",
+        "body": "People often study the newest 128-question list by default. If your filing date puts you on the 2008 test, you should practice the 100-question bank and the 6-of-10 pass rule instead."
+      },
+      {
+        "heading": "Check before you memorize",
+        "body": "Look at your filing evidence, then use our free eligibility flow. Open all-100 or all-128 to match. Add 65/20 only if that consideration applies to you."
+      },
+      {
+        "heading": "Still not sure?",
+        "body": "This site cannot check your USCIS case status. If your paperwork is unclear, ask your attorney or accredited representative — then practice the bank they confirm."
+      }
+    ]
+  },
+  "hardest-civics-questions": {
+    "title": "Hardest U.S. Civics Test Questions — What Trips Applicants Up",
+    "description": "Which civics topics feel hardest on the naturalization interview: changing officials, dates, names, and numbers — and how to drill them for free.",
+    "sections": [
+      {
+        "heading": "Answers that change",
+        "body": "President, Vice President, Speaker, Chief Justice, senators, representative, governor, and capital change with elections or appointments. Memorizing an old PDF is a common fail. Recheck close to interview day."
+      },
+      {
+        "heading": "Dates and numbers",
+        "body": "Years, amendment counts, and “when” questions are easy to mix up under stress. Use our dates drill landing and say the year out loud."
+      },
+      {
+        "heading": "Famous names",
+        "body": "Founders, presidents, and civil rights leaders appear often. Use the names drill, then flip cards until you can answer without peeking."
+      },
+      {
+        "heading": "Practice pattern",
+        "body": "Stable facts first, changing answers last week, oral simulation every day in the final stretch. Free audio on question lists helps you hear the English wording officers use."
+      }
+    ]
+  },
+  "senators-by-zip": {
+    "title": "How to Find Your Senators and Representative for the Civics Test",
+    "description": "How to study the USCIS civics answers for your U.S. senators and House representative using ZIP lookup — plus governor and capital.",
+    "sections": [
+      {
+        "heading": "Why ZIP matters",
+        "body": "Senators are statewide, but your House representative depends on your district. ZIP lookup is the fastest way to study the right names for where you live."
+      },
+      {
+        "heading": "What to memorize",
+        "body": "Know both U.S. senators for your state, your representative, your governor, and your state capital. Federal names (President, VP, Speaker, Chief Justice) also count as changing answers."
+      },
+      {
+        "heading": "Use practice ZIP lookup",
+        "body": "Open civics practice, enter your ZIP, and study the returned officials. If a ZIP spans districts, learn which district is yours before interview day."
+      },
+      {
+        "heading": "Recheck before the appointment",
+        "body": "Special elections and resignations happen. Verify names again the week of your interview so you do not answer with someone who left office."
+      }
+    ]
+  },
+  "interview-day-checklist": {
+    "title": "Naturalization Interview Day Checklist",
+    "description": "A practical checklist for naturalization interview day: documents, civics and English mindset, and what to expect in the oral test.",
+    "sections": [
+      {
+        "heading": "Documents and logistics",
+        "body": "Bring your appointment notice and required documents. Arrive early. Review your N-400 answers — the officer will ask about your application, not only civics trivia."
+      },
+      {
+        "heading": "Civics mindset",
+        "body": "Listen to the full question. Answer clearly in English (unless an applicable exception applies). For changing answers, use the official who serves on interview day."
+      },
+      {
+        "heading": "English portion",
+        "body": "Speak so the officer can understand you. For reading and writing, you typically need to get one of three attempts correct — practice official vocabulary sentences beforehand."
+      },
+      {
+        "heading": "Night before",
+        "body": "Do a short simulation, recheck officials, then stop cramming. Rest beats an all-nighter for oral recall."
+      }
+    ]
+  },
+  "oath-ceremony": {
+    "title": "After You Pass: Oath Ceremony and Next Steps",
+    "description": "What typically comes after passing the naturalization interview: oath ceremony basics, Certificate of Naturalization, passport, and voting registration.",
+    "sections": [
+      {
+        "heading": "Interview approved — what next?",
+        "body": "If you pass English and civics and your application is approved, the next major step is usually the oath ceremony. Scheduling varies by field office."
+      },
+      {
+        "heading": "Certificate of Naturalization",
+        "body": "After you take the Oath of Allegiance, you receive a Certificate of Naturalization. Keep it safe — you will need it for a U.S. passport and other updates."
+      },
+      {
+        "heading": "Practical next steps",
+        "body": "Apply for a passport, update Social Security and ID where required, and register to vote if you choose. See our guide on things to do after becoming a citizen."
+      },
+      {
+        "heading": "Help others study",
+        "body": "Many new citizens help family prepare. Share free practice tools and remind learners that the civics interview is oral."
+      }
+    ]
+  },
+  "reading-writing-tips": {
+    "title": "USCIS English Reading and Writing Test — Free Practice Tips",
+    "description": "How the naturalization English reading and writing tests work, how to use official vocabulary, and where to practice free sentences with audio.",
+    "sections": [
+      {
+        "heading": "What you must show",
+        "body": "Unless exempt, you must demonstrate basic English: speaking during the interview, reading one sentence correctly, and writing one sentence correctly (from small sets of attempts)."
+      },
+      {
+        "heading": "Stick to official vocabulary",
+        "body": "Reading and writing use USCIS vocabulary lists. Random English apps help less than sentences built from those words — people, civics terms, places, holidays, and common verbs."
+      },
+      {
+        "heading": "Practice method",
+        "body": "Hear the sentence, read it aloud, then write it from dictation. Check spelling. Repeat missed sentences the next day."
+      },
+      {
+        "heading": "Practice here for free",
+        "body": "Open our English reading and writing pages. Combine with civics speak mode so the whole interview feels familiar."
+      }
+    ]
+  },
+  "flashcards-vs-simulation": {
+    "title": "Flashcards vs Interview Simulation — Best Way to Study Civics",
+    "description": "When to use flashcards, smart review, and interview simulation for the USCIS civics test — a free study sequence that mirrors test day.",
+    "sections": [
+      {
+        "heading": "Flashcards build coverage",
+        "body": "Early on, flashcards and browse mode help you see the full bank. Mark weak questions honestly."
+      },
+      {
+        "heading": "Smart review fixes leaks",
+        "body": "Once you have coverage, smart review prioritizes weak and unseen items so you do not keep restudying what you already know."
+      },
+      {
+        "heading": "Simulation builds interview fitness",
+        "body": "Simulation uses pass/fail thresholds like USCIS and can stop early. That pressure is the point — it trains timing and oral confidence."
+      },
+      {
+        "heading": "Recommended sequence",
+        "body": "Coverage → weak-spot repair → daily simulation in the final 1–2 weeks, plus dates/names/officials drills for common traps."
+      }
+    ]
+  },
+  "california-civics-answers": {
+    "title": "California Civics Test Answers — Capital, Governor, and Local Officials",
+    "description": "How to study changing USCIS civics answers for California: state capital, governor, senators, and representative — with free practice links.",
+    "sections": [
+      {
+        "heading": "State facts",
+        "body": "For California applicants, know the state capital (Sacramento) and the current governor. These are classic “answers that change” items together with federal officials."
+      },
+      {
+        "heading": "Senators and representative",
+        "body": "California has two U.S. senators. Your House representative depends on your district — use ZIP lookup in practice rather than guessing from a national list."
+      },
+      {
+        "heading": "Practice path",
+        "body": "Open the California state landing for capital and governor, then practice 2025 or 2008 based on your N-400 filing date. Add the officials drill before interview week."
+      },
+      {
+        "heading": "Other states",
+        "body": "We publish study pages for all states and D.C. Pick your state from the questions hub if you do not live in California."
+      }
+    ]
   }
 }
