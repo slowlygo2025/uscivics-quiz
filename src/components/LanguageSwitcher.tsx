@@ -14,9 +14,16 @@ function persistLocale(locale: Locale) {
   }
 }
 
-export default function LanguageSwitcher({ locale }: { locale: Locale }) {
+export default function LanguageSwitcher({
+  locale,
+  variant = "default",
+}: {
+  locale: Locale;
+  variant?: "default" | "header";
+}) {
   const pathname = usePathname() || `/${locale}`;
   const rest = pathname.replace(LOCALE_RE, "") || "";
+  const header = variant === "header";
 
   return (
     <label className="relative inline-flex items-center">
@@ -28,7 +35,11 @@ export default function LanguageSwitcher({ locale }: { locale: Locale }) {
           persistLocale(next);
           window.location.href = `/${next}${rest}`;
         }}
-        className="appearance-none rounded-[var(--radius)] border border-line bg-surface py-2.5 pl-3.5 pr-8 text-sm font-semibold text-ink outline-none transition-colors hover:border-signal min-h-11 touch-manipulation"
+        className={
+          header
+            ? "appearance-none bg-transparent py-2.5 pl-2 pr-6 text-[11px] font-semibold uppercase tracking-[0.14em] text-ink-soft outline-none transition-colors hover:text-ink min-h-10 touch-manipulation"
+            : "appearance-none rounded-[var(--radius)] border border-line bg-surface py-2.5 pl-3.5 pr-8 text-sm font-semibold text-ink outline-none transition-colors hover:border-signal min-h-11 touch-manipulation"
+        }
       >
         {LOCALES.map((code) => (
           <option key={code} value={code}>
@@ -38,7 +49,11 @@ export default function LanguageSwitcher({ locale }: { locale: Locale }) {
       </select>
       <span
         aria-hidden
-        className="pointer-events-none absolute end-2.5 text-[10px] text-muted"
+        className={
+          header
+            ? "pointer-events-none absolute end-0 text-[9px] text-muted"
+            : "pointer-events-none absolute end-2.5 text-[10px] text-muted"
+        }
       >
         ▾
       </span>

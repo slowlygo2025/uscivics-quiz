@@ -4,6 +4,7 @@ import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { isLocale } from "@/lib/locales";
 import EnglishPractice from "@/components/EnglishPractice";
+import { buildPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -13,7 +14,12 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale);
-  return { title: dict.englishTitle, description: dict.englishLead };
+  return buildPageMetadata({
+    locale: locale as Locale,
+    path: "/english",
+    title: dict.englishTitle,
+    description: dict.englishLead,
+  });
 }
 
 export default async function EnglishPage({

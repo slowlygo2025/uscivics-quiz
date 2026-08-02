@@ -178,10 +178,11 @@ html.dark .gw-shell::before {
 }
 
 .gw-header {
-  background: color-mix(in srgb, var(--header) 92%, transparent);
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid color-mix(in srgb, white 12%, transparent);
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
 }
 
 @keyframes gw-rise {

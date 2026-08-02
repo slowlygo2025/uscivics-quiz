@@ -5,7 +5,10 @@ import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale } from "@/lib/locales";
 import { SEO_TOPICS, SEO_STATE_CODES } from "@/lib/seo-topics";
+import { SEO_DRILLS, drillCopy } from "@/lib/seo-drills";
 import { getStateInfo } from "@/lib/states";
+import { buildPageMetadata, breadcrumbJsonLd } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -19,10 +22,12 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale);
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
+    path: "/questions",
     title: dict.seoQuestionsHubTitle,
     description: dict.seoQuestionsHubLead,
-  };
+  });
 }
 
 export default async function QuestionsHubPage({
@@ -37,6 +42,12 @@ export default async function QuestionsHubPage({
 
   return (
     <div className="space-y-10">
+      <JsonLd
+        data={breadcrumbJsonLd(locale, [
+          { name: dict.navHome, path: "" },
+          { name: dict.navQuestions, path: "/questions" },
+        ])}
+      />
       <header className="max-w-3xl">
         <h1 className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-ink sm:text-4xl">
           {dict.seoQuestionsHubTitle}
@@ -78,6 +89,28 @@ export default async function QuestionsHubPage({
 
       <section>
         <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold text-ink">
+          {dict.seoDrillsHeading}
+        </h2>
+        <p className="mt-2 max-w-2xl text-sm text-muted">{dict.seoDrillsLead}</p>
+        <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+          {SEO_DRILLS.map((d) => {
+            const copy = drillCopy(d, locale);
+            return (
+              <li key={d.slug}>
+                <Link
+                  href={`/${locale}/questions/drill/${d.slug}`}
+                  className="block border border-line bg-surface px-4 py-3 font-semibold text-signal underline-offset-2 hover:border-signal hover:underline"
+                >
+                  {copy.title}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold text-ink">
           {dict.seoTopicsHeading}
         </h2>
         <ul className="mt-4 grid gap-2 sm:grid-cols-2">
@@ -98,7 +131,10 @@ export default async function QuestionsHubPage({
         <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold text-ink">
           {dict.seoStatesHeading}
         </h2>
-        <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+        <p className="mt-2 text-sm text-muted">
+          {SEO_STATE_CODES.length} {dict.seoStatesCount}
+        </p>
+        <ul className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {SEO_STATE_CODES.map((code) => {
             const st = getStateInfo(code)!;
             return (
@@ -107,7 +143,7 @@ export default async function QuestionsHubPage({
                   href={`/${locale}/questions/state/${code.toLowerCase()}`}
                   className="block border border-line bg-surface px-4 py-3 font-semibold text-signal underline-offset-2 hover:border-signal hover:underline"
                 >
-                  {st.name} ({code}) — {dict.seoStateCapital}: {st.capital}
+                  {st.name} ({code})
                 </Link>
               </li>
             );

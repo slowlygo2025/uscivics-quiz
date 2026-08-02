@@ -123,6 +123,13 @@ export const en = {
   speakPractice: "Say it out loud in English — the interview is oral.",
   navPractice: "Practice",
   navLearn: "Learn",
+  navCitizenship: "US Citizenship",
+  navCivicsTest: "Civics Test",
+  navReadingTest: "Reading Test",
+  navWritingTest: "Writing Test",
+  navTest2025: "Civics 2025",
+  navTest2008: "Civics 2008",
+  navSenior: "65/20",
   menuOpen: "Open menu",
   menuClose: "Close menu",
   navHome: "Home",
@@ -256,6 +263,15 @@ export const en = {
   learnPostsHeading: "Guides & resources",
   learnPostBack: "Back to learn",
   learnReadMore: "Read more",
+  legalBadge: "Legal & trust",
+  navAbout: "About",
+  navContact: "Contact",
+  navPrivacy: "Privacy",
+  navTerms: "Terms",
+  seoDrillsHeading: "Special study drills",
+  seoDrillsLead:
+    "Focus on the hardest clusters: key dates, famous names, and officials whose answers change with elections — free audio on every question.",
+  seoStatesCount: "state & DC study pages",
 } as const;
 
 export type DictKeys = keyof typeof en;

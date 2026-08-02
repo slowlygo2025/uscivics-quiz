@@ -31,20 +31,24 @@ export default function MobileNav({
 
   const links = [
     { href: `/${locale}`, label: dict.navHome },
+    { href: `/${locale}/eligibility`, label: dict.navCitizenship },
+    { href: `/${locale}/practice/2025`, label: dict.navTest2025 },
+    { href: `/${locale}/practice/2008`, label: dict.navTest2008 },
+    { href: `/${locale}/questions/senior`, label: dict.navSenior },
     { href: `/${locale}/questions`, label: dict.navQuestions },
-    { href: `/${locale}/practice/2025`, label: dict.navPractice },
-    { href: `/${locale}/english`, label: dict.navEnglish },
-    { href: `/${locale}/english/reading`, label: dict.readingTitle },
-    { href: `/${locale}/english/writing`, label: dict.writingTitle },
+    { href: `/${locale}/english/reading`, label: dict.navReadingTest },
+    { href: `/${locale}/english/writing`, label: dict.navWritingTest },
     { href: `/${locale}/learn`, label: dict.navLearn },
-    { href: `/${locale}/eligibility`, label: dict.startEligibility },
+    { href: `/${locale}/english`, label: dict.navEnglish },
+    { href: `/${locale}/about`, label: dict.navAbout },
+    { href: `/${locale}/contact`, label: dict.navContact },
   ];
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button
         type="button"
-        className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius)] border border-white/40 bg-white/15 text-white touch-manipulation"
+        className="inline-flex h-10 w-10 items-center justify-center rounded-[var(--radius)] text-ink-soft touch-manipulation transition-colors hover:bg-mist hover:text-ink"
         aria-expanded={open}
         aria-controls={panelId}
         aria-label={open ? dict.menuClose : dict.menuOpen}
@@ -53,17 +57,17 @@ export default function MobileNav({
         <span className="sr-only">{open ? dict.menuClose : dict.menuOpen}</span>
         <span aria-hidden className="flex w-4 flex-col gap-1">
           <span
-            className={`h-0.5 rounded-full bg-white transition-transform ${
+            className={`h-0.5 rounded-full bg-current transition-transform ${
               open ? "translate-y-1.5 rotate-45" : ""
             }`}
           />
           <span
-            className={`h-0.5 rounded-full bg-white transition-opacity ${
+            className={`h-0.5 rounded-full bg-current transition-opacity ${
               open ? "opacity-0" : ""
             }`}
           />
           <span
-            className={`h-0.5 rounded-full bg-white transition-transform ${
+            className={`h-0.5 rounded-full bg-current transition-transform ${
               open ? "-translate-y-1.5 -rotate-45" : ""
             }`}
           />
@@ -89,7 +93,7 @@ export default function MobileNav({
                   <Link
                     href={l.href}
                     onClick={() => setOpen(false)}
-                    className="flex min-h-12 items-center rounded-xl px-3 text-base font-semibold text-ink-soft transition-colors active:bg-mist hover:bg-mist hover:text-ink"
+                    className="flex min-h-12 items-center rounded-xl px-3 text-sm font-semibold uppercase tracking-[0.1em] text-ink-soft transition-colors active:bg-mist hover:bg-mist hover:text-ink"
                   >
                     {l.label}
                   </Link>

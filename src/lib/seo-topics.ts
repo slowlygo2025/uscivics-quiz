@@ -1,3 +1,4 @@
+import { STATES } from "./states";
 import type { TestVersion } from "./types";
 
 export type TopicDef = {
@@ -61,13 +62,15 @@ export const SEO_TOPICS: TopicDef[] = [
   },
 ];
 
-export const SEO_STATE_CODES = ["CA", "TX", "FL", "NY"] as const;
-export type SeoStateCode = (typeof SEO_STATE_CODES)[number];
+/** All U.S. states + DC for SEO state landings. */
+export const SEO_STATE_CODES = Object.keys(STATES).sort() as string[];
+
+export type SeoStateCode = string;
 
 export function getTopicBySlug(slug: string): TopicDef | undefined {
   return SEO_TOPICS.find((t) => t.slug === slug);
 }
 
-export function isSeoStateCode(code: string): code is SeoStateCode {
-  return (SEO_STATE_CODES as readonly string[]).includes(code.toUpperCase());
+export function isSeoStateCode(code: string): boolean {
+  return Object.prototype.hasOwnProperty.call(STATES, code.toUpperCase());
 }

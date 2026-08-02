@@ -42,9 +42,11 @@ export const themeBootScript = `(function(){try{var k=${JSON.stringify(THEME_KEY
 export default function ThemeToggle({
   labelLight,
   labelDark,
+  variant = "default",
 }: {
   labelLight: string;
   labelDark: string;
+  variant?: "default" | "header";
 }) {
   const [theme, setThemeState] = useState<Theme>("light");
   const [ready, setReady] = useState(false);
@@ -64,12 +66,17 @@ export default function ThemeToggle({
 
   const isDark = theme === "dark";
   const label = isDark ? labelLight : labelDark;
+  const header = variant === "header";
 
   return (
     <button
       type="button"
       onClick={toggle}
-      className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius)] border border-white/40 bg-white/15 text-white touch-manipulation transition-colors hover:bg-white/25"
+      className={
+        header
+          ? "inline-flex h-10 w-10 items-center justify-center rounded-[var(--radius)] text-ink-soft touch-manipulation transition-colors hover:bg-mist hover:text-ink"
+          : "inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius)] border border-white/40 bg-white/15 text-white touch-manipulation transition-colors hover:bg-white/25"
+      }
       aria-label={label}
       title={label}
       suppressHydrationWarning

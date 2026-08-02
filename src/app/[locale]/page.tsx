@@ -4,6 +4,9 @@ import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import BrandLogo from "@/components/BrandLogo";
 import TestVersionNotice from "@/components/TestVersionNotice";
+import { buildPageMetadata, organizationJsonLd, websiteJsonLd } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
+import { isLocale } from "@/lib/locales";
 
 export async function generateMetadata({
   params,
@@ -11,8 +14,14 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!isLocale(locale)) return {};
   const dict = getDictionary(locale as Locale);
-  return { title: dict.siteName, description: dict.tagline };
+  return buildPageMetadata({
+    locale: locale as Locale,
+    path: "",
+    title: dict.siteName,
+    description: dict.tagline,
+  });
 }
 
 export default async function HomePage({
@@ -25,6 +34,7 @@ export default async function HomePage({
 
   return (
     <div className="flex flex-col">
+      <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
       <section className="gw-hero -mx-4 border border-line sm:-mx-6">
         <div className="gw-hero__glow" aria-hidden />
         <div className="gw-hero__stripes" aria-hidden />

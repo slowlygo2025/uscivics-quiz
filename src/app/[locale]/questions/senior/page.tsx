@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale } from "@/lib/locales";
+import { buildPageMetadata } from "@/lib/seo";
 import { QuestionsPageShell } from "@/components/QuestionsPageShell";
 
 export function generateStaticParams() {
@@ -17,7 +18,12 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale);
-  return { title: dict.seoSeniorTitle, description: dict.seoSeniorLead };
+  return buildPageMetadata({
+    locale: locale as Locale,
+    path: "/questions/senior",
+    title: dict.seoSeniorTitle,
+    description: dict.seoSeniorLead,
+  });
 }
 
 export default async function SeniorPage({
@@ -38,6 +44,7 @@ export default async function SeniorPage({
       version="2025"
       seniorOnly
       practiceHref={`/${locale}/practice/2025?senior=1`}
+      path="/questions/senior"
     />
   );
 }

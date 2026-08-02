@@ -4,8 +4,10 @@ import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { isLocale } from "@/lib/locales";
 import { BRANCHES, KEY_AMENDMENTS, KEY_NUMBERS } from "@/lib/study-guide";
-import { LEARN_POSTS } from "@/lib/learn-posts";
+import { listLearnPosts } from "@/lib/learn-posts";
 import { notFound } from "next/navigation";
+import { buildPageMetadata, faqJsonLd } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 
 export async function generateMetadata({
   params,
@@ -15,7 +17,12 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale);
-  return { title: dict.learnTitle, description: dict.learnLead };
+  return buildPageMetadata({
+    locale: locale as Locale,
+    path: "/learn",
+    title: dict.learnTitle,
+    description: dict.learnLead,
+  });
 }
 
 export default async function LearnPage({
@@ -28,6 +35,8 @@ export default async function LearnPage({
   const locale = raw as Locale;
   const dict = getDictionary(locale);
 
+  const tips = [dict.tip1, dict.tip2, dict.tip3, dict.tip4];
+
   const faqs = [
     { q: dict.faqQ1, a: dict.faqA1 },
     { q: dict.faqQ2, a: dict.faqA2 },
@@ -36,10 +45,11 @@ export default async function LearnPage({
     { q: dict.faqQ5, a: dict.faqA5 },
   ];
 
-  const tips = [dict.tip1, dict.tip2, dict.tip3, dict.tip4];
-
   return (
     <div className="mx-auto max-w-3xl space-y-12">
+      <JsonLd
+        data={faqJsonLd(faqs.map((x) => ({ question: x.q, answer: x.a })))}
+      />
       <header className="gw-rise">
         <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
           {dict.learnTitle}
@@ -65,14 +75,14 @@ export default async function LearnPage({
           {dict.learnPostsHeading}
         </h2>
         <ul className="mt-4 space-y-3">
-          {LEARN_POSTS.map((p) => (
-            <li key={p.slug}>
+          {listLearnPosts(locale).map(({ slug, copy }) => (
+            <li key={slug}>
               <Link
-                href={`/${locale}/learn/${p.slug}`}
+                href={`/${locale}/learn/${slug}`}
                 className="block border border-line bg-surface px-4 py-4 transition-colors hover:border-signal"
               >
-                <p className="font-semibold text-ink">{p.title}</p>
-                <p className="mt-1 text-sm text-muted">{p.description}</p>
+                <p className="font-semibold text-ink">{copy.title}</p>
+                <p className="mt-1 text-sm text-muted">{copy.description}</p>
                 <p className="mt-2 text-sm font-semibold text-signal">
                   {dict.learnReadMore} →
                 </p>

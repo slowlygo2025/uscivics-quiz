@@ -39,6 +39,9 @@ export const metadata: Metadata = {
   icons: {
     icon: [{ url: "/brand-seal.svg", type: "image/svg+xml" }],
   },
+  verification: {
+    google: "7gUP5WlL2v9V2cHBRNPB-LZd_b5Kf3rHeJoxccazPD0",
+  },
   other: {
     monetag: "a2a48b5bafa9b9ba7333961556718f08",
   },
@@ -69,13 +72,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        {/* Monetag Multitag — must be in SSR HTML for their installation check */}
-        <script
-          src="https://quge5.com/88/tag.min.js"
-          data-zone="266272"
-          async
-          data-cfasync="false"
-        />
+        {/* Monetag verification meta only — Multitag loads after cookie consent */}
       </head>
       <body className="min-h-dvh bg-paper font-sans text-ink">
         <Script id="theme-boot" strategy="beforeInteractive">

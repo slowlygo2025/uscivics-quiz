@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale } from "@/lib/locales";
+import { buildPageMetadata } from "@/lib/seo";
 import { QuestionsPageShell } from "@/components/QuestionsPageShell";
 
 export function generateStaticParams() {
@@ -17,7 +18,12 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale);
-  return { title: dict.seoAll100Title, description: dict.seoAll100Lead };
+  return buildPageMetadata({
+    locale: locale as Locale,
+    path: "/questions/all-100",
+    title: dict.seoAll100Title,
+    description: dict.seoAll100Lead,
+  });
 }
 
 export default async function All100Page({
@@ -37,6 +43,7 @@ export default async function All100Page({
       lead={dict.seoAll100Lead}
       version="2008"
       practiceHref={`/${locale}/practice/2008`}
+      path="/questions/all-100"
     />
   );
 }
