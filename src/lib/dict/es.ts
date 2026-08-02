@@ -9,7 +9,8 @@ export const es: Dictionary = {
   heroSupport:
     "Estudiá con flashcards, repaso inteligente, práctica oral y simulación real de entrevista.",
   startEligibility: "Descubrir mi versión",
-  practiceHeading: "O entrá directo a practicar",
+  practiceHeading: "Empezar a practicar",
+  practiceCta: "Abrir práctica",
   practice2008: "Versión 2008",
   practice2008Meta: "100 preguntas · 10 en el examen · 6 para aprobar",
   practice2025: "Versión 2025",

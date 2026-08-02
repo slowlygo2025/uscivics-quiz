@@ -7,7 +7,8 @@ export const en = {
   heroSupport:
     "Study with flashcards, smart review, oral practice, and a real interview simulation.",
   startEligibility: "Find my test version",
-  practiceHeading: "Or jump straight into practice",
+  practiceHeading: "Start practicing",
+  practiceCta: "Open practice",
   practice2008: "2008 version",
   practice2008Meta: "100 questions · 10 asked · 6 to pass",
   practice2025: "2025 version",

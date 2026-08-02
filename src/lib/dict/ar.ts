@@ -5,7 +5,8 @@ export const ar = completeDict({
   heroSupport:
     "ادرس بالبطاقات والمراجعة الذكية والممارسة الشفهية ومحاكاة المقابلة.",
   startEligibility: "اعرف نسختي",
-  practiceHeading: "أو ابدأ التمرين مباشرة",
+  practiceHeading: "ابدأ التمرين",
+  practiceCta: "فتح التمرين",
   practice2008: "نسخة 2008",
   practice2008Meta: "100 سؤال · يُسأل 10 · النجاح بـ 6",
   practice2025: "نسخة 2025",

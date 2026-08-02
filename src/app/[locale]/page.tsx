@@ -25,28 +25,12 @@ export default async function HomePage({
 
   return (
     <div className="flex flex-col">
-      <section
-        className="relative min-h-[min(58dvh,640px)] overflow-hidden border border-line text-white sm:min-h-[min(64dvh,680px)]"
-        style={{ background: "var(--hero-deep)" }}
-      >
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, var(--hero-deep) 0%, var(--hero-mid) 55%, var(--hero-deep) 100%)",
-          }}
-        />
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-y-0 end-0 w-1/3 opacity-30"
-          style={{
-            background:
-              "repeating-linear-gradient(-45deg, transparent, transparent 12px, rgba(255,255,255,0.06) 12px, rgba(255,255,255,0.06) 24px)",
-          }}
-        />
+      <section className="gw-hero -mx-4 border border-line sm:-mx-6">
+        <div className="gw-hero__glow" aria-hidden />
+        <div className="gw-hero__stripes" aria-hidden />
+        <div className="gw-hero__sheen" aria-hidden />
 
-        <div className="relative z-10 flex h-full flex-col justify-end gap-5 px-5 py-9 sm:gap-6 sm:px-10 sm:py-14 lg:max-w-[62%] lg:justify-center lg:py-16">
+        <div className="gw-hero__inner">
           <h1 className="gw-rise">
             <BrandLogo
               title={dict.brand}
@@ -55,24 +39,24 @@ export default async function HomePage({
               size="lg"
             />
           </h1>
+
           <div className="gw-rise gw-rise-delay-1 space-y-3">
-            <p className="max-w-xl text-xl font-semibold leading-snug text-white sm:text-2xl">
+            <p className="max-w-xl text-xl font-semibold leading-snug tracking-tight text-white sm:text-2xl lg:text-[1.7rem]">
               {dict.tagline}
             </p>
-            <p className="max-w-md text-base leading-relaxed text-white/80 sm:text-lg">
+            <p className="max-w-md text-base leading-relaxed text-white/78 sm:text-lg">
               {dict.heroSupport}
             </p>
           </div>
+
           <div className="gw-rise gw-rise-delay-2">
-            <Link
-              href={`/${locale}/eligibility`}
-              className="gw-btn gw-btn-block-sm bg-white font-bold text-[var(--hero-deep)] hover:bg-white/90"
-            >
+            <Link href={`/${locale}/eligibility`} className="gw-btn gw-btn-block-sm gw-btn-hero">
               {dict.startEligibility}
               <span aria-hidden>→</span>
             </Link>
           </div>
-          <p className="gw-rise gw-rise-delay-3 text-sm text-white/70">
+
+          <p className="gw-rise gw-rise-delay-3 text-sm font-medium tracking-wide text-white/65">
             {dict.freeBadge}
           </p>
         </div>
@@ -83,33 +67,42 @@ export default async function HomePage({
       </div>
 
       <section className="mt-14 sm:mt-16">
-        <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-ink sm:text-3xl">
-          {dict.practiceHeading}
-        </h2>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+          <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-ink sm:text-3xl">
+            {dict.practiceHeading}
+          </h2>
+        </div>
+
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 sm:gap-4">
           <Link
             href={`/${locale}/practice/2008`}
-            className="gw-card group p-6 transition-colors hover:border-signal"
+            className="gw-practice-link group"
           >
-            <p className="text-xs font-bold uppercase tracking-[0.14em] text-signal">
+            <p className="text-[0.7rem] font-bold uppercase tracking-[0.16em] text-signal">
               2008
             </p>
-            <p className="mt-2 text-xl font-bold tracking-tight text-ink group-hover:text-signal">
+            <p className="font-[family-name:var(--font-display)] text-xl font-bold tracking-tight text-ink group-hover:text-signal">
               {dict.practice2008}
             </p>
-            <p className="mt-2 text-sm text-muted">{dict.practice2008Meta}</p>
+            <p className="gw-practice-link__meta">{dict.practice2008Meta}</p>
+            <span className="gw-practice-link__arrow">
+              {dict.practiceCta} →
+            </span>
           </Link>
           <Link
             href={`/${locale}/practice/2025`}
-            className="gw-card group p-6 transition-colors hover:border-signal"
+            className="gw-practice-link group"
           >
-            <p className="text-xs font-bold uppercase tracking-[0.14em] text-signal">
+            <p className="text-[0.7rem] font-bold uppercase tracking-[0.16em] text-signal">
               2025
             </p>
-            <p className="mt-2 text-xl font-bold tracking-tight text-ink group-hover:text-signal">
+            <p className="font-[family-name:var(--font-display)] text-xl font-bold tracking-tight text-ink group-hover:text-signal">
               {dict.practice2025}
             </p>
-            <p className="mt-2 text-sm text-muted">{dict.practice2025Meta}</p>
+            <p className="gw-practice-link__meta">{dict.practice2025Meta}</p>
+            <span className="gw-practice-link__arrow">
+              {dict.practiceCta} →
+            </span>
           </Link>
         </div>
       </section>

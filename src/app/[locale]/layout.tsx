@@ -27,7 +27,7 @@ export default async function LocaleLayout({
 
   return (
     <div className="gw-shell" lang={locale} dir={rtl ? "rtl" : "ltr"}>
-      <header className="gw-safe-top sticky top-0 z-40 bg-[var(--header)] text-[var(--header-ink)] shadow-sm">
+      <header className="gw-header gw-safe-top sticky top-0 z-40 text-[var(--header-ink)]">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
           <div className="flex min-w-0 items-center gap-4 md:gap-8">
             <Link
@@ -41,22 +41,22 @@ export default async function LocaleLayout({
                 size="sm"
               />
             </Link>
-            <nav className="hidden items-center gap-5 text-sm font-semibold md:flex">
+            <nav className="hidden items-center gap-6 text-sm font-semibold md:flex">
               <Link
                 href={`/${locale}/practice/2025`}
-                className="min-h-10 inline-flex items-center opacity-95 hover:underline"
+                className="min-h-10 inline-flex items-center opacity-90 transition-opacity hover:opacity-100 hover:underline"
               >
                 {dict.navPractice}
               </Link>
               <Link
                 href={`/${locale}/english`}
-                className="min-h-10 inline-flex items-center opacity-95 hover:underline"
+                className="min-h-10 inline-flex items-center opacity-90 transition-opacity hover:opacity-100 hover:underline"
               >
                 {dict.navEnglish}
               </Link>
               <Link
                 href={`/${locale}/learn`}
-                className="min-h-10 inline-flex items-center opacity-95 hover:underline"
+                className="min-h-10 inline-flex items-center opacity-90 transition-opacity hover:opacity-100 hover:underline"
               >
                 {dict.navLearn}
               </Link>
@@ -77,18 +77,21 @@ export default async function LocaleLayout({
         {children}
       </main>
 
-      <footer className="gw-safe-bottom border-t-4 border-[var(--header)] bg-surface">
-        <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
-          <BrandLogo
-            title={dict.brand}
-            subtitle={dict.logoSubtitle}
-            variant="onLight"
-            size="md"
-          />
-          <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
+      <footer className="gw-safe-bottom border-t border-line bg-surface">
+        <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
+          <div className="h-1 w-16 bg-[var(--header)]" aria-hidden />
+          <div className="mt-5">
+            <BrandLogo
+              title={dict.brand}
+              subtitle={dict.logoSubtitle}
+              variant="onLight"
+              size="md"
+            />
+          </div>
+          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
             {dict.disclaimer}
           </p>
-          <div className="mt-4 flex flex-wrap gap-x-4 gap-y-3 text-sm font-semibold text-signal">
+          <nav className="mt-6 flex flex-wrap gap-x-5 gap-y-3 text-sm font-semibold text-signal">
             <Link
               href={`/${locale}/learn`}
               className="inline-flex min-h-10 items-center underline-offset-2 hover:underline"
@@ -113,7 +116,7 @@ export default async function LocaleLayout({
             >
               {dict.startEligibility}
             </Link>
-          </div>
+          </nav>
         </div>
       </footer>
     </div>
