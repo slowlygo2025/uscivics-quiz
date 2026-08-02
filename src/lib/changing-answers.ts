@@ -1,4 +1,5 @@
 import type { TestVersion } from "./types";
+import { USCIS_TEST_UPDATES } from "./uscis-links";
 
 /**
  * Questions whose answers depend on elections or appointments.
@@ -9,8 +10,7 @@ export const CHANGING_ANSWER_IDS: Record<TestVersion, number[]> = {
   "2008": [20, 23, 28, 29, 40, 43, 44, 47],
 };
 
-export const USCIS_TEST_UPDATES_URL =
-  "https://www.uscis.gov/citizenship/testupdates";
+export const USCIS_TEST_UPDATES_URL = USCIS_TEST_UPDATES;
 
 export function isChangingAnswer(
   version: TestVersion,

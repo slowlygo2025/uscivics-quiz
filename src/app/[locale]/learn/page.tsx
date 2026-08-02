@@ -5,6 +5,7 @@ import { getDictionary } from "@/lib/dictionary";
 import { isLocale } from "@/lib/locales";
 import { BRANCHES, KEY_AMENDMENTS, KEY_NUMBERS } from "@/lib/study-guide";
 import { USCIS_TEST_UPDATES_URL } from "@/lib/changing-answers";
+import OfficialResources from "@/components/OfficialResources";
 import { notFound } from "next/navigation";
 
 export async function generateMetadata({
@@ -136,7 +137,7 @@ export default async function LearnPage({
           {faqs.map((item) => (
             <details
               key={item.q}
-              className="group rounded-2xl border border-line bg-surface/90 px-5 py-4"
+              className="group gw-card px-5 py-4"
             >
               <summary className="cursor-pointer list-none font-semibold text-ink marker:content-none">
                 <span className="flex items-start justify-between gap-3">
@@ -149,6 +150,8 @@ export default async function LearnPage({
           ))}
         </div>
       </section>
+
+      <OfficialResources dict={dict} />
     </div>
   );
 }

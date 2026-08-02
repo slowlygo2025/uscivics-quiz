@@ -41,7 +41,7 @@ export default function MobileNav({
     <div className="md:hidden">
       <button
         type="button"
-        className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-line bg-surface/80 text-ink touch-manipulation"
+        className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius)] border border-white/40 bg-white/15 text-white touch-manipulation"
         aria-expanded={open}
         aria-controls={panelId}
         aria-label={open ? dict.menuClose : dict.menuOpen}
@@ -50,17 +50,17 @@ export default function MobileNav({
         <span className="sr-only">{open ? dict.menuClose : dict.menuOpen}</span>
         <span aria-hidden className="flex w-4 flex-col gap-1">
           <span
-            className={`h-0.5 rounded-full bg-ink transition-transform ${
+            className={`h-0.5 rounded-full bg-white transition-transform ${
               open ? "translate-y-1.5 rotate-45" : ""
             }`}
           />
           <span
-            className={`h-0.5 rounded-full bg-ink transition-opacity ${
+            className={`h-0.5 rounded-full bg-white transition-opacity ${
               open ? "opacity-0" : ""
             }`}
           />
           <span
-            className={`h-0.5 rounded-full bg-ink transition-transform ${
+            className={`h-0.5 rounded-full bg-white transition-transform ${
               open ? "-translate-y-1.5 -rotate-45" : ""
             }`}
           />

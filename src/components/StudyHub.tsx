@@ -448,10 +448,10 @@ function ModeTabs({
               key={t.id}
               type="button"
               onClick={() => onChange(t.id)}
-              className={`shrink-0 rounded-full px-4 py-2.5 text-sm font-semibold touch-manipulation transition-colors min-h-11 ${
+              className={`shrink-0 rounded-[var(--radius)] px-4 py-2.5 text-sm font-bold touch-manipulation transition-colors min-h-11 ${
                 active
-                  ? "bg-ink text-paper shadow-[0_8px_24px_rgba(11,28,44,0.18)]"
-                  : "border border-line bg-surface/80 text-ink-soft hover:border-signal/35 hover:text-ink"
+                  ? "bg-ink text-paper"
+                  : "border border-line bg-surface text-ink-soft hover:border-signal hover:text-ink"
               }`}
             >
               {t.label}
@@ -509,10 +509,10 @@ function FilterChip({
     <button
       type="button"
       onClick={onClick}
-      className={`shrink-0 rounded-full px-3.5 py-2 text-sm font-semibold tracking-wide touch-manipulation transition-colors min-h-10 ${
+      className={`shrink-0 rounded-[var(--radius)] px-3.5 py-2 text-sm font-semibold tracking-wide touch-manipulation transition-colors min-h-10 ${
         active
           ? "bg-signal text-white"
-          : "border border-line bg-surface text-muted hover:border-signal/40 hover:text-ink"
+          : "border border-line bg-surface text-muted hover:border-signal hover:text-ink"
       }`}
     >
       {label}

@@ -1,18 +1,20 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
-import { Fraunces, Manrope } from "next/font/google";
+import { Merriweather, Source_Sans_3 } from "next/font/google";
 import FirebaseAnalytics from "@/components/FirebaseAnalytics";
 import { themeBootScript } from "@/components/ThemeToggle";
 import "./globals.css";
 
-const display = Fraunces({
+const display = Merriweather({
   variable: "--font-display",
   subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
-const body = Manrope({
+const body = Source_Sans_3({
   variable: "--font-body",
   subsets: ["latin"],
+  weight: ["400", "600", "700"],
 });
 
 export const viewport: Viewport = {
@@ -20,8 +22,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   viewportFit: "cover",
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f4f7fb" },
-    { media: "(prefers-color-scheme: dark)", color: "#0a1420" },
+    { media: "(prefers-color-scheme: light)", color: "#005288" },
+    { media: "(prefers-color-scheme: dark)", color: "#003a5d" },
   ],
 };
 

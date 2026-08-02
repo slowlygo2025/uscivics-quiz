@@ -69,7 +69,7 @@ export default function ThemeToggle({
     <button
       type="button"
       onClick={toggle}
-      className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-line bg-surface/80 text-ink touch-manipulation transition-colors hover:border-signal/40"
+      className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius)] border border-white/40 bg-white/15 text-white touch-manipulation transition-colors hover:bg-white/25"
       aria-label={label}
       title={label}
       suppressHydrationWarning

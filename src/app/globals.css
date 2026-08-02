@@ -1,48 +1,54 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #0b1c2c;
-  --ink-soft: #1a3348;
-  --mist: #e8eef5;
-  --paper: #f4f7fb;
+  /* DHS / USCIS-inspired palette (not an official .gov site) */
+  --ink: #1b1b1b;
+  --ink-soft: #3d4551;
+  --mist: #e7eef4;
+  --paper: #f5f7fa;
   --surface: #ffffff;
-  --line: color-mix(in srgb, var(--ink) 12%, transparent);
-  --signal: #1a5fd4;
-  --signal-hover: #1449a8;
-  --pass: #0f7a4c;
-  --pass-soft: #e6f5ee;
-  --miss: #b42318;
-  --miss-soft: #fdecea;
-  --amber: #9a6700;
-  --amber-soft: #fff6e0;
-  --muted: color-mix(in srgb, var(--ink) 58%, transparent);
-  --glow: color-mix(in srgb, var(--signal) 28%, transparent);
-  --hero-deep: #0b1c2c;
-  --hero-mid: #12304a;
+  --line: #dfe1e2;
+  --signal: #005288;
+  --signal-hover: #003a5d;
+  --pass: #5e9732;
+  --pass-soft: #e7f2dc;
+  --miss: #c41230;
+  --miss-soft: #fce8eb;
+  --amber: #8a6116;
+  --amber-soft: #faf3d1;
+  --muted: #565c65;
+  --glow: color-mix(in srgb, #0078ae 22%, transparent);
+  --hero-deep: #005288;
+  --hero-mid: #0078ae;
+  --header: #005288;
+  --header-ink: #ffffff;
   --background: var(--paper);
   --foreground: var(--ink);
+  --radius: 0.25rem;
   color-scheme: light;
 }
 
 html.dark {
-  --ink: #e7eef6;
-  --ink-soft: #c2cfdb;
-  --mist: #152536;
-  --paper: #0a1420;
-  --surface: #121f2e;
-  --line: color-mix(in srgb, var(--ink) 14%, transparent);
-  --signal: #6b9aef;
-  --signal-hover: #8bb0f5;
-  --pass: #3dba7e;
-  --pass-soft: #123528;
-  --miss: #e86a62;
-  --miss-soft: #3a1a18;
-  --amber: #e0b34e;
-  --amber-soft: #3a2c12;
-  --muted: color-mix(in srgb, var(--ink) 58%, transparent);
-  --glow: color-mix(in srgb, var(--signal) 20%, transparent);
-  --hero-deep: #071018;
-  --hero-mid: #0f2438;
+  --ink: #f0f0f0;
+  --ink-soft: #c9c9c9;
+  --mist: #1a2330;
+  --paper: #0f1620;
+  --surface: #162033;
+  --line: #2e3a4a;
+  --signal: #73b3e7;
+  --signal-hover: #9dc6ea;
+  --pass: #7bb855;
+  --pass-soft: #1a2e14;
+  --miss: #e85d6f;
+  --miss-soft: #3a1520;
+  --amber: #e5c163;
+  --amber-soft: #3a3014;
+  --muted: #a9aeb4;
+  --glow: color-mix(in srgb, #0078ae 18%, transparent);
+  --hero-deep: #003a5d;
+  --hero-mid: #005288;
+  --header: #003a5d;
+  --header-ink: #ffffff;
   --background: var(--paper);
   --foreground: var(--ink);
   color-scheme: dark;
@@ -156,37 +162,19 @@ textarea {
   position: fixed;
   inset: 0;
   z-index: -2;
-  background:
-    radial-gradient(900px 520px at 12% -8%, var(--glow), transparent 60%),
-    radial-gradient(700px 480px at 92% 8%, color-mix(in srgb, var(--signal) 16%, transparent), transparent 55%),
-    radial-gradient(800px 600px at 70% 100%, color-mix(in srgb, var(--ink) 6%, transparent), transparent 50%),
-    linear-gradient(180deg, color-mix(in srgb, var(--mist) 70%, var(--paper)) 0%, var(--paper) 42%, color-mix(in srgb, var(--mist) 55%, var(--paper)) 100%);
+  background: linear-gradient(180deg, #ffffff 0%, var(--paper) 40%, #eef2f5 100%);
 }
 
 html.dark .gw-shell::before {
-  background:
-    radial-gradient(900px 520px at 12% -8%, var(--glow), transparent 58%),
-    radial-gradient(700px 480px at 92% 8%, color-mix(in srgb, var(--signal) 12%, transparent), transparent 55%),
-    radial-gradient(800px 600px at 70% 100%, color-mix(in srgb, #000 35%, transparent), transparent 50%),
-    linear-gradient(180deg, #0c1826 0%, var(--paper) 45%, #08111a 100%);
+  background: linear-gradient(180deg, #121a26 0%, var(--paper) 50%, #0b111a 100%);
 }
 
 html.dark .gw-shell::after {
-  opacity: 0.18;
+  display: none;
 }
 
 .gw-shell::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  opacity: 0.35;
-  pointer-events: none;
-  background-image:
-    linear-gradient(var(--line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--line) 1px, transparent 1px);
-  background-size: 64px 64px;
-  mask-image: radial-gradient(ellipse at 50% 20%, black 10%, transparent 72%);
+  display: none;
 }
 
 @keyframes gw-rise {
@@ -256,16 +244,15 @@ html.dark .gw-shell::after {
   justify-content: center;
   gap: 0.5rem;
   min-height: 2.75rem;
-  border-radius: 999px;
-  padding: 0.9rem 1.35rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  border-radius: var(--radius);
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0;
   touch-action: manipulation;
   transition:
-    transform 0.2s ease,
-    background-color 0.2s ease,
-    box-shadow 0.2s ease,
-    border-color 0.2s ease;
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
 }
 
 @media (max-width: 639px) {
@@ -275,17 +262,17 @@ html.dark .gw-shell::after {
 }
 
 .gw-btn:hover {
-  transform: translateY(-1px);
+  transform: none;
 }
 
 .gw-btn:active {
-  transform: translateY(0);
+  transform: none;
 }
 
 .gw-btn-primary {
   background: var(--signal);
   color: white;
-  box-shadow: 0 10px 28px color-mix(in srgb, var(--signal) 32%, transparent);
+  box-shadow: none;
 }
 
 .gw-btn-primary:hover {
@@ -293,15 +280,16 @@ html.dark .gw-shell::after {
 }
 
 .gw-btn-secondary {
-  background: color-mix(in srgb, var(--surface) 72%, transparent);
-  color: var(--ink);
-  border: 1px solid var(--line);
-  backdrop-filter: blur(8px);
+  background: var(--surface);
+  color: var(--signal);
+  border: 2px solid var(--signal);
+  backdrop-filter: none;
 }
 
 .gw-btn-secondary:hover {
-  border-color: color-mix(in srgb, var(--signal) 40%, var(--line));
-  background: var(--surface);
+  background: var(--mist);
+  border-color: var(--signal-hover);
+  color: var(--signal-hover);
 }
 
 .gw-btn-ghost {
@@ -311,7 +299,23 @@ html.dark .gw-shell::after {
 }
 
 .gw-btn-ghost:hover {
-  background: color-mix(in srgb, var(--ink) 4%, transparent);
+  background: var(--mist);
+}
+
+.gw-alert {
+  border-left: 0.5rem solid var(--signal);
+  background: var(--mist);
+  padding: 1rem 1.25rem;
+}
+
+html.dark .gw-alert {
+  background: color-mix(in srgb, var(--signal) 12%, var(--surface));
+}
+
+.gw-card {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: var(--radius);
 }
 
 @media (prefers-reduced-motion: reduce) {
