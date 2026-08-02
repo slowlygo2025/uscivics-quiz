@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local question-source downloads (regenerate with scripts/build-questions.mjs)
+/scripts/raw/

@@ -9,7 +9,15 @@
       "WebFetch(domain:www.boundless.com)",
       "WebFetch(domain:civicsquestions.com)",
       "Bash(npm -v)",
-      "Bash(npx create-next-app@latest . --typescript --tailwind --app --eslint --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --eslint --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "WebFetch(domain:www.uscis.gov)",
+      "WebFetch(domain:usahello.org)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\my-br\\\\Desktop\\\\goalwire\\\\src\\\\app\\\\[locale]\\\\eligibility\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\my-br\\\\Desktop\\\\goalwire\\\\src\\\\app\\\\[locale]\\\\practice\\\\[version]\")",
+      "Bash(npm run *)",
+      "Bash(mv src/middleware.ts src/proxy.ts)",
+      "Bash(sed -i 's/export function middleware/export function proxy/' src/proxy.ts)",
+      "Bash(wmic process *)"
     ]
   }
 }
