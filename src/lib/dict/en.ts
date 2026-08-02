@@ -5,7 +5,7 @@ export const en = {
   siteName: "USCivics Quiz",
   tagline: "Free US citizenship civics test practice — 2008 & 2025 USCIS questions.",
   heroSupport:
-    "Find your test version, then study with flashcards, smart review, oral practice, and a real interview simulation.",
+    "Study with flashcards, smart review, oral practice, and a real interview simulation.",
   startEligibility: "Find my test version",
   practiceHeading: "Or jump straight into practice",
   practice2008: "2008 version",

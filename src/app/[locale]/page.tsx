@@ -25,8 +25,6 @@ export default async function HomePage({
 
   return (
     <div className="flex flex-col">
-      <TestVersionNotice dict={dict} locale={locale} />
-
       <section
         className="relative min-h-[min(58dvh,640px)] overflow-hidden border border-line text-white sm:min-h-[min(64dvh,680px)]"
         style={{ background: "var(--hero-deep)" }}
@@ -65,7 +63,7 @@ export default async function HomePage({
               {dict.heroSupport}
             </p>
           </div>
-          <div className="gw-rise gw-rise-delay-2 flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:flex-wrap sm:items-center">
+          <div className="gw-rise gw-rise-delay-2">
             <Link
               href={`/${locale}/eligibility`}
               className="gw-btn gw-btn-block-sm bg-white font-bold text-[var(--hero-deep)] hover:bg-white/90"
@@ -73,18 +71,16 @@ export default async function HomePage({
               {dict.startEligibility}
               <span aria-hidden>→</span>
             </Link>
-            <Link
-              href={`/${locale}/learn`}
-              className="gw-btn gw-btn-block-sm border-2 border-white bg-transparent font-bold text-white hover:bg-white/10"
-            >
-              {dict.navLearn}
-            </Link>
           </div>
           <p className="gw-rise gw-rise-delay-3 text-sm text-white/70">
             {dict.freeBadge}
           </p>
         </div>
       </section>
+
+      <div className="mt-10 sm:mt-12">
+        <TestVersionNotice dict={dict} />
+      </div>
 
       <section className="mt-14 sm:mt-16">
         <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-ink sm:text-3xl">

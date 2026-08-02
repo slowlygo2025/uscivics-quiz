@@ -7,7 +7,7 @@ export const es: Dictionary = {
   tagline:
     "Práctica gratis del examen cívico de ciudadanía de EE.UU. — preguntas USCIS 2008 y 2025.",
   heroSupport:
-    "Descubrí qué versión te toca y estudiá con flashcards, repaso inteligente, práctica oral y simulación real.",
+    "Estudiá con flashcards, repaso inteligente, práctica oral y simulación real de entrevista.",
   startEligibility: "Descubrir mi versión",
   practiceHeading: "O entrá directo a practicar",
   practice2008: "Versión 2008",

@@ -1,16 +1,9 @@
-import Link from "next/link";
 import type { Dictionary } from "@/lib/dictionary";
 
 /** Mirrors the USCIS “Check for Test Updates” filing-date notice (no outbound links). */
-export default function TestVersionNotice({
-  dict,
-  locale,
-}: {
-  dict: Dictionary;
-  locale: string;
-}) {
+export default function TestVersionNotice({ dict }: { dict: Dictionary }) {
   return (
-    <section className="gw-rise mb-8 border border-line bg-surface">
+    <section className="gw-rise border border-line bg-surface">
       <div className="border-b border-line px-4 py-3 sm:px-5">
         <h2 className="font-[family-name:var(--font-display)] text-xl font-bold tracking-tight text-ink sm:text-2xl">
           {dict.uscisUpdatesPageTitle}
@@ -69,16 +62,6 @@ export default function TestVersionNotice({
               {dict.uscis2025Body}
             </p>
           </div>
-        </div>
-
-        <div className="mt-6">
-          <Link
-            href={`/${locale}/eligibility`}
-            className="gw-btn gw-btn-block-sm bg-[var(--header)] font-bold text-[var(--header-ink)] hover:bg-[var(--signal-hover)]"
-          >
-            {dict.startEligibility}
-            <span aria-hidden>→</span>
-          </Link>
         </div>
       </div>
     </section>
