@@ -1,24 +1,47 @@
 import { NextRequest, NextResponse } from "next/server";
+import {
+  DEFAULT_LOCALE,
+  LOCALES,
+  LOCALE_COOKIE,
+  isLocale,
+  localeCookieOptions,
+  resolvePreferredLocale,
+} from "@/lib/locales";
 
-const LOCALES = ["en", "es"];
-const DEFAULT_LOCALE = "en";
+function pathnameLocale(pathname: string): string | null {
+  const hit = LOCALES.find(
+    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
+  );
+  return hit ?? null;
+}
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const current = pathnameLocale(pathname);
 
-  const hasLocale = LOCALES.some(
-    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
+  // Explicit locale in URL → keep it and remember preference
+  if (current && isLocale(current)) {
+    const response = NextResponse.next();
+    const saved = request.cookies.get(LOCALE_COOKIE)?.value;
+    if (saved !== current) {
+      response.cookies.set(LOCALE_COOKIE, current, localeCookieOptions());
+    }
+    return response;
+  }
+
+  // No locale prefix → cookie, then browser Accept-Language, then English
+  const preferred = resolvePreferredLocale(
+    request.cookies.get(LOCALE_COOKIE)?.value,
+    request.headers.get("accept-language") ?? ""
   );
-  if (hasLocale) return NextResponse.next();
 
-  const acceptLanguage = request.headers.get("accept-language") ?? "";
-  const preferred = acceptLanguage.toLowerCase().includes("es")
-    ? "es"
-    : DEFAULT_LOCALE;
-
+  const locale = preferred || DEFAULT_LOCALE;
   const url = request.nextUrl.clone();
-  url.pathname = `/${preferred}${pathname}`;
-  return NextResponse.redirect(url);
+  url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
+
+  const response = NextResponse.redirect(url);
+  response.cookies.set(LOCALE_COOKIE, locale, localeCookieOptions());
+  return response;
 }
 
 export const config = {

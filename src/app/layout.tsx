@@ -1,24 +1,51 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Fraunces, Manrope } from "next/font/google";
+import FirebaseAnalytics from "@/components/FirebaseAnalytics";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const display = Fraunces({
+  variable: "--font-display",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const body = Manrope({
+  variable: "--font-body",
   subsets: ["latin"],
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f4f7fb" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b1c2c" },
+  ],
+};
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://uscivics-quiz.com"),
   title: {
-    default: "US Citizenship Test Practice",
-    template: "%s | US Citizenship Test Practice",
+    default:
+      "USCivics Quiz — Free US Citizenship Civics Test Practice (2008 & 2025)",
+    template: "%s | USCivics Quiz",
   },
   description:
-    "Free practice for the USCIS Naturalization Civics Test (2008 and 2025 versions) — no sign-up required.",
+    "Free USCIS naturalization civics test practice. Official 100 and 128 questions in multiple languages, no sign-up. Prep for the citizenship interview.",
+  keywords: [
+    "US citizenship test",
+    "US civics quiz",
+    "civics test practice",
+    "USCIS civics questions",
+    "naturalization test",
+    "128 civics questions",
+    "2008 civics test",
+    "2025 civics test",
+    "examen de ciudadanía",
+    "preguntas de civismo",
+    "اختبار المواطنة",
+    "시민권 시험",
+  ],
 };
 
 export default function RootLayout({
@@ -27,10 +54,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html className={`${display.variable} ${body.variable} h-full antialiased`}>
+      <body className="min-h-dvh font-sans text-ink">
+        <FirebaseAnalytics />
+        {children}
+      </body>
     </html>
   );
 }

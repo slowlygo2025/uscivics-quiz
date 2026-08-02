@@ -1,4 +1,15 @@
-export type Locale = "en" | "es";
+export type Locale =
+  | "en"
+  | "es"
+  | "zh"
+  | "vi"
+  | "tl"
+  | "ar"
+  | "ko"
+  | "hi"
+  | "ru"
+  | "ht"
+  | "fr";
 
 export type TestVersion = "2008" | "2025";
 

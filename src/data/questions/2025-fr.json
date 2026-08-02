@@ -1,0 +1,1327 @@
+[
+  {
+    "id": 1,
+    "category": "Gouvernement américain",
+    "question": "Quel est le régime politique des États-Unis?",
+    "answers": [
+      "Une République",
+      "Une République fédérale constitutionnelle",
+      "Une démocratie représentative"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Gouvernement américain",
+    "question": "Quelle est la loi suprême du pays?",
+    "answers": [
+      "La Constitution"
+    ],
+    "senior": true
+  },
+  {
+    "id": 3,
+    "category": "Gouvernement américain",
+    "question": "Nommez l'un des rôles de la Constitution américaine.",
+    "answers": [
+      "Elle forme le gouvernement",
+      "Elle définit les pouvoirs du gouvernement",
+      "Elle définit les instances du gouvernement",
+      "Elle protège les droits du peuple"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Gouvernement américain",
+    "question": "La Constitution américaine commence par les mots suivants: “Nous, le peuple.” Que signifie “Nous, le peuple”?",
+    "answers": [
+      "Gouvernement autonome",
+      "Souveraineté populaire",
+      "Consentement des gouvernés",
+      "Le peuple devrait se gouverner lui-même",
+      "(Exemple de) contrat social"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Gouvernement américain",
+    "question": "Comment sont effectués les changements dans la Constitution?",
+    "answers": [
+      "Les amendements",
+      "Le processus d’amendement"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Gouvernement américain",
+    "question": "Que protège la Déclaration des droits américaine?",
+    "answers": [
+      "Les droits (fondamentaux) des Américains",
+      "Les droits (fondamentaux) des personnes vivant sur le sol américain"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Gouvernement américain",
+    "question": "Combien d'amendements la Constitution contient-elle ?",
+    "answers": [
+      "Vingt-sept (27)"
+    ],
+    "senior": true
+  },
+  {
+    "id": 8,
+    "category": "Gouvernement américain",
+    "question": "Pourquoi la Déclaration d’Indépendance est-elle importante?",
+    "answers": [
+      "Elle stipule que l’Amérique n’est plus sous le contrôle britannique.",
+      "Elle stipule que tous les citoyens naissent égaux.",
+      "Elle identifie les droits naturels.",
+      "Elle identifie les libertés individuelles"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Gouvernement américain",
+    "question": "Quel document fondateur stipulait que les colonies américaines n'étaient plus sous le contrôle britannique?",
+    "answers": [
+      "La Déclaration d’Indépendance"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Gouvernement américain",
+    "question": "Nommez deux idées importantes de la Déclaration d’Indépendance et de la Constitution américaine.",
+    "answers": [
+      "Egalité",
+      "Liberté",
+      "Contrat social",
+      "Droits naturels",
+      "Gouvernement limité",
+      "Gouvernement autonome"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Gouvernement américain",
+    "question": "Dans quel document fondateur retrouvons-nous les mots suivants: “La vie, la liberté et la recherche du bonheur”?",
+    "answers": [
+      "La Déclaration d’Indépendance"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Gouvernement américain",
+    "question": "Quel est le système économique des États-Unis ?",
+    "answers": [
+      "Capitalisme",
+      "Économie de marché"
+    ],
+    "senior": true
+  },
+  {
+    "id": 13,
+    "category": "Gouvernement américain",
+    "question": "Qu’est-ce que l’état de droit?",
+    "answers": [
+      "Tout le monde doit respecter la loi.",
+      "Les dirigeants doivent obéir à la loi.",
+      "Le gouvernement doit obéir à la loi.",
+      "Nul n’est au-dessus des lois."
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Gouvernement américain",
+    "question": "Un certain nombre de documents ont influencé la Constitution américaine. Nommez-en une.",
+    "answers": [
+      "La Déclaration d’Indépendance",
+      "Les articles de la Confédération",
+      "Les Papiers Fédéralistes",
+      "Les Papiers Anti-fédéralistes",
+      "La Déclaration des droits de l’Etat de Virginie",
+      "Les Ordres fondamentaux du Connecticut",
+      "Le Mayflower Compact",
+      "la Constitution de la Nation Iroquoise"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Gouvernement américain",
+    "question": "Le gouvernement a trois pouvoirs. Pourquoi?",
+    "answers": [
+      "Pour qu’une partie ne puisse pas détenir trop de pouvoir",
+      "L’équilibre des pouvoirs",
+      "La séparation des pouvoirs"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Gouvernement américain",
+    "question": "Nommez les trois pouvoirs du gouvernement.",
+    "answers": [
+      "Le pouvoir législatif, le pouvoir exécutif et le pouvoir judiciaire",
+      "Le Congrès, le président et les tribunaux"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Gouvernement américain",
+    "question": "Quel pouvoir est détenu par le président des Etats-Unis?",
+    "answers": [
+      "Le pouvoir exécutif"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Gouvernement américain",
+    "question": "Quelle branche du gouvernement fédéral rédige les lois?",
+    "answers": [
+      "Le Congrès",
+      "La législature (américaine ou nationale)",
+      "Le pouvoir législatif"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Gouvernement américain",
+    "question": "Quelles sont les deux parties qui constituent le Congrès américain?",
+    "answers": [
+      "Le Sénat et la Chambre (des Représentants)"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Gouvernement américain",
+    "question": "Nommez un pouvoir du Congrès américain.",
+    "answers": [
+      "Rédige les lois",
+      "Déclare la guerre",
+      "Établit le budget fédéral"
+    ],
+    "senior": true
+  },
+  {
+    "id": 21,
+    "category": "Gouvernement américain",
+    "question": "Combien y a-t-il de sénateurs américains?",
+    "answers": [
+      "Cent (100)"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Gouvernement américain",
+    "question": "Combien de temps dure le mandat d'un sénateur américain?",
+    "answers": [
+      "Six (6) ans"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Gouvernement américain",
+    "question": "Qui est actuellement l’un des sénateurs américains de votre État?",
+    "answers": [
+      "Les réponses varieront. [Les résidents du district fédéral de Columbia et les résidents des États-Unis doivent répondre que D.C. (ou le territoire où réside le demandeur) n’a pas de sénateur américain.]"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Gouvernement américain",
+    "question": "Combien y a-t-il de membres à la Chambre des Représentants?",
+    "answers": [
+      "Quatre cent trente-cinq (435)"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Gouvernement américain",
+    "question": "Combien de temps dure le mandat d'un membre à la Chambre des Représentants?",
+    "answers": [
+      "Deux (2) ans"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Gouvernement américain",
+    "question": "Pourquoi est-ce que les membres de la Chambre des Représentants ont un mandat plus court que celui des sénateurs ?",
+    "answers": [
+      "Pour pouvoir suivre l’opinion publique au plus près"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Gouvernement américain",
+    "question": "Combien y a-t-il de sénateurs dans chaque État?",
+    "answers": [
+      "Deux (2)"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "Gouvernement américain",
+    "question": "Pourquoi chaque État peut envoyer deux sénateurs?",
+    "answers": [
+      "Représentation équitable (pour les petits États)",
+      "le Great Compromise (Compromis du Connecticut)"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "Gouvernement américain",
+    "question": "Nommez votre représentant américain.",
+    "answers": [
+      "Les réponses varieront. [Les résidents des territoires avec des délégués non votants ou des commissaires résidents peuvent indiquer le nom de ce délégué ou de ce commissaire. Toute déclaration selon laquelle le territoire a des représentants non (votants) est également acceptable.]"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "Gouvernement américain",
+    "question": "Comment s'appelle l'actuel Président de la Chambre des Représentants?",
+    "answers": [
+      "Visitez uscis.gov/citizenship/testupdates pour le nom du Président de la Chambre des représentants."
+    ],
+    "senior": true
+  },
+  {
+    "id": 31,
+    "category": "Gouvernement américain",
+    "question": "Qui est représenté par un sénateur américain?",
+    "answers": [
+      "Les citoyens de son État",
+      "Les habitants de son État"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Gouvernement américain",
+    "question": "Qui élit les sénateurs américains?",
+    "answers": [
+      "Les citoyens de leur État"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Gouvernement américain",
+    "question": "Qui est représenté par un membre de la Chambre des Représentants?",
+    "answers": [
+      "Les citoyens de son district (congressionnel)",
+      "Les citoyens de son district",
+      "Les habitants de son district (congressionel)",
+      "Les habitants de son district"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Gouvernement américain",
+    "question": "Qui élit les membres de la Chambre des Représentants?",
+    "answers": [
+      "Les citoyens de chaque district (congressionnel)"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Gouvernement américain",
+    "question": "Pourquoi certains États ont-ils plus de représentants que d'autres?",
+    "answers": [
+      "(à cause de) la population de l’État",
+      "(parce qu') ils ont plus d'habitants",
+      "(parce que) certains États ont plus d'habitants"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Gouvernement américain",
+    "question": "Pour combien d'années élisons-nous un Président ?",
+    "answers": [
+      "Quatre (4)"
+    ],
+    "senior": true
+  },
+  {
+    "id": 37,
+    "category": "Gouvernement américain",
+    "question": "Le Président des Etats-Unis est autorisé à n'effectuer que deux mandats. Pourquoi?",
+    "answers": [
+      "(À cause du) 22ème Amendement",
+      "Pour empêcher le président d’avoir trop de pouvoir"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Gouvernement américain",
+    "question": "Comment s'appelle l'actuel Président des États-Unis ?",
+    "answers": [
+      "Visitez uscis.gov/citizenship/testupdates pour le nom du président des États-Unis"
+    ],
+    "senior": true
+  },
+  {
+    "id": 39,
+    "category": "Gouvernement américain",
+    "question": "Comment s'appelle le Vice-président des États-Unis?",
+    "answers": [
+      "Visitez uscis.gov/citizenship/testupdates pour le nom du vice-président des États-Unis."
+    ],
+    "senior": true
+  },
+  {
+    "id": 40,
+    "category": "Gouvernement américain",
+    "question": "Si le Président ne peut plus exercer sa fonction, qui devient Président?",
+    "answers": [
+      "le Vice-président"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "Gouvernement américain",
+    "question": "Nommez un pouvoir détenu par le président.",
+    "answers": [
+      "Promulgue des projets de lois",
+      "Exerce son droit de veto sur des projets de lois",
+      "Fait respecter les lois",
+      "Commandant en chef (de l’armée)",
+      "Chef de la diplomatie",
+      "Nommer les juges fédéraux"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Gouvernement américain",
+    "question": "Qui est le Commandant en chef de l'armée?",
+    "answers": [
+      "Le Président"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Gouvernement américain",
+    "question": "Qui signe les projets de loi, pour qu'ils deviennent des lois?",
+    "answers": [
+      "Le Président"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Gouvernement américain",
+    "question": "Qui met son veto aux lois?",
+    "answers": [
+      "Le Président"
+    ],
+    "senior": true
+  },
+  {
+    "id": 45,
+    "category": "Gouvernement américain",
+    "question": "Qui nomme les juges fédéraux?",
+    "answers": [
+      "Le Président (des États-Unis)"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "Gouvernement américain",
+    "question": "L’exécutif a plusieurs composantes. Nommez-en une.",
+    "answers": [
+      "Le Président (des États-Unis)",
+      "Le Cabinet",
+      "Les ministères et organismes fédéraux"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Gouvernement américain",
+    "question": "Que fait le Cabinet du Président ?",
+    "answers": [
+      "Conseille le Président"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Gouvernement américain",
+    "question": "Quels sont deux postes de niveau ministériel ?",
+    "answers": [
+      "Secrétaire à l'Agriculture",
+      "Secrétaire au Commerce",
+      "Secrétaire à la Défense",
+      "Secrétaire à l'Éducation",
+      "Secrétaire à l'Énergie",
+      "Secrétaire à la Santé et aux services sociaux",
+      "Secrétaire à la Sécurité intérieure",
+      "Secrétaire au Logement et au développement urbain",
+      "Secrétaire à l'Intérieur",
+      "Secrétaire au Travail",
+      "Secrétaire d'État",
+      "Secrétaire aux Transports",
+      "Secrétaire du Trésor",
+      "Secrétaire aux Affaires des anciens combattants",
+      "Procureur général",
+      "Vice-président",
+      "Administrateur de l'Agence de protection de l'environnement",
+      "Administrateur de la Small Business Administration",
+      "Directeur de la Central Intelligence Agency",
+      "Directeur du Bureau de la gestion et du budget",
+      "Directeur du Renseignement national",
+      "Représentant du Commerce des États-Unis"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "Gouvernement américain",
+    "question": "Pourquoi le Collège électoral est-il important?",
+    "answers": [
+      "Il décide qui est élu président.",
+      "Il permet un compromis entre l’élection du président par les citoyens et les choix du Congrès."
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Gouvernement américain",
+    "question": "Quelle est la composante du pouvoir judiciaire?",
+    "answers": [
+      "La Cour suprême",
+      "Le tribunal fédéral"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Gouvernement américain",
+    "question": "Quel est le rôle du pouvoir judiciaire?",
+    "answers": [
+      "Révise les lois",
+      "Explique les lois",
+      "Règle les différends (désaccords) À propos de la loi",
+      "Décide si une loi va à l'encontre de la Constitution"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Gouvernement américain",
+    "question": "Quelle est la plus haute instance judiciaire aux États-Unis ?",
+    "answers": [
+      "la Cour suprême"
+    ],
+    "senior": true
+  },
+  {
+    "id": 53,
+    "category": "Gouvernement américain",
+    "question": "Combien de sièges y a-t-il à la Cour suprême?",
+    "answers": [
+      "Neuf (9)"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Gouvernement américain",
+    "question": "En général, combien faut-il de juges à la Cour suprême pour statuer sur une affaire?",
+    "answers": [
+      "Cinq (5)"
+    ]
+  },
+  {
+    "id": 55,
+    "category": "Gouvernement américain",
+    "question": "Combien de temps dure le mandat des juges à la Cour suprême?",
+    "answers": [
+      "(À) vie",
+      "Nomination à vie",
+      "(Jusqu’à) la retraite"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "Gouvernement américain",
+    "question": "Supreme Court justices serve for life. Why?",
+    "answers": [
+      "To be independent (of politics)",
+      "To limit outside (political) influence"
+    ]
+  },
+  {
+    "id": 57,
+    "category": "Gouvernement américain",
+    "question": "Qui est le juge en chef des États-Unis, à l'heure actuelle?",
+    "answers": [
+      "Visitez uscis.gov/citizenship/testupdates pour le nom du juge en chef des États-Unis."
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Gouvernement américain",
+    "question": "Nommez un pouvoir détenu uniquement par le gouvernement fédéral.",
+    "answers": [
+      "Imprime de l'argent",
+      "Frappe les pièces",
+      "Déclare la guerre",
+      "Crée une armée",
+      "Conclut des traités",
+      "Établit la politique étrangère"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Gouvernement américain",
+    "question": "Nommez un pouvoir détenu uniquement par les États.",
+    "answers": [
+      "Assurer la scolarisation et l'éducation",
+      "Assurer la protection (police)",
+      "Assurer la sécurité (services d'incendie)",
+      "Accorder un permis de conduire",
+      "Approuver le zonage et l'utilisation des terres"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Gouvernement américain",
+    "question": "Quel est l'objectif du 10ème amendement?",
+    "answers": [
+      "(Il précise que) les pouvoirs non octroyés au gouvernement fédéral sont réservés aux États ou au peuple."
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Gouvernement américain",
+    "question": "Qui est le gouverneur de votre État, à l'heure actuelle?",
+    "answers": [
+      "Les réponses varieront. [Les résidents du District de Columbia devraient répondre que le District n’a pas de gouverneur.]"
+    ],
+    "senior": true
+  },
+  {
+    "id": 62,
+    "category": "Gouvernement américain",
+    "question": "Quelle est la capitale de votre État?",
+    "answers": [
+      "Les réponses varieront. [Les habitants du district de Columbia devraient répondre que le District de Columbia n’est pas un État, et n’a pas de capitale. Les résidents des territoires américains doivent nommer la capitale du territoire.]"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Gouvernement américain",
+    "question": "La Constitution contient quatre amendements concernant les personnes pouvant voter. Décrivez-en un d'entre eux.",
+    "answers": [
+      "Les citoyens âgés de dix-huit (18) ans et plus (peuvent voter).",
+      "Vous ne devez pas payer (de taxe de vote) pour voter.",
+      "Tout citoyen peut voter. (Les femmes et les hommes peuvent voter.)",
+      "Un citoyen masculin d’une quelconque appartenance ethnique (peut voter)."
+    ]
+  },
+  {
+    "id": 64,
+    "category": "Gouvernement américain",
+    "question": "Qui peut voter aux élections fédérales, se présenter aux élections du Bureau fédéral et siéger en tant que juré aux États-Unis?",
+    "answers": [
+      "Les citoyens",
+      "Les citoyens des États-Unis",
+      "Les citoyens des USA"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Gouvernement américain",
+    "question": "Quels sont les Trois droits dont disposent toutes les personnes résidant aux États-Unis?",
+    "answers": [
+      "Liberté d’expression",
+      "Liberté de parole",
+      "Liberté de réunion",
+      "Liberté de présenter des demandes au gouvernement",
+      "Liberté de religion",
+      "Droit au port d’armes"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Gouvernement américain",
+    "question": "À qui promettons-nous loyauté lorsque nous faisons le Serment d’allégeance au drapeau des États-Unis?",
+    "answers": [
+      "aux États-Unis",
+      "au drapeau"
+    ],
+    "senior": true
+  },
+  {
+    "id": 67,
+    "category": "Gouvernement américain",
+    "question": "Nommez deux promesses que font les nouveaux citoyens au Serment d’allégeance.",
+    "answers": [
+      "Abandonner toute loyauté à l’égard d’autres pays",
+      "Défendre la (des États-Unis)",
+      "Obéir aux lois des États-Unis",
+      "Servir au sein de l’armée des États-Unis (si nécessaire)",
+      "Servir (effectuer d’importants travaux pour) la nation (si nécessaire)",
+      "Faire preuve de loyauté à l’égard des États-Unis"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Gouvernement américain",
+    "question": "Comment peut-on devenir citoyen américain?",
+    "answers": [
+      "Être né aux États-Unis, dans les conditions fixées par le 14e amendement",
+      "Naturalisation",
+      "Acquérir la citoyenneté (selon les conditions fixées par le Congrès)"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Gouvernement américain",
+    "question": "Quels sont les deux exemples de participation citoyenne aux États-Unis?",
+    "answers": [
+      "Voter",
+      "Se présenter aux élections",
+      "Rejoindre un parti politique",
+      "Soutenir une campagne",
+      "Rejoindre un groupe civique",
+      "Rejoindre un groupe communautaire",
+      "Donner son opinion à un élu (à propos d’un enjeu)",
+      "Contacter des élus",
+      "Soutenir ou s’opposer à un enjeu ou une politique",
+      "Ecrire à un journal"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Gouvernement américain",
+    "question": "De quelle façon les Américains peuvent-ils servir leur pays?",
+    "answers": [
+      "En votant",
+      "En payant des taxes",
+      "En obéissant à la loi",
+      "En rejoignant l’armée",
+      "En se présentant aux élections",
+      "En travaillant pour l’Etat, pour le gouvernement local ou fédéral"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "Gouvernement américain",
+    "question": "Pourquoi est-il important de payer des impôts fédéraux ?",
+    "answers": [
+      "Exigé par la loi",
+      "Tous les citoyens paient pour financer le gouvernement fédéral",
+      "Exigé par les (États-Unis) Constitution (16ème amendement)",
+      "Devoir civique"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Gouvernement américain",
+    "question": "It is important for all men aged 18 through 25 to register for the Selective Service. Name one reason why.",
+    "answers": [
+      "Required by law",
+      "Civic duty",
+      "Makes the draft fair, if needed"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Gouvernement américain",
+    "question": "Les colons sont arrivés aux Etats-Unis pour plusieurs raisons. Nommez-en une.",
+    "answers": [
+      "La liberté",
+      "La liberté politique",
+      "La liberté de culte",
+      "Les opportunités économiques",
+      "Pour échapper aux persécutions"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Gouvernement américain",
+    "question": "Qui vivaient en Amérique avant l’arrivée des Européens?",
+    "answers": [
+      "Indiens d'Amérique",
+      "Amérindiens"
+    ],
+    "senior": true
+  },
+  {
+    "id": 75,
+    "category": "Gouvernement américain",
+    "question": "Quel groupe de personnes ont été emmenées en Amérique pour y être vendues en tant qu’esclaves?",
+    "answers": [
+      "Africains",
+      "Personnes provenant d’Afrique"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "Histoire américaine",
+    "question": "Quelle guerre ont combattu les Américains pour obtenir leur indépendance face aux Britanniques?",
+    "answers": [
+      "La Révolution américaine",
+      "La Guerre d’Indépendance (américaine)",
+      "La guerre pour l’Indépendance américaine"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Histoire américaine",
+    "question": "Donnez une raison pour laquelle les Américains ont déclaré leur indépendance face aux Britanniques.",
+    "answers": [
+      "Taxes très élevées",
+      "Taxation sans représentation",
+      "Les soldats britanniques restaient dans les maisons des Américains (embarquement, casernement)",
+      "Ils n’avaient pas de gouvernement autonome",
+      "Le Massacre de Boston",
+      "La Boston Tea Party (Tea Act)",
+      "Le Stamp Act",
+      "Le Sugar Act",
+      "Les Townshend Acts",
+      "Les Actes Intolérables"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Histoire américaine",
+    "question": "Qui a rédigé la Déclaration d’Indépendance?",
+    "answers": [
+      "(Thomas) Jefferson"
+    ],
+    "senior": true
+  },
+  {
+    "id": 79,
+    "category": "Histoire américaine",
+    "question": "Quand la Déclaration d’Indépendance a-t-elle été adoptée?",
+    "answers": [
+      "4 juillet 1776"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Histoire américaine",
+    "question": "La Révolution américaine a connu de nombreux événements importants. Nommez-en un.",
+    "answers": [
+      "(Bataille de) Bunker Hill",
+      "Déclaration d’indépendance",
+      "Washington traversant le Delaware (bataille de Trenton)",
+      "(bataille de) Saratoga",
+      "Valley Forge (campement)",
+      "(bataille de) Yorktown (capitulation britannique à Yorktown)"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "Histoire américaine",
+    "question": "On comptait 13 États à l’origine. Citez-en cinq.",
+    "answers": [
+      "New Hampshire",
+      "Massachusetts",
+      "Rhode Island",
+      "Connecticut",
+      "New York",
+      "New Jersey",
+      "Pennsylvanie",
+      "Delaware",
+      "Maryland",
+      "Virginie",
+      "Caroline du Nord",
+      "Caroline du Sud",
+      "Géorgie"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "Histoire américaine",
+    "question": "Quel document fondateur a été rédigé en 1787?",
+    "answers": [
+      "Constitution (des États-Unis)"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "Histoire américaine",
+    "question": "Le Fédéraliste (Federalist Papers) a soutenu le passage à la Convention des États-Unis. Citez un des auteurs.",
+    "answers": [
+      "(James) Madison",
+      "(Alexander) Hamilton",
+      "(John) Jay",
+      "Publius"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Histoire américaine",
+    "question": "Pourquoi les Papiers fédéralistes étaient-ils importants?",
+    "answers": [
+      "Ils ont aidé les gens à comprendre Constitution (des États-Unis).",
+      "Ils ont aidé à l'adoption de la Constitution (des États-Unis)."
+    ]
+  },
+  {
+    "id": 85,
+    "category": "Histoire américaine",
+    "question": "Benjamin Franklin is famous for many things. Name one.",
+    "answers": [
+      "Founded the first free public libraries",
+      "First Postmaster General of the United States",
+      "Helped write the Declaration of Independence",
+      "Inventor",
+      "U.S. diplomat"
+    ]
+  },
+  {
+    "id": 86,
+    "category": "Histoire américaine",
+    "question": "George Washington is famous for many things. Name one.",
+    "answers": [
+      "“Father of Our Country”",
+      "First president of the United States",
+      "General of the Continental Army",
+      "President of the Constitutional Convention"
+    ],
+    "senior": true
+  },
+  {
+    "id": 87,
+    "category": "Histoire américaine",
+    "question": "Thomas Jefferson is famous for many things. Name one.",
+    "answers": [
+      "Writer of the Declaration of Independence",
+      "Third president of the United States",
+      "Doubled the size of the United States (Louisiana Purchase)",
+      "First Secretary of State",
+      "Founded the University of Virginia",
+      "Writer of the Virginia Statute on Religious Freedom"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "Histoire américaine",
+    "question": "James Madison is famous for many things. Name one.",
+    "answers": [
+      "“Father of the Constitution”",
+      "Fourth president of the United States",
+      "President during the War of 1812",
+      "One of the writers of the Federalist Papers"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "Histoire américaine",
+    "question": "Alexander Hamilton is famous for many things. Name one.",
+    "answers": [
+      "First Secretary of the Treasury",
+      "One of the writers of the Federalist Papers",
+      "Helped establish the First Bank of the United States",
+      "Aide to General George Washington",
+      "Member of the Continental Congress"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Histoire américaine",
+    "question": "Quel est le territoire que les États-Unis ont acquis auprès de la France en 1803?",
+    "answers": [
+      "Territoire de la Louisiane",
+      "Louisiane"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Histoire américaine",
+    "question": "Citez une guerre menée par les États-Unis au cours du XIXème siècle.",
+    "answers": [
+      "Guerre de 1812",
+      "Guerre américano-mexicaine",
+      "Guerre de Sécession",
+      "Guerre hispano-américaine"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Histoire américaine",
+    "question": "Citez le nom de la guerre qui a éclaté aux États-Unis entre le Nord et le Sud.",
+    "answers": [
+      "Guerre de Sécession"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Histoire américaine",
+    "question": "La guerre civile a connu de nombreux événements importants. Nommez-en un.",
+    "answers": [
+      "(Bataille de) Fort Sumter",
+      "Proclamation d’émancipation",
+      "(bataille de) Vicksburg",
+      "(bataille de) Gettysburg",
+      "Marche de Sherman",
+      "(reddition à) Appomattox",
+      "(bataille de) Antietam/Sharpsburg",
+      "Lincoln a été assassiné."
+    ]
+  },
+  {
+    "id": 94,
+    "category": "Histoire américaine",
+    "question": "Abraham Lincoln is famous for many things. Name one.",
+    "answers": [
+      "Freed the slaves (Emancipation Proclamation)",
+      "Saved (or preserved) the Union",
+      "Led the United States during the Civil War",
+      "16th president of the United States",
+      "Delivered the Gettysburg Address"
+    ],
+    "senior": true
+  },
+  {
+    "id": 95,
+    "category": "Histoire américaine",
+    "question": "Qu’est-ce que la Proclamation d’émancipation a-t-elle permis?",
+    "answers": [
+      "Libération des esclaves",
+      "Libération des esclaves au sein de la Confédération",
+      "Libération des esclaves au sein des États confédérés",
+      "Libération des esclaves au sein de la plupart des États du Sud"
+    ]
+  },
+  {
+    "id": 96,
+    "category": "Histoire américaine",
+    "question": "Quelle guerre américaine a mis fin à l’esclavage?",
+    "answers": [
+      "La guerre civile"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "Histoire américaine",
+    "question": "Quel amendement stipule que toutes les personnes nées ou naturalisées aux États-Unis, et soumises à leur juridiction, sont des citoyens des États-Unis ?",
+    "answers": [
+      "14ème amendement"
+    ]
+  },
+  {
+    "id": 98,
+    "category": "Histoire américaine",
+    "question": "Quand est-ce que tous les hommes ont obtenu le droit de vote?",
+    "answers": [
+      "Après la guerre civile",
+      "Pendant la reconstruction",
+      "(avec le) 15e amendement",
+      "1870"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Histoire américaine",
+    "question": "Nommez une dirigeante du mouvement des droits des femmes dans les années 1800.",
+    "answers": [
+      "Susan B. Anthony",
+      "Elizabeth Cady Stanton",
+      "Sojourner Truth",
+      "Harriet Tubman",
+      "Lucretia Mott",
+      "Lucy Stone"
+    ]
+  },
+  {
+    "id": 100,
+    "category": "Histoire américaine",
+    "question": "Citez une guerre à laquelle les États-Unis ont participé au XXème siècle",
+    "answers": [
+      "Première Guerre Mondiale",
+      "Seconde Guerre Mondiale",
+      "Guerre de Corée",
+      "Guerre du Vietnam",
+      "Guerre du Golfe (persique)"
+    ]
+  },
+  {
+    "id": 101,
+    "category": "Histoire américaine",
+    "question": "Pourquoi les États-Unis ont-ils joint la Première Guerre mondiale?",
+    "answers": [
+      "Parce que l’Allemagne a attaqué des navires américains (civils)",
+      "Pour soutenir les puissances alliées (Angleterre, France, Italie et Russie)",
+      "Pour s’opposer aux puissances centrales (Allemagne, Autriche-Hongrie, Empire ottoman et Bulgarie)"
+    ]
+  },
+  {
+    "id": 102,
+    "category": "Histoire américaine",
+    "question": "Quand est-ce que toutes les femmes ont obtenu le droit de vote ?",
+    "answers": [
+      "1920",
+      "Après la Première Guerre mondiale",
+      "(avec le) 19e amendement"
+    ]
+  },
+  {
+    "id": 103,
+    "category": "Histoire américaine",
+    "question": "Qu’est-ce que la Grande Dépression?",
+    "answers": [
+      "La plus longue récession économique de l’histoire moderne"
+    ]
+  },
+  {
+    "id": 104,
+    "category": "Histoire américaine",
+    "question": "Quand la Grande Dépression a-t-elle commencé ?",
+    "answers": [
+      "Le grand Crash (1929)",
+      "Crise boursière de 1929"
+    ]
+  },
+  {
+    "id": 105,
+    "category": "Histoire américaine",
+    "question": "Qui était Président au cours de la Grande Dépression et de la Seconde Guerre Mondiale?",
+    "answers": [
+      "(Franklin) Roosevelt"
+    ]
+  },
+  {
+    "id": 106,
+    "category": "Histoire américaine",
+    "question": "Pourquoi les États-Unis ont-ils joint la Seconde Guerre mondiale?",
+    "answers": [
+      "(Bombardement de) Pearl Harbor",
+      "Les Japonais ont attaqué Pearl Harbor",
+      "Pour soutenir les puissances alliées (Angleterre, France et Russie)",
+      "Pour s’opposer aux puissances de l’Axe (Allemagne, Italie et Japon)"
+    ]
+  },
+  {
+    "id": 107,
+    "category": "Histoire américaine",
+    "question": "Dwight Eisenhower is famous for many things. Name one.",
+    "answers": [
+      "General during World War II",
+      "President at the end of (during) the Korean War",
+      "34th president of the United States",
+      "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
+    ]
+  },
+  {
+    "id": 108,
+    "category": "Histoire américaine",
+    "question": "Qui était le principal rival des États-Unis pendant la guerre froide?",
+    "answers": [
+      "Union soviétique",
+      "URSS",
+      "Russie"
+    ]
+  },
+  {
+    "id": 109,
+    "category": "Histoire américaine",
+    "question": "Pendant la guerre froide, quelle était l’une des principales préoccupations des États-Unis?",
+    "answers": [
+      "Communisme",
+      "Guerre nucléaire"
+    ]
+  },
+  {
+    "id": 110,
+    "category": "Histoire américaine",
+    "question": "Pourquoi les États-Unis ont-ils joint la guerre de Corée?",
+    "answers": [
+      "Arrêter la propagation du communisme"
+    ]
+  },
+  {
+    "id": 111,
+    "category": "Histoire américaine",
+    "question": "Pourquoi les États-Unis ont-ils participé à la guerre du Vietnam?",
+    "answers": [
+      "Arrêter la propagation du communisme"
+    ]
+  },
+  {
+    "id": 112,
+    "category": "Histoire américaine",
+    "question": "Qu’a fait le mouvement des droits civils?",
+    "answers": [
+      "A lutté pour mettre fin à la discrimination raciale"
+    ]
+  },
+  {
+    "id": 113,
+    "category": "Histoire américaine",
+    "question": "Martin Luther King, Jr. is famous for many things. Name one.",
+    "answers": [
+      "Fought for civil rights",
+      "Worked for equality for all",
+      "Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”"
+    ],
+    "senior": true
+  },
+  {
+    "id": 114,
+    "category": "Histoire américaine",
+    "question": "Pourquoi les États-Unis ont-ils joint dans la guerre du golfe Persique?",
+    "answers": [
+      "Forcer l’armée irakienne à quitter le Koweït"
+    ]
+  },
+  {
+    "id": 115,
+    "category": "Histoire américaine",
+    "question": "Quel important événement s’est produit le 11 septembre 2001 aux États-Unis?",
+    "answers": [
+      "Attaque terroriste aux États-Unis.",
+      "Des terroristes ont pris deux avions et les ont fait s'écraser sur le World Trade Center de New York",
+      "Des terroristes ont pris un avion et l'ont fait s'écraser sur le Pentagone à Arlington, en Virginie",
+      "Des terroristes ont pris un avion se dirigeant à l’origine vers Washington, D.C., et l'ont fait s'écraser dans un champ en Pennsylvanie"
+    ],
+    "senior": true
+  },
+  {
+    "id": 116,
+    "category": "Histoire américaine",
+    "question": "Nommez un conflit militaire américain après les attentats du 11 septembre 2001.",
+    "answers": [
+      "La guerre (mondiale) contre le terrorisme",
+      "Guerre en Afghanistan",
+      "Guerre en Irak"
+    ]
+  },
+  {
+    "id": 117,
+    "category": "Histoire américaine",
+    "question": "Citez une tribu d’Amérindiens aux États-Unis.",
+    "answers": [
+      "Apache",
+      "Blackfeet",
+      "Cayuga",
+      "Cherokee",
+      "Cheyenne",
+      "Chippewa",
+      "Choctaw",
+      "Creek",
+      "Crow",
+      "Hopi",
+      "Huron",
+      "Inupiat",
+      "Lakota",
+      "Mohawk",
+      "Mohegan",
+      "Navajo",
+      "Oneida",
+      "Onondaga",
+      "Pueblo",
+      "Seminole",
+      "Seneca",
+      "Shawnee",
+      "Sioux",
+      "Teton",
+      "Tuscarora Pour une liste complète des tribus, veuillez visiter bia.gov."
+    ]
+  },
+  {
+    "id": 118,
+    "category": "Histoire américaine",
+    "question": "Nommez un exemple d’innovation américaine.",
+    "answers": [
+      "Ampoule",
+      "Automobile (voitures, moteur combustible)",
+      "Gratte-ciel",
+      "Avion",
+      "Chaîne d'assemblage",
+      "Atterrissage sur la Lune",
+      "Circuit intégré (IC)"
+    ]
+  },
+  {
+    "id": 119,
+    "category": "Symboles et jours fériés",
+    "question": "Quelle est la capitale des États-Unis d’Amérique ?",
+    "answers": [
+      "Washington, D.C."
+    ]
+  },
+  {
+    "id": 120,
+    "category": "Symboles et jours fériés",
+    "question": "Où se trouve la Statue de la Liberté ?",
+    "answers": [
+      "New York (port)",
+      "Liberty Island [Il est aussi possible de citer ce qui suit : État du New Jersey, à proximité de New York et la rivière Hudson).]"
+    ]
+  },
+  {
+    "id": 121,
+    "category": "Symboles et jours fériés",
+    "question": "Pourquoi le drapeau compte-t-il 13 bandes?",
+    "answers": [
+      "Car il y avait 13 colonies originales",
+      "Car les bandes représentent les colonies originales"
+    ],
+    "senior": true
+  },
+  {
+    "id": 122,
+    "category": "Symboles et jours fériés",
+    "question": "Pourquoi le drapeau présente-t-il 50 étoiles?",
+    "answers": [
+      "Une étoile pour chaque État",
+      "Chaque étoile représente un État",
+      "On compte 50 États"
+    ]
+  },
+  {
+    "id": 123,
+    "category": "Symboles et jours fériés",
+    "question": "Quel est le nom de l’hymne national ?",
+    "answers": [
+      "The Star-Spangled Banner (La bannière étoilée)"
+    ]
+  },
+  {
+    "id": 124,
+    "category": "Symboles et jours fériés",
+    "question": "La première devise de la Nation était « E Pluribus Unum » Qu’est-ce que cela signifie?",
+    "answers": [
+      "un seul à partir",
+      "de plusieurs"
+    ]
+  },
+  {
+    "id": 125,
+    "category": "Symboles et jours fériés",
+    "question": "Qu'est-ce que le jour de l'Indépendance?",
+    "answers": [
+      "Un jour férié pour célébrer l’indépendance des États-Unis (de la Grande-Bretagne)",
+      "L'anniversaire du pays"
+    ]
+  },
+  {
+    "id": 126,
+    "category": "Symboles et jours fériés",
+    "question": "Citez Trois jours fériés nationaux aux États-Unis.",
+    "answers": [
+      "Nouvel an",
+      "Jour de Martin Luther King, Jr. Jour",
+      "Jour du Président",
+      "Jour commémoratif",
+      "Jour de l’Indépendance",
+      "Fête du travail",
+      "Jour de Colomb",
+      "Jour des vétérans",
+      "Thanksgiving",
+      "Noël"
+    ],
+    "senior": true
+  },
+  {
+    "id": 127,
+    "category": "Symboles et jours fériés",
+    "question": "Qu'est-ce que le Jour du Souvenir (Memorial Day)?",
+    "answers": [
+      "Une fête en l’honneur des soldats qui sont morts pendant leur service militaire"
+    ]
+  },
+  {
+    "id": 128,
+    "category": "Symboles et jours fériés",
+    "question": "Qu’est-ce que la Journée des anciens combattants (Veterans Day)?",
+    "answers": [
+      "Une fête en l’honneur des militaires des États-Unis",
+      "Une fête en l’honneur des personnes qui ont servi (dans l’armée américaine)"
+    ]
+  }
+]

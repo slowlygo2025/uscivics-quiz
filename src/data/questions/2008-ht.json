@@ -1,0 +1,1000 @@
+[
+  {
+    "id": 1,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele pi gwo lwa peyi a?",
+    "answers": [
+      "Konstitisyon"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki sa konstitisyon fè?",
+    "answers": [
+      "Mete gouvѐnman an plas",
+      "Eksplike pozisyon gouvѐnman an",
+      "Pwoteje dwa esansyel pèp ameriken an"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Gouvènman Ameriken",
+    "question": "Lide nou kapab gouvѐne tѐt nou an se twa (3) premye mo nan Konstitisyon an. Ki twa (3) premye mo sa yo?",
+    "answers": [
+      "Nou menm pѐp la"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki sa yon amandman ye?",
+    "answers": [
+      "Yon bagay ke yo chanje (nan Konstitisyon an)",
+      "Yon bagay ke yo ajoute (nan Konstitisyon an)"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Gouvènman Ameriken",
+    "question": "Kijan yo rele 10 (dis) premye amandman nan Konstitisyon an?",
+    "answers": [
+      "Deklarasyon dwa yo"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Gouvènman Ameriken",
+    "question": "Di’m yon dwa oswa yon libѐte ki nan Premye Amandman an?",
+    "answers": [
+      "lapawòl",
+      "Relijyon",
+      "Rasanbleman Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -1-",
+      "Laprѐs",
+      "Mande gouvѐnman an pou li di’w sa’k ap pase"
+    ],
+    "senior": true
+  },
+  {
+    "id": 7,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen amandman ki gen nan Konstitisyon an?",
+    "answers": [
+      "27 (Vennsѐt)"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki sa Deklarasyon Endepandans lan te fѐ?",
+    "answers": [
+      "Anonse endepandans nou (nan men Grann Bretay)",
+      "Deklare endepandans nou (nan men Grann Bretay)",
+      "Fè konnen ke Etazini pran libѐte’l (nan men Grann Bretay)"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Gouvènman Ameriken",
+    "question": "Di’m de dwa ki nan Deklarasyon Endepandans lan?",
+    "answers": [
+      "Lavi",
+      "Libѐte",
+      "Chѐche kѐ kontan"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki sa libѐte relijyon vle di?",
+    "answers": [
+      "Ou ka pratike nenpòt ki relijyon, oswa pa pratike okenn relijyon"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele sistѐm ekonomik peyi Etazini an?",
+    "answers": [
+      "Ekonomi Kapitalis",
+      "Ekonomi Makѐt"
+    ],
+    "senior": true
+  },
+  {
+    "id": 12,
+    "category": "Gouvènman Ameriken",
+    "question": "Kisa « regleman lalwa » vle di?",
+    "answers": [
+      "Tout moun dwe swiv lalwa",
+      "Lidѐ yo dwe obeyi lalwa",
+      "Gouvѐnman an dwe obeyi lalwa",
+      "Pa gen moun ki sou tèt lalwa"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Gouvènman Ameriken",
+    "question": "Di’m non yon branch oswa yon pati nan gouvѐnman an?",
+    "answers": [
+      "Palman an/kongrè",
+      "Lejislatif",
+      "Prezidan",
+      "Egzekitif",
+      "Tribinal yo",
+      "Jidisyѐ"
+    ],
+    "senior": true
+  },
+  {
+    "id": 14,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki sa ki anpeche yon branch nan gouvѐnman an vin gen twòp pouvwa?",
+    "answers": [
+      "Tchѐk ak balans",
+      "Separasyon pouvwa yo"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun ki responsab branch egzekitif la?",
+    "answers": [
+      "Prezidan an"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun ki fè lwa federal yo?",
+    "answers": [
+      "Palman an",
+      "Sena a ak Lachanm (depite)",
+      "Lejislati (ameriken oswa nasyonal) Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -2-"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki de pati ki gen nan Palman Etazini an?",
+    "answers": [
+      "Sena ak Chanm Depite"
+    ],
+    "senior": true
+  },
+  {
+    "id": 18,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen senatѐ ameriken ki genyen?",
+    "answers": [
+      "100 (san)"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Gouvènman Ameriken",
+    "question": "Pou konbyen tan nou mete senatѐ yo?",
+    "answers": [
+      "6 (sis) zan"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Gouvènman Ameriken",
+    "question": "Di’m non youn nan senatѐ nan Eta kote ou rete kounyen a?",
+    "answers": [
+      "Repons a ap varye [Moun ki rete nan Washington D.C ak lòt teritwa ameriken yo dwe konnen ke zòn sa yo pa gen senatѐ ameriken]"
+    ],
+    "senior": true
+  },
+  {
+    "id": 21,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen manb ki ka vote ki gen nan La Chanm?",
+    "answers": [
+      "435 (Kat san trant senk)"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Gouvènman Ameriken",
+    "question": "Pou konbyen tan nou mete depite ameriken yo?",
+    "answers": [
+      "2 (De) zan"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Gouvènman Ameriken",
+    "question": "Di’m non depite ki reprezante zòn ou an?",
+    "answers": [
+      "Repons sa ap varye [Moun ki rete nan teritwa ki gen delege ak komisѐ ki pa gen dwa vote yo kapab bay non delege oswa komisѐ yo. Y’ap aksepte tou si moun nan di teritwa li a (pa genyen) depite ki ka vote nan Lachanm"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun yon senatѐ ameriken reprezante?",
+    "answers": [
+      "Tout moun ki rete nan Eta sa"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Gouvènman Ameriken",
+    "question": "Pou ki sa gen eta ki gen plis depite ke yon lòt?",
+    "answers": [
+      "Akòz de popilasyon eta a",
+      "Paske gen plis moun",
+      "Paske gen eta ki gen plis moun"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Gouvènman Ameriken",
+    "question": "Pou konbyen tan nou mete yon prezidan?",
+    "answers": [
+      "4 (Kat)"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Gouvènman Ameriken",
+    "question": "Nan ki mwa nou vote pou prezidan?",
+    "answers": [
+      "Novanm"
+    ],
+    "senior": true
+  },
+  {
+    "id": 28,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele moun ki prezidan Etazini kounyen an?",
+    "answers": [
+      "Ale sou sit saa uscis.gov/citizenship/testupdates pou’w ka wѐ non prezidan Etazini an"
+    ],
+    "senior": true
+  },
+  {
+    "id": 29,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele moun ki vis-prezidan Etazini kounyen an?",
+    "answers": [
+      "Ale sou sit saa uscis.gov/citizenship/testupdates pou’w ka wѐ non vis-prezidan Etazini an"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "Gouvènman Ameriken",
+    "question": "Si prezidan an pa ka sèvi peyi ankò, ki moun k’ap ranplase’l?",
+    "answers": [
+      "Vis-presidan an"
+    ]
+  },
+  {
+    "id": 31,
+    "category": "Gouvènman Ameriken",
+    "question": "Si prezidan an ak vis-prezidan an pa ka sèvi peyi ankò ki moun k’ap ranplase yo?",
+    "answers": [
+      "Prezidan Lachanm nan"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun ki kòmandan an chѐf lame a?",
+    "answers": [
+      "Prezidan an"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun ki siyen pwojè lwa yo ki vin tounen lwa?",
+    "answers": [
+      "Prezidan Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -3-"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun ki ka rejte pwojè lwa yo?",
+    "answers": [
+      "Prezidan"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki ròl Kabinѐ Prezidan an?",
+    "answers": [
+      "Bay Prezidan an konsѐy"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Gouvènman Ameriken",
+    "question": "ban’ m non 2 (de) pòs nan kabinѐ a?",
+    "answers": [
+      "Minis Agrikilti",
+      "Minis Komѐs",
+      "Minis Defans",
+      "Minis Edikasyon",
+      "Minis Enѐji",
+      "Minis Sante ak Sѐvis Imen",
+      "Minis Sekirite Enteryѐ",
+      "Minis Lojman ak Devlopman vil yo",
+      "Minis Enteryѐ",
+      "Minis Travay",
+      "Sekretѐ d’Eta",
+      "Minis Transpò",
+      "Minis Finans",
+      "Minis Zafѐ Veteran yo",
+      "Minis Jistis",
+      "Vis-prezidan"
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki sa branch jidisyѐ a fè?",
+    "answers": [
+      "Revise lwa yo",
+      "Eksplike lwa yo",
+      "Rezoud diskisyon (dezagreman)",
+      "Deside si yon lwa pa an akò ak konstitisyon an"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele pi gwo tribinal Etazini an?",
+    "answers": [
+      "Tribinal Siprѐm"
+    ]
+  },
+  {
+    "id": 39,
+    "category": "Gouvènman Ameriken",
+    "question": "Kombyen jij ki genyen nan Tribinal Siprѐm nan?",
+    "answers": [
+      "Ale sou sit saa uscis.gov/citizenship/testupdates pou’w ka wѐ konbyen jij ki genyen nan Tribinal Siprѐm nan"
+    ]
+  },
+  {
+    "id": 40,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele Jij an Chѐf Tribinal Siprѐm nan?",
+    "answers": [
+      "Ale sou sit saa: uscis.gov/citizenship/testupdates pou’w ka wѐ non Jij an Chѐf Tribinal Siprѐm nan"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "Gouvènman Ameriken",
+    "question": "Nan konstitisyon nou an, gen de pouvwa ke gouvѐnman federal genyen. Di’m yon pouvwa gouvѐnman federal la genyen?",
+    "answers": [
+      "Enprime lajan",
+      "Deklare lagѐ",
+      "Kreye on lame",
+      "Siyen akò"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Gouvènman Ameriken",
+    "question": "Nan konstitisyon nou an, gen de pouvwa ke eta yo genyen. Di’m yon pouvwa eta yo genyen?",
+    "answers": [
+      "Bay lekòl ak enstriksyon",
+      "Bay pwoteksyon (lapolis)",
+      "Bay sekirite kont danje (ponpye)",
+      "Bay lisans pou kondwi",
+      "Bay otorization pou itilize zòn yo ak tè yo Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -4-"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele gouvѐnѐ Eta kote ou rete a?",
+    "answers": [
+      "Repons sa ap varye. [Moun ki rete Washington D.C sipoze reponn: D.C pa gen gouvѐnѐ]"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele kapital Eta ou rete a?",
+    "answers": [
+      "Repons kesyon sa ap varye. [Moun ki rete Washington D.C sipoze reponn: D.C pa yo Eta, li pa gen kapital. Moun ki rete nan teritwa ameriken yo sipoze bay non kapital teritwa a.]"
+    ],
+    "senior": true
+  },
+  {
+    "id": 45,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele 2 (de) pi gwo pati politik ki gen nan Etazini an?",
+    "answers": [
+      "Democrat ak Repibliken"
+    ],
+    "senior": true
+  },
+  {
+    "id": 46,
+    "category": "Gouvènman Ameriken",
+    "question": "Nan ki pati politik prezidan an sòti?",
+    "answers": [
+      "Ale sou sit sa: uscis.gov/citizenship/testupdates pou’w ka wѐ pati politik prezidan an"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki jan yo rele Prezidan LaChanm nan?",
+    "answers": [
+      "Ale sou sit sa: uscis.gov/citizenship/testupdates pou’w kapab wѐ ki jan prezidan LaChanm nan rele"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Gouvènman Ameriken",
+    "question": "Gen 4 (kat) amandman nan konstitisyon an ki pale de ki moun ki ka vote. Di’m youn ladan yo?",
+    "answers": [
+      "Moun ki ameriken ki gen 18 (dizuit)an oswa plis (kapab vote)",
+      "Ou pa oblije peye (taks pou pase) pou’w vote",
+      "Nenpòt moun ki ameriken kapab vote (Fi kou gason kapab vote)",
+      "Yon gason ki ameriken kelke swa koulè li (kapab vote)"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "Gouvènman Ameriken",
+    "question": "Di’m yon responsabilite ki sѐlman pou moun ki ameriken?",
+    "answers": [
+      "Sèvi kòm manm jiri",
+      "Vote nan eleksyon federal"
+    ],
+    "senior": true
+  },
+  {
+    "id": 50,
+    "category": "Gouvènman Ameriken",
+    "question": "Di’m yon dwa ke sѐl moun ki ameriken genyen?",
+    "answers": [
+      "Vote nan eleksyon federal",
+      "Aplike pou pozisyon federal"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Gouvènman Ameriken",
+    "question": "Di’m 2 (de) dwa oswa libète tout moun k’ap viv nan Etazini genyen?",
+    "answers": [
+      "Libѐte pou di sa lide’w di’w",
+      "Libѐte pou pale",
+      "Libѐte pou rasanble",
+      "Libѐte pou mande pou gouvѐnman di’w sa kap pase",
+      "Libѐte relijyon",
+      "Dwa pou pote zam"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Gouvènman Ameriken",
+    "question": "Anvè ki sa nou montre fidelite nou lè nap resite “Sèman ki montre atachman nou”?",
+    "answers": [
+      "Etazini",
+      "Drapo a"
+    ]
+  },
+  {
+    "id": 53,
+    "category": "Gouvènman Ameriken",
+    "question": "Di’m yon pwomѐs ou fè lè’w vin yon ameriken?",
+    "answers": [
+      "Renonse fidѐlite’w ak lòt peyi",
+      "Defann konstitisyon an ak lwa Etazini yo",
+      "Obeyi lwa Etazini yo",
+      "Sѐvi nan lame ameriken (si li nesesѐ)",
+      "Sѐvi (fè travay enpòtan pou) peyi an (si li nesesѐ)",
+      "Kanpe ak Etazini Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -5-"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki laj pou yon ameriken gen pou’l ka vote pou prezidan?",
+    "answers": [
+      "18 (Dizuit) an oswa plis"
+    ],
+    "senior": true
+  },
+  {
+    "id": 55,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki 2 (de) jan ameriken ka patisipe nan demokrasi yo?",
+    "answers": [
+      "Vote",
+      "Rantre nan yon pati politik",
+      "Ede nan kanpay",
+      "Rantre nan yon gwoup sivik",
+      "Rante nan yon gwoup kominotѐ",
+      "Pataje opinion’w ak otorite yo sou yon pwoblèm",
+      "Rele senatѐ ak depite yo",
+      "Sipòte oubyen opoze yon desizyon ou yon pwoblèm, piblikman",
+      "Poze kandidati’w pou pòs nan gouvènman an",
+      "Ekri jounal yo"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki dѐnye jou pou yon moun ka voye papye taks ou ale?",
+    "answers": [
+      "15 (kenz) avril"
+    ],
+    "senior": true
+  },
+  {
+    "id": 57,
+    "category": "Gouvènman Ameriken",
+    "question": "A ki laj tout gason dwe enskri pou lame?",
+    "answers": [
+      "Lè li gen 18 (dizuit) an",
+      "Ant 18 (dizuit) ak 26 (vennsis) zan ISTW A AMERIKEN"
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Istwa Ameriken",
+    "question": "Di’m yon rezon ki fѐ kolon yo te vini an Amerik?",
+    "answers": [
+      "Libѐte",
+      "Libѐte politik",
+      "Libѐte relijyon",
+      "Opòtinite ekonomik",
+      "Pratike relijyon pa yo",
+      "Sove pou pѐsekisyon"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Istwa Ameriken",
+    "question": "Ki moun ki te rete an Amerik anvan Ewopeyen yo te vini?",
+    "answers": [
+      "Endyen ameriken",
+      "Natif natal ameriken"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Istwa Ameriken",
+    "question": "Ki gwoup moun yo te mennen an Amerik epi yo te vann yo kòm esklav?",
+    "answers": [
+      "Afriken",
+      "Moun ki te sòti an Afrik"
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Istwa Ameriken",
+    "question": "Pou ki sa kolon yo te goumen ak angle yo?",
+    "answers": [
+      "Paske yo t’ap peye anpil taks (peye taks san reprezantasyon)",
+      "Paske lame angle a te desann nan kay moun yo (pansyon, kazèn)",
+      "Paske yo pa’t gen dwa gouvѐne tѐt yo Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -6-"
+    ]
+  },
+  {
+    "id": 62,
+    "category": "Istwa Ameriken",
+    "question": "Ki moun ki te ekri deklarasyon endepandans lan?",
+    "answers": [
+      "(Thomas) Jefferson"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Istwa Ameriken",
+    "question": "Ki dat yo te adopte deklarasyon endepandans lan?",
+    "answers": [
+      "4 jiyѐ 1776"
+    ]
+  },
+  {
+    "id": 64,
+    "category": "Istwa Ameriken",
+    "question": "Te gen 13 (trèz) premye eta. Di’m 3 (twa).",
+    "answers": [
+      "Nou Anmchè",
+      "Masachousèt",
+      "Rod Aylann",
+      "Konektikèt",
+      "Nou Yòk",
+      "Nou Jèze",
+      "Pennsilvani",
+      "Delawè",
+      "Merilann",
+      "Vijini",
+      "Karolin di Nò",
+      "Karolin di Sid",
+      "Jòji"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Istwa Ameriken",
+    "question": "Ki sa ki te pase nan konvansyon pou konstitisyon an?",
+    "answers": [
+      "Yo te ekri konstitisyon an",
+      "Zansèt fondatѐ yo te ekri konstitisyon an"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Istwa Ameriken",
+    "question": "Ki lè konstitisyon an te ekri?",
+    "answers": [
+      "1787"
+    ]
+  },
+  {
+    "id": 67,
+    "category": "Istwa Ameriken",
+    "question": "Papye Federalis yo te soutni pasaj ki nan konstitisyon ameriken an. Di’m non youn nan moun ki te ekri yo?",
+    "answers": [
+      "(James) Madison",
+      "(Alexander) Hamilton",
+      "(John) Jay",
+      "Publius"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Istwa Ameriken",
+    "question": "Di’m yon bagay ke tout moun te konnen sou Benjamin Franklin?",
+    "answers": [
+      "Diplomat ameriken",
+      "Manm ki pi granmoun nan konvansyon pou konstitisyon an",
+      "Premyѐ Direktѐ Jeneral Lapòs Etazini",
+      "Li te ekri “Almanak Podyab Richa”",
+      "Li te komanse premye bibliyotѐk gratis yo"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Istwa Ameriken",
+    "question": "Ki moun ki “papa peyi nou an”?",
+    "answers": [
+      "(George) Washington"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Istwa Ameriken",
+    "question": "Ki moun ki te premye prezidan?",
+    "answers": [
+      "(George) Washington Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -7-"
+    ],
+    "senior": true
+  },
+  {
+    "id": 71,
+    "category": "Istwa Ameriken",
+    "question": "Ki teritwa Etazini te achte nan men laFrans an 1803?",
+    "answers": [
+      "Teritwa Lwizyann",
+      "Lwizyann"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Istwa Ameriken",
+    "question": "Di’m yon lagѐ Etazini te goumen ladan’l nan ane 1800 yo.",
+    "answers": [
+      "lagѐ 1812",
+      "lagè Meksiken-Ameriken",
+      "lagѐ sivil",
+      "lagѐ Panyòl-Ameriken"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Istwa Ameriken",
+    "question": "Di’m yon lagè ki te fѐt ant Nò ak Sid isit lan Etazini?",
+    "answers": [
+      "lagѐ sivil",
+      "lagѐ ant eta yo"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Istwa Ameriken",
+    "question": "Di’m yon pwoblèm ki te lakòz lagѐ sivil la?",
+    "answers": [
+      "Esklavaj",
+      "Rezon ekonomik",
+      "Dwa eta yo"
+    ]
+  },
+  {
+    "id": 75,
+    "category": "Istwa Ameriken",
+    "question": "Di’m yon bagay enpòtan Abraham Lincoln te fѐ?",
+    "answers": [
+      "Libere esklav yo (Pwoklame Liberasyon)",
+      "Sove (oubyen prezѐve) Inyon an",
+      "Dirije Etazini pandan gѐ sivil la"
+    ],
+    "senior": true
+  },
+  {
+    "id": 76,
+    "category": "Istwa Ameriken",
+    "question": "Ki sa proklamasyon liberasyon an te fѐ?",
+    "answers": [
+      "Libere esklav yo",
+      "Libere esklav nan konfederasyon yo",
+      "Libere eklav ki nan eta Konfederasyon yo",
+      "Libere esklav nan pifò tout eta nan sid yo"
+    ],
+    "senior": true
+  },
+  {
+    "id": 77,
+    "category": "Istwa Ameriken",
+    "question": "Ki sa Susan B. Anthony te fѐ?",
+    "answers": [
+      "Li te goumen pou dwa fanm",
+      "Li te goumen pou dwa sivil"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Istwa Ameriken",
+    "question": "Di’m yon lagè Etazini te goumen ladan’l nan ane 1900 yo?",
+    "answers": [
+      "Premyѐ Gѐ Mondyal",
+      "Dezyѐm Gѐ Mondyal",
+      "Lagѐ Kore",
+      "lagѐ Vyetnam",
+      "lagѐ Golf (Pѐsik)"
+    ],
+    "senior": true
+  },
+  {
+    "id": 79,
+    "category": "Istwa Ameriken",
+    "question": "Ki moun ki te prezidan panda Premyѐ Gѐ Mondyal?",
+    "answers": [
+      "(Woodrow) Wilson"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Istwa Ameriken",
+    "question": "Ki moun ki te prezidan pandan Gwo Kriz ekonomik lan ak Dezyѐm Gѐ Mondyal?",
+    "answers": [
+      "(Franklin) Roosevelt Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -8-"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "Istwa Ameriken",
+    "question": "Kont ki peyi Etazini te goumen nan Dezyѐm Gѐ Mondyal?",
+    "answers": [
+      "Japon, Almay ak Itali"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "Istwa Ameriken",
+    "question": "Avan li te prezidan, Eisenhower te yon jeneral. Nan ki lagѐ li te ye?",
+    "answers": [
+      "Dezyѐm Gѐ Mondyal"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "Istwa Ameriken",
+    "question": "Padan Lagѐ Frèt la, ki pi gwo enkyetid Etazini te genyen?",
+    "answers": [
+      "Kamoken"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Istwa Ameriken",
+    "question": "Ki mouvman ki te eseye sispann prejije koulè a?",
+    "answers": [
+      "(Mouvman) Dwa Sivil"
+    ]
+  },
+  {
+    "id": 85,
+    "category": "Istwa Ameriken",
+    "question": "Ki sa Martin Luther King, Jr. te fѐ?",
+    "answers": [
+      "Li te goumen pou dwa sivil",
+      "Li te travay pou tout ameriken egal"
+    ],
+    "senior": true
+  },
+  {
+    "id": 86,
+    "category": "Istwa Ameriken",
+    "question": "Ki gwo evènman ki te pase nan Etazini 11 Septanm 2001?",
+    "answers": [
+      "Teworis yo te atake Etazini"
+    ]
+  },
+  {
+    "id": 87,
+    "category": "Istwa Ameriken",
+    "question": "Di’m non yon tribi Endyen ki gen nan Etazini? [Ofisye Imigrasyon an ap gen yon lis tribi endyen ameriken ke gouvènman an rekonѐt]",
+    "answers": [
+      "Tchiwòki",
+      "Navaho",
+      "Sou",
+      "Tchipèwa",
+      "Tchakta",
+      "Pweblo",
+      "Apatchi",
+      "Irokwa",
+      "Krik",
+      "Blakfit",
+      "Sèminòl",
+      "Chayann",
+      "Arawak",
+      "Chawni",
+      "Moyigann",
+      "Hyron",
+      "Oneyida",
+      "Lakota",
+      "Kro",
+      "Titonn",
+      "Hopi",
+      "Inyouwit Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -9- ISTWA AK GOUVЀNMAN (SIVIK) KE YO AJOUTE LADANN"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "Edikasyon sivik entegre",
+    "question": "Di’m youn nan rivyѐ ki pi long nan Etazini?",
+    "answers": [
+      "(Rivyѐ) Misouri",
+      "(Rivyѐ) Misisipi"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "Edikasyon sivik entegre",
+    "question": "Ki oseyan ki nan kòt lwѐs Etazini?",
+    "answers": [
+      "(Oseyan) Pasifik"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Edikasyon sivik entegre",
+    "question": "Ki Oseyan ki nan kòt ès nan Etazini?",
+    "answers": [
+      "(Oseyan) Atlantik"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Edikasyon sivik entegre",
+    "question": "Di’m yon teritwa ki pou Etazini?",
+    "answers": [
+      "Pòtoriko",
+      "Zile Vyѐj Ameriken yo",
+      "Samoa Ameriken",
+      "Zile Maryann di Nò yo",
+      "Gwam"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Edikasyon sivik entegre",
+    "question": "Di’m non yon eta ki kole ak Kanada?",
+    "answers": [
+      "Meyin",
+      "Nou Enmchè",
+      "Vèmont",
+      "Nou Yòk",
+      "Pennsilvani",
+      "Ohayo",
+      "Michigann",
+      "Minesota",
+      "Dakota di Nò",
+      "Monntana",
+      "Aydao",
+      "Wachinton",
+      "Alaska"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Edikasyon sivik entegre",
+    "question": "Di’m yon eta ki kole ak Meksik?",
+    "answers": [
+      "Kalifòni",
+      "Arizona",
+      "Nou Meksiko",
+      "Tekzas"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "Edikasyon sivik entegre",
+    "question": "Ki kapital Etazini?",
+    "answers": [
+      "Wachinnton D.C."
+    ],
+    "senior": true
+  },
+  {
+    "id": 95,
+    "category": "Edikasyon sivik entegre",
+    "question": "Ki kote estati Lalibѐte a ye?",
+    "answers": [
+      "Nou Yòk (Waf)",
+      "Zile Libète [Nou aksepte tou si’w di: Nou Jèze, tou pre Nou Yòk Siti, ak nan (Rivyѐ) Hudson nan] Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -10-"
+    ],
+    "senior": true
+  },
+  {
+    "id": 96,
+    "category": "Edikasyon sivik entegre",
+    "question": "Pou ki sa drapo a genyen 13 (trèz) ba?",
+    "answers": [
+      "Paske te genyen 13 (trèz) premye koloni",
+      "Paske ba yo reprezante premye koloni yo"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "Edikasyon sivik entegre",
+    "question": "Pou ki sa drapo a genyen 50 (senkant) zetwal?",
+    "answers": [
+      "Paske gen yon zetwal pou chak eta",
+      "Paske chak zetwal reprezante yon eta",
+      "Paske genyen 50 (senkant) eta"
+    ],
+    "senior": true
+  },
+  {
+    "id": 98,
+    "category": "Edikasyon sivik entegre",
+    "question": "Ki jan yo rele Im Nasyonal la?",
+    "answers": [
+      "labanyè ki plen zetwal"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Edikasyon sivik entegre",
+    "question": "Ki dat nou fete endepandans isit?",
+    "answers": [
+      "4 jiyѐ"
+    ],
+    "senior": true
+  },
+  {
+    "id": 100,
+    "category": "Edikasyon sivik entegre",
+    "question": "Di’m 2 (de) fѐt nasyonal nan Etazini?",
+    "answers": [
+      "Jou dlan",
+      "Jou Martin Luther King Jr.",
+      "Jou Prezidan yo",
+      "Jou Souvni",
+      "Jou Liberasyon (esklav)",
+      "Jou Endepandans",
+      "Jou Fѐt Travay",
+      "Jou Veteran",
+      "Tenksgivin/ Fèt Kodenn",
+      "Nwѐl Si’w gen 65 (swasannsenk) an oswa plis epi ou gen rezidans ou nan Etazini depi 20 (ven) tan oswa plis, ou ka etidye sѐlman kesyon ki gen ti zetwal bo kote yo an. -11-"
+    ]
+  }
+]

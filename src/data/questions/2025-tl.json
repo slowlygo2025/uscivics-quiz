@@ -1,0 +1,1330 @@
+[
+  {
+    "id": 1,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang anyo ng gobyerno ng Amerika?",
+    "answers": [
+      "Republika",
+      "Republikang pederal na naaayon sa Konstitusyon",
+      "Kinatawan ng demokrasya"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang pinakamataas na batas ng bansa?",
+    "answers": [
+      "ang Konstitusyon"
+    ],
+    "senior": true
+  },
+  {
+    "id": 3,
+    "category": "Pamahalaang Amerikano",
+    "question": "Magsabi ng isang bagay na nagagawa ng konstitusyon ng Amerika.",
+    "answers": [
+      "Bigyang anyo ang gobyerno.",
+      "Tukuyin ang kapangyarihan ng gobyerno.",
+      "Tukuyin ang mga parte ng gobyerno.",
+      "Protektahan ang mga karapatan ng mamamayan"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ang konstitusyon ng Amerika ay nagsisimula sa mga salitang \"Kami ang Mamamayan.\" Ano ang kahulugan ng \"Kami ang Mamamayan\"?",
+    "answers": [
+      "Solong pamamahala.",
+      "Sariling pamamahala.",
+      "Pagsang-ayon ng pinamamahalaan.",
+      "Ang mamamayan ay dapat pamahalaan ang kanilang sarili.",
+      "(Halimbawa) pagsang-ayon ng mamamayan sa batas ng gobyerno"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Pamahalaang Amerikano",
+    "question": "Paano ginawa ang mga pagbabago sa Konstitusyon ng Amerika?",
+    "answers": [
+      "Mga susog.",
+      "Proseso ng pagsususog"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang pinoprotektahan ng Bill of Rights (Karta ng mga Karapatan)?",
+    "answers": [
+      "(Pangunahin) karapatan ng mga Amerikano.",
+      "(Pangunahin) karapatan ng mga taong naninirahan sa Amerika"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ilang susog mayroon ang Konstitusyon?",
+    "answers": [
+      "dalawampu’t-pito (27)"
+    ],
+    "senior": true
+  },
+  {
+    "id": 8,
+    "category": "Pamahalaang Amerikano",
+    "question": "Bakit importante ang Deklarasyon ng Pagsasarili?",
+    "answers": [
+      "Sinasabi nitong malaya ang Amerika sa kontrol ng Britanya",
+      "Sinasabi nito na ang mga tao ay nilikha ng pantay-pantay.",
+      "Kinikilala nito ang likas na mga karapatan.",
+      "Kinikilala nito ang kalayaan ng bawat isa"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Pamahalaang Amerikano",
+    "question": "Anong batas sa konstitusyon ang nagsasabi na malaya na ang kolonya ng Amerika mula sa Britanya?",
+    "answers": [
+      "Deklarasyon ng Pagsasarili"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Pamahalaang Amerikano",
+    "question": "Magsabi ng dalawang importanteng mga ideya mula sa Deklarasyon ng Pagsasarili at sa Konstitusyon ng Amerika.",
+    "answers": [
+      "Pagkakapantay-pantay",
+      "Kalayaan",
+      "Pagsang-ayon ng mamamayan sa batas ng gobyerno",
+      "Likas na karapatan",
+      "Limitadong pamamahala",
+      "Solong pamamahala"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ang mga salitang \"Buhay, Kalayaan, at paghahanap sa Kaligayahan\" ay nasaang dokumento?",
+    "answers": [
+      "Deklarasyon ng Pagsasarili"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang sistemang pang-ekonomiya ng Amerika?",
+    "answers": [
+      "Kapitalisismo",
+      "Malayang ekonomiya ng merkado"
+    ],
+    "senior": true
+  },
+  {
+    "id": 13,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang panuntunan ng batas?",
+    "answers": [
+      "Ang bawat isa ay dapat sumunod sa batas.",
+      "Ang mga pinuno ay dapat sundin ang batas.",
+      "Ang pamahalaan ay dapat sundin ang batas.",
+      "Walang sinuman ang mas mataas pa sa batas."
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Pamahalaang Amerikano",
+    "question": "Maraming dokumento ang nag-impluwensiya sa konstitusyon ng Amerika. Magsabi ng isa.",
+    "answers": [
+      "Deklarasyon ng Pagsasarili",
+      "Mga artikulo ng konpiderasyon",
+      "Federalist Papers",
+      "Kontra sa Federalist Papers",
+      "Deklarasyon ng Karapatan sa Virginia",
+      "Mga Pangunahing kautusan ng Konektikut",
+      "Panuntunan sa Mayflower",
+      "Ang pangkapayapaang Kasunduan ng Iroquois"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Pamahalaang Amerikano",
+    "question": "Mayroong tatlong sangay ang pamahalaan. Bakit?",
+    "answers": [
+      "Upang ang isang bahagi ay hindi maging lubhang makapangyarihan",
+      "Kakayahang sitahin ang bawat sangay",
+      "Paghihiwalay ng kapangyarihan"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Pamahalaang Amerikano",
+    "question": "Pangalanan ang tatlong sangay ng pamahalaan.",
+    "answers": [
+      "Pambatasan, ehekutibo, at panghukuman",
+      "Kongreso, presidente, at ang mga korte"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Pamahalaang Amerikano",
+    "question": "Anong sangay ng pamahalaan ang pinamamahalaan ng presidente?",
+    "answers": [
+      "Ang ehekutibong sangay"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Pamahalaang Amerikano",
+    "question": "Anong sangay ng pederal na pamahalaan ang sumusulat ng batas?",
+    "answers": [
+      "(U.S.) Kongreso",
+      "(U.S. o Nasyonal) Lehislatura",
+      "Sangay na Tagapagbatas"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang dalawang bahagi ng Kongreso ng Estados Unidos?",
+    "answers": [
+      "the Senado at Kapulungan (ng mga Kinatawan)"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Pamahalaang Amerikano",
+    "question": "Magsabi ng isang kapangyarihan ng kongreso ng Amerika.",
+    "answers": [
+      "Nagsusulat ng mga batas",
+      "Nagdedeklara ng giyera",
+      "Nagsasagawa ng badyet ng pederal"
+    ],
+    "senior": true
+  },
+  {
+    "id": 21,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ilang mga senador ng Amerika ang naroon?",
+    "answers": [
+      "sang daan (100)"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Pamahalaang Amerikano",
+    "question": "Gaano katagal ang termino ng isang senador ng Amerika?",
+    "answers": [
+      "Anim (6) na taon"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang isa sa mga Senador ng inyong estado ngayon?",
+    "answers": [
+      "Ang mga sagot ay magkakaiba. [Ang mga residente ng District of Columbia at mga residente ng mga teritoryo ng Estados Unidos ay dapat sumagot na ang D.C. (o ang teritoryo kung saan nakatira ang aplikante) ay walang mga Senador ng Estados Unidos.] Bisitahin ang senate.gov upang malaman kung sino ang mga Senador ng Estados Unidos sa inyong estado."
+    ],
+    "senior": true
+  },
+  {
+    "id": 24,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ilan ang mga bumobotong miyembro sa Bahay ng mga Representante?",
+    "answers": [
+      "Apat na raan at tatlumpu't lima (435)"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Pamahalaang Amerikano",
+    "question": "Gaano katagal ang termino ng isang miyembro ng Bahay ng Representante?",
+    "answers": [
+      "Dalawang (2) taon"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Pamahalaang Amerikano",
+    "question": "Bakit mas maikli ang termino ng pagsisilbi ng mga representante kaysa sa mga senador sa Amerika?",
+    "answers": [
+      "Para mas masunod ang opinyon ng publiko"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ilang senador mayroon ang bawat estado?",
+    "answers": [
+      "Dalawa (2)"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "Pamahalaang Amerikano",
+    "question": "Bakit may dalawang senador ang bawat estado?",
+    "answers": [
+      "Pantay na representasyon (para sa maliliit na estado).",
+      "Ang Pinakamalaking Kompromiso (Connecticut Compromise)"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sabihin kung sino ang inyong Kinatawan ng Estados Unidos.",
+    "answers": [
+      "Ang mga sagot ay magkakaiba. [Ang mga residente ng mga teritoryong may mga hindi bumobotong Delegado o Residenteng Komisyoner ay maaaring magbigay ng pangalan ng Delegado o Komisyoner.Katanggap-tanggap din sa anumang pahayag na ang teritoryo ay walang (bumobotong) mga Kinatawan sa Kongreso.]"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang pangalan ng Ispiker ng Kapulungan ng mga Kinatawan?",
+    "answers": [
+      "Bisitahin ang uscis.gov/citizenship/testupdates para sa pangalan ng Tagapagsalita ng Kapulungan ng mga Kinatawan."
+    ],
+    "senior": true
+  },
+  {
+    "id": 31,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang kinakatawan ng senador ng Amerika?",
+    "answers": [
+      "Ang mamamayan ng kanilang estado",
+      "Mga mamamayan ng kanilang estado"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang nagtatalaga ng mga senador ng Amerika?",
+    "answers": [
+      "Mga mamamayan ng kanilang estado"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang kinakatawan ng Kapulungan ng mga Kinatawan?",
+    "answers": [
+      "Mamamayan ng kanilang (nasasakupan) distrito",
+      "Mamamayan ng kanilang distrito",
+      "Mga taong mula sa (congressional) district nila",
+      "Mga taong nasa district nila"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang nagtatalaga sa mga miyembro ng Kapulungan ng mga Kinatawan?",
+    "answers": [
+      "Mamamayan mula sa kanilang (nasasakupang) distrito"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Pamahalaang Amerikano",
+    "question": "Bakit ang ilang estado ay may mas maraming Kinatawan kaysa ibang mga estado?",
+    "answers": [
+      "(dahil sa) populasyon ng estado",
+      "(dahil) maraming tao sa kanila",
+      "(dahil) mas maraming tao sa ilang estado"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Pamahalaang Amerikano",
+    "question": "Para sa ilang taon inihahalal ang Pangulo ng Estados Unidos?",
+    "answers": [
+      "Apat (4)"
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ang presidente ng Amerika ay maaari lamang magsilbi ng dalawang termino. Bakit?",
+    "answers": [
+      "(Dahil sa) ang ika-dalawampu't dalawang susog",
+      "Para pigilan ang presidente na maging lubhang makapangyarihan"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang pangalan ng Pangulo ng Estados Unidos ngayon?",
+    "answers": [
+      "Bisitahin ang uscis.gov/citizenship/testupdates para sa pangalan ng Presidente ng Estados Unidos."
+    ],
+    "senior": true
+  },
+  {
+    "id": 39,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang pangalan ng Pangalawang Pangulo ng Estados Unidos ngayon?",
+    "answers": [
+      "Bisitahin ang uscis.gov/citizenship/testupdates para sa pangalan ng Bise Presidente ng Estados Unidos."
+    ],
+    "senior": true
+  },
+  {
+    "id": 40,
+    "category": "Pamahalaang Amerikano",
+    "question": "If the president can no longer serve, who becomes president?",
+    "answers": [
+      "The Vice President (of the United States) 40.Kung ang Pangulo ay hindi na nakakapaglingkod, sino ang nagiging Pangulo?",
+      "ang Pangalawang Pangulo"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "Pamahalaang Amerikano",
+    "question": "Magsabi ng isang kapangyarihan ng presidente.",
+    "answers": [
+      "Pumirma ng mga mungkahi at gawin itong batas",
+      "Magkansela ng mga mungkahi",
+      "Magpatupad ng batas",
+      "Pangunahing pinuno ng militar (sandatahang lakas)",
+      "Pinunong pangdiplomatiko",
+      "Nagtatalaga ng mga pederal na hukom"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang Punong Kumander ng militar?",
+    "answers": [
+      "ang Pangulo"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang pumipirma ng mga panukalang-batas upang maging mga batas?",
+    "answers": [
+      "ang Pangulo"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang nagbebeto sa mga panukalang-batas?",
+    "answers": [
+      "ang Pangulo"
+    ],
+    "senior": true
+  },
+  {
+    "id": 45,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang nagtatalaga ng mga pederal na hukom?",
+    "answers": [
+      "Ang presidente (ng Amerika)"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ang ehekutibong sangay ay may maraming mga parte. Magsabi ng isa.",
+    "answers": [
+      "Presidente (ng Amerika)",
+      "Gabinete",
+      "Pederal na mga departamento at mga ahensiya"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang ginagawa ng Gabinete ng Pangulo?",
+    "answers": [
+      "nagpapayo sa Pangulo"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang dalawang posisyon na nasa antas ng Gabinete?",
+    "answers": [
+      "Kalihim ng Agrikultura",
+      "Kalihim ng Komersiyo",
+      "Kalihim ng Depensa",
+      "Kalihim ng Edukasyon",
+      "Kalihim ng Enerhiya",
+      "Kalihim ng mga Palingkurang Pangkalusugan at Pantao",
+      "Kalihim ng Kapanatagan ng Bansa (Homeland Security)",
+      "Kalihim ng Pabahay at Pagpapaunlad ng Lunsod",
+      "Kalihim ng Interyor",
+      "Kalihim ng Paggawa",
+      "Kalihim ng Estado",
+      "Kalihim ng Transportasyon",
+      "Kalihim ng Tesorerya",
+      "Kalihim ng mga Gawain ng mga Beterano",
+      "Abugado Heneral",
+      "Pangalawang Pangulo",
+      "Administrator ng Environmental Protection Agency",
+      "Administrator ng Small Business Administration",
+      "Director ng Central Intelligence Agency",
+      "Director ng Office of Management and Budget",
+      "Director ng National Intelligence",
+      "United States Trade Representative"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "Pamahalaang Amerikano",
+    "question": "Bakit importante ang?",
+    "answers": [
+      "Ito ang nagdedesisyon kung sino ang itatalagang presidente.",
+      "Ito ang nagbibigay ng kasunduan sa pagitan ng pagtatalaga ng presidente at ng kinatawan."
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang isang parte ng sangay na panghukuman?",
+    "answers": [
+      "Kataas-taasang Hukuman",
+      "Mga Korteng Pederal"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang ginagawa ng sangay na panghukuman?",
+    "answers": [
+      "nirerepaso ang mga batas",
+      "ipinaliliwanag ang mga batas",
+      "nilulutas ang mga pagtatalo (hindi pagkakasundo) ungkol sa batas",
+      "ipinapasiya kung ang isang batas ay labag sa Konstitusyon"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang pinakamataas na hukuman sa Estados Unidos?",
+    "answers": [
+      "ang Kataas-taasang Hukuman"
+    ],
+    "senior": true
+  },
+  {
+    "id": 53,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ilang puwesto mayroon sa Kataas-taasang Hukuman?",
+    "answers": [
+      "Siyam (9)"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ilang mga hukom ng Kataas-taasang Hukuman ang karaniwang kinakailangan upang desisyunan ang isang kaso?",
+    "answers": [
+      "Lima(5)"
+    ]
+  },
+  {
+    "id": 55,
+    "category": "Pamahalaang Amerikano",
+    "question": "Gaano katagal nagsisilbi ang mga hukom sa Kataas-taasang Hukuman?",
+    "answers": [
+      "(Habang) buhay",
+      "Habambuhay na pagtatalaga",
+      "(Hanggang) pagreretiro"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "Pamahalaang Amerikano",
+    "question": "Supreme Court justices serve for life. Why?",
+    "answers": [
+      "To be independent (of politics)",
+      "To limit outside (political) influence"
+    ]
+  },
+  {
+    "id": 57,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang Punong Mahistrado ng Estados Unidos ngayon?",
+    "answers": [
+      "Bisitahin ang uscis.gov/citizenship/testupdates para sa pangalan ng Punong Mahistrado ng Estados Unidos."
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Pamahalaang Amerikano",
+    "question": "Magsabi ng isang kapangyarihan na para lamang sa pederal na pamamahala.",
+    "answers": [
+      "Mag-imprenta ng perang papel",
+      "Mag produksyon ng barya",
+      "Magdeklara ng giyera",
+      "Lumikha ng isang hukbo",
+      "Gumawa ng mga kasunduan",
+      "Magtalaga ng polisiyang pangdayuhan"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Pamahalaang Amerikano",
+    "question": "Magsabi ng isang kapangyarihang para lamang sa mga estado",
+    "answers": [
+      "magkaloob ng pag-aaral at edukasyon",
+      "magkaloob ng proteksiyon (pulisya)",
+      "magkaloob ng kaligtasan (mga kagawaran ng bumbero)",
+      "magbigay ng lisensiya para sa pagmamaneho",
+      "mag-aproba ng pagsosona at paggamit ng lupa"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang layunin ng ika-10 Susog?",
+    "answers": [
+      "(Ipinapahayag nito na) ang kapangyarihang ibinigay hindi sa pamahalaang pederal ay pagpapamay-ari ng estado o ng sambayanan."
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang Gobernador na iyong estado ngayon?",
+    "answers": [
+      "Ang mga sagot ay magkakaiba. [Ang mga residente ng District of Columbia ay dapat sumagot na ang D.C. ay walang Gobernador.]"
+    ],
+    "senior": true
+  },
+  {
+    "id": 62,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang kapital ng iyong estado?",
+    "answers": [
+      "Ang mga sagot ay magkakaiba. [Ang mga residente ng District of Columbia ay dapat sumagot na ang D.C. ay hindi isang estado at walang kapital. Ang mga residente ng mga teritoryo ng Estados Unidos ay dapat sabihin ang kapital ng teritoryo.]"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Pamahalaang Amerikano",
+    "question": "May apat na susog sa Konstitusyon tungkol sa kung sino ang makakaboto. Ilarawan ang isa sa mga ito.",
+    "answers": [
+      "Mga mamamayang labingwalong (18) taong gulang at mas matanda (ay makakaboto).",
+      "Hindi mo kailangang magbayad (ng isang poll tax) upang makaboto.",
+      "Sinumang mamamayan ay makakaboto. (Ang mga babae at mga lalaki ay makakaboto.)",
+      "Isang lalaking mamamayan ng anumang lahi (ay makakaboto)."
+    ]
+  },
+  {
+    "id": 64,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang pwedeng bumoto sa eleksiyong pederal, tumakbo para sa pederal na panunungkulan, at magsilbing hurado sa Amerika?",
+    "answers": [
+      "Mga mamamayan",
+      "Mga mamamayan ng Amerika",
+      "Mga mamamayan ng Amerika"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang dalawang karapatan ng bawat isang naninirahan sa Estados Unidos?",
+    "answers": [
+      "kalayaang magpahayag",
+      "kalayaang magsalita",
+      "kalayaang magtipun-tipon",
+      "kalayaang magpetisyon sa pamahalaan",
+      "kalayaang mamili ng relihiyon",
+      "karapatang magdala ng armas"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Pamahalaang Amerikano",
+    "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+    "answers": [
+      "The United States",
+      "The flag 66.Katapatan sa ano ang ipinapakita kapag sinasabi natin ang Pledge of Allegiance?",
+      "sa Estados Unidos",
+      "sa bandera"
+    ],
+    "senior": true
+  },
+  {
+    "id": 67,
+    "category": "Pamahalaang Amerikano",
+    "question": "Magsabi ng dalawang mga pangako na ginawa ng mga bagong mga mamamayan sa Panunumpa ng Pakikipag-alyansa.",
+    "answers": [
+      "isuko ang katapatan sa ibang mga bansa",
+      "Ipagtanggol ang (Amerika) Konstitusyon",
+      "sundin ang mga batas ng Estados Unidos",
+      "maglingkod sa militar ng Estados Unidos (kung kailangan)",
+      "maglingkod (gumawa ng mahalagang trabaho para sa bansa (kung kailangan)",
+      "maging matapat sa Estados Unidos"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Pamahalaang Amerikano",
+    "question": "Paano maaaring maging mamamayan ng Estados Unidos?",
+    "answers": [
+      "Dapat ipinanganak sa United States, sa ilalim ng mga kondisyong itinakda ng 14th Amendment",
+      "Pagnaturalisa",
+      "Kumuha ng citizenship (sa ilalim ng mga kondisyong itinakda ng Congress"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang dalawang halimbawa ng partisipasyon ng publiko sa Amerika?",
+    "answers": [
+      "Pagboto",
+      "Tumakbo para manungkulan Sumali sa isang politikong grupo",
+      "Tumulong sa isang kampanya",
+      "Sumali sa isang sibikong grupo",
+      "Sumali sa isang grupong pangkomunidad",
+      "Magbigay ng opinyon sa itinalagang opisyal (sa isang isyu)",
+      "Kontakin ang itinalagang mga opisyal",
+      "Suportahan o tanggihan ang isang isyu o polisiya",
+      "Sumulat sa isang peryodiko"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ano ang isang paraan para magsilbi ang mga Amerikano sa kanilang bansa?",
+    "answers": [
+      "Bumoto",
+      "Magbayad ng buwis",
+      "Sundin ang batas",
+      "Magsilbi sa militar",
+      "Tumakbo para maglingkod",
+      "Magtrabaho sa lokal, sa estado, o sa pederal na pamahalaan"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "Pamahalaang Amerikano",
+    "question": "Bakit mahalagang magbayad ng mga pederal na buwis?",
+    "answers": [
+      "Ito ay kailangan ayon sa batas",
+      "Lahat ng tao ay nagbabayad para pondohan ang pederal na pamahalaan",
+      "Ito ay kailangan ayon sa (U.S.) Konstitusyon (Ika-16 na Susog)",
+      "Tungkuling sibiko"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Pamahalaang Amerikano",
+    "question": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+    "answers": [
+      "Required by law",
+      "Civic duty",
+      "Makes the draft fair, if needed"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Pamahalaang Amerikano",
+    "question": "Ang mga mananakop ay dumating sa Amerika para sa maraming mga dahilan. Magsabi ng isa.",
+    "answers": [
+      "Kalayaan",
+      "Kalayaan sa politika",
+      "Kalayaan sa relihiyon",
+      "Oportunidad na pang-ekonomiya",
+      "Matakasan ang pag-uusig"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Pamahalaang Amerikano",
+    "question": "Sino ang nanirahan sa Amerika bago dumating ang mga Europeo?",
+    "answers": [
+      "Mga Amerikanong Indiyan",
+      "Mga Katutubong Amerikano"
+    ]
+  },
+  {
+    "id": 75,
+    "category": "Pamahalaang Amerikano",
+    "question": "Anong mga grupo ng mga tao ang kinuha at ibinenta bilang alipin?",
+    "answers": [
+      "Mga Aprikano",
+      "Mga tao mula sa Aprika"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Anong giyera ang nilabanan ng Amerika para panalunan ang kalayaan mula sa Britanya?",
+    "answers": [
+      "Ang Rebolusyong Amerikano",
+      "Ang (Amerikano) Giyerang Pangrebolusyon",
+      "Giyera para (Amerika) sa Kalayaan"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Magsabi ng isang dahilan kung bakit nagdeklara ng kalayaan ang Amerika mula sa Britanya.",
+    "answers": [
+      "Mataas na buwis",
+      "Pagbubuwis ng walang representasyon",
+      "Ang mga sundalo ng Britanya ay nagtigil sa mga bahay ng Amerikano (nanirahan, nagkuta)",
+      "Wala silang sariling pamahalaan",
+      "Ang masaker sa Boston",
+      "Ang pagmonopolya sa tsaa (Tea Act)",
+      "Ang pagpataw ng buwis sa mga pahayagan at iba pang dokomentong pangkomersiyo (Stamp Act)",
+      "Ang buwis sa pag-importa ng asukal (Sugar Act)",
+      "Townshend Acts (serye ng ibang buwis)",
+      "Intolerable (Mapusok) Acts"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Sino ang sumulat ng Deklarasyon ng Kalayaan?",
+    "answers": [
+      "(Thomas) Jefferson"
+    ],
+    "senior": true
+  },
+  {
+    "id": 79,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Kailan ipinagtibay ang Deklarasyon ng Kalayaan?",
+    "answers": [
+      "Hulyo 4, 1776"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Ang rebolusyong amerikano ay may maraming mga importanteng pangyayari. Pangalanan ang isa.",
+    "answers": [
+      "(Labanan sa burol ng bunker) Bunker Hill.",
+      "Deklarasyon ng Kalayaan.",
+      "Ang Pagtawid ni Washington sa Delaware (Labanan sa Trenton).",
+      "(Labanan) Saratoga.",
+      "Lambak ng Forge (kampo).",
+      "(Labanan)Yorktown (Pagsuko ng Briton sa Yorktown)"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "Kasaysayan ng Amerika",
+    "question": "May 13 orihinal na estado. Magsabi ng lima.",
+    "answers": [
+      "New Hampshire",
+      "Massachusetts",
+      "Rhode Island",
+      "Connecticut",
+      "New York",
+      "New Jersey",
+      "Pennsylvania",
+      "Delaware",
+      "Maryland",
+      "Virginia",
+      "North Carolina",
+      "South Carolina",
+      "Georgia"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Anong dokumento sa pagtatatag ang naisulat ng taong 1787?",
+    "answers": [
+      "ESTADOS UNIDOS (AMERIKA) Konstitusyon"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Ang mga Pederalistang Papel ay sumuporta sa pagpasa ng Konstitusyon. Tukuyin ang isa sa mga",
+    "answers": [
+      "(James) Madison",
+      "(Alexander) Hamilton",
+      "(John) Jay",
+      "Publius"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Bakit importante ang mga kasulatang Federalist Papers?",
+    "answers": [
+      "Tumulong ang mga ito na maintindihan ng mga tao sa Amerika Konstitusyon.",
+      "Sinuportahan nila ang pagpasa ng Konstitusyon."
+    ]
+  },
+  {
+    "id": 85,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Benjamin Franklin is famous for many things. Name one.",
+    "answers": [
+      "Founded the first free public libraries",
+      "First Postmaster General of the United States",
+      "Helped write the Declaration of Independence",
+      "Inventor",
+      "U.S. diplomat"
+    ]
+  },
+  {
+    "id": 86,
+    "category": "Kasaysayan ng Amerika",
+    "question": "George Washington is famous for many things. Name one.",
+    "answers": [
+      "“Father of Our Country”",
+      "First president of the United States",
+      "General of the Continental Army",
+      "President of the Constitutional Convention"
+    ],
+    "senior": true
+  },
+  {
+    "id": 87,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Thomas Jefferson is famous for many things. Name one.",
+    "answers": [
+      "Writer of the Declaration of Independence",
+      "Third president of the United States",
+      "Doubled the size of the United States (Louisiana Purchase)",
+      "First Secretary of State",
+      "Founded the University of Virginia",
+      "Writer of the Virginia Statute on Religious Freedom"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "Kasaysayan ng Amerika",
+    "question": "James Madison is famous for many things. Name one.",
+    "answers": [
+      "“Father of the Constitution”",
+      "Fourth president of the United States",
+      "President during the War of 1812",
+      "One of the writers of the Federalist Papers"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Alexander Hamilton is famous for many things. Name one.",
+    "answers": [
+      "First Secretary of the Treasury",
+      "One of the writers of the Federalist Papers",
+      "Helped establish the First Bank of the United States",
+      "Aide to General George Washington",
+      "Member of the Continental Congress"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Kasaysayan ng Amerika",
+    "question": "What territory did the United States buy from France in 1803?",
+    "answers": [
+      "Louisiana Territory",
+      "Louisiana 90.Anong teritoryo ang binili ng Estados Unidos mula sa France noong 1803?",
+      "ang Louisiana Territory",
+      "Louisiana"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Magsabi ng isang digmaan na nakipaglaban ang Estados Unidos noong mga taon ng 1800.",
+    "answers": [
+      "Digmaan ng 1812",
+      "Digmaang Meksikano-Amerikano",
+      "Digmaang Sibil",
+      "Digmang Espanyol-Amerikano"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Tukuyin ang digmaan ng Estados sa pagitan ng Hilaga at Timog.",
+    "answers": [
+      "ang Digmaang Sibil"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Ang digmaang sibil ay may maraming mga importanteng pangyayari. Pangalanan ang isa.",
+    "answers": [
+      "(Labanan) Fort Sumter",
+      "Pagpapahayag ng Pagpapalaya",
+      "(Labanan) Vicksburg",
+      "(Labanan) Gettysburg",
+      "Ang martsa ni Sherman",
+      "(Pagsuko) Appomattox",
+      "(Labanan) Antietam/Sharpsburg",
+      "Pagpatay kay Lincoln"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Abraham Lincoln is famous for many things. Name one.",
+    "answers": [
+      "Freed the slaves (Emancipation Proclamation)",
+      "Saved (or preserved) the Union",
+      "Led the United States during the Civil War",
+      "16th president of the United States",
+      "Delivered the Gettysburg Address"
+    ],
+    "senior": true
+  },
+  {
+    "id": 95,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Ano ang ginawa ng Proklamasyon ng Paglaya?",
+    "answers": [
+      "pinalaya ang mga alipin",
+      "pinalaya ang mga alipin sa Confederacy",
+      "pinalaya ang mga alipin sa mga estadong Confederate",
+      "pinalaya ang alipin sa karamihan ng mga estado sa Timog"
+    ]
+  },
+  {
+    "id": 96,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Anong digmaan sa Estados Unidos ang nagwakas sa pagkaalipin?",
+    "answers": [
+      "Ang Digmaang Sibil"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Anong amendment ang nagsasabing lahat ng taong ipinanganak o naturalized sa United States, at sa gayo'y nasa ilalim ng jurisdiction na iyon, ay mga U.S. citizen?",
+    "answers": [
+      "Ika-labing apat na susog"
+    ]
+  },
+  {
+    "id": 98,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Kailan nabigyan ang lahat ng kalalakihan ng karapatang bumoto?",
+    "answers": [
+      "Pagkatapos ng Digmaang Sibil",
+      "Muling Pagtatayo",
+      "Ika-labing limang susog",
+      "1870"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Pangalanan ang isa sa lider ng samahang pangkarapatan para sa kababaihan noong 1800s.",
+    "answers": [
+      "Susan B. Anthony.",
+      "Elizabeth Cady Stanton.",
+      "Sojourner Truth.",
+      "Harriet Tubman.",
+      "Lucretia Mott.",
+      "Lucy Stone"
+    ]
+  },
+  {
+    "id": 100,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Sabihin ang isang digmaan na nakipaglaban ang Estados Unidos noong 1900s.",
+    "answers": [
+      "Unang Digmaang Pandaigdig",
+      "Ikalawang Digmaang Pandaigdig",
+      "Digmaan sa Korea",
+      "Digmaan sa Vietnam",
+      "Digmaan sa (Persian) Gulf"
+    ],
+    "senior": true
+  },
+  {
+    "id": 101,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Bakit pumasok ang Amerika sa Unang Digmaang Pandaigdig?",
+    "answers": [
+      "Dahil inatake ng Germany ang mga barko (sibilyan) ng Amerika.",
+      "Para sumoporta sa pwersa ng mga kapanalig na bansa (England, France, Italy, at Russia).",
+      "Para labanan ang Central Powers (Germany, Austria-Hungary, ang Imperyong Ottoman, at Bulgaria)"
+    ]
+  },
+  {
+    "id": 102,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Kailan nagkaroon ng karapatan ang mga kababaihan na bumoto?",
+    "answers": [
+      "1920",
+      "Matapos ang unang Digmaang Pandaigdig",
+      "(kasama ang) Ika-19 na susog"
+    ]
+  },
+  {
+    "id": 103,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Ano ang malaking depresyon?",
+    "answers": [
+      "Pinakamahabang pagbagsak ng ekonomiya sa modernong kasaysayan"
+    ]
+  },
+  {
+    "id": 104,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Kailan nagsimula ang Great Depression?",
+    "answers": [
+      "Ang Great Crash (1929)",
+      "Ang pagbagsak ng stock market ng taong 1929"
+    ]
+  },
+  {
+    "id": 105,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Sino ang Pangulo sa panahon ng Great Depression at Ikalawang Digmaang Pandaigdig?",
+    "answers": [
+      "(Franklin) Roosevelt"
+    ]
+  },
+  {
+    "id": 106,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Bakit pumasok ang Amerika sa Ikalawang Digmaang Pandaigdig?",
+    "answers": [
+      "(Pagbomba sa) Pearl Harbor",
+      "Pag atake ng hapones sa Pearl Harbor",
+      "Para suportahan ang kaalyadong mga puwersa (England, France, at Russia)",
+      "Para labanan ang puwersang Axis (Germany, Italy, at Japan)"
+    ]
+  },
+  {
+    "id": 107,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Dwight Eisenhower is famous for many things. Name one.",
+    "answers": [
+      "General during World War II",
+      "President at the end of (during) the Korean War",
+      "34th president of the United States",
+      "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
+    ]
+  },
+  {
+    "id": 108,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Sino ang pangunahing karibal ng Amerika noong cold War?",
+    "answers": [
+      "Unyong Sobyet",
+      "USSR",
+      "Rusya"
+    ]
+  },
+  {
+    "id": 109,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Noong panahon ng Cold War, ano ang pangunahing inaalala ng Amerika?",
+    "answers": [
+      "Komunismo",
+      "Digmaang Nukleyar"
+    ]
+  },
+  {
+    "id": 110,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Bakit pumasok ang Amerika sa Digmaan sa Korea?",
+    "answers": [
+      "Para pigilan ang pagkalat ng komunismo"
+    ]
+  },
+  {
+    "id": 111,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Bakit pumasok ang Amerika sa Digmaan sa Vietnam?",
+    "answers": [
+      "Para pigilan ang pagkalat ng komunismo"
+    ]
+  },
+  {
+    "id": 112,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Ano ang ginawa ng samahan para sa karapatang sibil?",
+    "answers": [
+      "Nakipaglaban para wakasan ang diskriminasyon sa lahi"
+    ]
+  },
+  {
+    "id": 113,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Martin Luther King, Jr. is famous for many things. Name one.",
+    "answers": [
+      "Fought for civil rights",
+      "Worked for equality for all",
+      "Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”"
+    ],
+    "senior": true
+  },
+  {
+    "id": 114,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Bakit pumasok ang Amerika sa Digmaan sa Persian Gulf?",
+    "answers": [
+      "Para puwersahin ang mga militar ng Iraq mula sa Kuwait"
+    ]
+  },
+  {
+    "id": 115,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Anong malaking pangyayari ang naganap noong Setyembre 11, 2001 sa Estados Unidos?",
+    "answers": [
+      "Inagaw ng mga terorista ang dalawang eroplano at ibinangga ang mga ito sa World Trade Center sa Lungsod ng New York",
+      "Inagaw ng mga terorista ang isang eroplano at ibinangga ito sa Pentagon sa Arlington, Virginia",
+      "Inagaw ng mga terorista ang isang eroplano na orihinal na nakatutok sa Washington, D.C., at bumagsak sa isang patlang sa Pennsylvania"
+    ],
+    "senior": true
+  },
+  {
+    "id": 116,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Pangalanan ang isa sa hidwaang militar sa Amerika matapos ang pag atake noong Setyembre 11, 2001.",
+    "answers": [
+      "(Pandaigdigan) War on Terror",
+      "Digmaan sa Afghanistan",
+      "Digmaan sa Iraq"
+    ]
+  },
+  {
+    "id": 117,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Pangalanan ang isa sa tribong Amerikanong Indiyan sa Amerika",
+    "answers": [
+      "Apache",
+      "Blackfeet",
+      "Cayuga",
+      "Cherokee",
+      "Cheyenne",
+      "Chippewa",
+      "Choctaw",
+      "Creek",
+      "Crow",
+      "Hopi",
+      "Huron",
+      "Inupiat",
+      "Lakota",
+      "Mohawk",
+      "Mohegan",
+      "Navajo",
+      "Oneida",
+      "Onondaga",
+      "Pueblo",
+      "Seminole",
+      "Seneca",
+      "Shawnee",
+      "Sioux",
+      "Teton",
+      "Tuscarora Para sa kumpletong listahan ng mga tribo, maaaring bumisita sa bia.gov."
+    ]
+  },
+  {
+    "id": 118,
+    "category": "Kasaysayan ng Amerika",
+    "question": "Pangalanan ang isang halimbawa ng inobasyon sa Amerika.",
+    "answers": [
+      "Bumbilya",
+      "Sasakyan (kotse, makinang kombastibol)",
+      "Matataas na mga gusali",
+      "Eroplano",
+      "Proseso sa paggawa",
+      "Ang pagpunta sa buwan",
+      "Ang paglikha ng microchips"
+    ]
+  },
+  {
+    "id": 119,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Ano ang kapital ng Estados Unidos?",
+    "answers": [
+      "Washington, D.C."
+    ]
+  },
+  {
+    "id": 120,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Nasaan ang Istatwa ng Kalayaan?",
+    "answers": [
+      "New York (Harbor)",
+      "Liberty Island [Tinatanggap din ang New Jersey, malapit sa New York City, at nasa Hudson (River).]"
+    ]
+  },
+  {
+    "id": 121,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Bakit may 13 guhit ang bandera?",
+    "answers": [
+      "dahil may 13 orihinal na colony",
+      "dahil ang mga guhit ay kumakatawan sa mga orihinal na colony"
+    ],
+    "senior": true
+  },
+  {
+    "id": 122,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Bakit may 50 bituin ang bandera?",
+    "answers": [
+      "dahil may isang bituin para sa bawat estado",
+      "dahil ang bawat bituin ay kumakatawan sa isang estado",
+      "dahil may 50 estado"
+    ]
+  },
+  {
+    "id": 123,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Ano ang tawag sa pambansang awit?",
+    "answers": [
+      "The Star-Spangled Banner"
+    ]
+  },
+  {
+    "id": 124,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Ang unang moto ng bansa ay \"E Pluribus Unum\" Ano ang kahulugan nito?",
+    "answers": [
+      "Mula sa marami, isa",
+      "Lahat tayo ay magiging isa"
+    ]
+  },
+  {
+    "id": 125,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Ano ang Araw ng Kalayaan?",
+    "answers": [
+      "Araw na itinakda para ipagdiwang ang kalayaan ng Amerika (Mula sa Britanya)",
+      "Ang kaarawan ng bansa"
+    ]
+  },
+  {
+    "id": 126,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Magsabi ng Tatlo pambansang Piyesta Opisyal ng Estados Unidos.",
+    "answers": [
+      "Bagong Taon",
+      "Kaarawan ni Martin Luther King, Jr.",
+      "Presidents’ Day (Kaarawan ni Washington)",
+      "Memorial Day",
+      "Araw ng Kalayaan",
+      "Araw ng Manggagawa",
+      "Columbus Day",
+      "Araw ng mga Beterano",
+      "Araw ng Pasasalamat",
+      "Pasko"
+    ],
+    "senior": true
+  },
+  {
+    "id": 127,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Ano ang Araw ng Pag alala?",
+    "answers": [
+      "Itinakdang araw para parangalan ang mga sundalong namatay sa serbisyong militar"
+    ]
+  },
+  {
+    "id": 128,
+    "category": "Mga Simbolo at Pagdiriwang",
+    "question": "Ano ang Araw ng mga Beterano?",
+    "answers": [
+      "Itinakdang araw para parangalan ang mga kasapi ng militar (Amerika)",
+      "Itinakdang araw para parangalan ang mga taong nagsilbi (Sa militar ng Amerika)"
+    ]
+  }
+]

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { Locale, TestVersion } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
-import Quiz from "@/components/Quiz";
+import StudyHub from "@/components/StudyHub";
 
 const VERSIONS: TestVersion[] = ["2008", "2025"];
 
@@ -34,7 +34,7 @@ export default async function PracticePage({
   if (!VERSIONS.includes(version as TestVersion)) notFound();
 
   return (
-    <Quiz
+    <StudyHub
       locale={locale as Locale}
       version={version as TestVersion}
       senior={senior === "1"}

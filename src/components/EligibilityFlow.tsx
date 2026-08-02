@@ -40,65 +40,82 @@ export default function EligibilityFlow({ locale }: { locale: Locale }) {
     "2025": "2025",
   };
 
+  const stepIndex = step === "q1" ? 1 : step === "q2" ? 2 : 3;
+
   return (
-    <div className="flex flex-col gap-6">
-      <h1 className="text-2xl font-bold">{dict.eligibilityTitle}</h1>
+    <div className="mx-auto max-w-2xl">
+      <p className="text-sm font-medium text-signal">
+        {dict.stepOf} {stepIndex} / 3
+      </p>
+      <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
+        {dict.eligibilityTitle}
+      </h1>
+      <p className="mt-3 text-base leading-relaxed text-muted sm:text-lg">
+        {dict.eligibilityLead}
+      </p>
 
-      {step === "q1" && (
-        <fieldset className="flex flex-col gap-3">
-          <legend className="font-medium mb-1">{dict.q1}</legend>
-          <div className="flex gap-3">
-            <button
-              onClick={() => answerQ1(true)}
-              className="rounded-md border border-black/15 dark:border-white/20 px-4 py-2 hover:bg-black/[.04] dark:hover:bg-white/[.08]"
+      <div className="mt-8 h-1.5 overflow-hidden rounded-full bg-mist">
+        <div
+          className="h-full origin-left rounded-full bg-signal transition-[width] duration-500 ease-out"
+          style={{ width: `${(stepIndex / 3) * 100}%` }}
+        />
+      </div>
+
+      <div key={step} className="gw-fade mt-10">
+        {step === "q1" && (
+          <fieldset className="flex flex-col gap-5">
+            <legend className="text-xl font-semibold tracking-tight text-ink sm:text-2xl">
+              {dict.q1}
+            </legend>
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <button onClick={() => answerQ1(true)} className="gw-btn gw-btn-secondary flex-1">
+                {dict.yes}
+              </button>
+              <button onClick={() => answerQ1(false)} className="gw-btn gw-btn-secondary flex-1">
+                {dict.no}
+              </button>
+            </div>
+          </fieldset>
+        )}
+
+        {step === "q2" && (
+          <fieldset className="flex flex-col gap-5">
+            <legend className="text-xl font-semibold tracking-tight text-ink sm:text-2xl">
+              {dict.q2}
+            </legend>
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <button onClick={() => answerQ2(true)} className="gw-btn gw-btn-secondary flex-1">
+                {dict.yes}
+              </button>
+              <button onClick={() => answerQ2(false)} className="gw-btn gw-btn-secondary flex-1">
+                {dict.no}
+              </button>
+            </div>
+          </fieldset>
+        )}
+
+        {step === "result" && result && (
+          <div className="flex flex-col gap-6 rounded-2xl border border-line bg-surface/90 p-6 sm:p-8">
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-signal">
+              {result === "senior" ? "65/20" : result}
+            </p>
+            <p className="text-lg leading-relaxed text-ink sm:text-xl">
+              {resultCopy[result]}
+            </p>
+            <Link
+              href={
+                result === "senior"
+                  ? `/${locale}/practice/${resultVersion[result]}?senior=1`
+                  : `/${locale}/practice/${resultVersion[result]}`
+              }
+              className="gw-btn gw-btn-primary w-full sm:w-fit"
             >
-              {dict.yes}
-            </button>
-            <button
-              onClick={() => answerQ1(false)}
-              className="rounded-md border border-black/15 dark:border-white/20 px-4 py-2 hover:bg-black/[.04] dark:hover:bg-white/[.08]"
-            >
-              {dict.no}
-            </button>
+              {dict.startPractice}
+              <span aria-hidden>→</span>
+            </Link>
           </div>
-        </fieldset>
-      )}
-
-      {step === "q2" && (
-        <fieldset className="flex flex-col gap-3">
-          <legend className="font-medium mb-1">{dict.q2}</legend>
-          <div className="flex gap-3">
-            <button
-              onClick={() => answerQ2(true)}
-              className="rounded-md border border-black/15 dark:border-white/20 px-4 py-2 hover:bg-black/[.04] dark:hover:bg-white/[.08]"
-            >
-              {dict.yes}
-            </button>
-            <button
-              onClick={() => answerQ2(false)}
-              className="rounded-md border border-black/15 dark:border-white/20 px-4 py-2 hover:bg-black/[.04] dark:hover:bg-white/[.08]"
-            >
-              {dict.no}
-            </button>
-          </div>
-        </fieldset>
-      )}
-
-      {step === "result" && result && (
-        <div className="flex flex-col gap-4">
-          <p className="text-lg">{resultCopy[result]}</p>
-          <Link
-            href={
-              result === "senior"
-                ? `/${locale}/practice/${resultVersion[result]}?senior=1`
-                : `/${locale}/practice/${resultVersion[result]}`
-            }
-            className="inline-block w-fit rounded-md bg-black text-white dark:bg-white dark:text-black px-5 py-2.5 font-medium"
-          >
-            {dict.startPractice}
-          </Link>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }

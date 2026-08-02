@@ -1,0 +1,1363 @@
+[
+  {
+    "id": 1,
+    "category": "美国政府",
+    "question": "美国政府是什么政体？",
+    "answers": [
+      "共和国",
+      "基于宪法的联邦共和国",
+      "民主代议制"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "美国政府",
+    "question": "美国最高层级法律为何？",
+    "answers": [
+      "宪法"
+    ],
+    "senior": true
+  },
+  {
+    "id": 3,
+    "category": "美国政府",
+    "question": "请写出一件美国宪法做的事。",
+    "answers": [
+      "组建政府",
+      "定义政府权力",
+      "定义政府部门",
+      "保护人民权利"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "美国政府",
+    "question": "美国宪法以“我们，人民”开头。“我们，人民”是什么意思？",
+    "answers": [
+      "自治",
+      "人民主权",
+      "被统治者的同意",
+      "人们应自我统治",
+      "社会契约（示例）"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "美国政府",
+    "question": "美国宪法由哪些变动？",
+    "answers": [
+      "修订",
+      "修订过程"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "美国政府",
+    "question": "权利法案保护了什么？",
+    "answers": [
+      "美国人的（基本）权利",
+      "生活在美国的人的（基本）权利"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "美国政府",
+    "question": "宪法有多少条修订案？",
+    "answers": [
+      "二十七条（27）"
+    ],
+    "senior": true
+  },
+  {
+    "id": 8,
+    "category": "美国政府",
+    "question": "《独立宣言》有什么重要性？",
+    "answers": [
+      "它声明了美国不再由英国控制。",
+      "它声明所有人生而平等。",
+      "它强调人生来就有的权利。",
+      "它强调人的自由"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "美国政府",
+    "question": "哪一创始文件说美国殖民地摆脱了英国的统治？",
+    "answers": [
+      "《独立宣言》"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "美国政府",
+    "question": "从《独立宣言》和《美国宪法》中列举两个重要的思想。",
+    "answers": [
+      "平等",
+      "自由",
+      "社会契约",
+      "自然权利",
+      "有限政府",
+      "自治"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "美国政府",
+    "question": "什么创始文件中有“生命，自由以及追求幸福”？",
+    "answers": [
+      "《独立宣言》"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "美国政府",
+    "question": "美国的经济体制是什么？",
+    "answers": [
+      "资本主义",
+      "自由市场经济"
+    ],
+    "senior": true
+  },
+  {
+    "id": 13,
+    "category": "美国政府",
+    "question": "What is the rule of law?",
+    "answers": [
+      "Everyone must follow the law.",
+      "Leaders must obey the law.",
+      "Government must obey the law.",
+      "No one is above the law. 13..法治是什么？",
+      "每个人都必须遵循法律。",
+      "领导者必须守法。",
+      "政府必须守法。",
+      "任何人都不得凌驾于法律之上。"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "美国政府",
+    "question": "很多文件影响了美国宪法。说出一个。",
+    "answers": [
+      "独立宣言",
+      "联邦条款",
+      "联邦党人文集",
+      "反联邦党人文集",
+      "弗吉尼亚权利宣言",
+      "康涅狄格州的基本命令",
+      "五月花契约",
+      "易洛魁大和平法"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "美国政府",
+    "question": "政府有三个分支。为什么？",
+    "answers": [
+      "任何一部分不会变得过于强大",
+      "制衡与平衡",
+      "分权"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "美国政府",
+    "question": "说出政府的三个分支。",
+    "answers": [
+      "立法，行政和司法",
+      "国会，总统和法院"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "美国政府",
+    "question": "美国总统负责哪个政府部门？",
+    "answers": [
+      "行政机关"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "美国政府",
+    "question": "联邦政府的哪一部分制定法律？",
+    "answers": [
+      "美国国会",
+      "(美国或国家）立法机构",
+      "立法分支"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "美国政府",
+    "question": "美国国会的两个部分是什么",
+    "answers": [
+      "参议院和众议院（代表）"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "美国政府",
+    "question": ".说出美国国会的一项权力。",
+    "answers": [
+      "制定法律",
+      "宣战",
+      "制定联邦预算"
+    ],
+    "senior": true
+  },
+  {
+    "id": 21,
+    "category": "美国政府",
+    "question": "有多少名美国参议员？",
+    "answers": [
+      "一百名（100）"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "美国政府",
+    "question": "参议员的任期有多长？",
+    "answers": [
+      "六（6）年"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "美国政府",
+    "question": "您所在州现任的一个参议员是谁",
+    "answers": [
+      "答案会有异。[美国哥伦比亚特区居民和美国辖区居民 (或申请人居住地）应该回答华盛顿特区无参议员。]"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "美国政府",
+    "question": ".众议院有多少投票成员？",
+    "answers": [
+      "四百三十五名（435）"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "美国政府",
+    "question": "众议员任期多长时间？",
+    "answers": [
+      "两（2）年"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "美国政府",
+    "question": "为什么美国众议员的任期比参议员的任期短？",
+    "answers": [
+      "为了紧跟公众舆论"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "美国政府",
+    "question": "每个州有多少名参议员？",
+    "answers": [
+      "二（2）"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "美国政府",
+    "question": "为什么每州有2名参议员？",
+    "answers": [
+      "平等代表制（适用于小州）",
+      "大妥协（康涅狄格州妥协）"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "美国政府",
+    "question": "说出您的美国代表名字。",
+    "answers": [
+      "答案会有异。[无表决权代表或驻地专员的领土居民可以提供该代表或专员的名字。驻地代表在国会中无表决权的表述也可接受。]"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "美国政府",
+    "question": "现任众议院议长的名字是什么浏览 uscis.gov/citizenship/testupdates 搜索众议院议长的姓名。",
+    "answers": [
+      "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives."
+    ],
+    "senior": true
+  },
+  {
+    "id": 31,
+    "category": "美国政府",
+    "question": "美国参议员代表的是谁？",
+    "answers": [
+      "他们州的公民",
+      "他们所在州的人"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "美国政府",
+    "question": "谁来选举美国参议员？",
+    "answers": [
+      "每个州的公民"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "美国政府",
+    "question": "众议院的议员代表的是谁？",
+    "answers": [
+      "其（国会）地区的公民",
+      "其地区的公民",
+      "来自他们（国会）选区的人",
+      "他们所在地区的人"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "美国政府",
+    "question": "谁来选举众议院议员？",
+    "answers": [
+      "来自（国会）区的公民"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "美国政府",
+    "question": "为什么有些州的代表比其他州多？",
+    "answers": [
+      "(因为）該州的人口",
+      "(因为）他们有更多人",
+      "(因为）一些州有更多人"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "美国政府",
+    "question": "我们选举总统任期为多少年？",
+    "answers": [
+      "四年（4)"
+    ],
+    "senior": true
+  },
+  {
+    "id": 37,
+    "category": "美国政府",
+    "question": "美国总统只能担任两个任期。为什么？",
+    "answers": [
+      "(因为）第22条修正案",
+      "防止总统权力过大"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "美国政府",
+    "question": "美国现任总统名字",
+    "answers": [
+      "浏览 uscis.gov/citizenship/testupdates 搜索美国总统的姓名。"
+    ],
+    "senior": true
+  },
+  {
+    "id": 39,
+    "category": "美国政府",
+    "question": "美国现任副总统名字？",
+    "answers": [
+      "浏览 uscis.gov/citizenship/testupdates搜索美国副总统的姓名。"
+    ],
+    "senior": true
+  },
+  {
+    "id": 40,
+    "category": "美国政府",
+    "question": "如果总统无法继续履任，谁会成为总统？",
+    "answers": [
+      "副总統"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "美国政府",
+    "question": "说出一个总统的职权。",
+    "answers": [
+      "签署法案成为法律",
+      "否决法案",
+      "实施法律",
+      "(军事）总司令",
+      "首席外交官",
+      "任命联邦法官"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "美国政府",
+    "question": "谁是军队总司令？",
+    "answers": [
+      "总统"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "美国政府",
+    "question": "谁签署议案将其变成法律？",
+    "answers": [
+      "总统"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "美国政府",
+    "question": "谁否決法案？",
+    "answers": [
+      "总统"
+    ],
+    "senior": true
+  },
+  {
+    "id": 45,
+    "category": "美国政府",
+    "question": "谁任命联邦法官？",
+    "answers": [
+      "（美国）总统"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "美国政府",
+    "question": "行政部门包括许多部分。说出一个。",
+    "answers": [
+      "（美国）总统",
+      "内阁",
+      "联邦部门和机构"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "美国政府",
+    "question": "总统内阁的职责是什么？",
+    "answers": [
+      "建议总统"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "美国政府",
+    "question": "两个内阁级职位是什么？",
+    "answers": [
+      "农业部长",
+      "商务部长",
+      "国防部长",
+      "教育部长",
+      "能源部长",
+      "卫生与公共事务部部长",
+      "国土安全部部长",
+      "住房和城市发展部部长",
+      "內政部長",
+      "劳工部長",
+      "国务卿",
+      "交通部长",
+      "财政部长",
+      "退伍军人事务部长",
+      "司法部长",
+      "副总统",
+      "环境保护局局长",
+      "小企业行政管理局长",
+      "中央情报局局长",
+      "管理与预算办公室主任",
+      "国民情报总监",
+      "美国贸易代表"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "美国政府",
+    "question": "选举团为何重要？",
+    "answers": [
+      "它决定谁当选总统。",
+      "在总统大选与国会选举之间做出折衷。"
+    ]
+  },
+  {
+    "id": 50,
+    "category": "美国政府",
+    "question": "司法部门的一部分是什么？",
+    "answers": [
+      "最高法院",
+      "联邦法院"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "美国政府",
+    "question": "司法部门的职责是什么?",
+    "answers": [
+      "审查法律",
+      "解释法律",
+      "解決争议（分歧）",
+      "決定法律是否违反宪法"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "美国政府",
+    "question": "What is the highest court in the United States?",
+    "answers": [
+      "Supreme Court 52.美国的最高法院是什么？",
+      "最高法院"
+    ],
+    "senior": true
+  },
+  {
+    "id": 53,
+    "category": "美国政府",
+    "question": "最高法院有多少个席位？",
+    "answers": [
+      "九名(9)"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "美国政府",
+    "question": "决定一个案件通常需要多少位最高法院法官？",
+    "answers": [
+      "五个"
+    ]
+  },
+  {
+    "id": 55,
+    "category": "美国政府",
+    "question": "How long do Supreme Court justices serve?",
+    "answers": [
+      "(For) life",
+      "Lifetime appointment",
+      "(Until) retirement 55.最高法院大法官任职多长时间？",
+      "一生",
+      "终身任命",
+      "(直到）退休"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "美国政府",
+    "question": "Supreme Court justices serve for life. Why?",
+    "answers": [
+      "To be independent (of politics)",
+      "To limit outside (political) influence"
+    ]
+  },
+  {
+    "id": 57,
+    "category": "美国政府",
+    "question": "谁是美国现任首席大法官？",
+    "answers": [
+      "浏览 uscis.gov/citizenship/testupdates 搜索美国最高法院首席法官的姓名。"
+    ]
+  },
+  {
+    "id": 58,
+    "category": "美国政府",
+    "question": "列出仅适用于联邦政府的一种权力。",
+    "answers": [
+      "印制纸币",
+      "铸币",
+      "宣战",
+      "建军",
+      "订立条约",
+      "制定外交政策"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "美国政府",
+    "question": "列出仅适用于各州的一种权力。",
+    "answers": [
+      "提供学校与国民教育",
+      "提供人民保护（警政部門）",
+      "提供居住安全（消防部门）",
+      "提供驾驶执照",
+      "批准分区和土地使用"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "美国政府",
+    "question": "What is the purpose of the 10th Amendment?",
+    "answers": [
+      "(It states that the) powers not given to the federal government belong to the states or to the people. 60.第十修正案的目的是什么？",
+      "(它规定）没有赋予联邦政府的权力属于各州或人民。"
+    ]
+  },
+  {
+    "id": 61,
+    "category": "美国政府",
+    "question": "谁是您所在州的现任州长？",
+    "answers": [
+      "答案会有异。[美国哥伦比亚特区居民应该回答华盛顿特区无州长。]"
+    ],
+    "senior": true
+  },
+  {
+    "id": 62,
+    "category": "美国政府",
+    "question": "您所在州的首府是什么",
+    "answers": [
+      "答案会有异。[美国哥伦比亚特区居民应该回答华盛顿特区不是一个州而且无州首府。美国领土居民应该命名该领土的首府。]"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "美国政府",
+    "question": "There are four amendments to the U.S. Constitution about who can vote. Describe one of them.",
+    "answers": [
+      "Citizens eighteen (18) and older (can vote).",
+      "You don’t have to pay (a poll tax) to vote.",
+      "Any citizen can vote. (Women and men can vote.)",
+      "A male citizen of any race (can vote). 63.宪法」有四个关于谁可以投票的修正案。描述其中一个。",
+      "十八（18）岁及以上的公民（可以投票)。",
+      "您无需支付（人头税）投票。",
+      "任何公民可以投票。（女性和男性可投票。）",
+      "任何种族的男性公民（可投票）。"
+    ]
+  },
+  {
+    "id": 64,
+    "category": "美国政府",
+    "question": ".什么人可以在联邦选举中投票，竞选联邦公职并在美国担任陪审团？",
+    "answers": [
+      "公民",
+      "美国的公民",
+      "美国公民"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "美国政府",
+    "question": "What are three rights of everyone living in the United States?",
+    "answers": [
+      "Freedom of expression",
+      "Freedom of speech",
+      "Freedom of assembly",
+      "Freedom to petition the government",
+      "Freedom of religion",
+      "The right to bear arms 65.住在美国的任何人都有的三个权利是什么？",
+      "表达的自由",
+      "言论的自由",
+      "集会的自由",
+      "向政府请愿的自由",
+      "宗教的自由",
+      "携带武器的自由"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "美国政府",
+    "question": "当念效忠誓词的时候，我们向什么表示忠诚？",
+    "answers": [
+      "美国",
+      "国旗"
+    ],
+    "senior": true
+  },
+  {
+    "id": 67,
+    "category": "美国政府",
+    "question": "列举两个新公民在效忠誓言中所作的承诺。",
+    "answers": [
+      "放弃对他国的忠诚",
+      "保护（美国） 宪法",
+      "遵守美国法律",
+      "服务美国军队 (必要时)",
+      "(必要时)为国家服务 (从事重要工作)",
+      "效忠于美国"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "美国政府",
+    "question": ".如何才能成为美国公民？",
+    "answers": [
+      "在美国出生，符合第十四修正案规定的条件",
+      "衍生公民身份",
+      "根据国会规定的条件获得公民身份"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "美国政府",
+    "question": "请举两个美国公民参与国家事务的例子？",
+    "answers": [
+      "投票",
+      "竞选公职",
+      "加入政党",
+      "帮助竞选活动",
+      "加入公民团体",
+      "加入社区团体",
+      "向民选官员发表您的意见（关于问题）",
+      "与民选官员联系",
+      "支持或反对某个问题或政策",
+      "为报纸供稿"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "美国政府",
+    "question": "美国人为国家服务的一种方式是什么？",
+    "answers": [
+      "投票",
+      "交税",
+      "遵守法律",
+      "在军队中服役",
+      "竞选公职",
+      "为地方、州或联邦政府工作"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "美国政府",
+    "question": "为什么要缴纳联邦税？",
+    "answers": [
+      "这是法律规定的",
+      "所有的人都要支付联邦政府的资金",
+      "由（美国）所要求宪法(第十六修正案)",
+      "公民义务"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "美国政府",
+    "question": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+    "answers": [
+      "Required by law",
+      "Civic duty",
+      "Makes the draft fair, if needed"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "美国政府",
+    "question": "殖民者到美国有很多理由。说出一个。",
+    "answers": [
+      "人身自由",
+      "政治自由",
+      "宗教自由",
+      "经济机遇",
+      "逃避迫害"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "美国政府",
+    "question": "在欧洲殖民到来之前，何族裔栖于美国？",
+    "answers": [
+      "美洲印第安人",
+      "土著美洲人"
+    ],
+    "senior": true
+  },
+  {
+    "id": 75,
+    "category": "美国政府",
+    "question": "什么人群被带到美国被贩卖为奴?",
+    "answers": [
+      "非洲人",
+      "来自非洲的人"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "美国历史",
+    "question": "美国人为了从英国手中赢得独立，打了哪场战争？",
+    "answers": [
+      "美国革命",
+      "(美国）革命战争",
+      "(美国）独立战争"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "美国历史",
+    "question": "请说明美国人宣布脱离英国而独立的原因之一。",
+    "answers": [
+      "高税收",
+      "没有理由的税收",
+      "英国士兵呆在美国人的房屋中（寄宿，营区）",
+      "他们没有自治权",
+      "波士顿大屠杀",
+      "波士顿茶党（茶法）",
+      "邮票法",
+      "糖法",
+      "汤申法",
+      "不能容忍 （强制性）行为"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "美国历史",
+    "question": "谁起草了独立宣言?",
+    "answers": [
+      "(托马斯）杰斐逊 (Thomas) Jefferson"
+    ],
+    "senior": true
+  },
+  {
+    "id": 79,
+    "category": "美国历史",
+    "question": "独立宣言何时被采用?",
+    "answers": [
+      "1776年7月4日"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "美国历史",
+    "question": "The American Revolution had many important events. Name one.",
+    "answers": [
+      "(Battle of) Bunker Hill",
+      "Declaration of Independence",
+      "Washington Crossing the Delaware (Battle of Trenton)",
+      "(Battle of) Saratoga",
+      "Valley Forge (Encampment)",
+      "(Battle of) Yorktown (British surrender at Yorktown) 80.美国革命时期发生了许多重要事件。说出一个。",
+      "邦克山（战役）",
+      "独立宣言",
+      "华盛顿穿越特拉华州（特伦顿战役）",
+      "萨拉托加（战役）",
+      "福奇谷（营地）",
+      "约克敦（战役）（约克敦英国投降）"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "美国历史",
+    "question": "最初的州有十三个。说出五个。",
+    "answers": [
+      "新罕布什尔州",
+      "马萨诸塞州",
+      "罗得岛州",
+      "康涅狄格州",
+      "纽约州",
+      "新泽西州",
+      "宾夕法尼亚州",
+      "特拉华州",
+      "马里兰州",
+      "维珍尼亚州",
+      "北卡罗莱纳州",
+      "南卡罗莱纳州",
+      "佐治亚州"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "美国历史",
+    "question": "哪一创始文件是于1787年撰写的？",
+    "answers": [
+      "(美国） 宪法"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "美国历史",
+    "question": "”联邦党人文集” 支持通过美国宪法。说出其中一位作者。",
+    "answers": [
+      "(詹姆斯）麦迪逊 (James) Madison",
+      "(亚历山大）汉密尔顿 (Alexander)Hamilton",
+      "(约翰）杰伊 (John) Jay",
+      "普布利乌斯 Publius"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "美国历史",
+    "question": "为什么《联邦党人文集》很重要？",
+    "answers": [
+      "他们帮助人们了解（美国） 宪法。",
+      "他们支持通过（美国） 宪法。"
+    ]
+  },
+  {
+    "id": 85,
+    "category": "美国历史",
+    "question": "Benjamin Franklin is famous for many things. Name one.",
+    "answers": [
+      "Founded the first free public libraries",
+      "First Postmaster General of the United States",
+      "Helped write the Declaration of Independence",
+      "Inventor",
+      "U.S. diplomat"
+    ]
+  },
+  {
+    "id": 86,
+    "category": "美国历史",
+    "question": "George Washington is famous for many things. Name one.",
+    "answers": [
+      "“Father of Our Country”",
+      "First president of the United States",
+      "General of the Continental Army",
+      "President of the Constitutional Convention"
+    ],
+    "senior": true
+  },
+  {
+    "id": 87,
+    "category": "美国历史",
+    "question": "Thomas Jefferson is famous for many things. Name one.",
+    "answers": [
+      "Writer of the Declaration of Independence",
+      "Third president of the United States",
+      "Doubled the size of the United States (Louisiana Purchase)",
+      "First Secretary of State",
+      "Founded the University of Virginia",
+      "Writer of the Virginia Statute on Religious Freedom"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "美国历史",
+    "question": "James Madison is famous for many things. Name one.",
+    "answers": [
+      "“Father of the Constitution”",
+      "Fourth president of the United States",
+      "President during the War of 1812",
+      "One of the writers of the Federalist Papers"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "美国历史",
+    "question": "Alexander Hamilton is famous for many things. Name one.",
+    "answers": [
+      "First Secretary of the Treasury",
+      "One of the writers of the Federalist Papers",
+      "Helped establish the First Bank of the United States",
+      "Aide to General George Washington",
+      "Member of the Continental Congress 89亚历山大·汉密尔顿因许多事情而闻名。说出一个。",
+      "财政部第一书记",
+      "联邦党人文集的作者之一",
+      "帮助建立了美国第一银行",
+      "乔治·华盛顿将军的助手",
+      "大陆会议的成员"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "美国历史",
+    "question": "1803年美国从法国那里购买了哪块领土？",
+    "answers": [
+      "路易斯安那领土",
+      "路易斯安那"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "美国历史",
+    "question": "说出美国在十九世纪打过的一场战争。",
+    "answers": [
+      "1812年战争",
+      "美国与墨西哥战争",
+      "美国内战",
+      "美西战争"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "美国历史",
+    "question": "说出美国南北方之间的战争。",
+    "answers": [
+      "美国内战"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "美国历史",
+    "question": "内战期间发生了许多重要事件。说出一个。",
+    "answers": [
+      "萨姆特堡（战役）",
+      "解放宣言",
+      "维克斯堡（战役）",
+      "葛底斯堡（战役）",
+      "谢尔曼的游行",
+      "阿波玛托克斯（投降）",
+      "安提坦/夏普斯堡（战役）",
+      "林肯被暗杀。"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "美国历史",
+    "question": "Abraham Lincoln is famous for many things. Name one.",
+    "answers": [
+      "Freed the slaves (Emancipation Proclamation)",
+      "Saved (or preserved) the Union",
+      "Led the United States during the Civil War",
+      "16th president of the United States",
+      "Delivered the Gettysburg Address"
+    ],
+    "senior": true
+  },
+  {
+    "id": 95,
+    "category": "美国历史",
+    "question": "“废奴宣言” 导致了什么？",
+    "answers": [
+      "解放奴隶",
+      "解放了南部邦联的奴隶",
+      "解放了南部邦联州的奴隶",
+      "解放了南部州的奴隶"
+    ]
+  },
+  {
+    "id": 96,
+    "category": "美国历史",
+    "question": "什么美国战争结束了奴隶制？",
+    "answers": [
+      "内战"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "美国历史",
+    "question": "哪项修正案规定，在美国出生或归化入籍且受其管辖的人都是美国公民？",
+    "answers": [
+      "第十四修正案"
+    ]
+  },
+  {
+    "id": 98,
+    "category": "美国历史",
+    "question": "什么时候所有男性获得投票权？",
+    "answers": [
+      "内战之后",
+      "重建期间",
+      "(在）第15修正案",
+      "1870年"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "美国历史",
+    "question": "说出一位1800年代妇女权利运动的领导人。",
+    "answers": [
+      "苏珊·安东尼（Susan B. Anthony）",
+      "伊丽莎白·卡迪·斯坦顿（Elizabeth Cady Stanton）",
+      "旅居者真相(Sojourner Truth)",
+      "哈丽特·塔布曼（Harriet Tubman）",
+      "露西缇娅·莫特（Lucretia Mott）",
+      "露西·斯通（Lucy Stone）"
+    ]
+  },
+  {
+    "id": 100,
+    "category": "美国历史",
+    "question": "说出美国在二十世纪打过的一场战争。",
+    "answers": [
+      "一战",
+      "二战",
+      "朝鲜战争",
+      "越战",
+      "(波斯) 湾战争"
+    ]
+  },
+  {
+    "id": 101,
+    "category": "美国历史",
+    "question": ".为什么美国要参加第一次世界大战？",
+    "answers": [
+      "因为德国袭击了美国（民用）舰船",
+      "为了协约国（英格兰，法国，意大利和俄罗斯）",
+      "为了反对同盟国（德国，奥匈帝国，奥斯曼帝国和保加利亚）"
+    ]
+  },
+  {
+    "id": 102,
+    "category": "美国历史",
+    "question": "什么时候所有女性获得选举权？",
+    "answers": [
+      "1920年",
+      "第一次世界大战后",
+      "(在）第19次修订"
+    ]
+  },
+  {
+    "id": 103,
+    "category": "美国历史",
+    "question": "什么是大萧条？",
+    "answers": [
+      "现代历史上持续时间最长的经济衰退"
+    ]
+  },
+  {
+    "id": 104,
+    "category": "美国历史",
+    "question": ".大萧条是什么时候开始的？",
+    "answers": [
+      "大崩盘(1929)",
+      "1929年股灾"
+    ]
+  },
+  {
+    "id": 105,
+    "category": "美国历史",
+    "question": "经济大萧条和二战期间谁是总统?",
+    "answers": [
+      "(富兰克林）罗斯福 (Franklin) Roosevelt"
+    ]
+  },
+  {
+    "id": 106,
+    "category": "美国历史",
+    "question": "美国为什么要参加第二次世界大战？",
+    "answers": [
+      "(轰炸）珍珠港",
+      "日军袭击珍珠港",
+      "为了支持同盟国（英格兰，法国和俄罗斯）",
+      "为了反对轴心国（德国，意大利和日本）"
+    ]
+  },
+  {
+    "id": 107,
+    "category": "美国历史",
+    "question": "Dwight Eisenhower is famous for many things. Name one.",
+    "answers": [
+      "General during World War II",
+      "President at the end of (during) the Korean War",
+      "34th president of the United States",
+      "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
+    ]
+  },
+  {
+    "id": 108,
+    "category": "美国历史",
+    "question": "Who was the United States’ main rival during the Cold War?",
+    "answers": [
+      "Soviet Union",
+      "USSR",
+      "Russia 108.冷战期间美国的主要竞争对手是谁？",
+      "苏联",
+      "苏维埃社会主义联盟",
+      "俄罗斯"
+    ]
+  },
+  {
+    "id": 109,
+    "category": "美国历史",
+    "question": "在冷战期间，美国的主要关注点是什么？",
+    "answers": [
+      "共产主义",
+      "核战争"
+    ]
+  },
+  {
+    "id": 110,
+    "category": "美国历史",
+    "question": "美国为什么参加朝鲜战争？",
+    "answers": [
+      "制止共产主义的传播"
+    ]
+  },
+  {
+    "id": 111,
+    "category": "美国历史",
+    "question": "美国为什么要参加越南战争？",
+    "answers": [
+      "制止共产主义的传播"
+    ]
+  },
+  {
+    "id": 112,
+    "category": "美国历史",
+    "question": "民权运动做了什么？",
+    "answers": [
+      "争取终结种族歧视"
+    ]
+  },
+  {
+    "id": 113,
+    "category": "美国历史",
+    "question": "Martin Luther King, Jr. is famous for many things. Name one.",
+    "answers": [
+      "Fought for civil rights",
+      "Worked for equality for all",
+      "Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character” 113.马丁路德金因许多事情而闻名。说出一个。",
+      "争取民权",
+      "为全美平等而努力",
+      "努力确保人们\"不被以肤色而以性格来判断\""
+    ],
+    "senior": true
+  },
+  {
+    "id": 114,
+    "category": "美国历史",
+    "question": ".美国为什么要参加波斯湾战争？",
+    "answers": [
+      "为了迫使伊拉克从科威特退兵"
+    ]
+  },
+  {
+    "id": 115,
+    "category": "美国历史",
+    "question": "2001年9月11日，美国国土上发生了什么重大事件?",
+    "answers": [
+      "恐怖分子袭击了美国",
+      "恐怖分子控制了两架飞机，将其坠毁到纽约市世界贸易中心",
+      "恐怖分子控制了一架飞机，并坠入了弗吉尼亚州阿灵顿的五角大楼",
+      "恐怖分子控制了最初瞄准华盛顿特区的飞机，在宾夕法尼亚州的一个区域坠毁"
+    ],
+    "senior": true
+  },
+  {
+    "id": 116,
+    "category": "美国历史",
+    "question": "说出一个在2001年9月11日的袭击之后的美国军事冲突。",
+    "answers": [
+      "(全球）反恐战争",
+      "阿富汗战争",
+      "伊拉克战争"
+    ]
+  },
+  {
+    "id": 117,
+    "category": "美国历史",
+    "question": "说出一个在美国的美洲印第安人部落。",
+    "answers": [
+      "阿帕奇",
+      "黑爪",
+      "卡约加",
+      "切诺基",
+      "夏安",
+      "奇佩瓦",
+      "乔克托",
+      "克里克",
+      "乌鸦",
+      "霍皮",
+      "休伦",
+      "伊努皮亚特",
+      "拉科塔",
+      "莫霍克族",
+      "莫黑根",
+      "那瓦霍",
+      "奥尼达",
+      "奥内达加",
+      "普韦布洛",
+      "塞米诺尔",
+      "塞内卡",
+      "肖尼",
+      "苏",
+      "特顿",
+      "图斯卡洛拉有关部落的完整列表，请访问bia.gov。"
+    ]
+  },
+  {
+    "id": 118,
+    "category": "美国历史",
+    "question": "举一个美国创新的例子。",
+    "answers": [
+      "灯泡",
+      "汽车（汽车，可燃发动机）",
+      "摩天大楼",
+      "飞机",
+      "组装线",
+      "登陆月球",
+      "集成电路（IC）"
+    ]
+  },
+  {
+    "id": 119,
+    "category": "象征与节日",
+    "question": "美国的首都在哪",
+    "answers": [
+      "华盛顿特区 (Washington, D.C.)"
+    ]
+  },
+  {
+    "id": 120,
+    "category": "象征与节日",
+    "question": "自由女神像在哪?",
+    "answers": [
+      "纽约 (港)",
+      "自由岛 [新泽西，纽约市附近，或哈得孙河上，答案都可以接受。]"
+    ]
+  },
+  {
+    "id": 121,
+    "category": "象征与节日",
+    "question": "为什么国旗上有十三条杠?",
+    "answers": [
+      "因为最初有十三个殖民地",
+      "因为杠代表最初的殖民地"
+    ],
+    "senior": true
+  },
+  {
+    "id": 122,
+    "category": "象征与节日",
+    "question": "为什么国旗上有五十颗星?",
+    "answers": [
+      "因为一颗星一个州",
+      "因为每一颗星代表一个州",
+      "因为有五十个州"
+    ]
+  },
+  {
+    "id": 123,
+    "category": "象征与节日",
+    "question": "国歌的名字是什么?",
+    "answers": [
+      "“星条旗之歌”"
+    ]
+  },
+  {
+    "id": 124,
+    "category": "象征与节日",
+    "question": "国家的第一个座右铭是“ E Pluribus Unum”。那是什么意思？",
+    "answers": [
+      "众多人中",
+      "我们合而为一"
+    ]
+  },
+  {
+    "id": 125,
+    "category": "象征与节日",
+    "question": "什么是独立日？",
+    "answers": [
+      "庆祝美国独立的假期（来自英国）",
+      "国家的生日"
+    ]
+  },
+  {
+    "id": 126,
+    "category": "象征与节日",
+    "question": "说出三个美国全国节日。",
+    "answers": [
+      "新年",
+      "马丁路德金节节日",
+      "总统诞 (华盛顿的生日)",
+      "亡兵纪念日",
+      "独立日",
+      "劳动节",
+      "哥伦布日",
+      "退伍军人节",
+      "感恩节",
+      "圣诞节"
+    ],
+    "senior": true
+  },
+  {
+    "id": 127,
+    "category": "象征与节日",
+    "question": "什么是阵亡将士纪念日？",
+    "answers": [
+      "纪念在兵役中丧生的士兵的假期"
+    ]
+  },
+  {
+    "id": 128,
+    "category": "象征与节日",
+    "question": "什么是退伍军人节？",
+    "answers": [
+      "纪念（美国军事人员的假期）",
+      "纪念（在美军中）服役过的人的假期"
+    ]
+  }
+]

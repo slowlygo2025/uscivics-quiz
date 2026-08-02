@@ -1,0 +1,1327 @@
+[
+  {
+    "id": 1,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki fòm gouvènman Etazini genyen?",
+    "answers": [
+      "Repiblik",
+      "Repiblik federal ki baze sou yon konstitisyon",
+      "Demokrasi reprezantatif"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Gouvènman Ameriken",
+    "question": "Kisa ki lwa siprèm nan peyi a?",
+    "answers": [
+      "Konstitisyon (ETAZINI)"
+    ],
+    "senior": true
+  },
+  {
+    "id": 3,
+    "category": "Gouvènman Ameriken",
+    "question": "Nome yon bagay ke Konstitisyon Etazini an fè.",
+    "answers": [
+      "Fòme gouvènman an",
+      "Defini pouvwa gouvènman an",
+      "Defini pati gouvènman an",
+      "Pwoteje dwa pèp la"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Gouvènman Ameriken",
+    "question": "Konstitisyon Etazini an kòmanse ak mo \"Nou menm pèp la.\" Kisa \"Nou menm pèp la\" vle di?",
+    "answers": [
+      "Oto-gouvènans",
+      "Souverènte popilè",
+      "Konsantman moun ki gouvène yo",
+      "Moun yo ta dwe dirije tèt yo.",
+      "(Egzanp de) kontra sosyal"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Gouvènman Ameriken",
+    "question": "Kijan yo fè chanjman nan Konstitisyon Etazini an?",
+    "answers": [
+      "Amandman yo",
+      "Pwosesis amandman an"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Gouvènman Ameriken",
+    "question": "Kisa Deklarasyon Dwa yo pwoteje?",
+    "answers": [
+      "Dwa (fondamantal) Ameriken yo",
+      "Dwa (fondamantal) moun ki ap viv Etazini"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen amandman Konstitisyon Etazini an genyen?",
+    "answers": [
+      "Vennsèt (27)"
+    ],
+    "senior": true
+  },
+  {
+    "id": 8,
+    "category": "Gouvènman Ameriken",
+    "question": "Poukisa Deklarasyon Endepandans lan enpòtan?",
+    "answers": [
+      "Li di Amerik libere anba kontwòl Britanik.",
+      "Li di ke tout moun kreye egal.",
+      "Li idantifye dwa natirèl.",
+      "Li idantifye libète endividyèl."
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki dokiman fondatè ki te deklare koloni Ameriken yo te libere anba Grann Bretay?",
+    "answers": [
+      "Deklarasyon Endepandans"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Gouvènman Ameriken",
+    "question": "Nonmen de lide enpòtan ki soti nan Deklarasyon Endepandans ak Konstitisyon Etazini.",
+    "answers": [
+      "Egalite",
+      "Libète",
+      "Kontra sosyal",
+      "Dwa natirèl yo",
+      "Gouvènman limite",
+      "Oto-gouvènans"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Gouvènman Ameriken",
+    "question": "Mo \"Lavi, Libète ak pouswit Bonè\" yo nan ki dokiman fondatè?",
+    "answers": [
+      "Deklarasyon Endepandans"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki sistèm ekonomik peyi Etazini an?",
+    "answers": [
+      "Kapitalis",
+      "Ekonomi mache lib"
+    ],
+    "senior": true
+  },
+  {
+    "id": 13,
+    "category": "Gouvènman Ameriken",
+    "question": "Kisa règ lalwa a ye?",
+    "answers": [
+      "Tout moun dwe respekte lalwa.",
+      "Dirijan yo dwe obeyi lalwa a.",
+      "Gouvènman an dwe obeyi lalwa.",
+      "Pa gen moun ki pi wo pase lalwa."
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Gouvènman Ameriken",
+    "question": "Anpil dokiman te enfliyanse Konstitisyon Etazini an. Nonmen youn.",
+    "answers": [
+      "Deklarasyon Endepandans",
+      "Atik Konfederasyon yo",
+      "Papye Federalis yo",
+      "Papye Anti-Federalis yo",
+      "Deklarasyon Dwa Virginia yo",
+      "Lòd Fondamantal Connecticut",
+      "Angajman Mayflower an",
+      "Gran Lwa Lapè Iroquois"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Gouvènman Ameriken",
+    "question": "Gen twa branch nan gouvènman an. Poukisa?",
+    "answers": [
+      "Pou yon pati pa vin twò pwisan",
+      "Kontwòl ak ekilib",
+      "Separasyon pouvwa"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Gouvènman Ameriken",
+    "question": "Nonme twa branch gouvènman yo.",
+    "answers": [
+      "Lejislatif, egzekitif, ak jidisyè",
+      "Kongrè, prezidan, ak tribinal yo"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Gouvènman Ameriken",
+    "question": "Prezidan Etazini an responsab ki branch gouvènman an?",
+    "answers": [
+      "Branch egzekitif la"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki pati nan gouvènman federal la ki ekri lwa yo?",
+    "answers": [
+      "Kongrè (AMERIKEN)",
+      "lejislati (Etazini oswa nasyonal)",
+      "Branch lejislatif la"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki de pati ki fòme Kongrè Etazini an?",
+    "answers": [
+      "Sena ak Chanm Depite (Reprezantan yo)"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Gouvènman Ameriken",
+    "question": "Site yon pouvwa Kongrè Etazini an.",
+    "answers": [
+      "Ekri lwa yo.",
+      "Deklare lagè",
+      "Prepare bidjè federal la"
+    ],
+    "senior": true
+  },
+  {
+    "id": 21,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen senatè Ameriken ki genyen?",
+    "answers": [
+      "Yon santèn (100)"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen tan yon manda yon senatè Ameriken dire?",
+    "answers": [
+      "Sis (6) lane"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Gouvènman Ameriken",
+    "question": "Kiyès ki youn nan senatè Ameriken nan eta ou kounye a?",
+    "answers": [
+      "Repons yo pral varye. [Rezidan Distri Columbia ak rezidan teritwa Ameriken yo ta dwe reponn ke D.C. (oswa teritwa kote kandida an ap viv) pa gen okenn senatè Ameriken.]"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen manm ki gen dwa vote nan Chanm Reprezantan an?",
+    "answers": [
+      "Katsan trant-senk (435)"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen tan yonmanda yon manm nan Chanm Reprezatan an dire?",
+    "answers": [
+      "De (2) lane"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Gouvènman Ameriken",
+    "question": "Poukisa reprezantan Ameriken yo sèvi pou yon tèm ki pi kout pase senatè Ameriken yo?",
+    "answers": [
+      "Pou pi byen swiv opinyon piblik la"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen senatè chak eta genyen?",
+    "answers": [
+      "De (2)"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "Gouvènman Ameriken",
+    "question": "Poukisa chak eta gen de senatè?",
+    "answers": [
+      "Reprezantasyon egal (pou ti eta yo)",
+      "Gran Konpwomi an (Konpwomi Connecticut)"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "Gouvènman Ameriken",
+    "question": "Nome reprezantan Ameriken ou.",
+    "answers": [
+      "Repons yo pral varye. [Moun ki abite nan teritwa ki gen Delege ki pa gen dwa vote oswa Komisyonè rezidan yo ka nonmen Delege oswa Komisyonè sa a. Sa ki akseptab tou se nenpòt deklarasyon ki di ke teritwa a pa gen okenn reprezantan (ki gen dwa vote) nan Kongrè a.]"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "Gouvènman Ameriken",
+    "question": "Kijan yo rele Oratè Chanm Reprezantan an kounye a?",
+    "answers": [
+      "Vizite uscis.gov/citizenship/testupdates pou non Oratè Chanm Depite yo."
+    ],
+    "senior": true
+  },
+  {
+    "id": 31,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun yon senatè Ameriken reprezante?",
+    "answers": [
+      "Sitwayen eta yo",
+      "Moun nan eta yo"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun ki eli senatè Ameriken yo?",
+    "answers": [
+      "Sitwayen ki sòti nan eta yo"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Gouvènman Ameriken",
+    "question": "Kiyès yon manm nan Chanm Reprezantan yo reprezante?",
+    "answers": [
+      "Sitwayen nan distri (kongrèsyonèl) yo",
+      "Sitwayen nan distri yo",
+      "Moun ki soti nan distri (kongrèsyonèl) yo",
+      "Moun ki nan distri yo"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Gouvènman Ameriken",
+    "question": "Kiyès ki eli manm Chanm Reprezantan yo?",
+    "answers": [
+      "Sitwayen ki sòti nan distri (kongrèsyonèl) yo"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Gouvènman Ameriken",
+    "question": "Gen kèk eta ki gen plis reprezantan pase lòt eta. Poukisa?",
+    "answers": [
+      "(Akoz de) popilasyon Eta a",
+      "(Paske) yo gen plis moun",
+      "(Paske) gen kèk eta ki gen plis moun"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Gouvènman Ameriken",
+    "question": "Prezidan Etazini eli pou konbyen lane?",
+    "answers": [
+      "Kat (4) lane"
+    ],
+    "senior": true
+  },
+  {
+    "id": 37,
+    "category": "Gouvènman Ameriken",
+    "question": "Prezidan Etazini an ka sèvi sèlman pou de manda. Poukisa?",
+    "answers": [
+      "(Akòz) 22yèm Amandman an",
+      "Pou anpeche prezidan an vin twò pwisan"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki non prezidan Etazini an kounye a?",
+    "answers": [
+      "Vizite uscis.gov/citizenship/testupdates pou non Prezidan Etazini an."
+    ],
+    "senior": true
+  },
+  {
+    "id": 39,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki non Vis Prezidan Etazini kounye a ye?",
+    "answers": [
+      "Vizite uscis.gov/citizenship/testupdates pou non Vis Prezidan Etazini an"
+    ],
+    "senior": true
+  },
+  {
+    "id": 40,
+    "category": "Gouvènman Ameriken",
+    "question": "Si prezidan an pa ka sèvi ankò, kiyès ki vin prezidan?",
+    "answers": [
+      "Vis Prezidan (Etazini an)"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "Gouvènman Ameriken",
+    "question": "Site yon pouvwa prezidan an.",
+    "answers": [
+      "Siyen pwopozisyon yo pou yo tounen lwa",
+      "Gen dwa refize siyen pwopozisyon yo",
+      "Fè respekte lalwa yo",
+      "Kòmandan an chèf (nan lame a)",
+      "Chèf diplomat",
+      "Nonmen jij federal yo"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun ki kòmandan an chèf nan lame Ameriken an?",
+    "answers": [
+      "Prezidan an (Etazini)"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Gouvènman Ameriken",
+    "question": "Kiyès ki siyen pwpozisyon yo pou yo vin lwa?",
+    "answers": [
+      "Prezidan an (Etazini)"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Gouvènman Ameriken",
+    "question": "Kiyès ki gen dwa refize siyen pwopozisyon yo?",
+    "answers": [
+      "Prezidan an (Etazini)"
+    ],
+    "senior": true
+  },
+  {
+    "id": 45,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki moun ki nonmen jij federal yo?",
+    "answers": [
+      "Prezidan an (Etazini)"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "Gouvènman Ameriken",
+    "question": "Branch egzekitif la gen anpil pati. Nonmen youn.",
+    "answers": [
+      "Prezidan (Etazini)",
+      "Kabinè",
+      "Depatman ak ajans federal yo"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Gouvènman Ameriken",
+    "question": "Kisa Kabinè Prezidan an fè?",
+    "answers": [
+      "Bay Prezidan an konsèy (Etazini)"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki de pozisyon ki nan nivo Kabinè?",
+    "answers": [
+      "Pwokirè Jeneral",
+      "Sekretè Agrikilti",
+      "Sekretè Komès",
+      "Sekretè Defans",
+      "Sekretè Edikasyon",
+      "Sekretè Enèji",
+      "Sekretè Sante ak Sèvis Imèn",
+      "Sekretè Depatman Sekirite Enteryè",
+      "Sekretè Lojman ak Devlopman Vil yo",
+      "Sekretè Zafè Entèn",
+      "Sekretè Travay",
+      "Sekretè Deta",
+      "Sekretè Transpò Piblik",
+      "Sekretè Trezò",
+      "Sekretè Zafè Veteran yo",
+      "Vis Prezidan (Etazini)",
+      "Administratè Ajans Pwoteksyon Anviwònman an",
+      "Administratè Administrasyon Ti Biznis la",
+      "Direktè Ajans Santral Entèlijans lan",
+      "Direktè Biwo Jesyon ak Bidjè",
+      "Direktè Entèlijans Nasyonal",
+      "Reprezantan Komès Etazini"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "Gouvènman Ameriken",
+    "question": "Poukisa Kolèj Elektoral la enpòtan?",
+    "answers": [
+      "Li deside ki moun ki eli prezidan.",
+      "Li ofri yon konpwomi ant eleksyon popilè prezidan an ak seleksyon pa kongrè a."
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Gouvènman Ameriken",
+    "question": "Kisa ki yon pati nan branch jidisyè a?",
+    "answers": [
+      "Lakou Siprèm",
+      "Tribinal Federal yo"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Gouvènman Ameriken",
+    "question": "Kisa branch jidisyè a fè?",
+    "answers": [
+      "Revize lwa yo",
+      "Esplike lwa yo.",
+      "Rezoud konfli (dezakò) sou lalwa.",
+      "Deside si yon lwa vyole Konstitisyon (Etazini) an."
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki tribinal ki pi wo nan peyi Etazini?",
+    "answers": [
+      "Lakou Siprèm"
+    ],
+    "senior": true
+  },
+  {
+    "id": 53,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen plas ki genyen nan Lakou Siprèm nan?",
+    "answers": [
+      "nèf (9)"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen jij nan Lakou Siprèm ki nesesè anjeneral pou deside yon ka?",
+    "answers": [
+      "Senk (5)"
+    ]
+  },
+  {
+    "id": 55,
+    "category": "Gouvènman Ameriken",
+    "question": "Konbyen tan jij Lakou Siprèm yo sèvi?",
+    "answers": [
+      "(Pou) lavi",
+      "Nominasyon pou tout lavi",
+      "(Jiska) retrèt"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "Gouvènman Ameriken",
+    "question": "Supreme Court justices serve for life. Why?",
+    "answers": [
+      "To be independent (of politics)",
+      "To limit outside (political) influence"
+    ]
+  },
+  {
+    "id": 57,
+    "category": "Gouvènman Ameriken",
+    "question": "Kilès ki premye jij Lakou Siprèm Etazini kounye a?",
+    "answers": [
+      "Vizite uscis.gov/citizenship/testupdates pou non Chèf Jistis Etazini an"
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Gouvènman Ameriken",
+    "question": "Nonmen yon pouvwa ki se sèlman pou gouvènman federal la.",
+    "answers": [
+      "Enprime lajan papye",
+      "Fabrike pyès monnen",
+      "Deklare lagè",
+      "Kreye yon lame",
+      "Fè akò",
+      "Etabli politik etranje"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Gouvènman Ameriken",
+    "question": "Nonmen yon pouvwa ki se sèlman pou eta yo.",
+    "answers": [
+      "Bay edikasyon ak lekòl",
+      "Bay pwoteksyon (lapolis)",
+      "Asire sekirite (depatman pompye)",
+      "Bay yon lisans chofè",
+      "Apwouve zonaj ak itilizasyon tè"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki objektif Amandman 10 la?",
+    "answers": [
+      "(Li deklare ke) pouvwa ki pa atribye a gouvènman federal la se pou eta yo oswa pou pèp la."
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Gouvènman Ameriken",
+    "question": "Kiyès ki gouvènè eta w la kounye a?",
+    "answers": [
+      "Repons yo pral varye. [Rezidan Distrik Columbia yo ta dwe reponn ke D.C. pa gen yon gouvènè.]"
+    ],
+    "senior": true
+  },
+  {
+    "id": 62,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki kapital eta ou a?",
+    "answers": [
+      "Repons yo pral varye. [Rezidan Distri Columbia yo ta dwe reponn ke D.C. se pa yon eta epi li pa gen yon kapital. Moun ki abite nan teritwa Ameriken yo ta nonmen kapital teritwa a."
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Gouvènman Ameriken",
+    "question": "Gen kat amandman nan Konstitisyon Etazini an sou ki moun ki ka vote. Dekri youn nan yo.",
+    "answers": [
+      "Sitwayen ki gen dizwit (18) lane oswa plis (ka vote.)",
+      "Ou pa oblije peye (yon taks pou vote) pou vote.",
+      "Nenpòt sitwayen ka vote. (Fanm ak gason ka vote.)",
+      "Yon sitwayen gason nan nenpòt ras (ka vote)."
+    ]
+  },
+  {
+    "id": 64,
+    "category": "Gouvènman Ameriken",
+    "question": "Kiyès ki ka vote nan eleksyon federal, poze kandidati pou yon pòs federal, epi sèvi nan yon jiri nan Etazini?",
+    "answers": [
+      "Sitwayen yo",
+      "Sitwayen peyi Etazini yo",
+      "Sitwayen Ameriken yo"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki twa dwa tout moun ki ap viv nan Etazini genyen?",
+    "answers": [
+      "Libète ekspresyon",
+      "Libète lapawòl",
+      "Libète pou rasanble",
+      "Libète pou fè petisyon bay gouvènman an",
+      "Libète relijyon",
+      "Dwa pou pote zam"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Gouvènman Ameriken",
+    "question": "Anvè kisa nou montre fidelite lè nou recite Sèman Fidelite a?",
+    "answers": [
+      "Etazini",
+      "Drapo a"
+    ],
+    "senior": true
+  },
+  {
+    "id": 67,
+    "category": "Gouvènman Ameriken",
+    "question": "Nonmen de pwomès ke nouvo sitwayen yo fè nan Sèman Fidelite a.",
+    "answers": [
+      "Renonse fidelite ou anvè lòt peyi yo",
+      "Defann Konstitisyon (Etazini) an",
+      "Obeyi lwa Etazini yo",
+      "Sèvi nan lame a (si sa nesesè)",
+      "Sèvi (ede, fè travay enpòtan pou) nasyon an (si sa nesesè)",
+      "Pou w rete fidèl ak Etazini"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Gouvènman Ameriken",
+    "question": "Kijan moun ka vin sitwayen Etazini?",
+    "answers": [
+      "Dwe fèt nan peyi Etazini, anba kondisyon ki etabli pa 14zyèm Amandman lan",
+      "Natiralize",
+      "Rive jwenn sitwayènte (dapre kondisyon Kongrè etabli"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki de egzanp patisipasyon sivik ki genyen Etazini?",
+    "answers": [
+      "Vote",
+      "Poze kandidati pou yon pòs",
+      "Antre nan yon pati politik",
+      "Bay èd nan yon kanpay",
+      "Antre nan yon gwoup sivik",
+      "Antre nan yon gwoup kominotè",
+      "Bay yon ofisyèl eli opinyon ou (sou yon sijè)",
+      "Kontakte ofisyèl eli yo.",
+      "Sipòte oswa opoze yon sijè oswa yon politik",
+      "Ekri yon lèt bay yon jounal"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Gouvènman Ameriken",
+    "question": "Kijan yon Ameriken ka sèvi peyi li?",
+    "answers": [
+      "Vote",
+      "Peye taks yo",
+      "Obeyilalwa",
+      "Sèvi nan lame a",
+      "Poze kandidati pou yon pòs",
+      "Travay pou gouvènman lokal, leta, oswa federal"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "Gouvènman Ameriken",
+    "question": "Poukisa li enpòtan pou w peye taks federal yo?",
+    "answers": [
+      "Obligatwa dapre lalwa",
+      "Tout moun kontribye pou finanse gouvènman federal la",
+      "Egzije pa Konstitisyon Etazini (16yèm Amandman)",
+      "Devwa sivik"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Gouvènman Ameriken",
+    "question": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+    "answers": [
+      "Required by law",
+      "Civic duty",
+      "Makes the draft fair, if needed"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Gouvènman Ameriken",
+    "question": "Kolon yo te vini nan Amerik pou anpil rezon. Nome youn.",
+    "answers": [
+      "Libète",
+      "Libète politik",
+      "Libète relijyon",
+      "Opòtinite ekonomik",
+      "Chape anba pèsekisyon"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Gouvènman Ameriken",
+    "question": "Kiyès ki te viv nan Amerik la anvan Ewopeyen yo te rive?",
+    "answers": [
+      "Ameriken ki gen orijin Endyen",
+      "Ameriken Natif Natal"
+    ],
+    "senior": true
+  },
+  {
+    "id": 75,
+    "category": "Gouvènman Ameriken",
+    "question": "Ki gwoup moun yo te pran epi vann kòm esklav?",
+    "answers": [
+      "Afriken yo",
+      "Moun ki sòti an Afrik"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "Istwa Ameriken",
+    "question": "Ki lagè Ameriken yo te goumen pou yo te ka pran endepandans yo anba men Grann Bretay?",
+    "answers": [
+      "Revolisyon Ameriken",
+      "Lagè Revolisyonè (Ameriken) an",
+      "Lagè pou Endepandans (Ameriken)"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Istwa Ameriken",
+    "question": "Bay yon rezon ki fè Ameriken yo te deklare endepandans yo sòti nan Grann Bretay.",
+    "answers": [
+      "Taks ki wo",
+      "Taksasyon san reprezantasyon",
+      "Sòlda Britanik yo te rete nan kay Ameriken yo (, lojman, lojman fòse)",
+      "Yo pa t gen dwa govène tèt yo",
+      "Masak ki te fèt Boston",
+      "Boston Tea Party (Lwa sou Te)",
+      "Lwa sou Tenb Postal",
+      "Lwa sou Sik",
+      "Lwa Townshend",
+      "Lwa entolerab (Coercitif)"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Istwa Ameriken",
+    "question": "Kiyès ki te ekri Deklarasyon Endepandans lan?",
+    "answers": [
+      "(Thomas) Jefferson"
+    ],
+    "senior": true
+  },
+  {
+    "id": 79,
+    "category": "Istwa Ameriken",
+    "question": "Kilè yo te adopte Deklarasyon Endepandans lan?",
+    "answers": [
+      "4 Jiyè 1776"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Istwa Ameriken",
+    "question": "Revolisyon Ameriken an te gen anpil evènman enpòtan. Nome youn.",
+    "answers": [
+      "(Batay) Bunker Hill",
+      "Deklarasyon Endepandans",
+      "Washington travèse rivyè Delaware lan (Batay Trenton)",
+      "(Batay) Saratoga",
+      "Valley Forge (Kan Militè)",
+      "(Batay Yorktown) ( Britanik yo rann tèt yo nan Yorktown)"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "Istwa Ameriken",
+    "question": "Te gen 13 eta orijinal yo. Nonmen senk",
+    "answers": [
+      "New Hampshire",
+      "Massachusetts",
+      "Rhode Island",
+      "Connecticut",
+      "New York",
+      "New Jersey",
+      "Pennsylvania",
+      "Delaware",
+      "Maryland",
+      "Virginia",
+      "North Carolina",
+      "South Carolina",
+      "Georgia"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "Istwa Ameriken",
+    "question": "Ki dokiman fondatè ki te ekri an 1787?",
+    "answers": [
+      "Konstitisyon (Etazini)"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "Istwa Ameriken",
+    "question": "Papye Federalis yo te sipòte pasaj Konstitisyon Etazini an. Nome youn nan ekriven yo.",
+    "answers": [
+      "(James) Madison",
+      "(Alexander) Hamilton",
+      "(John) Jay",
+      "Publius"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Istwa Ameriken",
+    "question": "Poukisa Papye Federalis yo te enpòtan?",
+    "answers": [
+      "Yo te ede moun konprann Konstitisyon (Etazini) an.",
+      "Yo te sipòte adopsyon Konstitisyon (Etazini) an."
+    ]
+  },
+  {
+    "id": 85,
+    "category": "Istwa Ameriken",
+    "question": "Benjamin Franklin is famous for many things. Name one.",
+    "answers": [
+      "Founded the first free public libraries",
+      "First Postmaster General of the United States",
+      "Helped write the Declaration of Independence",
+      "Inventor",
+      "U.S. diplomat"
+    ]
+  },
+  {
+    "id": 86,
+    "category": "Istwa Ameriken",
+    "question": "George Washington is famous for many things. Name one.",
+    "answers": [
+      "“Father of Our Country”",
+      "First president of the United States",
+      "General of the Continental Army",
+      "President of the Constitutional Convention"
+    ],
+    "senior": true
+  },
+  {
+    "id": 87,
+    "category": "Istwa Ameriken",
+    "question": "Thomas Jefferson is famous for many things. Name one.",
+    "answers": [
+      "Writer of the Declaration of Independence",
+      "Third president of the United States",
+      "Doubled the size of the United States (Louisiana Purchase)",
+      "First Secretary of State",
+      "Founded the University of Virginia",
+      "Writer of the Virginia Statute on Religious Freedom"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "Istwa Ameriken",
+    "question": "James Madison is famous for many things. Name one.",
+    "answers": [
+      "“Father of the Constitution”",
+      "Fourth president of the United States",
+      "President during the War of 1812",
+      "One of the writers of the Federalist Papers"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "Istwa Ameriken",
+    "question": "Alexander Hamilton is famous for many things. Name one.",
+    "answers": [
+      "First Secretary of the Treasury",
+      "One of the writers of the Federalist Papers",
+      "Helped establish the First Bank of the United States",
+      "Aide to General George Washington",
+      "Member of the Continental Congress"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Istwa Ameriken",
+    "question": "Ki teritwa Etazini te achte nan men Lafrans an 1803?",
+    "answers": [
+      "Teritwa Louisiana",
+      "Louisiana"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Istwa Ameriken",
+    "question": "Nonmen yon lagè Etazini te patisipe ladan nan lane 1800 yo.",
+    "answers": [
+      "Lagè 1812",
+      "Lagè Meksiken-Ameriken",
+      "Lagè Sivil",
+      "Lagè Panyòl-Ameriken"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Istwa Ameriken",
+    "question": "Nonme lagè Etazini ant Nò ak Sid la.",
+    "answers": [
+      "Gè Sivil la"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Istwa Ameriken",
+    "question": "Lagè Sivil la te gen anpil evènman enpòtan. Nome youn.",
+    "answers": [
+      "(Batay) Fort Sumter",
+      "Pwoklamasyon Emansipasyon",
+      "(Batay) Vicksburg",
+      "(Batay) Gettysburg",
+      "Mach Sherman",
+      "(Kapitilasyon nan) Appomattox",
+      "(Batay) Antietam/Sharpsburg",
+      "Yo asasinen Lincoln"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "Istwa Ameriken",
+    "question": "Abraham Lincoln is famous for many things. Name one.",
+    "answers": [
+      "Freed the slaves (Emancipation Proclamation)",
+      "Saved (or preserved) the Union",
+      "Led the United States during the Civil War",
+      "16th president of the United States",
+      "Delivered the Gettysburg Address"
+    ],
+    "senior": true
+  },
+  {
+    "id": 95,
+    "category": "Istwa Ameriken",
+    "question": "Kisa Pwoklamasyon Emansipasyon an te akonpli?",
+    "answers": [
+      "Libere esklav yo",
+      "Libere esklav nan Konfederasyon an",
+      "Libere esklav nan eta Konfedere yo",
+      "Libere esklav nan pifò eta nan Sid yo"
+    ]
+  },
+  {
+    "id": 96,
+    "category": "Istwa Ameriken",
+    "question": "Ki lagè ameriken ki te fini ak esklavaj?",
+    "answers": [
+      "Gè Sivil la"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "Istwa Ameriken",
+    "question": "Ki amandman ki di tout moun ki fèt oswa natiralize nan Etazini, epi ki sijè a jiridiksyon li, se sitwayen Ameriken?",
+    "answers": [
+      "14yèm Amandman"
+    ]
+  },
+  {
+    "id": 98,
+    "category": "Istwa Ameriken",
+    "question": "Kilè tout gason te jwenn dwa pou vote?",
+    "answers": [
+      "Apre Lagè Sivil la",
+      "Pandan Rekonstriksyon an",
+      "(Avèk) 15yèm Amandman lan",
+      "1870"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Istwa Ameriken",
+    "question": "Site yon lidè nan mouvman dwa fanm yo nan ane 1800 yo.",
+    "answers": [
+      "Susan B. Anthony",
+      "Elizabeth Cady Stanton",
+      "Sojourner Truth",
+      "Harriet Tubman",
+      "Lucretia Mott",
+      "Lucy Stone"
+    ]
+  },
+  {
+    "id": 100,
+    "category": "Istwa Ameriken",
+    "question": "Bay yon non lagè Etazini te patisipe nan lane 1900 yo.",
+    "answers": [
+      "Premye Gè Mondyal",
+      "Dezyèm Gè Mondyal la",
+      "Lagè Koreyen",
+      "Lagè Vyetnam",
+      "Lagè Gòlf Pèsik la"
+    ]
+  },
+  {
+    "id": 101,
+    "category": "Istwa Ameriken",
+    "question": "Poukisa Etazini te antre nan Premye Gè Mondyal la?",
+    "answers": [
+      "Paske Almay te atake bato (sivil) Etazini yo",
+      "Pou sipòte Pouvwa Alye yo (Angletè, Lafrans, Itali, ak Larisi)",
+      "Pou opoze Pouvwa Santral yo (Almay, Otrich-Ongri, Anpi Ottoman lan, ak Bilgari)"
+    ]
+  },
+  {
+    "id": 102,
+    "category": "Istwa Ameriken",
+    "question": "Kilè tout fanm te jwenn dwa pou vote?",
+    "answers": [
+      "1920",
+      "Apre Premye Gè Mondyal la",
+      "(Avèk) 19yèm Amannman"
+    ]
+  },
+  {
+    "id": 103,
+    "category": "Istwa Ameriken",
+    "question": "Kisa Gwo Depresyon an te ye?",
+    "answers": [
+      "Resesyon ekonomik ki pi long nan listwa modèn"
+    ]
+  },
+  {
+    "id": 104,
+    "category": "Istwa Ameriken",
+    "question": "Kilè Gran Depresyon an te kòmanse?",
+    "answers": [
+      "Gwo Krach la (1929)",
+      "Kraze mache bousye 1929 la"
+    ]
+  },
+  {
+    "id": 105,
+    "category": "Istwa Ameriken",
+    "question": "Kilès ki te prezidan pandan Gran Depresyon an ak Dezyèm Gè Mondyal la?",
+    "answers": [
+      "(Franklin) Roosevelt"
+    ]
+  },
+  {
+    "id": 106,
+    "category": "Istwa Ameriken",
+    "question": "Poukisa Etazini te antre nan Dezyèm Gè Mondyal la?",
+    "answers": [
+      "(Atak sou) Pearl Harbor",
+      "Japonè yo te atake Pearl Harbor",
+      "Pou sipòte Pouvwa Alye yo (Angletè, Lafrans, ak Larisi)",
+      "Pou opoze Pouvwa Aksis yo (Almay, Itali, ak Japon)"
+    ]
+  },
+  {
+    "id": 107,
+    "category": "Istwa Ameriken",
+    "question": "Dwight Eisenhower is famous for many things. Name one.",
+    "answers": [
+      "General during World War II",
+      "President at the end of (during) the Korean War",
+      "34th president of the United States",
+      "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
+    ]
+  },
+  {
+    "id": 108,
+    "category": "Istwa Ameriken",
+    "question": "Ki peyi ki te rival prensipal Etazini pandan Lagè Fwad la?",
+    "answers": [
+      "Inyon Sovyetik",
+      "USSR",
+      "Risi"
+    ]
+  },
+  {
+    "id": 109,
+    "category": "Istwa Ameriken",
+    "question": "Pandan Lagè Fwad la, kisa ki te yon enkyetid prensipal nan peyi Etazini?",
+    "answers": [
+      "Kominism",
+      "Lagè nikleyè"
+    ]
+  },
+  {
+    "id": 110,
+    "category": "Istwa Ameriken",
+    "question": "Poukisa Etazini te antre nan Lagè Koreyen an?",
+    "answers": [
+      "Pou sispann pwopagasyon kominism"
+    ]
+  },
+  {
+    "id": 111,
+    "category": "Istwa Ameriken",
+    "question": "Poukisa Etazini te antre nan lagè Vyetnam nan?",
+    "answers": [
+      "Pou sispann pwopagasyon kominism"
+    ]
+  },
+  {
+    "id": 112,
+    "category": "Istwa Ameriken",
+    "question": "Kisa mouvman dwa sivil yo te reyalize?",
+    "answers": [
+      "Lite pou fini ak diskriminasyon rasyal"
+    ]
+  },
+  {
+    "id": 113,
+    "category": "Istwa Ameriken",
+    "question": "Martin Luther King, Jr. is famous for many things. Name one.",
+    "answers": [
+      "Fought for civil rights",
+      "Worked for equality for all",
+      "Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”"
+    ],
+    "senior": true
+  },
+  {
+    "id": 114,
+    "category": "Istwa Ameriken",
+    "question": "Poukisa Etazini te antre nan Gè Gòlf Pèsik la?",
+    "answers": [
+      "Pou fòse lame Irakyen an kite Kouwet."
+    ]
+  },
+  {
+    "id": 115,
+    "category": "Istwa Ameriken",
+    "question": "Ki gwo evènman ki te rive nan dat 11 Septanm 2001 nan peyi Etazini?",
+    "answers": [
+      "Teroris te atake Etazini.",
+      "Teworis te pran de avyon epi fè yo kraze nan World Trade Center nan New York City.",
+      "Teroris te pran kontwòl yon avyon epi yo te fè li kraze nan Pentagòn nan Arlington, Virginia",
+      "Teroris te pran kontwòl yon avyon ki te vize Washington, D.C., epi li te fè kraze nan yon teren nan Pennsylvania"
+    ],
+    "senior": true
+  },
+  {
+    "id": 116,
+    "category": "Istwa Ameriken",
+    "question": "Site yon konfli militè Ameriken ki te fèt apre atak 11 Septanm 2001 yo.",
+    "answers": [
+      "(Global) Lagè Kont Teworis",
+      "Lagè nan Afganistan",
+      "Lagè nan Irak"
+    ]
+  },
+  {
+    "id": 117,
+    "category": "Istwa Ameriken",
+    "question": "Nome yon tribi Endyen Ameriken nan peyi Etazini.",
+    "answers": [
+      "Apache",
+      "Blackfeet",
+      "Cayuga",
+      "Cherokee",
+      "Cheyenne",
+      "Chippewa",
+      "Choctaw",
+      "Creek",
+      "Crow",
+      "Hopi",
+      "Huron",
+      "Inupiat",
+      "Lakota",
+      "Mohawk",
+      "Mohegan",
+      "Navajo",
+      "Oneida",
+      "Onondaga",
+      "Pueblo",
+      "Seminole",
+      "Seneca",
+      "Shawnee",
+      "Sioux",
+      "Teton",
+      "Tuscarora Pou yon lis konplè tribi yo, tanpri vizite bia.gov."
+    ]
+  },
+  {
+    "id": 118,
+    "category": "Istwa Ameriken",
+    "question": "Bay yon egzanp sou yon inovasyon Ameriken.",
+    "answers": [
+      "Anpoul limyè",
+      "Otomobil (machin, motè konbisyon entèn)",
+      "Gratsyèl",
+      "Avyon",
+      "Liy asanblaj",
+      "Aterisaj sou lalin lan",
+      "Sikwi entegre (IC)"
+    ]
+  },
+  {
+    "id": 119,
+    "category": "Senbòl ak jou ferye",
+    "question": "Ki kapital peyi Etazini an?",
+    "answers": [
+      "Washington, D.C."
+    ]
+  },
+  {
+    "id": 120,
+    "category": "Senbòl ak jou ferye",
+    "question": "Kote estati Libète a ye?",
+    "answers": [
+      "New York (Pò)",
+      "Zile Liberty [Nan New Jersey, tou pre New York City, ak sou Rivyè Hudson lan akseptab tou.]"
+    ]
+  },
+  {
+    "id": 121,
+    "category": "Senbòl ak jou ferye",
+    "question": "Poukisa drapo a gen 13 bann?",
+    "answers": [
+      "(Paske te gen) 13 koloni orijinalman",
+      "(Paske bann yo) reprezante koloni orijinal yo"
+    ],
+    "senior": true
+  },
+  {
+    "id": 122,
+    "category": "Senbòl ak jou ferye",
+    "question": "Poukisa drapo a gen 50 zetwal?",
+    "answers": [
+      "(Paske gen) yon zetwal pou chak eta",
+      "(Paske) chak zetwal reprezante yon eta",
+      "(Paske gen) 50 eta"
+    ]
+  },
+  {
+    "id": 123,
+    "category": "Senbòl ak jou ferye",
+    "question": "Kijan yo rele im nasyonal la?",
+    "answers": [
+      "The Star-Spangled Banner"
+    ]
+  },
+  {
+    "id": 124,
+    "category": "Senbòl ak jou ferye",
+    "question": "Premye deviz Nasyon an te “E Pluribus Unum.” Kisa sa vle di?",
+    "answers": [
+      "Nan anpil, youn.",
+      "Nou tout vin youn"
+    ]
+  },
+  {
+    "id": 125,
+    "category": "Senbòl ak jou ferye",
+    "question": "Kisa Jou Endepandans lan ye?",
+    "answers": [
+      "Yon jou ferye pou selebre endepandans Etazini (soti anba Grann Bretay)",
+      "Anivèsè nesans peyi a"
+    ]
+  },
+  {
+    "id": 126,
+    "category": "Senbòl ak jou ferye",
+    "question": "Nome twa jou ferye resòtisan Ozetazini.",
+    "answers": [
+      "Premye Jou nan Ane a",
+      "Jounen Martin Luther King, Jr.",
+      "Jounen Prezidan (Anivèsè nesans Washington)",
+      "Jounen Memorial",
+      "Jounen Endepandans",
+      "Jounen Fèt Travay",
+      "Jounen Columbus",
+      "Jounen Veteran yo",
+      "Jounen Thanksgiving",
+      "Jou Nwèl"
+    ],
+    "senior": true
+  },
+  {
+    "id": 127,
+    "category": "Senbòl ak jou ferye",
+    "question": "Kisa Memorial Day la ye?",
+    "answers": [
+      "Yon jou ferye pou onore sòlda ki te mouri pandan sèvis militè"
+    ]
+  },
+  {
+    "id": 128,
+    "category": "Senbòl ak jou ferye",
+    "question": "Kisa ki Jou Veteran yo ye?",
+    "answers": [
+      "Yon jou ferye pou onore moun ki nan lame (Etazini) an",
+      "Yon jou ferye pou onore moun ki te sèvi (nan lame militè Ameriken an)"
+    ]
+  }
+]

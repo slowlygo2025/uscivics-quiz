@@ -1,26 +1,288 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ink: #0b1c2c;
+  --ink-soft: #1a3348;
+  --mist: #e8eef5;
+  --paper: #f4f7fb;
+  --surface: #ffffff;
+  --line: color-mix(in srgb, var(--ink) 12%, transparent);
+  --signal: #1a5fd4;
+  --signal-hover: #1449a8;
+  --pass: #0f7a4c;
+  --pass-soft: #e6f5ee;
+  --miss: #b42318;
+  --miss-soft: #fdecea;
+  --amber: #9a6700;
+  --amber-soft: #fff6e0;
+  --muted: color-mix(in srgb, var(--ink) 58%, transparent);
+  --glow: color-mix(in srgb, var(--signal) 28%, transparent);
+  --background: var(--paper);
+  --foreground: var(--ink);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-mist: var(--mist);
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-signal: var(--signal);
+  --color-signal-hover: var(--signal-hover);
+  --color-pass: var(--pass);
+  --color-pass-soft: var(--pass-soft);
+  --color-miss: var(--miss);
+  --color-miss-soft: var(--miss-soft);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100%;
+  min-height: 100dvh;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-body), ui-sans-serif, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: color-mix(in srgb, var(--signal) 18%, transparent);
+}
+
+/* Prefer 16px+ on inputs to avoid iOS auto-zoom */
+input,
+select,
+textarea {
+  font-size: max(1rem, 16px);
+}
+
+@media (min-width: 640px) {
+  input,
+  select,
+  textarea {
+    font-size: inherit;
+  }
+}
+
+::selection {
+  background: color-mix(in srgb, var(--signal) 28%, white);
+  color: var(--ink);
+}
+
+.gw-shell {
+  position: relative;
+  isolation: isolate;
+  min-height: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: clip;
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+}
+
+.gw-safe-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.gw-safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.gw-touch-scroll {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+
+.gw-touch-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+@media (pointer: coarse) {
+  .gw-keyboard-hint {
+    display: none;
+  }
+}
+
+.gw-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(900px 520px at 12% -8%, var(--glow), transparent 60%),
+    radial-gradient(700px 480px at 92% 8%, color-mix(in srgb, #5b8def 18%, transparent), transparent 55%),
+    radial-gradient(800px 600px at 70% 100%, color-mix(in srgb, var(--ink) 6%, transparent), transparent 50%),
+    linear-gradient(180deg, #eef3f9 0%, var(--paper) 42%, #eef2f7 100%);
+}
+
+.gw-shell::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.35;
+  pointer-events: none;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse at 50% 20%, black 10%, transparent 72%);
+}
+
+@keyframes gw-rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gw-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gw-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes gw-pulse-soft {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.04);
+  }
+}
+
+.gw-rise {
+  animation: gw-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.gw-rise-delay-1 {
+  animation-delay: 0.08s;
+}
+
+.gw-rise-delay-2 {
+  animation-delay: 0.16s;
+}
+
+.gw-rise-delay-3 {
+  animation-delay: 0.24s;
+}
+
+.gw-fade {
+  animation: gw-fade 0.45s ease both;
+}
+
+.gw-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  border-radius: 999px;
+  padding: 0.9rem 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  touch-action: manipulation;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+@media (max-width: 639px) {
+  .gw-btn-block-sm {
+    width: 100%;
+  }
+}
+
+.gw-btn:hover {
+  transform: translateY(-1px);
+}
+
+.gw-btn:active {
+  transform: translateY(0);
+}
+
+.gw-btn-primary {
+  background: var(--signal);
+  color: white;
+  box-shadow: 0 10px 28px color-mix(in srgb, var(--signal) 32%, transparent);
+}
+
+.gw-btn-primary:hover {
+  background: var(--signal-hover);
+}
+
+.gw-btn-secondary {
+  background: color-mix(in srgb, var(--surface) 72%, transparent);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(8px);
+}
+
+.gw-btn-secondary:hover {
+  border-color: color-mix(in srgb, var(--signal) 40%, var(--line));
+  background: var(--surface);
+}
+
+.gw-btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.gw-btn-ghost:hover {
+  background: color-mix(in srgb, var(--ink) 4%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gw-rise,
+  .gw-fade,
+  .gw-shell::after {
+    animation: none !important;
+  }
+
+  .gw-btn:hover {
+    transform: none;
+  }
 }

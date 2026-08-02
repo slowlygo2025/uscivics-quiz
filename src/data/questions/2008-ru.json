@@ -1,0 +1,999 @@
+[
+  {
+    "id": 1,
+    "category": "Американское правительство",
+    "question": "Что является высшим законом страны? Конституция",
+    "answers": [
+      "the Constitution"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Американское правительство",
+    "question": "Что делает Конституция? Устанавливает форму правления страной Определяет государственное устройство Защищает основные права американцев",
+    "answers": [
+      "sets up the government",
+      "defines the government",
+      "protects basic rights of Americans"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Американское правительство",
+    "question": "Идея самоуправления выражена в первых словах Конституции. Что это за слова? «Мы, народ...»",
+    "answers": [
+      "We the People"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Американское правительство",
+    "question": "Что такое поправка? Изменение (в Конституции) Дополнение (к Конституции)",
+    "answers": [
+      "a change (to the Constitution)",
+      "an addition (to the Constitution)"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Американское правительство",
+    "question": "Как называются 10 первых поправок к Конституции? Билль о правах",
+    "answers": [
+      "the Bill of Rights"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Американское правительство",
+    "question": "Назовите одно из прав или свобод из первой поправки? Свобода слова Свобода вероисповедания Право свободно собираться Свобода прессы Право ходатайствовать перед правительством",
+    "answers": [
+      "speech",
+      "religion",
+      "assembly",
+      "press",
+      "petition the government"
+    ],
+    "senior": true
+  },
+  {
+    "id": 7,
+    "category": "Американское правительство",
+    "question": "Сколько существует поправок к Конституции? 27",
+    "answers": [
+      "twenty-seven (27)"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Американское правительство",
+    "question": "Что сделала Декларация независимости? Объявила о нашей независимости (от Великобритании) Заявила о независимости (от Великобритании) Объявила, что США свободны (от Великобритании)",
+    "answers": [
+      "announced our independence (from Great Britain)",
+      "declared our independence (from Great Britain)",
+      "said that the United States is free (from Great Britain)"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Американское правительство",
+    "question": "Какие два права американских граждан объявлены в Декларации независимости? Право на жизнь Право на свободу Стремление к счастью",
+    "answers": [
+      "life",
+      "liberty",
+      "pursuit of happiness"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Американское правительство",
+    "question": "Что означает свобода вероисповедания? Вы можете исповедовать любую религию или вообще не исповедовать религию.",
+    "answers": [
+      "You can practice any religion, or not practice a religion."
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Американское правительство",
+    "question": "Каково экономическое устройство США? Капиталистическая система Рыночная экономика",
+    "answers": [
+      "capitalist economy",
+      "market economy"
+    ],
+    "senior": true
+  },
+  {
+    "id": 12,
+    "category": "Американское правительство",
+    "question": "Что такое «правление закона»? Каждый должен следовать закону. Лидеры должны подчиняться закону. Правительство должно подчиняться закону. Никто не стоит над законом. Б. Система государственного управления",
+    "answers": [
+      "Everyone must follow the law.",
+      "Leaders must obey the law.",
+      "Government must obey the law.",
+      "No one is above the law."
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Американское правительство",
+    "question": "Назовите одну из ветвей или частей правительства? Конгресс Законодательная власть Президент Исполнительная власть Суды Судебная власть",
+    "answers": [
+      "Congress",
+      "legislative",
+      "President",
+      "executive",
+      "the courts",
+      "judicial"
+    ],
+    "senior": true
+  },
+  {
+    "id": 14,
+    "category": "Американское правительство",
+    "question": "Что препятствует одной из ветвей правительства стать слишком сильной? Система «сдержек и противовесов» Разделение власти",
+    "answers": [
+      "checks and balances",
+      "separation of powers"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Американское правительство",
+    "question": "Кто возглавляет Исполнительную власть? Президент",
+    "answers": [
+      "the President"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Американское правительство",
+    "question": "Кто создает федеральные законы? Конгресс Сенат и Палата представителей Законодатели",
+    "answers": [
+      "Congress",
+      "Senate and House (of Representatives)",
+      "(U.S. or national) legislature"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Американское правительство",
+    "question": "Какие существуют две части Конгресса США? Сенат и Палата представителей",
+    "answers": [
+      "the Senate and House (of Representatives)"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Американское правительство",
+    "question": "Сколько существует сенаторов США? 100",
+    "answers": [
+      "one hundred (100)"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Американское правительство",
+    "question": "На сколько лет мы избираем сенатора США? 6",
+    "answers": [
+      "six (6)"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Американское правительство",
+    "question": "Кто является одним из ваших сенаторов США? Ответы будут разные. [ Для жителей Округа Колумбии и жителей территорий США правильным ответом будет: «Округ Колумбия (или территория, где вы живете) не представлена в Сенате США.»]",
+    "answers": [
+      "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]"
+    ],
+    "senior": true
+  },
+  {
+    "id": 21,
+    "category": "Американское правительство",
+    "question": "Сколько членов Палаты представителей имеют право голосовать? 435",
+    "answers": [
+      "four hundred thirty-five (435)"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Американское правительство",
+    "question": "На сколько лет избираются члены палаты представителей США? 2",
+    "answers": [
+      "two (2)"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Американское правительство",
+    "question": "Назовите вашего члена палаты представителей? Ответы будут разные. [ Жители территорий с делегатами без права голоса или специальными уполномоченными могут назвать своих делегатов или уполномоченных. Также разрешается заявить, что данная территория не имеет представителей с правом голосовать в конгрессе.]",
+    "answers": [
+      "Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Американское правительство",
+    "question": "Кого представляет сенатор США? Всех жителей своего штата.",
+    "answers": [
+      "all people of the state"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Американское правительство",
+    "question": "Почему некоторые штаты имеют больше представителей, чем другие штаты? (По причине) численности населения штата (Потому что) там проживает больше людей (Потому что) в некоторых штатах больше людей",
+    "answers": [
+      "(because of) the state’s population",
+      "(because) they have more people",
+      "(because) some states have more people"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Американское правительство",
+    "question": "На какой срок избирается президент? На четыре года",
+    "answers": [
+      "four (4)"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Американское правительство",
+    "question": "В каком месяце проходят выборы президента? В ноябре",
+    "answers": [
+      "November"
+    ],
+    "senior": true
+  },
+  {
+    "id": 28,
+    "category": "Американское правительство",
+    "question": "Назовите имя президента США в настоящее время? Джорж Дабл-ю Буш Джорж Буш Буш",
+    "answers": [
+      "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States."
+    ],
+    "senior": true
+  },
+  {
+    "id": 29,
+    "category": "Американское правительство",
+    "question": "Назовите имя вице-президента США в настоящее время? Ричард Чейни Дик Чейни Чейни",
+    "answers": [
+      "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States."
+    ]
+  },
+  {
+    "id": 30,
+    "category": "Американское правительство",
+    "question": "Если президент теряет способность руководить страной, кто тогда становится президентом? Вице-президент",
+    "answers": [
+      "the Vice President"
+    ]
+  },
+  {
+    "id": 31,
+    "category": "Американское правительство",
+    "question": "Если президент и вице-президент теряют способность руководить страной, кто тогда становится президентом? Спикер палаты представителей",
+    "answers": [
+      "the Speaker of the House"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Американское правительство",
+    "question": "Кто является Верховным Главнокомандующим Вооруженных сил? Президент",
+    "answers": [
+      "the President"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Американское правительство",
+    "question": "Кто подписывает законопроекты, чтобы они приняли силу закона? Президент",
+    "answers": [
+      "the President"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Американское правительство",
+    "question": "Кто накладывает вето на законопроекты? Президент",
+    "answers": [
+      "the President"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Американское правительство",
+    "question": "Чем занимается кабинет министров президента? Дает рекомендации президенту",
+    "answers": [
+      "advises the President"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Американское правительство",
+    "question": "Назовите две должности на уровне кабинета министров? Министр сельского хозяйства Министр торговли Министр обороны Министр образования Министр энергоснабжения Министр здравоохранения Министр внутренней безопасности Министр жилищного строительства Министр внутренних дел Министр труда Государственный секретарь Министр транспорта Министр финансов Министр дел ветеранов Министр юстиции Вице-президент",
+    "answers": [
+      "Secretary of Agriculture",
+      "Secretary of Commerce",
+      "Secretary of Defense",
+      "Secretary of Education",
+      "Secretary of Energy",
+      "Secretary of Health and Human Services",
+      "Secretary of Homeland Security",
+      "Secretary of Housing and Urban Development",
+      "Secretary of the Interior",
+      "Secretary of Labor",
+      "Secretary of State",
+      "Secretary of Transportation",
+      "Secretary of the Treasury",
+      "Secretary of Veterans Affairs",
+      "Attorney General",
+      "Vice President"
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Американское правительство",
+    "question": "Что делает судебная власть? Изучает законы Разъясняет законы Разрешает спорные проблемы (разногласия) Решает, не противоречит ли закон конституции страны",
+    "answers": [
+      "reviews laws",
+      "explains laws",
+      "resolves disputes (disagreements)",
+      "decides if a law goes against the Constitution"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Американское правительство",
+    "question": "Какой суд является самым главным в США? Верховный суд",
+    "answers": [
+      "the Supreme Court"
+    ]
+  },
+  {
+    "id": 39,
+    "category": "Американское правительство",
+    "question": "Сколько судьей в Верховном суде? 9",
+    "answers": [
+      "Visit uscis.gov/citizenship/testupdates for the number of justices on the Supreme Court."
+    ]
+  },
+  {
+    "id": 40,
+    "category": "Американское правительство",
+    "question": "Кто является председателем Верховного суда США? Джон Робертс (Джон Джи Робертс, Младший)",
+    "answers": [
+      "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+    ]
+  },
+  {
+    "id": 41,
+    "category": "Американское правительство",
+    "question": "Согласно нашей конституции, определенные права принадлежат федеральному правительству. Назовите одно из прав федерального правительства. Право печатать деньги Право объявлять войну Право создавать армию Право заключать договоры",
+    "answers": [
+      "to print money",
+      "to declare war",
+      "to create an army",
+      "to make treaties"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Американское правительство",
+    "question": "Согласно нашей конституции, некоторые права принадлежат правительству штата. Назовите одно из прав правительства штата. Право обеспечивать школьное и общее образование Право обеспечивать безопасность (полиция) Право обеспечивать противопожарную безопасность Право выдавать водительские права Право одобрять строительство и использование земли",
+    "answers": [
+      "provide schooling and education",
+      "provide protection (police)",
+      "provide safety (fire departments)",
+      "give a driver’s license",
+      "approve zoning and land use"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Американское правительство",
+    "question": "Кто губернатор в вашем штате? Ответы будут разные. (Для жителей Округа Колумбии где нет губернатора, правильным ответом будет что в Округе Колумбии нет губернатора.)",
+    "answers": [
+      "Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.]"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Американское правительство",
+    "question": "Назовите столицу вашего штата. Ответы будут разные. (Для жителей Округа Колумбии правильным ответом будет – «Округ Колумбии не является штатом и не имеет столицы». Жители территорий США должны назвать столицу своей территории.)",
+    "answers": [
+      "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.]"
+    ],
+    "senior": true
+  },
+  {
+    "id": 45,
+    "category": "Американское правительство",
+    "question": "Назовите две крупнейшие политические партии в США. Демократическая и республиканская",
+    "answers": [
+      "Democratic and Republican"
+    ],
+    "senior": true
+  },
+  {
+    "id": 46,
+    "category": "Американское правительство",
+    "question": "К какой партии принадлежит президент в данный момент? К республиканской",
+    "answers": [
+      "Visit uscis.gov/citizenship/testupdates for the political party of the President."
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Американское правительство",
+    "question": "Назовите спикера палаты представителей в данный момент. Нэнси Пелоси С. Права и обязанности",
+    "answers": [
+      "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives."
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Американское правительство",
+    "question": "Существует четыре поправки к конституции о том, кто имеет право голосовать. Приведите одну из них. Граждане старше 18 лет могут голосовать Вы не должны платить (налог за голосование) за право голосовать Все граждане могут голосовать (женщины и мужчины могут голосовать) Граждане мужского пола любой расы могут голосовать",
+    "answers": [
+      "Citizens eighteen (18) and older (can vote).",
+      "You don’t have to pay (a poll tax) to vote.",
+      "Any citizen can vote. (Women and men can vote.)",
+      "A male citizen of any race (can vote)."
+    ]
+  },
+  {
+    "id": 49,
+    "category": "Американское правительство",
+    "question": "Назовите одну из обязанностей, которая касается только граждан США. Участвовать в суде присяжных Голосовать во всеобщих выборах",
+    "answers": [
+      "serve on a jury",
+      "vote in a federal election"
+    ],
+    "senior": true
+  },
+  {
+    "id": 50,
+    "category": "Американское правительство",
+    "question": "Назовите одно из прав, которыми обладают только граждане США. Голосовать во всеобщих выборах Выдвигаться кандидатом на всеобщих выборах",
+    "answers": [
+      "vote in a federal election",
+      "run for federal office"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Американское правительство",
+    "question": "Назовите два права, которыми обладают все жители США. Право высказывать свое мнение Право выступать с речью Право собираться Право обращаться к правительству Право исповедовать религию Право носить оружие",
+    "answers": [
+      "freedom of expression",
+      "freedom of speech",
+      "freedom of assembly",
+      "freedom to petition the government",
+      "freedom of religion",
+      "the right to bear arms"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Американское правительство",
+    "question": "Кому мы присягаем на верность, когда произносим присягу на верность? США Флагу",
+    "answers": [
+      "the United States",
+      "the flag"
+    ]
+  },
+  {
+    "id": 53,
+    "category": "Американское правительство",
+    "question": "Назовите одно из обещаний, которые вы даете, когда вы становитесь гражданином США. Отказаться от верности другим странам Защищать конституцию и законы США Подчиняться законам США Служить в армии США (если потребуется) Служить (выполнять важную работу) на благо страны (если потребуется) Быть верным США",
+    "answers": [
+      "give up loyalty to other countries",
+      "defend the Constitution and laws of the United States",
+      "obey the laws of the United States",
+      "serve in the U.S. military (if needed)",
+      "serve (do important work for) the nation (if needed)",
+      "be loyal to the United States"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Американское правительство",
+    "question": "В каком возрасте можно участвовать в выборах президента? 18 и старше",
+    "answers": [
+      "eighteen (18) and older"
+    ],
+    "senior": true
+  },
+  {
+    "id": 55,
+    "category": "Американское правительство",
+    "question": "Назовите две возможности осуществления демократии, которыми обладают американцы? Участие в выборах Возможность вступления в политические партии Возможность участия в избирательной кампании Возможность вступления в гражданские группы Возможность вступления в общественные группы Возможность высказывания своего мнения по различным проблемам избранным представителям власти Возможность звонить сенаторам и представителям палаты представителей Возможность публично поддерживать политические или другие решения администрации или выступать против них Возможность выдвигать свою кандидатуру на выборах Возможность обращения в газеты",
+    "answers": [
+      "vote",
+      "join a political party",
+      "help with a campaign",
+      "join a civic group",
+      "join a community group",
+      "give an elected official your opinion on an issue",
+      "call Senators and Representatives",
+      "publicly support or oppose an issue or policy",
+      "run for office",
+      "write to a newspaper"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "Американское правительство",
+    "question": "Назовите последний день отправления налоговой декларации. 15 апреля",
+    "answers": [
+      "April 15"
+    ],
+    "senior": true
+  },
+  {
+    "id": 57,
+    "category": "Американское правительство",
+    "question": "Когда молодой человек должен встать на военный учет? В 18 лет От 18 до 26 лет ИСТОРИЯ США А. Колониальный период и независимость",
+    "answers": [
+      "at age eighteen (18)",
+      "between eighteen (18) and twenty-six (26)"
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Американская история",
+    "question": "Назовите одну из причин прибытия поселенцев в Америку. Свобода Политическая свобода Свобода вероисповедания Экономические возможности Исполнение религиозных обрядов Спасение от преследований",
+    "answers": [
+      "freedom",
+      "political liberty",
+      "religious freedom",
+      "economic opportunity",
+      "practice their religion",
+      "escape persecution"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Американская история",
+    "question": "Кто жил в Америке до прибытия европейцев? Коренные американцы Американские индейцы",
+    "answers": [
+      "American Indians",
+      "Native Americans"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Американская история",
+    "question": "Какую группу людей привезли в Америку и продали как рабов? Африканцев Выходцев из Африки",
+    "answers": [
+      "Africans",
+      "people from Africa"
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Американская история",
+    "question": "Почему поселенцы воевали против Британии? Из-за высоких налогов (Обложение налогами без представительства) Потому что британская армия проживала в их домах (поселение, квартирование) Потому что у них не было самоуправления",
+    "answers": [
+      "because of high taxes (taxation without representation)",
+      "because the British army stayed in their houses (boarding, quartering)",
+      "because they didn’t have self-government"
+    ]
+  },
+  {
+    "id": 62,
+    "category": "Американская история",
+    "question": "Кто написал текст Декларации независимости? (Томас) Джефферсон",
+    "answers": [
+      "(Thomas) Jefferson"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Американская история",
+    "question": "Когда была принята Декларация независимости? 4 июля 1776",
+    "answers": [
+      "July 4, 1776"
+    ]
+  },
+  {
+    "id": 64,
+    "category": "Американская история",
+    "question": "Вначале в Америке было 13 штатов. Назовите три. Нью-Хэмпшир Массачусетс Род-Айленд Коннектикут Нью-Йорк Нью-Джерси Пенсильвания Делавэр Мэриленд Виржиния Северная Каролина Южная Каролина Джорджия",
+    "answers": [
+      "New Hampshire",
+      "Massachusetts",
+      "Rhode Island",
+      "Connecticut",
+      "New York",
+      "New Jersey",
+      "Pennsylvania",
+      "Delaware",
+      "Maryland",
+      "Virginia",
+      "North Carolina",
+      "South Carolina",
+      "Georgia"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Американская история",
+    "question": "Что произошло во время Конституционной конвенции? Была написана конституция Отцы-основатели написали конституцию",
+    "answers": [
+      "The Constitution was written.",
+      "The Founding Fathers wrote the Constitution."
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Американская история",
+    "question": "Когда была написана конституция? В 1787 году",
+    "answers": [
+      "1787"
+    ]
+  },
+  {
+    "id": 67,
+    "category": "Американская история",
+    "question": "Федералистские статьи поддерживали принятие конституции США. Назовите одного из авторов. (Джеймс) Мэдисон (Александр) Гамильтон (Джон) Джей Публиус",
+    "answers": [
+      "(James) Madison",
+      "(Alexander) Hamilton",
+      "(John) Jay",
+      "Publius"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Американская история",
+    "question": "Чем известен Бенджамин Франклин? Назовите одну из причин. Дипломат США Старейший член Конституционной ковенции Первый глава почты США Автор «Альманаха бедного Ричарда» Основатель первых бесплатных библиотек",
+    "answers": [
+      "U.S. diplomat",
+      "oldest member of the Constitutional Convention",
+      "first Postmaster General of the United States",
+      "writer of “Poor Richard’s Almanac”",
+      "started the first free libraries"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Американская история",
+    "question": "Кого называют «Отцом нашей страны»? (Джордж) Вашингтон",
+    "answers": [
+      "(George) Washington"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Американская история",
+    "question": "Кто был первым президентом США? (Джордж) Вашингтон ИСТОРИЯ США 1800-е годы",
+    "answers": [
+      "(George) Washington"
+    ],
+    "senior": true
+  },
+  {
+    "id": 71,
+    "category": "Американская история",
+    "question": "Какую территорию купили США у Франции в 1803 году? Территория Луизианы Луизиана",
+    "answers": [
+      "the Louisiana Territory",
+      "Louisiana"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Американская история",
+    "question": "Назовите одну из войн, в которой участвовали США в 1800-х годах? Война 1812 года Война с Мексикой Гражданская война Война с Испанией",
+    "answers": [
+      "War of 1812",
+      "Mexican-American War",
+      "Civil War",
+      "Spanish-American War"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Американская история",
+    "question": "Как называется война США между севером и югом? Гражданская война Война между штатами",
+    "answers": [
+      "the Civil War",
+      "the War between the States"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Американская история",
+    "question": "Назовите одну из проблем, приведших к Гражданской войне. Рабство Экономические причины Права штатов",
+    "answers": [
+      "slavery",
+      "economic reasons",
+      "states’ rights"
+    ]
+  },
+  {
+    "id": 75,
+    "category": "Американская история",
+    "question": "Назовите один из важных поступков, который совершил Авраам Линкольн. Освободил рабов (Провозглашение эмансипации) Спас (или сохранил) союз Возглавлял США во время Гражданской войны",
+    "answers": [
+      "freed the slaves (Emancipation Proclamation)",
+      "saved (or preserved) the Union",
+      "led the United States during the Civil War"
+    ],
+    "senior": true
+  },
+  {
+    "id": 76,
+    "category": "Американская история",
+    "question": "В чем заключалось Провозглашение освобождения? Освободили рабов Освободили рабов в Конфедерации Освободили рабов в Конфедеративных штатах Освободили рабов в южных штатах",
+    "answers": [
+      "freed the slaves",
+      "freed slaves in the Confederacy",
+      "freed slaves in the Confederate states",
+      "freed slaves in most Southern states"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Американская история",
+    "question": "Что делала Сюзан Б. Энтони? Боролась за права женщин Боролась за гражданские права СОВРЕМЕННАЯ ИСТОРИЯ США И ДРУГАЯ ВАЖНАЯ ИСТОРИЧЕСКАЯ ИНФОРМАЦИЯ",
+    "answers": [
+      "fought for women’s rights",
+      "fought for civil rights"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Американская история",
+    "question": "Назовите одну из войн, в которой участвовали США в ХХ веке? Первая мировая война Вторая мировая война Война в Корее Война во Вьетнаме Война в (Персидском) заливе",
+    "answers": [
+      "World War I",
+      "World War II",
+      "Korean War",
+      "Vietnam War",
+      "(Persian) Gulf War"
+    ],
+    "senior": true
+  },
+  {
+    "id": 79,
+    "category": "Американская история",
+    "question": "Кто был президентом США во время Первой мировой войны? (Вудроу) Вильсон",
+    "answers": [
+      "(Woodrow) Wilson"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Американская история",
+    "question": "Кто был президентом во время Второй мировой войны? (Франклин) Рузвельт",
+    "answers": [
+      "(Franklin) Roosevelt"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "Американская история",
+    "question": "С кем воевала Америка во Второй мировой Войне? С Японией, Германией и Италией",
+    "answers": [
+      "Japan, Germany, and Italy"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "Американская история",
+    "question": "До того, как стать президентом США Эйзенхауэр был генералом и участвовал в войне. В какой войне он участвовал? Во Второй Мировой Войне",
+    "answers": [
+      "World War II"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "Американская история",
+    "question": "Вот время «холодной войны» что более всего беспокоило США? Коммунизм",
+    "answers": [
+      "Communism"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Американская история",
+    "question": "Какое общественное движение положило конец расовой дискриминации? Движение за гражданские права",
+    "answers": [
+      "civil rights (movement)"
+    ]
+  },
+  {
+    "id": 85,
+    "category": "Американская история",
+    "question": "Что делал Мартин Лютер Кинг? Боролся за гражданские права Боролся за равноправие всех американцев",
+    "answers": [
+      "fought for civil rights",
+      "worked for equality for all Americans"
+    ],
+    "senior": true
+  },
+  {
+    "id": 86,
+    "category": "Американская история",
+    "question": "Что произошло 11 сентября 2001 года? Террористы атаковали США",
+    "answers": [
+      "Terrorists attacked the United States."
+    ]
+  },
+  {
+    "id": 87,
+    "category": "Американская история",
+    "question": "Приведите название одного индийского племени в США. (Сотрудник СГИ, принимающий экзамен, будет иметь полный список признанных государством американских индейских племен.) Чероки Наваха Сиу Чиппева Чоктав Пуебло Апачи Ирокез Крик Блакфит Сименол Кайен Аравак Шауни Мохиган Урон Онеида Кроу Тутон Хопи Инуит ОБЩИЕ ВОПРОСЫ А. ГЕОГРАФИЯ",
+    "answers": [
+      "Cherokee",
+      "Navajo",
+      "Sioux",
+      "Chippewa",
+      "Choctaw",
+      "Pueblo",
+      "Apache",
+      "Iroquois",
+      "Creek",
+      "Blackfeet",
+      "Seminole",
+      "Cheyenne",
+      "Arawak",
+      "Shawnee",
+      "Mohegan",
+      "Huron",
+      "Oneida",
+      "Lakota",
+      "Crow",
+      "Teton",
+      "Hopi",
+      "Inuit"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "Интегрированное гражданское образование",
+    "question": "Название одной из самых длинных рек США Миссисипи (река) Миссури (река)",
+    "answers": [
+      "Missouri (River)",
+      "Mississippi (River)"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "Интегрированное гражданское образование",
+    "question": "Какой океан омывает Западное побережье США? Тихий (океан)",
+    "answers": [
+      "Pacific (Ocean)"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Интегрированное гражданское образование",
+    "question": "Какой океан омывает Восточное побережье США? Атлантический (океан)",
+    "answers": [
+      "Atlantic (Ocean)"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Интегрированное гражданское образование",
+    "question": "Название одной из территорий США Пуэрто-Рико Виргинские острова Американское Самоа Северные Марианские острова Гуам",
+    "answers": [
+      "Puerto Rico",
+      "U.S. Virgin Islands",
+      "American Samoa",
+      "Northern Mariana Islands",
+      "Guam"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Интегрированное гражданское образование",
+    "question": "Название одного из штатов, граничащего с Канадой Мэн Нью Гемпшир Вермонт Нью-Йорк Пенсильвания Огайо Мичиган Миннесота Северная Дакота Айдахо Вашингтон Аляска",
+    "answers": [
+      "Maine",
+      "New Hampshire",
+      "Vermont",
+      "New York",
+      "Pennsylvania",
+      "Ohio",
+      "Michigan",
+      "Minnesota",
+      "North Dakota",
+      "Montana",
+      "Idaho",
+      "Washington",
+      "Alaska"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Интегрированное гражданское образование",
+    "question": "Название одного из штатов, граничащего с Мексикой Калифорния Аризона Нью-Мексико Техас",
+    "answers": [
+      "California",
+      "Arizona",
+      "New Mexico",
+      "Texas"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "Интегрированное гражданское образование",
+    "question": "Какой город является столицей США? Вашингтон, округ Колумбия",
+    "answers": [
+      "Washington, D.C."
+    ],
+    "senior": true
+  },
+  {
+    "id": 95,
+    "category": "Интегрированное гражданское образование",
+    "question": "Где находится статуя Свободы? Нью-Йорк (гавань) Остров Свободы ( допустимо также – Нью-Джерси рядом с городом Нью-Йорк и на Гудзоне.) СИМВОЛИКА",
+    "answers": [
+      "New York (Harbor)",
+      "Liberty Island"
+    ],
+    "senior": true
+  },
+  {
+    "id": 96,
+    "category": "Интегрированное гражданское образование",
+    "question": "Почему на флаге США 13 полос? По числу 13 первых колоний Потому что они символизируют первые колонии",
+    "answers": [
+      "because there were 13 original colonies",
+      "because the stripes represent the original colonies"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "Интегрированное гражданское образование",
+    "question": "Почему на флаге США 50 звезд? По одной звезде на каждый штат Каждая звезда символизирует один из штатов США Потому что в США 50 штатов",
+    "answers": [
+      "because there is one star for each state",
+      "because each star represents a state",
+      "because there are 50 states"
+    ],
+    "senior": true
+  },
+  {
+    "id": 98,
+    "category": "Интегрированное гражданское образование",
+    "question": "Как называется национальный гимн США? Звездно-полосатое Знамя ПРАЗДНИКИ",
+    "answers": [
+      "The Star-Spangled Banner"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Интегрированное гражданское образование",
+    "question": "Когда мы празднуем День Независимости? 4 июля",
+    "answers": [
+      "July 4"
+    ],
+    "senior": true
+  },
+  {
+    "id": 100,
+    "category": "Интегрированное гражданское образование",
+    "question": "Назовите один из национальных американских праздников Новый год День Мартина Лютера Кинга День Президентов День Памяти День Независимости День Труда День Колумба День Ветеранов День Благодарения Рождество",
+    "answers": [
+      "New Year’s Day",
+      "Martin Luther King, Jr. Day",
+      "Presidents’ Day",
+      "Memorial Day",
+      "Juneteenth",
+      "Independence Day",
+      "Labor Day",
+      "Columbus Day",
+      "Veterans Day",
+      "Thanksgiving",
+      "Christmas"
+    ]
+  }
+]

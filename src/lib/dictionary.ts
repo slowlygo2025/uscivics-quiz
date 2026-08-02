@@ -1,60 +1,32 @@
 import type { Locale } from "./types";
+import { en, type Dictionary } from "./dict/en";
+import { es } from "./dict/es";
+import { zh } from "./dict/zh";
+import { vi } from "./dict/vi";
+import { tl } from "./dict/tl";
+import { ar } from "./dict/ar";
+import { ko } from "./dict/ko";
+import { hi } from "./dict/hi";
+import { ru } from "./dict/ru";
+import { ht } from "./dict/ht";
+import { fr } from "./dict/fr";
 
-export const dictionary = {
-  en: {
-    siteName: "US Citizenship Test Practice",
-    tagline: "Free practice for the USCIS Naturalization Civics Test — no sign-up required.",
-    startEligibility: "Find out which test version applies to you",
-    practice2008: "Practice the 2008 version (100 questions)",
-    practice2025: "Practice the 2025 version (128 questions)",
-    eligibilityTitle: "Which civics test do I need to take?",
-    q1: "Did you file Form N-400 before October 20, 2025?",
-    q2: "Are you 65 or older AND have you been a permanent resident for 20+ years?",
-    yes: "Yes",
-    no: "No",
-    notSure: "I'm not sure",
-    resultSenior: "You qualify for the simplified test: 10 questions, need 6 correct.",
-    result2008: "You take the 2008 version: 10 of 100 questions asked, need 6 correct.",
-    result2025: "You take the 2025 version: 20 of 128 questions asked, need 12 correct.",
-    startPractice: "Start practice test",
-    question: "Question",
-    of: "of",
-    showAnswer: "Show answer",
-    next: "Next question",
-    finish: "Finish",
-    yourScore: "Your score",
-    passed: "You would pass!",
-    notPassed: "Keep practicing — review the questions you missed.",
-    tryAgain: "Try again",
-  },
-  es: {
-    siteName: "Práctica del Examen de Ciudadanía de EE.UU.",
-    tagline: "Práctica gratis para el Examen Cívico de Naturalización de USCIS — sin necesidad de registrarte.",
-    startEligibility: "Descubrí qué versión del examen te corresponde",
-    practice2008: "Practicar versión 2008 (100 preguntas)",
-    practice2025: "Practicar versión 2025 (128 preguntas)",
-    eligibilityTitle: "¿Qué examen cívico me toca rendir?",
-    q1: "¿Presentaste el Formulario N-400 antes del 20 de octubre de 2025?",
-    q2: "¿Tenés 65 años o más Y sos residente permanente desde hace 20+ años?",
-    yes: "Sí",
-    no: "No",
-    notSure: "No estoy seguro/a",
-    resultSenior: "Calificás para el examen simplificado: 10 preguntas, necesitás 6 correctas.",
-    result2008: "Te toca la versión 2008: te preguntan 10 de 100, necesitás 6 correctas.",
-    result2025: "Te toca la versión 2025: te preguntan 20 de 128, necesitás 12 correctas.",
-    startPractice: "Empezar examen de práctica",
-    question: "Pregunta",
-    of: "de",
-    showAnswer: "Ver respuesta",
-    next: "Siguiente pregunta",
-    finish: "Terminar",
-    yourScore: "Tu puntaje",
-    passed: "¡Aprobarías!",
-    notPassed: "Seguí practicando — repasá las preguntas que fallaste.",
-    tryAgain: "Intentar de nuevo",
-  },
-} as const;
+export type { Dictionary };
 
-export function getDictionary(locale: Locale) {
-  return dictionary[locale];
+export const dictionary: Record<Locale, Partial<Dictionary>> = {
+  en,
+  es,
+  zh,
+  vi,
+  tl,
+  ar,
+  ko,
+  hi,
+  ru,
+  ht,
+  fr,
+};
+
+export function getDictionary(locale: Locale): Dictionary {
+  return { ...en, ...dictionary[locale] };
 }
