@@ -41,10 +41,40 @@ See `.env.example`. Never commit `.env.local` or `secrets/`.
 | `npm run build:languages` | Rebuild other locale banks |
 | `npm run scrape:uscis` | Refresh federal officials JSON |
 | `npm run gsc:tier -- 1` | Submit sitemap + Indexing API tier 1 (all locales) |
-| `npm run gsc:tier -- 2` | Indexing API tier 2 |
-| `npm run gsc:tier -- 2 --skip=81` | Resume tier 2 after daily quota |
+| `npm run gsc:tier -- 2` | Indexing API tier 2 (auto-resume via progress file) |
+| `npm run gsc:report` | Full GSC report (sitemap, progress, CTR, gaps) |
+| `npm run gsc:inspect` | URL Inspection sample |
+| `npm run gsc:insights` | Low-CTR queries + playbook |
 
 GSC scripts need a Google service account JSON at `secrets/gsc-service-account.json` with Indexing API + Search Console access for `sc-domain:uscivics-quiz.com`. Default publish quota is **200 URL_UPDATED / day**.
+
+### Vercel SEO cron (advanced)
+
+| Cron | Schedule | Path |
+|------|----------|------|
+| USCIS officials | `0 6 * * *` | `/api/uscis-updates` |
+| SEO ops | `15 7 * * *` | `/api/cron/seo` — warm + sitemap + Tier1 EN/ES + rotating Tier2 + search pulse |
+| Warm | `0 */6 * * *` | `/api/cron/warm` — money pages only (no Indexing quota) |
+
+**Vercel env (required for SEO cron):**
+
+| Variable | Purpose |
+|----------|---------|
+| `CRON_SECRET` | Bearer auth (Vercel Cron sends it automatically) |
+| `GSC_SERVICE_ACCOUNT_JSON` | Full service-account JSON as one string |
+| `SEO_CRON_T2_BUDGET` | Optional daily Tier 2 batch size (default `40`) |
+| `SEO_CRON_SKIP_INDEX` | Set `1` to warm+sitemap+pulse only |
+
+Generate secret: `openssl rand -hex 32` (or PowerShell `[guid]::NewGuid().ToString('N')`).  
+One-line JSON from local key:  
+`node -e "process.stdout.write(JSON.stringify(require('./secrets/gsc-service-account.json')))"`
+
+Manual trigger (after deploy):
+
+```bash
+curl -H "Authorization: Bearer $CRON_SECRET" https://uscivics-quiz.com/api/cron/warm
+curl -H "Authorization: Bearer $CRON_SECRET" https://uscivics-quiz.com/api/cron/seo
+```
 
 ## Product map
 

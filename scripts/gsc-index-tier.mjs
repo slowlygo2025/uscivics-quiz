@@ -1,59 +1,64 @@
 /**
- * Notify Google Indexing API for a given checklist tier (all locales).
+ * Notify Google Indexing API for a checklist tier (all locales).
+ * Persists successful publishes so resume is URL-based (survives list growth).
  *
  * Usage:
- *   npx tsx scripts/gsc-index-tier.mjs 2
- *   npx tsx scripts/gsc-index-tier.mjs 1
- *   npx tsx scripts/gsc-index-tier.mjs 2 --skip=81   # resume after quota
+ *   npm run gsc:tier -- 2
+ *   npm run gsc:tier -- 1
+ *   npm run gsc:tier -- 2 --force              # re-notify already published
+ *   npm run gsc:tier -- 2 --limit=50          # cap this run (quota-safe)
+ *   npm run gsc:tier -- 2 --bootstrap-skip=81 # mark first N as done (no API)
  */
-import { readFileSync } from "node:fs";
-import { GoogleAuth } from "google-auth-library";
+import {
+  getGscClient,
+  loadIndexProgress,
+  saveIndexProgress,
+  markPublished,
+  isPublished,
+  submitSitemap,
+  isQuotaError,
+  errorMessage,
+} from "./gsc-lib.mjs";
 import { LOCALES } from "../src/lib/locales.ts";
 import {
   INDEX_PRIORITY,
   absoluteIndexUrl,
 } from "../src/lib/indexing-priority.ts";
 
-const KEY_PATH = new URL("../secrets/gsc-service-account.json", import.meta.url);
-const SITE = "sc-domain:uscivics-quiz.com";
-const SITEMAP = "https://uscivics-quiz.com/sitemap.xml";
-
 const tierArg = Number(process.argv[2] || "2");
-const skipArg = process.argv.find((a) => a.startsWith("--skip="));
-const skip = skipArg ? Number(skipArg.split("=")[1]) : 0;
+const bootstrapArg = process.argv.find((a) => a.startsWith("--bootstrap-skip="));
+const limitArg = process.argv.find((a) => a.startsWith("--limit="));
+const force = process.argv.includes("--force");
+const bootstrapSkip = bootstrapArg
+  ? Number(bootstrapArg.split("=")[1])
+  : 0;
+const limit = limitArg ? Number(limitArg.split("=")[1]) : Infinity;
 
-if (![1, 2].includes(tierArg) || Number.isNaN(skip) || skip < 0) {
-  console.error("Usage: npx tsx scripts/gsc-index-tier.mjs <1|2> [--skip=N]");
+if (
+  ![1, 2, 3].includes(tierArg) ||
+  Number.isNaN(bootstrapSkip) ||
+  bootstrapSkip < 0
+) {
+  console.error(
+    "Usage: npm run gsc:tier -- <1|2|3> [--bootstrap-skip=N] [--limit=N] [--force]"
+  );
   process.exit(1);
 }
 
 async function main() {
-  const key = JSON.parse(readFileSync(KEY_PATH, "utf8"));
-  console.log(`Using ${key.client_email}`);
+  const { client, email } = await getGscClient();
+  console.log(`Using ${email}`);
 
-  const auth = new GoogleAuth({
-    credentials: key,
-    scopes: [
-      "https://www.googleapis.com/auth/indexing",
-      "https://www.googleapis.com/auth/webmasters",
-    ],
-  });
-  const client = await auth.getClient();
-
-  const sitemapPath = encodeURIComponent(SITEMAP);
-  const siteEnc = encodeURIComponent(SITE);
   console.log("\nSubmitting sitemap…");
   try {
-    const smRes = await client.request({
-      url: `https://www.googleapis.com/webmasters/v3/sites/${siteEnc}/sitemaps/${sitemapPath}`,
-      method: "PUT",
-    });
-    console.log(`Sitemap OK (${smRes.status})`);
+    const status = await submitSitemap(client);
+    console.log(`Sitemap OK (${status})`);
   } catch (e) {
-    console.error("Sitemap submit failed:", e?.response?.data || e.message);
+    console.error("Sitemap submit failed:", errorMessage(e));
   }
 
   const paths = INDEX_PRIORITY.filter((i) => i.tier === tierArg);
+  /** @type {{ url: string, why: string, locale: string }[]} */
   const urls = [];
   for (const item of paths) {
     for (const locale of LOCALES) {
@@ -65,18 +70,43 @@ async function main() {
     }
   }
 
-  const queue = skip > 0 ? urls.slice(skip) : urls;
+  const progress = loadIndexProgress();
+
+  if (bootstrapSkip > 0) {
+    let marked = 0;
+    for (const row of urls.slice(0, bootstrapSkip)) {
+      if (!isPublished(progress, row.url)) {
+        markPublished(progress, row.url, tierArg);
+        marked++;
+      }
+    }
+    saveIndexProgress(progress);
+    console.log(
+      `\nBootstrap: marked ${marked} URLs as already published (first ${bootstrapSkip}).`
+    );
+  }
+
+  const already = urls.filter((r) => isPublished(progress, r.url)).length;
+
+  let queue = force
+    ? urls
+    : urls.filter((r) => !isPublished(progress, r.url));
+
+  if (Number.isFinite(limit) && limit > 0) {
+    queue = queue.slice(0, limit);
+  }
+
   console.log(
-    `\nPublishing Tier ${tierArg}: ${queue.length} of ${urls.length} URL_UPDATED` +
-      ` (${paths.length} paths × ${LOCALES.length} locales` +
-      (skip ? `, skip=${skip}` : "") +
+    `\nPublishing Tier ${tierArg}: ${queue.length} queued` +
+      ` (${paths.length} paths × ${LOCALES.length} locales;` +
+      ` ${already}/${urls.length} already in progress file` +
+      (force ? "; FORCE re-notify" : "") +
       ")…"
   );
 
   let ok = 0;
   let fail = 0;
   let quotaHit = false;
-  let processed = skip;
 
   for (const row of queue) {
     if (quotaHit) break;
@@ -87,35 +117,32 @@ async function main() {
         data: { url: row.url, type: "URL_UPDATED" },
       });
       ok++;
-      processed++;
+      markPublished(progress, row.url, tierArg);
+      saveIndexProgress(progress);
       console.log(`OK  ${row.url}`);
     } catch (e) {
       fail++;
-      const err = e?.response?.data?.error || e?.response?.data || e.message;
-      const msg = typeof err === "string" ? err : JSON.stringify(err);
+      const msg = errorMessage(e);
       console.error(`FAIL ${row.url}`);
       console.error("    ", msg);
-      if (
-        msg.includes("Quota") ||
-        msg.includes("quota") ||
-        msg.includes("Rate Limit") ||
-        msg.includes("rateLimitExceeded") ||
-        msg.includes("dailyLimitExceeded")
-      ) {
+      if (isQuotaError(msg)) {
         quotaHit = true;
+        const remaining = urls.filter((r) => !isPublished(progress, r.url)).length;
         console.error(
-          `\nQuota/rate limit hit — stopping at index ${processed}.` +
-            `\nResume tomorrow: npx tsx scripts/gsc-index-tier.mjs ${tierArg} --skip=${processed}`
+          `\nQuota/rate limit hit — progress saved.` +
+            `\nRemaining unpublished Tier ${tierArg}: ${remaining}` +
+            `\nResume: npm run gsc:tier -- ${tierArg}`
         );
-      } else {
-        processed++;
       }
     }
     await new Promise((r) => setTimeout(r, 150));
   }
 
+  const done = urls.filter((r) => isPublished(progress, r.url)).length;
   console.log(
-    `\nDone Tier ${tierArg}. ok=${ok} fail=${fail} processed=${processed}/${urls.length}`
+    `\nDone Tier ${tierArg}. ok=${ok} fail=${fail}` +
+      ` · progress ${done}/${urls.length}` +
+      (quotaHit ? " · STOPPED (quota)" : "")
   );
 }
 

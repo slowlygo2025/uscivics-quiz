@@ -14,6 +14,8 @@
     "build:languages": "node scripts/build-p1-languages.mjs",
     "scrape:uscis": "node scripts/scrape-uscis-updates.mjs",
     "gsc:tier": "npx --yes tsx scripts/gsc-index-tier.mjs",
+    "gsc:report": "npx --yes tsx scripts/gsc-report.mjs",
+    "gsc:inspect": "npx --yes tsx scripts/gsc-inspect.mjs",
     "gsc:rotate": "npx --yes tsx scripts/gsc-rotate-key.mjs",
     "gsc:install-key": "npx --yes tsx scripts/gsc-install-new-key.mjs",
     "gsc:insights": "node scripts/gsc-search-insights.mjs",
@@ -23,6 +25,7 @@
   "dependencies": {
     "@sentry/nextjs": "^10.69.0",
     "firebase": "^12.17.0",
+    "google-auth-library": "^11.0.0",
     "next": "16.2.12",
     "react": "19.2.4",
     "react-dom": "19.2.4"
@@ -35,7 +38,6 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.12",
-    "google-auth-library": "^11.0.0",
     "pdf-parse": "^1.1.1",
     "tailwindcss": "^4",
     "typescript": "^5"

@@ -3,6 +3,14 @@
     {
       "path": "/api/uscis-updates",
       "schedule": "0 6 * * *"
+    },
+    {
+      "path": "/api/cron/seo",
+      "schedule": "15 7 * * *"
+    },
+    {
+      "path": "/api/cron/warm",
+      "schedule": "0 */6 * * *"
     }
   ]
 }

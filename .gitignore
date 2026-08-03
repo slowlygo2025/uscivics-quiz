@@ -52,3 +52,5 @@ next-env.d.ts
 /secrets/
 *.json.bak
 /gsc-search-insights.json
+/gsc-report.json
+/gsc-inspect.json

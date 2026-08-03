@@ -369,9 +369,10 @@ export function buildIndexingChecklist(locales: Locale[] = ["en", "es"]) {
 }
 
 export const INDEXING_STEPS = [
-  "Search Console → Sitemaps → add https://uscivics-quiz.com/sitemap.xml",
-  "Open /en/indexing-checklist (noindex) and work Tier 1 EN/ES: Inspect URL → Request indexing",
-  "Continue Tier 2 (drills, CA/TX/FL/NY, top learn posts)",
-  "Let sitemap + internal links pull Tier 3–4; spot-check any URL that stays “Discovered / not indexed”",
-  "After each major content deploy, re-request Tier 1 only",
+  "Search Console → Sitemaps → add https://uscivics-quiz.com/sitemap.xml (also: npm run gsc:tier)",
+  "Tier 1–2 via Indexing API: npm run gsc:tier -- 1 then npm run gsc:tier -- 2 (progress auto-saved)",
+  "Weekly ops: npm run gsc:report (sitemap + index progress + queries/pages/CTR + coverage gaps)",
+  "Low-CTR follow-up: npm run gsc:insights or apply titleHints from gsc-report.json",
+  "Let sitemap + internal links pull Tier 3–4; spot-check “Discovered / not indexed” in GSC",
+  "After major content deploys, re-run Tier 1 only (or --force for specific tiers)",
 ] as const;

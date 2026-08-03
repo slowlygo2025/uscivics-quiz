@@ -1,27 +1,18 @@
 /**
- * Pull Search Console query performance and flag low-CTR opportunities.
+ * Thin wrapper: query-focused CTR insights (also covered by gsc:report).
  *
  * Usage:
- *   node scripts/gsc-search-insights.mjs
- *   node scripts/gsc-search-insights.mjs --days=28 --minImpressions=30 --maxCtr=0.05
- *
- * Auth: secrets/gsc-service-account.json (same SA as indexing; needs Search Analytics access).
- * When the site is new, rows may be empty — script still exits 0 and prints next steps.
+ *   npm run gsc:insights
+ *   npm run gsc:insights -- --days=28 --minImpressions=30 --maxCtr=0.05
  */
-import { readFileSync, writeFileSync } from "node:fs";
-import { GoogleAuth } from "google-auth-library";
+import { writeFileSync } from "node:fs";
+import {
+  getGscClient,
+  searchAnalytics,
+  analyticsWindow,
+  INSIGHTS_PATH,
+} from "./gsc-lib.mjs";
 
-const KEY_PATH = new URL("../secrets/gsc-service-account.json", import.meta.url);
-const SITE = "sc-domain:uscivics-quiz.com";
-
-const daysArg = process.argv.find((a) => a.startsWith("--days="));
-const minImpArg = process.argv.find((a) => a.startsWith("--minImpressions="));
-const maxCtrArg = process.argv.find((a) => a.startsWith("--maxCtr="));
-const DAYS = daysArg ? Number(daysArg.split("=")[1]) : 28;
-const MIN_IMP = minImpArg ? Number(minImpArg.split("=")[1]) : 25;
-const MAX_CTR = maxCtrArg ? Number(maxCtrArg.split("=")[1]) : 0.05;
-
-/** Intent → suggested title/meta improvements when GSC has little data yet. */
 const INTENT_PLAYBOOK = [
   {
     queryLike: /65\s*\/?\s*20|starred|senior civics|age 65/i,
@@ -48,8 +39,7 @@ const INTENT_PLAYBOOK = [
   {
     queryLike: /texas|austin governor/i,
     path: "/learn/texas-civics-answers",
-    titleHint:
-      "Texas Civics Test Answers: Capital, Governor, Senators (USCIS)",
+    titleHint: "Texas Civics Test Answers: Capital, Governor, Senators (USCIS)",
   },
   {
     queryLike: /florida|tallahassee/i,
@@ -65,47 +55,29 @@ const INTENT_PLAYBOOK = [
   },
 ];
 
+const daysArg = process.argv.find((a) => a.startsWith("--days="));
+const minImpArg = process.argv.find((a) => a.startsWith("--minImpressions="));
+const maxCtrArg = process.argv.find((a) => a.startsWith("--maxCtr="));
+const DAYS = daysArg ? Number(daysArg.split("=")[1]) : 28;
+const MIN_IMP = minImpArg ? Number(minImpArg.split("=")[1]) : 25;
+const MAX_CTR = maxCtrArg ? Number(maxCtrArg.split("=")[1]) : 0.05;
+
 async function main() {
-  const key = JSON.parse(readFileSync(KEY_PATH, "utf8"));
-  console.log(`Using ${key.client_email}`);
+  const { client, email } = await getGscClient([
+    "https://www.googleapis.com/auth/webmasters.readonly",
+    "https://www.googleapis.com/auth/webmasters",
+  ]);
+  console.log(`Using ${email}`);
+  console.log("(Full ops: npm run gsc:report)\n");
 
-  const auth = new GoogleAuth({
-    credentials: key,
-    scopes: [
-      "https://www.googleapis.com/auth/webmasters.readonly",
-      "https://www.googleapis.com/auth/webmasters",
-    ],
+  const window = analyticsWindow(DAYS);
+  console.log(`Query window ${window.startDate} → ${window.endDate}`);
+
+  const rows = await searchAnalytics(client, {
+    ...window,
+    dimensions: ["query"],
+    rowLimit: 250,
   });
-  const client = await auth.getClient();
-
-  const end = new Date();
-  end.setUTCDate(end.getUTCDate() - 3); // GSC lag
-  const start = new Date(end);
-  start.setUTCDate(start.getUTCDate() - DAYS);
-
-  const startDate = start.toISOString().slice(0, 10);
-  const endDate = end.toISOString().slice(0, 10);
-  console.log(`\nQuery window ${startDate} → ${endDate}`);
-
-  const siteEnc = encodeURIComponent(SITE);
-  let rows = [];
-  try {
-    const res = await client.request({
-      url: `https://www.googleapis.com/webmasters/v3/sites/${siteEnc}/searchAnalytics/query`,
-      method: "POST",
-      data: {
-        startDate,
-        endDate,
-        dimensions: ["query"],
-        rowLimit: 250,
-      },
-    });
-    rows = res.data.rows || [];
-  } catch (e) {
-    console.error("Search Analytics query failed:", e?.response?.data || e.message);
-    process.exit(1);
-  }
-
   console.log(`Raw query rows: ${rows.length}`);
 
   const lowCtr = rows
@@ -114,40 +86,42 @@ async function main() {
 
   const report = {
     generatedAt: new Date().toISOString(),
-    window: { startDate, endDate },
+    window,
     filters: { minImpressions: MIN_IMP, maxCtr: MAX_CTR },
     totalQueries: rows.length,
     lowCtrCount: lowCtr.length,
-    lowCtr: lowCtr.slice(0, 40).map((r) => ({
-      query: r.keys?.[0],
-      clicks: r.clicks,
-      impressions: r.impressions,
-      ctr: r.ctr,
-      position: r.position,
-      playbook: INTENT_PLAYBOOK.find((p) => p.queryLike.test(r.keys?.[0] || ""))
-        ?.path,
-      titleHint: INTENT_PLAYBOOK.find((p) =>
-        p.queryLike.test(r.keys?.[0] || "")
-      )?.titleHint,
-    })),
+    lowCtr: lowCtr.slice(0, 40).map((r) => {
+      const q = r.keys?.[0] || "";
+      const hit = INTENT_PLAYBOOK.find((p) => p.queryLike.test(q));
+      return {
+        query: q,
+        clicks: r.clicks,
+        impressions: r.impressions,
+        ctr: r.ctr,
+        position: r.position,
+        playbook: hit?.path ?? null,
+        titleHint: hit?.titleHint ?? null,
+      };
+    }),
     playbookFallback: INTENT_PLAYBOOK,
   };
 
-  const outPath = new URL("../gsc-search-insights.json", import.meta.url);
-  writeFileSync(outPath, JSON.stringify(report, null, 2) + "\n");
-  console.log(`Wrote ${outPath.pathname}`);
+  writeFileSync(INSIGHTS_PATH, JSON.stringify(report, null, 2) + "\n");
+  console.log(`Wrote ${INSIGHTS_PATH}`);
 
   if (!rows.length) {
     console.log(
       "\nNo Search Analytics rows yet (site may be too new).\n" +
-        "Titles/meta already tuned via intent playbook for 65/20, N-400, states, drills.\n" +
-        "Re-run this script weekly once GSC shows impressions."
+        "Titles/meta already tuned via intent playbook.\n" +
+        "Prefer: npm run gsc:report for full coverage + index progress."
     );
   } else {
-    console.log(`\nLow-CTR opportunities (imps≥${MIN_IMP}, ctr<${MAX_CTR}): ${lowCtr.length}`);
+    console.log(
+      `\nLow-CTR opportunities (imps≥${MIN_IMP}, ctr<${MAX_CTR}): ${lowCtr.length}`
+    );
     for (const row of report.lowCtr.slice(0, 15)) {
       console.log(
-        `  "${row.query}" imps=${row.impressions} ctr=${(row.ctr * 100).toFixed(2)}% pos=${row.position.toFixed(1)}` +
+        `  "${row.query}" imps=${row.impressions} ctr=${(row.ctr * 100).toFixed(2)}%` +
           (row.playbook ? ` → ${row.playbook}` : "")
       );
     }
@@ -155,6 +129,6 @@ async function main() {
 }
 
 main().catch((e) => {
-  console.error(e);
+  console.error(e?.response?.data || e);
   process.exit(1);
 });
