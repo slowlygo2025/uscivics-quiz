@@ -257,6 +257,16 @@ html.dark .gw-shell::before {
   box-shadow: var(--shadow-soft);
 }
 
+.gw-hero--photo {
+  isolation: isolate;
+}
+
+.gw-hero__photo {
+  object-fit: cover;
+  object-position: center 35%;
+  z-index: 0;
+}
+
 .gw-hero__glow {
   position: absolute;
   inset: 0;
@@ -266,12 +276,30 @@ html.dark .gw-shell::before {
     linear-gradient(135deg, var(--hero-deep) 0%, var(--hero-mid) 48%, var(--hero-deep) 100%);
 }
 
+.gw-hero__glow--photo {
+  z-index: 1;
+  background:
+    linear-gradient(
+      105deg,
+      color-mix(in srgb, var(--hero-deep) 92%, transparent) 0%,
+      color-mix(in srgb, var(--hero-deep) 78%, transparent) 42%,
+      color-mix(in srgb, var(--hero-mid) 45%, transparent) 72%,
+      color-mix(in srgb, var(--hero-deep) 35%, transparent) 100%
+    ),
+    linear-gradient(
+      to top,
+      color-mix(in srgb, var(--hero-deep) 88%, transparent) 0%,
+      transparent 55%
+    );
+}
+
 .gw-hero__stripes {
   position: absolute;
   inset-block: 0;
   inset-inline-end: 0;
   width: min(42%, 28rem);
   opacity: 0.28;
+  z-index: 1;
   background: repeating-linear-gradient(
     -45deg,
     transparent,
@@ -287,6 +315,7 @@ html.dark .gw-shell::before {
   inset-block: -20%;
   inset-inline-start: 0;
   width: 40%;
+  z-index: 1;
   background: linear-gradient(
     90deg,
     transparent,
@@ -299,13 +328,51 @@ html.dark .gw-shell::before {
 
 .gw-hero__inner {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   min-height: inherit;
   flex-direction: column;
   justify-content: flex-end;
   gap: 1.35rem;
   padding: 2.5rem 1.25rem 2.75rem;
+}
+
+.gw-cover {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--mist);
+  aspect-ratio: 16 / 9;
+}
+
+.gw-cover__img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.gw-learn-thumb {
+  position: relative;
+  width: 5.5rem;
+  min-width: 5.5rem;
+  height: 4rem;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--mist);
+  border: 1px solid var(--line);
+}
+
+.gw-learn-thumb__img {
+  object-fit: cover;
+}
+
+@media (min-width: 640px) {
+  .gw-learn-thumb {
+    width: 7rem;
+    min-width: 7rem;
+    height: 5rem;
+  }
 }
 
 @media (min-width: 640px) {

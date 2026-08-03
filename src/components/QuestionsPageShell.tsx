@@ -132,6 +132,13 @@ export function QuestionsPageShell({
 
       <p className="text-sm text-muted">
         <Link
+          href={practiceHref}
+          className="font-semibold text-signal underline-offset-2 hover:underline"
+        >
+          {dict.seoStartPractice}
+        </Link>
+        {" · "}
+        <Link
           href={`/${locale}/eligibility`}
           className="font-semibold text-signal underline-offset-2 hover:underline"
         >

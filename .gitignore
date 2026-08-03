@@ -16,6 +16,8 @@
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+.playwright-mcp/
+/tier2-pending.json
 
 # next.js
 /.next/

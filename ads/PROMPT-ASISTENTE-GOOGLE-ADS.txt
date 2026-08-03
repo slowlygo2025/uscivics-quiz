@@ -1,0 +1,182 @@
+Quiero que configures mi cuenta de Google Ads exactamente como indico abajo. No inventes keywords ni textos distintos. No actives la campaña al final: déjala EN PAUSA.
+
+CONTEXTO
+- MCC: USCivics-Quiz (194-190-5637)
+- Cuenta de anuncios: USCivics Quiz (207-823-9713)
+- Campaña existente: "USCQ Search Core" (Search, presupuesto 10 USD/día, estado Pausada)
+- Producto: https://uscivics-quiz.com — práctica gratuita del examen de civics USCIS (no somos USCIS)
+- Idioma de anuncios y keywords: inglés
+- Objetivo: tráfico de búsqueda de alta intención (N-400 filing date, 65/20, 128 questions)
+
+TAREAS (hazlas todas, en orden)
+
+1) CONFIGURACIÓN DE CAMPAÑA "USCQ Search Core"
+- Nombre: USCQ Search Core
+- Tipo: Búsqueda
+- Estado: Pausada (mantener pausada)
+- Presupuesto: 10,00 USD/día
+- Ubicaciones: Estados Unidos (United States) únicamente. Excluir el resto.
+- Idiomas: English
+- Redes: solo Google Search. Desactivar Display Network / partners de display si están activos.
+- Puja: CPC manual si está disponible; si no, Maximizar clics con límite de CPC 1,50 USD
+- No crear Performance Max, Display ni Demand Gen
+
+2) GRUPOS DE ANUNCIOS
+Necesito exactamente estos 3 grupos (crear los que falten; renombrar el existente si solo hay uno):
+A) AG Filing Date
+B) AG 65-20
+C) AG All 128
+
+Elimina o pausa cualquier otro grupo no listado.
+Dentro de cada grupo, elimina keywords genéricas basura como: civics test, citizenship test, citizenship questions (sin modificadores). Solo deben quedar las keywords de la sección 3.
+
+3) KEYWORDS (respetar match types)
+Sintaxis: [texto] = exacta; "texto" = frase. No uses amplia (broad) en estas keywords.
+
+AG Filing Date — URL final por defecto del grupo:
+https://uscivics-quiz.com/en/learn/n-400-filing-date?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=filing_date
+Keywords:
+- [n-400 filing date civics test]
+- "2008 vs 2025 civics test" → final URL: https://uscivics-quiz.com/en/eligibility?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=eligibility
+- "which civics test do i take" → misma URL eligibility
+- "n-400 civics test version" → URL filing-date
+
+AG 65-20 — URL final por defecto:
+https://uscivics-quiz.com/en/learn/65-20?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=6520
+Keywords:
+- [65/20 civics test]
+- "65 20 citizenship test" → https://uscivics-quiz.com/en/questions/senior?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=senior
+- "starred civics questions" → misma URL senior
+- "citizenship test age 65" → URL 65-20
+
+AG All 128 — URL final por defecto:
+https://uscivics-quiz.com/en/questions/all-128?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=all128
+Keywords:
+- [128 civics questions]
+- "128 uscis civics questions" → URL all-128
+- "citizenship test questions 2025" → URL all-128
+- "citizenship practice test" → https://uscivics-quiz.com/en/practice/2025?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=practice2025
+
+Max CPC sugeridos (si usas CPC manual a nivel keyword):
+- exactas ~0,55–0,60 USD
+- frase ~0,45–0,55 USD
+
+4) ANUNCIOS RSA — 1 anuncio responsivo de búsqueda por grupo
+Usa exactamente estos textos (máx. 30 chars título / 90 descripción). Si un título no cabe, acórtalo lo mínimo sin cambiar el sentido.
+
+--- RSA AG Filing Date ---
+URL final: https://uscivics-quiz.com/en/learn/n-400-filing-date?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=filing_date
+Path 1: learn
+Path 2: n400
+Títulos:
+1. N-400 Filing Date Guide
+2. 2008 or 2025 Civics Test?
+3. Which Test Do You Take?
+4. Free Civics Practice
+5. Oct 20 2025 Cutoff Guide
+6. Check Your Test Version
+7. Study the Right Bank
+8. No Sign-Up Required
+9. English and Espanol
+10. 128 vs 100 Questions
+11. Confirm Before You Study
+12. Free Eligibility Check
+13. Naturalization Prep
+14. Official USCIS Questions
+15. Interview Ready Practice
+Descripciones:
+1. Your N-400 filing date decides 2008 (100) vs 2025 (128). Free guide plus practice.
+2. Don't study the wrong bank. Check filing date then practice free on USCivics Quiz.
+3. Free eligibility flow. Flashcards and interview simulation included.
+4. Pass-oriented prep for the naturalization civics interview.
+
+--- RSA AG 65-20 ---
+URL final: https://uscivics-quiz.com/en/learn/65-20?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=6520
+Path 1: learn
+Path 2: 6520
+Títulos:
+1. 65/20 Civics Test Explained
+2. 20 Starred Questions Only
+3. Age 65 + 20 Years LPR
+4. Senior Citizenship Prep
+5. Study Less Pass Civics
+6. Free 65/20 Practice
+7. Language of Choice Path
+8. 10 Asked 6 to Pass
+9. USCIS Special Consideration
+10. No Sign-Up Free
+11. Interview Simulation
+12. Starred Question List
+13. Naturalization Seniors
+14. Civics in Your Language
+15. Free Senior Study Path
+Descripciones:
+1. Qualify for 65/20? Study only 20 starred questions. Free practice on USCivics Quiz.
+2. Officers ask up to 10; you need 6 correct. Free lists and simulation - no account.
+3. Built for seniors and helpers. English and 10+ study languages available.
+4. Confirm filing date version then practice the starred set free.
+
+--- RSA AG All 128 ---
+URL final: https://uscivics-quiz.com/en/questions/all-128?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=all128
+Path 1: questions
+Path 2: 128
+Títulos:
+1. All 128 USCIS Civics Qs
+2. 2025 Citizenship Test Free
+3. Free Practice No Sign-Up
+4. 128 Questions and Answers
+5. Interview Simulation Free
+6. Official USCIS Question Bank
+7. Hear Questions Aloud
+8. Pass 12 of 20 Prep
+9. Naturalization Practice
+10. English and Espanol
+11. Flashcards + Smart Review
+12. 2025-2026 Civics Test
+13. Study All 128 Free
+14. Start Practice Now
+15. Free USCIS Civics List
+Descripciones:
+1. Practice all 128 official USCIS civics questions free with audio and simulation.
+2. No sign-up. Updated for the 2025 test (20 asked / 12 to pass). Start in seconds.
+3. Free flashcards smart review and speak practice for the interview.
+4. Independent study tool - not affiliated with USCIS.
+
+Si ya existen RSA antiguos en el grupo, pausa o elimina los que no coincidan con este copy.
+
+5) KEYWORDS NEGATIVAS A NIVEL CAMPAÑA (añadir todas, coincidencia amplia negativa / frase según permita la UI)
+- citizenship by investment
+- canada citizenship
+- uk citizenship
+- australian citizenship
+- green card lottery
+- immigration lawyer
+- immigration attorney
+- abogado de inmigracion
+- uscis case status
+- n-400 pdf only
+- job
+- hiring
+- free money
+- torrent
+- quizlet only
+- trivia
+- high school civics exam
+- ap government
+
+6) NO HAGAS
+- No actives la campaña
+- No subas el presupuesto por encima de 10 USD/día
+- No añadas keywords broad genéricas
+- No crees campañas Display / PMax / Video
+- No cambies la moneda ni la cuenta (debe quedar en 207-823-9713)
+
+7) AL TERMINAR
+Devuélveme un resumen checklist:
+- Campaña pausada: sí/no
+- 3 grupos creados: sí/no + nombres
+- Nº keywords por grupo
+- Nº RSA por grupo
+- Negativas añadidas: sí/no
+- Ubicación US + solo Search: sí/no
+- Cualquier warning o anuncio rechazado

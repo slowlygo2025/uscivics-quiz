@@ -96,10 +96,16 @@ Locales: `en es zh vi tl ar ko hi ru ht fr`.
 | Event | When |
 |-------|------|
 | `accept_consent` | Cookie “Accept all” (`choice`: all). Essential-only is not sent (no Analytics load). |
-| `start_practice` | Practice hub mounted (`version`, `senior`) |
+| `start_practice` | Practice hub mounted (`version`, `senior`) — **primary Ads conversion** |
 | `select_study_mode` | Mode tab change (`mode`, `version`) |
 | `pass_sim` / `fail_sim` | Interview simulation ends (`version`, `senior`) |
+| `complete_quiz` | Same moment as sim end (`passed`, `version`, `senior`) — secondary Ads |
+| `eligibility_complete` | Eligibility wizard reaches a result (`result`) — secondary Ads |
 | `eligibility_start_practice` | CTA from eligibility result (`result`) |
+| `senior_list_open` | `/questions/senior` mounted — secondary Ads |
+| `outbound_click` | External / mailto / tel link click (`link_url`, `link_host`, optional `link_label`) |
+
+Import into Google Ads: see `ads/CONVERSIONS.md`. UTM schema: `ads/UTM.md` + `src/lib/ads-utm.ts`.
 
 ## Monitoring (Sentry)
 

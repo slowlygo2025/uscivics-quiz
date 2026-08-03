@@ -235,13 +235,13 @@ export const en = {
     "Browse all 100 and 128 official civics questions by version, topic, 65/20, or top states — with free audio.",
   seoAll128Title: "All 128 USCIS Civics Questions (2025) — Free Practice",
   seoAll128Lead:
-    "Full list of the 2025 naturalization civics test questions and answers. Hear each question aloud for free, then practice in interview mode.",
+    "Study every official 2025 civics question with free audio. No account needed — then run the full interview simulation when you are ready.",
   seoAll100Title: "All 100 USCIS Civics Questions (2008) — Free Practice",
   seoAll100Lead:
     "Full list of the 2008 naturalization civics test questions and answers. For applicants who filed Form N-400 before October 20, 2025.",
   seoSeniorTitle: "65/20 Civics Questions: 20 Starred (Age 65 + 20 Years LPR)",
   seoSeniorLead:
-    "If you are 65 or older and a permanent resident for 20+ years, study these starred questions. Officers ask 10; you need 6 correct. Civics may be in your language of choice.",
+    "Age 65+ and 20 years as a permanent resident? Study only the 20 starred questions. Officers ask 10; you need 6 correct. Free audio — no sign-up.",
   seoStartPractice: "Open interactive practice",
   seoAllLandings: "All question landings",
   seoQuestionsCount: "questions on this page",

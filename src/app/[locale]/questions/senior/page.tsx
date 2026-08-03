@@ -5,6 +5,7 @@ import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale } from "@/lib/locales";
 import { buildPageMetadata } from "@/lib/seo";
 import { QuestionsPageShell } from "@/components/QuestionsPageShell";
+import SeniorListTracker from "@/components/SeniorListTracker";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -36,15 +37,18 @@ export default async function SeniorPage({
   const locale = raw as Locale;
   const dict = getDictionary(locale);
   return (
-    <QuestionsPageShell
-      dict={dict}
-      locale={locale}
-      title={dict.seoSeniorTitle}
-      lead={dict.seoSeniorLead}
-      version="2025"
-      seniorOnly
-      practiceHref={`/${locale}/practice/2025?senior=1`}
-      path="/questions/senior"
-    />
+    <>
+      <SeniorListTracker />
+      <QuestionsPageShell
+        dict={dict}
+        locale={locale}
+        title={dict.seoSeniorTitle}
+        lead={dict.seoSeniorLead}
+        version="2025"
+        seniorOnly
+        practiceHref={`/${locale}/practice/2025?senior=1`}
+        path="/questions/senior"
+      />
+    </>
   );
 }

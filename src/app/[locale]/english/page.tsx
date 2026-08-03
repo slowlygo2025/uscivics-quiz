@@ -5,6 +5,7 @@ import { getDictionary } from "@/lib/dictionary";
 import { isLocale } from "@/lib/locales";
 import EnglishPractice from "@/components/EnglishPractice";
 import { buildPageMetadata } from "@/lib/seo";
+import { SITE_IMAGES, absoluteImageUrl } from "@/lib/site-images";
 
 export async function generateMetadata({
   params,
@@ -19,6 +20,8 @@ export async function generateMetadata({
     path: "/english",
     title: dict.englishTitle,
     description: dict.englishLead,
+    image: absoluteImageUrl(SITE_IMAGES.english.src),
+    imageAlt: SITE_IMAGES.english.alt,
   });
 }
 

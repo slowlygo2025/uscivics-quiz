@@ -10,6 +10,8 @@ import {
   WRITING_VOCAB,
 } from "@/lib/english-vocab";
 import SpeakButton from "@/components/SpeakButton";
+import EditorialCover from "@/components/EditorialCover";
+import { SITE_IMAGES } from "@/lib/site-images";
 import { TTS_LANG } from "@/lib/locales";
 import { normalizeSpeech } from "@/lib/speech-match";
 
@@ -57,13 +59,16 @@ export default function EnglishPractice({
 
   return (
     <div className="mx-auto max-w-3xl space-y-8">
-      <header>
-        <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
-          {dict.englishTitle}
-        </h1>
-        <p className="mt-3 text-base leading-relaxed text-muted">
-          {dict.englishLead}
-        </p>
+      <header className="space-y-5">
+        <EditorialCover image={SITE_IMAGES.english} priority />
+        <div>
+          <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
+            {dict.englishTitle}
+          </h1>
+          <p className="mt-3 text-base leading-relaxed text-muted">
+            {dict.englishLead}
+          </p>
+        </div>
       </header>
 
       <div className="flex flex-wrap gap-2">

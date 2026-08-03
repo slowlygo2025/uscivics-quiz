@@ -32,6 +32,8 @@ export function buildPageMetadata({
   title,
   description,
   type = "website",
+  image,
+  imageAlt,
 }: {
   locale: Locale;
   /** Path without locale prefix, e.g. `/learn/interview` */
@@ -39,8 +41,17 @@ export function buildPageMetadata({
   title: string;
   description: string;
   type?: "website" | "article";
+  /** Absolute or site-relative OG image URL */
+  image?: string;
+  imageAlt?: string;
 }): Metadata {
   const url = absoluteUrl(locale, path);
+  const ogImage = image
+    ? image.startsWith("http")
+      ? image
+      : `${SITE_URL}${image.startsWith("/") ? image : `/${image}`}`
+    : DEFAULT_OG_IMAGE;
+  const ogAlt = imageAlt ?? SITE_NAME;
   return {
     title,
     description,
@@ -57,10 +68,10 @@ export function buildPageMetadata({
       description,
       images: [
         {
-          url: DEFAULT_OG_IMAGE,
+          url: ogImage,
           width: 1200,
           height: 630,
-          alt: SITE_NAME,
+          alt: ogAlt,
         },
       ],
     },
@@ -68,7 +79,7 @@ export function buildPageMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: [DEFAULT_OG_IMAGE],
+      images: [ogImage],
     },
   };
 }

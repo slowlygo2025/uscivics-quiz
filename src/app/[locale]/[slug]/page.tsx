@@ -12,6 +12,8 @@ import {
 } from "@/lib/site-pages";
 import { buildPageMetadata, articleJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
+import EditorialCover from "@/components/EditorialCover";
+import { SITE_IMAGES, absoluteImageUrl } from "@/lib/site-images";
 
 export function generateStaticParams() {
   return LOCALES.flatMap((locale) =>
@@ -29,12 +31,19 @@ export async function generateMetadata({
   const page = getSitePage(slug);
   if (!page) return {};
   const copy = pageCopy(page, locale as Locale);
+  const isAbout = slug === "about";
   return buildPageMetadata({
     locale: locale as Locale,
     path: `/${slug}`,
     title: copy.title,
     description: copy.description,
     type: "article",
+    ...(isAbout
+      ? {
+          image: absoluteImageUrl(SITE_IMAGES.about.src),
+          imageAlt: SITE_IMAGES.about.alt,
+        }
+      : {}),
   });
 }
 
@@ -67,16 +76,21 @@ export default async function LegalPage({
           ]),
         ]}
       />
-      <header>
-        <p className="text-xs font-bold uppercase tracking-[0.14em] text-signal">
-          {dict.legalBadge}
-        </p>
-        <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-ink sm:text-4xl">
-          {copy.title}
-        </h1>
-        <p className="mt-3 text-base leading-relaxed text-muted sm:text-lg">
-          {copy.description}
-        </p>
+      <header className="space-y-5">
+        {page.slug === "about" ? (
+          <EditorialCover image={SITE_IMAGES.about} priority />
+        ) : null}
+        <div>
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-signal">
+            {dict.legalBadge}
+          </p>
+          <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+            {copy.title}
+          </h1>
+          <p className="mt-3 text-base leading-relaxed text-muted sm:text-lg">
+            {copy.description}
+          </p>
+        </div>
       </header>
 
       <div className="space-y-8">

@@ -1,0 +1,75 @@
+Estoy en la cuenta USCivics Quiz (207-823-9713), campaña "USCQ Search Core" (PAUSADA).
+
+Ya existe la campaña con presupuesto ~10 USD/día. NO crees otra campaña. NO la actives.
+
+Tu trabajo: AUDITAR lo que hay y COMPLETAR solo lo que falte según esta especificación. Si algo ya está correcto, déjalo. Si sobra (keywords genéricas, grupos extra, RSA del wizard), pausa o elimina.
+
+1) CONFIG — deja así:
+- Pausada
+- 10 USD/día
+- Ubicaciones: solo United States
+- Idioma: English
+- Redes: solo Google Search (quita Display)
+- Puja: CPC manual; si no se puede, Maximizar clics con límite 1,50 USD
+
+2) GRUPOS — deben existir exactamente:
+- AG Filing Date
+- AG 65-20
+- AG All 128
+Si hay un solo grupo del wizard, renómbralo a uno de estos y crea los otros dos. Pausa cualquier otro grupo.
+
+3) KEYWORDS — en cada grupo deja SOLO estas ([ ]=exacta, ""=frase). Quita el resto.
+
+AG Filing Date — URL grupo:
+https://uscivics-quiz.com/en/learn/n-400-filing-date?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=filing_date
+- [n-400 filing date civics test]
+- "2008 vs 2025 civics test" → https://uscivics-quiz.com/en/eligibility?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=eligibility
+- "which civics test do i take" → misma eligibility
+- "n-400 civics test version" → URL filing-date
+
+AG 65-20 — URL grupo:
+https://uscivics-quiz.com/en/learn/65-20?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=6520
+- [65/20 civics test]
+- "65 20 citizenship test" → https://uscivics-quiz.com/en/questions/senior?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=senior
+- "starred civics questions" → misma senior
+- "citizenship test age 65" → URL 65-20
+
+AG All 128 — URL grupo:
+https://uscivics-quiz.com/en/questions/all-128?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=all128
+- [128 civics questions]
+- "128 uscis civics questions" → all-128
+- "citizenship test questions 2025" → all-128
+- "citizenship practice test" → https://uscivics-quiz.com/en/practice/2025?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=practice2025
+
+4) RSA — 1 por grupo con estos textos exactos. Pausa RSA viejos que no coincidan.
+
+--- Filing Date ---
+URL: https://uscivics-quiz.com/en/learn/n-400-filing-date?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=filing_date
+Path: learn / n400
+Títulos: N-400 Filing Date Guide | 2008 or 2025 Civics Test? | Which Test Do You Take? | Free Civics Practice | Oct 20 2025 Cutoff Guide | Check Your Test Version | Study the Right Bank | No Sign-Up Required | English and Espanol | 128 vs 100 Questions | Confirm Before You Study | Free Eligibility Check | Naturalization Prep | Official USCIS Questions | Interview Ready Practice
+Desc: Your N-400 filing date decides 2008 (100) vs 2025 (128). Free guide plus practice. || Don't study the wrong bank. Check filing date then practice free on USCivics Quiz. || Free eligibility flow. Flashcards and interview simulation included. || Pass-oriented prep for the naturalization civics interview.
+
+--- 65-20 ---
+URL: https://uscivics-quiz.com/en/learn/65-20?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=6520
+Path: learn / 6520
+Títulos: 65/20 Civics Test Explained | 20 Starred Questions Only | Age 65 + 20 Years LPR | Senior Citizenship Prep | Study Less Pass Civics | Free 65/20 Practice | Language of Choice Path | 10 Asked 6 to Pass | USCIS Special Consideration | No Sign-Up Free | Interview Simulation | Starred Question List | Naturalization Seniors | Civics in Your Language | Free Senior Study Path
+Desc: Qualify for 65/20? Study only 20 starred questions. Free practice on USCivics Quiz. || Officers ask up to 10; you need 6 correct. Free lists and simulation - no account. || Built for seniors and helpers. English and 10+ study languages available. || Confirm filing date version then practice the starred set free.
+
+--- All 128 ---
+URL: https://uscivics-quiz.com/en/questions/all-128?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=all128
+Path: questions / 128
+Títulos: All 128 USCIS Civics Qs | 2025 Citizenship Test Free | Free Practice No Sign-Up | 128 Questions and Answers | Interview Simulation Free | Official USCIS Question Bank | Hear Questions Aloud | Pass 12 of 20 Prep | Naturalization Practice | English and Espanol | Flashcards + Smart Review | 2025-2026 Civics Test | Study All 128 Free | Start Practice Now | Free USCIS Civics List
+Desc: Practice all 128 official USCIS civics questions free with audio and simulation. || No sign-up. Updated for the 2025 test (20 asked / 12 to pass). Start in seconds. || Free flashcards smart review and speak practice for the interview. || Independent study tool - not affiliated with USCIS.
+
+5) NEGATIVAS de campaña (añadir las que falten):
+citizenship by investment, canada citizenship, uk citizenship, australian citizenship, green card lottery, immigration lawyer, immigration attorney, abogado de inmigracion, uscis case status, n-400 pdf only, job, hiring, free money, torrent, quizlet only, trivia, high school civics exam, ap government
+
+6) AL TERMINAR responde SOLO este checklist:
+- Campaña pausada: sí/no
+- Grupos: lista de nombres
+- Keywords por grupo: nº
+- RSA por grupo: nº (y si están aprobados/en revisión)
+- Negativas: nº
+- US + Search only: sí/no
+- Qué cambiaste vs qué ya estaba bien
+- Warnings / rechazos

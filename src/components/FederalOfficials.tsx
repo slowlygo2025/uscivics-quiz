@@ -43,7 +43,15 @@ export default function FederalOfficials({ dict }: { dict: Dictionary }) {
 
       <p className="mt-4 text-xs text-muted">
         {dict.federalAsOf} {asOfDate(updates.scrapedAt)}
-        {updates.live ? " · live" : ""}.
+        {updates.live ? " · live" : ""}.{" "}
+        <a
+          href="https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-signal underline-offset-2 hover:underline"
+        >
+          USCIS test updates
+        </a>
       </p>
     </section>
   );

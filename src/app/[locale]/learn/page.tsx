@@ -8,6 +8,8 @@ import { listLearnPosts } from "@/lib/learn-posts";
 import { notFound } from "next/navigation";
 import { buildPageMetadata, faqJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
+import EditorialCover, { LearnThumb } from "@/components/EditorialCover";
+import { SITE_IMAGES, imageForLearnSlug, absoluteImageUrl } from "@/lib/site-images";
 
 export async function generateMetadata({
   params,
@@ -22,6 +24,8 @@ export async function generateMetadata({
     path: "/learn",
     title: dict.learnTitle,
     description: dict.learnLead,
+    image: absoluteImageUrl(SITE_IMAGES.learnHub.src),
+    imageAlt: SITE_IMAGES.learnHub.alt,
   });
 }
 
@@ -50,23 +54,26 @@ export default async function LearnPage({
       <JsonLd
         data={faqJsonLd(faqs.map((x) => ({ question: x.q, answer: x.a })))}
       />
-      <header className="gw-rise">
-        <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
-          {dict.learnTitle}
-        </h1>
-        <p className="mt-3 text-base leading-relaxed text-muted sm:text-lg">
-          {dict.learnLead}
-        </p>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <Link href={`/${locale}/practice/2025`} className="gw-btn gw-btn-primary">
-            {dict.practice2025}
-          </Link>
-          <Link href={`/${locale}/questions`} className="gw-btn gw-btn-ghost">
-            {dict.navQuestions}
-          </Link>
-          <Link href={`/${locale}/eligibility`} className="gw-btn gw-btn-secondary">
-            {dict.startEligibility}
-          </Link>
+      <header className="gw-rise space-y-5">
+        <EditorialCover image={SITE_IMAGES.learnHub} priority />
+        <div>
+          <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
+            {dict.learnTitle}
+          </h1>
+          <p className="mt-3 text-base leading-relaxed text-muted sm:text-lg">
+            {dict.learnLead}
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link href={`/${locale}/practice/2025`} className="gw-btn gw-btn-primary">
+              {dict.practice2025}
+            </Link>
+            <Link href={`/${locale}/questions`} className="gw-btn gw-btn-ghost">
+              {dict.navQuestions}
+            </Link>
+            <Link href={`/${locale}/eligibility`} className="gw-btn gw-btn-secondary">
+              {dict.startEligibility}
+            </Link>
+          </div>
         </div>
       </header>
 
@@ -79,13 +86,18 @@ export default async function LearnPage({
             <li key={slug}>
               <Link
                 href={`/${locale}/learn/${slug}`}
-                className="block border border-line bg-surface px-4 py-4 transition-colors hover:border-signal"
+                className="flex gap-3 border border-line bg-surface px-3 py-3 transition-colors hover:border-signal sm:gap-4 sm:px-4 sm:py-4"
               >
-                <p className="font-semibold text-ink">{copy.title}</p>
-                <p className="mt-1 text-sm text-muted">{copy.description}</p>
-                <p className="mt-2 text-sm font-semibold text-signal">
-                  {dict.learnReadMore} →
-                </p>
+                <LearnThumb image={imageForLearnSlug(slug)} />
+                <div className="min-w-0 flex-1">
+                  <p className="font-semibold text-ink">{copy.title}</p>
+                  <p className="mt-1 text-sm text-muted line-clamp-2">
+                    {copy.description}
+                  </p>
+                  <p className="mt-2 text-sm font-semibold text-signal">
+                    {dict.learnReadMore} →
+                  </p>
+                </div>
               </Link>
             </li>
           ))}

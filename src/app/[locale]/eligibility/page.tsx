@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import EligibilityFlow from "@/components/EligibilityFlow";
+import { RelatedStudyLinksForPath } from "@/components/RelatedStudyLinks";
 import { buildPageMetadata } from "@/lib/seo";
 import { isLocale } from "@/lib/locales";
 
@@ -26,6 +27,17 @@ export default async function EligibilityPage({
 }: {
   params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
-  return <EligibilityFlow locale={locale as Locale} />;
+  const { locale: raw } = await params;
+  const locale = raw as Locale;
+  const dict = getDictionary(locale);
+  return (
+    <div className="space-y-8">
+      <EligibilityFlow locale={locale} />
+      <RelatedStudyLinksForPath
+        path="/eligibility"
+        locale={locale}
+        dict={dict}
+      />
+    </div>
+  );
 }

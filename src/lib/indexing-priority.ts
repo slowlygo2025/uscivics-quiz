@@ -95,6 +95,20 @@ export const INDEX_PRIORITY: IndexPriorityItem[] = [
     changeFrequency: "weekly",
     why: "Learn hub",
   },
+  {
+    path: "/learn/n-400-filing-date",
+    tier: 1,
+    priority: 0.93,
+    changeFrequency: "weekly",
+    why: "Ads money: N-400 filing date",
+  },
+  {
+    path: "/learn/65-20",
+    tier: 1,
+    priority: 0.92,
+    changeFrequency: "weekly",
+    why: "Ads money: 65/20 explained",
+  },
   // Tier 2 — drills + top learn + top states
   {
     path: "/questions/drill/dates-2025",
@@ -200,20 +214,6 @@ export const INDEX_PRIORITY: IndexPriorityItem[] = [
     priority: 0.84,
     changeFrequency: "monthly",
     why: "Top learn: pass score",
-  },
-  {
-    path: "/learn/n-400-filing-date",
-    tier: 2,
-    priority: 0.84,
-    changeFrequency: "monthly",
-    why: "Top learn: N-400 filing date",
-  },
-  {
-    path: "/learn/65-20",
-    tier: 2,
-    priority: 0.83,
-    changeFrequency: "monthly",
-    why: "Top learn: 65/20",
   },
   {
     path: "/learn/dates-names-officials-drills",

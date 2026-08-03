@@ -48,6 +48,7 @@ import {
   trackStartPractice,
   trackStudyMode,
   trackSimEnd,
+  trackCompleteQuiz,
 } from "@/lib/analytics";
 
 type StudyMode =
@@ -174,6 +175,7 @@ export default function StudyHub({
         return next;
       });
       void trackSimEnd(passed, version, senior);
+      void trackCompleteQuiz(passed, version, senior);
     },
     [version, senior]
   );

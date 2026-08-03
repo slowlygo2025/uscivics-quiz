@@ -1,0 +1,13 @@
+Campaign	Ad group	Keyword	Criterion Type	Max CPC	Final URL
+USCQ Search Core	AG Filing Date	[n-400 filing date civics test]	Exact	0.55	https://uscivics-quiz.com/en/learn/n-400-filing-date?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=filing_date
+USCQ Search Core	AG Filing Date	2008 vs 2025 civics test	Phrase	0.50	https://uscivics-quiz.com/en/eligibility?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=eligibility
+USCQ Search Core	AG Filing Date	which civics test do i take	Phrase	0.50	https://uscivics-quiz.com/en/eligibility?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=eligibility
+USCQ Search Core	AG Filing Date	n-400 civics test version	Phrase	0.45	https://uscivics-quiz.com/en/learn/n-400-filing-date?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=filing_date
+USCQ Search Core	AG 65-20	[65/20 civics test]	Exact	0.55	https://uscivics-quiz.com/en/learn/65-20?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=6520
+USCQ Search Core	AG 65-20	65 20 citizenship test	Phrase	0.50	https://uscivics-quiz.com/en/questions/senior?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=senior
+USCQ Search Core	AG 65-20	starred civics questions	Phrase	0.50	https://uscivics-quiz.com/en/questions/senior?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=senior
+USCQ Search Core	AG 65-20	citizenship test age 65	Phrase	0.45	https://uscivics-quiz.com/en/learn/65-20?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=6520
+USCQ Search Core	AG All 128	[128 civics questions]	Exact	0.60	https://uscivics-quiz.com/en/questions/all-128?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=all128
+USCQ Search Core	AG All 128	128 uscis civics questions	Phrase	0.55	https://uscivics-quiz.com/en/questions/all-128?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=all128
+USCQ Search Core	AG All 128	citizenship test questions 2025	Phrase	0.55	https://uscivics-quiz.com/en/questions/all-128?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=all128
+USCQ Search Core	AG All 128	citizenship practice test	Phrase	0.50	https://uscivics-quiz.com/en/practice/2025?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=practice2025

@@ -14,6 +14,8 @@ export type StudyLink = {
     | "navLearn"
     | "navQuestions"
     | "seoDrillsHeading"
+    | "seoStartPractice"
+    | "practiceCta"
     | "relatedLearn"
     | "relatedPractice"
     | "relatedQuestions"
@@ -223,15 +225,18 @@ const PATH_LINKS: Record<string, LinkCluster> = {
   "/practice/2025": {
     learn: [
       { path: "/learn/n-400-filing-date", labelKey: "custom", customLabel: "Confirm test version" },
+      { path: "/learn/65-20", labelKey: "custom", customLabel: "65/20 if you qualify" },
       { path: "/learn/30-day-study-plan", labelKey: "custom", customLabel: "30-day study plan" },
       { path: "/learn/flashcards-vs-simulation", labelKey: "custom", customLabel: "Flashcards vs simulation" },
     ],
     questions: [
       { path: "/questions/all-128", labelKey: "seoAll128Title" },
+      { path: "/questions/senior", labelKey: "navSenior" },
       { path: "/questions/drill/officials-2025", labelKey: "custom", customLabel: "Officials drill" },
     ],
     practice: [
       { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/practice/2025?senior=1", labelKey: "custom", customLabel: "2025 · 65/20 practice" },
       { path: "/english", labelKey: "custom", customLabel: "English reading & writing" },
     ],
   },
@@ -239,12 +244,33 @@ const PATH_LINKS: Record<string, LinkCluster> = {
     learn: [
       { path: "/learn/n-400-filing-date", labelKey: "custom", customLabel: "Confirm test version" },
       { path: "/learn/65-20", labelKey: "custom", customLabel: "65/20 if eligible" },
+      { path: "/learn/how-many-questions", labelKey: "custom", customLabel: "How many questions" },
     ],
     questions: [
       { path: "/questions/all-100", labelKey: "seoAll100Title" },
+      { path: "/questions/senior", labelKey: "navSenior" },
       { path: "/questions/drill/officials-2008", labelKey: "custom", customLabel: "Officials drill" },
     ],
-    practice: [{ path: "/eligibility", labelKey: "startEligibility" }],
+    practice: [
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/practice/2008?senior=1", labelKey: "custom", customLabel: "2008 · 65/20 practice" },
+    ],
+  },
+  "/eligibility": {
+    learn: [
+      { path: "/learn/n-400-filing-date", labelKey: "custom", customLabel: "N-400 filing date guide" },
+      { path: "/learn/65-20", labelKey: "custom", customLabel: "65/20 explained" },
+      { path: "/learn/2025-changes", labelKey: "custom", customLabel: "2025 changes" },
+    ],
+    questions: [
+      { path: "/questions/all-128", labelKey: "seoAll128Title" },
+      { path: "/questions/all-100", labelKey: "seoAll100Title" },
+      { path: "/questions/senior", labelKey: "navSenior" },
+    ],
+    practice: [
+      { path: "/practice/2025", labelKey: "navTest2025" },
+      { path: "/practice/2008", labelKey: "navTest2008" },
+    ],
   },
 };
 
@@ -275,6 +301,41 @@ export function linksForPath(path: string): LinkCluster {
     };
   }
   return defaults;
+}
+
+/**
+ * Hero CTA row for learn posts: practice (or eligibility) first, then supporting links.
+ * Money slugs get stronger practice ↔ list wiring.
+ */
+export function learnHeroCtas(slug: string): StudyLink[] {
+  if (slug === "n-400-filing-date") {
+    return [
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/practice/2025", labelKey: "navTest2025" },
+      { path: "/practice/2008", labelKey: "navTest2008" },
+      { path: "/questions/all-128", labelKey: "seoAll128Title" },
+    ];
+  }
+  if (slug === "65-20") {
+    return [
+      { path: "/practice/2025?senior=1", labelKey: "seoStartPractice" },
+      { path: "/questions/senior", labelKey: "navSenior" },
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/learn/n-400-filing-date", labelKey: "custom", customLabel: "N-400 filing date" },
+    ];
+  }
+  if (slug === "2025-changes" || slug === "how-many-questions" || slug === "pass-score") {
+    return [
+      { path: "/practice/2025", labelKey: "seoStartPractice" },
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/questions/all-128", labelKey: "seoAll128Title" },
+    ];
+  }
+  return [
+    { path: "/practice/2025", labelKey: "seoStartPractice" },
+    { path: "/eligibility", labelKey: "startEligibility" },
+    { path: "/questions/all-128", labelKey: "seoAll128Title" },
+  ];
 }
 
 export function hrefFor(locale: Locale, path: string): string {

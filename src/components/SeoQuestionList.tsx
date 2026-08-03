@@ -31,12 +31,21 @@ export default function SeoQuestionList({
           <span aria-hidden>→</span>
         </Link>
         <Link
+          href={`/${locale}/eligibility`}
+          className="gw-btn gw-btn-ghost"
+        >
+          {dict.startEligibility}
+        </Link>
+        <Link
           href={`/${locale}/questions`}
           className="gw-btn gw-btn-ghost"
         >
           {dict.seoAllLandings}
         </Link>
       </div>
+      <p className="max-w-2xl text-xs leading-relaxed text-muted">
+        {dict.disclaimer}
+      </p>
 
       <ol className="divide-y divide-line border border-line bg-surface">
         {questions.map((q) => {

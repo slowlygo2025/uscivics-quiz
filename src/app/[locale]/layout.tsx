@@ -6,6 +6,7 @@ import { LOCALES, isLocale, isRtlLocale } from "@/lib/locales";
 import BrandLogo from "@/components/BrandLogo";
 import SiteHeader from "@/components/SiteHeader";
 import CookieConsent from "@/components/CookieConsent";
+import OutboundClickTracker from "@/components/OutboundClickTracker";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -28,6 +29,7 @@ export default async function LocaleLayout({
     <div className="gw-shell" lang={locale} dir={rtl ? "rtl" : "ltr"}>
       <SiteHeader locale={locale} dict={dict} />
       <CookieConsent locale={locale} />
+      <OutboundClickTracker />
 
       <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 sm:px-6 sm:py-10">
         {children}

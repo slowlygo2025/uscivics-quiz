@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>USCivics Quiz — Google Ads API Tool Documentation</title>
+    <style>
+      @page {
+        margin: 18mm;
+      }
+      body {
+        font-family: "Segoe UI", system-ui, sans-serif;
+        color: #111;
+        line-height: 1.45;
+        max-width: 800px;
+        margin: 24px auto;
+        padding: 0 16px;
+        font-size: 11.5pt;
+      }
+      h1 {
+        font-size: 20pt;
+        margin-bottom: 4px;
+      }
+      h2 {
+        font-size: 13pt;
+        margin-top: 22px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 4px;
+      }
+      .meta {
+        color: #555;
+        font-size: 10pt;
+        margin-bottom: 16px;
+      }
+      .badge {
+        display: inline-block;
+        border: 1px solid #888;
+        border-radius: 4px;
+        padding: 2px 8px;
+        font-size: 9pt;
+        margin-right: 6px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 10px 0 14px;
+        font-size: 10.5pt;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 6px 8px;
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        background: #f3f3f3;
+      }
+      ul {
+        margin: 8px 0 8px 18px;
+      }
+      .note {
+        background: #f7f7f7;
+        border-left: 3px solid #444;
+        padding: 10px 12px;
+        margin: 12px 0;
+      }
+      @media print {
+        body {
+          margin: 0;
+          max-width: none;
+        }
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>USCivics Quiz — Google Ads API Tool Documentation</h1>
+    <p class="meta">
+      Internal documentation for Google Ads API Basic access review · August 2026
+    </p>
+    <p>
+      <span class="badge">Internal only</span>
+      <span class="badge">Search campaigns</span>
+      <span class="badge">Single Ads account</span>
+    </p>
+
+    <div class="note">
+      This document describes an API tool operated solely for our own Google Ads
+      account. It is not a multi-client SaaS and is not sold to third parties.
+    </div>
+
+    <h2>1. Product &amp; company</h2>
+    <p>
+      <strong>USCivics Quiz</strong> (<a href="https://uscivics-quiz.com"
+        >https://uscivics-quiz.com</a
+      >) is an independent free study website for the USCIS naturalization
+      civics and English tests (2008 and 2025 versions). Core practice remains
+      free; monetization is primarily consent-based advertising, with optional
+      low-cost study upgrades possible later. We are not affiliated with USCIS
+      and are not a law firm.
+    </p>
+
+    <h2>2. What the API tool does</h2>
+    <p>
+      A private Node.js operations toolkit in our application repository. It
+      authenticates with OAuth 2.0 and our developer token, then manages
+      <strong>Search</strong> campaigns for a single Google Ads customer ID.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Capability</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Create Search campaign + daily budget</td>
+          <td>Implemented (created PAUSED)</td>
+        </tr>
+        <tr>
+          <td>Create ad groups, keywords, responsive search ads</td>
+          <td>Implemented (PAUSED)</td>
+        </tr>
+        <tr>
+          <td>Geo targeting (United States) + language (English)</td>
+          <td>Implemented</td>
+        </tr>
+        <tr>
+          <td>Campaign-level negative keywords</td>
+          <td>Implemented</td>
+        </tr>
+        <tr>
+          <td>Final URLs with UTM parameters to our landings</td>
+          <td>Implemented</td>
+        </tr>
+        <tr>
+          <td>List accessible customers / credential checks</td>
+          <td>Implemented</td>
+        </tr>
+        <tr>
+          <td>OAuth helper to obtain refresh token</td>
+          <td>Implemented</td>
+        </tr>
+        <tr>
+          <td>Display, Performance Max, Video, Shopping, App</td>
+          <td>Not supported</td>
+        </tr>
+        <tr>
+          <td>Manage ads for other advertisers / resell API access</td>
+          <td>Not supported</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3. Intended audience</h2>
+    <ul>
+      <li>
+        <strong>API users:</strong> only our internal marketing/ops operators
+        using our Google Cloud project and Ads account. No external developers
+        or clients call the API through us.
+      </li>
+      <li>
+        <strong>Ad click audience:</strong> lawful permanent residents preparing
+        for the U.S. citizenship interview, sent to free landings (N-400 filing
+        date guide, 65/20 senior path, all 128 questions, practice simulation).
+      </li>
+    </ul>
+
+    <h2>4. Architecture</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>secrets/google-ads.env</code></td>
+          <td>Local credentials (never committed to git)</td>
+        </tr>
+        <tr>
+          <td><code>scripts/gads-oauth.mjs</code></td>
+          <td>One-time OAuth refresh token via localhost redirect</td>
+        </tr>
+        <tr>
+          <td><code>scripts/gads-check.mjs</code></td>
+          <td>Validate required environment variables</td>
+        </tr>
+        <tr>
+          <td><code>scripts/gads-list-accounts.mjs</code></td>
+          <td><code>listAccessibleCustomers</code></td>
+        </tr>
+        <tr>
+          <td><code>scripts/gads-create-campaign.mjs</code></td>
+          <td>
+            <code>mutateResources</code> — budget, Search campaign, criteria, ad
+            groups, keywords, RSA (all PAUSED)
+          </td>
+        </tr>
+        <tr>
+          <td><code>ads/google-ads-editor-import.csv</code></td>
+          <td>Human-review / Editor fallback (Paused)</td>
+        </tr>
+        <tr>
+          <td><code>google-ads-api</code> (npm)</td>
+          <td>Client library for Google Ads API</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong>Flow:</strong> OAuth → Customer(customer_id) → atomic
+      <code>mutateResources</code> creating a PAUSED Search structure for
+      operator review before any enablement in the Google Ads UI.
+    </p>
+
+    <h2>5. Default campaign design</h2>
+    <p>
+      Draft campaign name: <strong>USCQ Search Core</strong> (always created
+      <strong>PAUSED</strong>).
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Setting</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Advertising channel</td>
+          <td>SEARCH</td>
+        </tr>
+        <tr>
+          <td>Budget</td>
+          <td>$10 / day (configurable)</td>
+        </tr>
+        <tr>
+          <td>Bidding</td>
+          <td>Manual CPC</td>
+        </tr>
+        <tr>
+          <td>Networks</td>
+          <td>Google Search only (Display partners off)</td>
+        </tr>
+        <tr>
+          <td>Location</td>
+          <td>United States</td>
+        </tr>
+        <tr>
+          <td>Language</td>
+          <td>English</td>
+        </tr>
+        <tr>
+          <td>Ad groups</td>
+          <td>AG Filing Date · AG 65-20 · AG All 128</td>
+        </tr>
+        <tr>
+          <td>Example landings</td>
+          <td>
+            /en/learn/n-400-filing-date · /en/learn/65-20 ·
+            /en/questions/all-128 · /en/practice/2025
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>6. Compliance notes</h2>
+    <ul>
+      <li>
+        Landings and ad copy present an independent study tool; not USCIS.
+      </li>
+      <li>Website uses HTTPS; marketing cookies load only after consent.</li>
+      <li>
+        Tool does not automate click fraud, unauthorized scraping of other
+        accounts, or bulk account creation.
+      </li>
+      <li>
+        Developer token and OAuth credentials are used only for our authorized
+        customer account(s).
+      </li>
+      <li>
+        Campaigns/ad groups/ads/keywords are created in PAUSED state until a
+        human enables them after review.
+      </li>
+    </ul>
+
+    <h2>7. Operator commands</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Command</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>npm run gads:check</code></td>
+          <td>Verify credentials</td>
+        </tr>
+        <tr>
+          <td><code>npm run gads:oauth</code></td>
+          <td>Obtain refresh token</td>
+        </tr>
+        <tr>
+          <td><code>npm run gads:accounts</code></td>
+          <td>List accessible customer IDs</td>
+        </tr>
+        <tr>
+          <td><code>npm run gads:create-campaign</code></td>
+          <td>
+            Create Search structure PAUSED (requires Basic developer-token
+            access on production accounts)
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>8. Contact</h2>
+    <p>
+      Operator contact: saimek.business@gmail.com<br />
+      Website: https://uscivics-quiz.com<br />
+      Google Cloud project: uscivics-quiz (project number 833452538943)
+    </p>
+
+    <p class="meta">
+      To submit to Google: open this file in Chrome → Print → Destination: Save
+      as PDF.
+    </p>
+  </body>
+</html>

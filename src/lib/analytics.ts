@@ -55,6 +55,43 @@ export function trackSimEnd(passed: boolean, version: string, senior: boolean) {
   });
 }
 
+/** Primary quiz completion signal for Ads (fired with pass_sim / fail_sim). */
+export function trackCompleteQuiz(
+  passed: boolean,
+  version: string,
+  senior: boolean
+) {
+  return trackEvent("complete_quiz", {
+    passed: passed ? "1" : "0",
+    version,
+    senior: senior ? "1" : "0",
+  });
+}
+
 export function trackEligibilityStart(result: string) {
   return trackEvent("eligibility_start_practice", { result });
+}
+
+/** Fired when the eligibility wizard reaches a result (not only CTA click). */
+export function trackEligibilityComplete(result: string) {
+  return trackEvent("eligibility_complete", { result });
+}
+
+export function trackSeniorListOpen() {
+  return trackEvent("senior_list_open");
+}
+
+/** External link click (USCIS, mailto, etc.) — secondary engagement signal. */
+export function trackOutboundClick(url: string, label?: string) {
+  let host = url;
+  try {
+    host = new URL(url, window.location.origin).hostname;
+  } catch {
+    /* keep raw */
+  }
+  return trackEvent("outbound_click", {
+    link_url: url.slice(0, 100),
+    link_host: host.slice(0, 50),
+    ...(label ? { link_label: label.slice(0, 40) } : {}),
+  });
 }

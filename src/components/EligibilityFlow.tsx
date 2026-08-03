@@ -4,7 +4,10 @@ import { useState } from "react";
 import Link from "next/link";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
-import { trackEligibilityStart } from "@/lib/analytics";
+import {
+  trackEligibilityComplete,
+  trackEligibilityStart,
+} from "@/lib/analytics";
 
 type Step = "q1" | "q2" | "result";
 type ResultKind = "senior" | "2025" | "2008";
@@ -21,12 +24,14 @@ export default function EligibilityFlow({ locale }: { locale: Locale }) {
   }
 
   function answerQ2(value: boolean) {
-    if (value) {
-      setResult("senior");
-    } else {
-      setResult(filedBefore ? "2008" : "2025");
-    }
+    const next: ResultKind = value
+      ? "senior"
+      : filedBefore
+        ? "2008"
+        : "2025";
+    setResult(next);
     setStep("result");
+    void trackEligibilityComplete(next);
   }
 
   const resultCopy: Record<ResultKind, string> = {
@@ -115,6 +120,7 @@ export default function EligibilityFlow({ locale }: { locale: Locale }) {
               {dict.startPractice}
               <span aria-hidden>→</span>
             </Link>
+            <p className="text-xs leading-relaxed text-muted">{dict.disclaimer}</p>
           </div>
         )}
       </div>

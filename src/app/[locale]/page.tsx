@@ -3,10 +3,12 @@ import type { Metadata } from "next";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import BrandLogo from "@/components/BrandLogo";
+import HeroWithPhoto from "@/components/HeroWithPhoto";
 import TestVersionNotice from "@/components/TestVersionNotice";
 import { buildPageMetadata, organizationJsonLd, websiteJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 import { isLocale } from "@/lib/locales";
+import { SITE_IMAGES, absoluteImageUrl } from "@/lib/site-images";
 
 export async function generateMetadata({
   params,
@@ -21,6 +23,8 @@ export async function generateMetadata({
     path: "",
     title: dict.siteName,
     description: dict.tagline,
+    image: absoluteImageUrl(SITE_IMAGES.homeHero.src),
+    imageAlt: SITE_IMAGES.homeHero.alt,
   });
 }
 
@@ -35,42 +39,36 @@ export default async function HomePage({
   return (
     <div className="flex flex-col">
       <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
-      <section className="gw-hero -mx-4 border border-line sm:-mx-6">
-        <div className="gw-hero__glow" aria-hidden />
-        <div className="gw-hero__stripes" aria-hidden />
-        <div className="gw-hero__sheen" aria-hidden />
+      <HeroWithPhoto image={SITE_IMAGES.homeHero} priority>
+        <h1 className="gw-rise">
+          <BrandLogo
+            title={dict.brand}
+            subtitle={dict.officialBadge}
+            variant="onDark"
+            size="lg"
+          />
+        </h1>
 
-        <div className="gw-hero__inner">
-          <h1 className="gw-rise">
-            <BrandLogo
-              title={dict.brand}
-              subtitle={dict.officialBadge}
-              variant="onDark"
-              size="lg"
-            />
-          </h1>
-
-          <div className="gw-rise gw-rise-delay-1 space-y-3">
-            <p className="max-w-xl text-xl font-semibold leading-snug tracking-tight text-white sm:text-2xl lg:text-[1.7rem]">
-              {dict.tagline}
-            </p>
-            <p className="max-w-md text-base leading-relaxed text-white/78 sm:text-lg">
-              {dict.heroSupport}
-            </p>
-          </div>
-
-          <div className="gw-rise gw-rise-delay-2">
-            <Link href={`/${locale}/eligibility`} className="gw-btn gw-btn-block-sm gw-btn-hero">
-              {dict.startEligibility}
-              <span aria-hidden>→</span>
-            </Link>
-          </div>
-
-          <p className="gw-rise gw-rise-delay-3 text-sm font-medium tracking-wide text-white/65">
-            {dict.freeBadge}
+        <div className="gw-rise gw-rise-delay-1 space-y-3">
+          <p className="max-w-xl text-xl font-semibold leading-snug tracking-tight text-white sm:text-2xl lg:text-[1.7rem]">
+            {dict.tagline}
+          </p>
+          <p className="max-w-md text-base leading-relaxed text-white/78 sm:text-lg">
+            {dict.heroSupport}
           </p>
         </div>
-      </section>
+
+        <div className="gw-rise gw-rise-delay-2">
+          <Link href={`/${locale}/eligibility`} className="gw-btn gw-btn-block-sm gw-btn-hero">
+            {dict.startEligibility}
+            <span aria-hidden>→</span>
+          </Link>
+        </div>
+
+        <p className="gw-rise gw-rise-delay-3 text-sm font-medium tracking-wide text-white/65">
+          {dict.freeBadge}
+        </p>
+      </HeroWithPhoto>
 
       <div className="mt-10 sm:mt-12">
         <TestVersionNotice dict={dict} />
