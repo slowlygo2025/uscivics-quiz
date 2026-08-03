@@ -3,7 +3,13 @@ export default function JsonLd({ data }: { data: object | object[] }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(payload.length === 1 ? payload[0] : payload) }}
+      // Avoid hydration noise if the browser reorders JSON whitespace
+      suppressHydrationWarning
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(
+          payload.length === 1 ? payload[0] : payload
+        ),
+      }}
     />
   );
 }

@@ -2,7 +2,6 @@ import type { MetadataRoute } from "next";
 import { LOCALES } from "@/lib/locales";
 import type { Locale } from "@/lib/types";
 import { SEO_TOPICS, SEO_STATE_CODES } from "@/lib/seo-topics";
-import { SEO_DRILLS } from "@/lib/seo-drills";
 import { LEARN_POSTS } from "@/lib/learn-posts";
 
 export const SITE_ORIGIN = "https://uscivics-quiz.com";
@@ -224,11 +223,25 @@ export const INDEX_PRIORITY: IndexPriorityItem[] = [
     why: "Trust / E-E-A-T",
   },
   {
+    path: "/contact",
+    tier: 2,
+    priority: 0.55,
+    changeFrequency: "yearly",
+    why: "Trust / contactability",
+  },
+  {
     path: "/privacy",
     tier: 2,
     priority: 0.5,
     changeFrequency: "yearly",
     why: "Trust / ads compliance",
+  },
+  {
+    path: "/terms",
+    tier: 2,
+    priority: 0.45,
+    changeFrequency: "yearly",
+    why: "Trust / legal terms",
   },
 ];
 

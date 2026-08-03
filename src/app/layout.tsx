@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Merriweather, Source_Sans_3 } from "next/font/google";
 import FirebaseAnalytics from "@/components/FirebaseAnalytics";
+import PwaRegister from "@/components/PwaRegister";
 import { themeBootScript } from "@/components/ThemeToggle";
 import "./globals.css";
 
@@ -45,6 +46,11 @@ export const metadata: Metadata = {
   other: {
     monetag: "a2a48b5bafa9b9ba7333961556718f08",
   },
+  appleWebApp: {
+    capable: true,
+    title: "USCivics Quiz",
+    statusBarStyle: "default",
+  },
   keywords: [
     "US citizenship test",
     "US civics quiz",
@@ -74,11 +80,15 @@ export default function RootLayout({
       <head>
         {/* Monetag verification meta only — Multitag loads after cookie consent */}
       </head>
-      <body className="min-h-dvh bg-paper font-sans text-ink">
+      <body
+        className="min-h-dvh bg-paper font-sans text-ink"
+        suppressHydrationWarning
+      >
         <Script id="theme-boot" strategy="beforeInteractive">
           {themeBootScript}
         </Script>
         <FirebaseAnalytics />
+        <PwaRegister />
         {children}
       </body>
     </html>

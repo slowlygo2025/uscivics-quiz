@@ -11,6 +11,7 @@ import {
   type ConsentChoice,
 } from "@/lib/consent";
 import { getFirebaseAnalytics } from "@/lib/firebase";
+import { trackAcceptConsent } from "@/lib/analytics";
 
 export default function CookieConsent({ locale }: { locale: Locale }) {
   const [choice, setChoice] = useState<ConsentChoice | null>(null);
@@ -46,6 +47,7 @@ export default function CookieConsent({ locale }: { locale: Locale }) {
     writeConsent(next);
     setChoice(next);
     setOpen(false);
+    void trackAcceptConsent(next);
     if (next === "all") {
       loadMonetagIfNeeded();
       void getFirebaseAnalytics();

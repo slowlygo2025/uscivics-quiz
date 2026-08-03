@@ -42,6 +42,8 @@ export default function MobileNav({
     { href: `/${locale}/english`, label: dict.navEnglish },
     { href: `/${locale}/about`, label: dict.navAbout },
     { href: `/${locale}/contact`, label: dict.navContact },
+    { href: `/${locale}/privacy`, label: dict.navPrivacy },
+    { href: `/${locale}/terms`, label: dict.navTerms },
   ];
 
   return (

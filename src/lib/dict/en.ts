@@ -272,6 +272,16 @@ export const en = {
   seoDrillsLead:
     "Focus on the hardest clusters: key dates, famous names, and officials whose answers change with elections — free audio on every question.",
   seoStatesCount: "state & DC study pages",
+  questionsSearchLabel: "Search civics questions",
+  questionsSearchSubmit: "Search",
+  questionsSearchHint:
+    "Search by question number, keywords, or answers across the 2008 and 2025 banks.",
+  questionsSearchResults: "Matches",
+  exportProgress: "Export progress",
+  importProgress: "Import progress",
+  exportProgressHint: "Save a backup file to move progress to another device.",
+  importProgressDone: "Progress imported.",
+  importProgressError: "Could not import that file. Use an export from USCivics Quiz.",
 } as const;
 
 export type DictKeys = keyof typeof en;

@@ -152,3 +152,92 @@ export function smartPriority(
   const lastWrong = stats.lastResult === "wrong" ? 80 : 0;
   return wrongBias + correctBias + Math.min(recency * 8, 60) + lastWrong;
 }
+
+export type ProgressBackup = {
+  v: 1;
+  exportedAt: number;
+  data: Partial<Record<TestVersion, VersionProgress>>;
+};
+
+/** Downloadable backup of all version progress (for device transfer). */
+export function exportAllProgress(): ProgressBackup {
+  return {
+    v: 1,
+    exportedAt: Date.now(),
+    data: readAll(),
+  };
+}
+
+/**
+ * Import a progress backup. Merges per version, keeping the newer `updatedAt`
+ * and combining question stats when both sides exist.
+ */
+export function importAllProgress(backup: unknown): {
+  ok: true;
+  versions: TestVersion[];
+} | { ok: false; error: string } {
+  if (!backup || typeof backup !== "object") {
+    return { ok: false, error: "invalid" };
+  }
+  const raw = backup as Partial<ProgressBackup>;
+  if (raw.v !== 1 || !raw.data || typeof raw.data !== "object") {
+    return { ok: false, error: "invalid" };
+  }
+
+  const current = readAll();
+  const imported = raw.data;
+  const versions: TestVersion[] = [];
+
+  for (const version of ["2008", "2025"] as TestVersion[]) {
+    const incoming = imported[version];
+    if (!incoming || typeof incoming !== "object") continue;
+    versions.push(version);
+    const existing = current[version];
+    if (!existing) {
+      current[version] = {
+        ...emptyProgress(),
+        ...incoming,
+        questions: incoming.questions ?? {},
+        updatedAt: incoming.updatedAt || Date.now(),
+      };
+      continue;
+    }
+    // Prefer newer overall snapshot for counters; merge question maps
+    const preferIncoming = (incoming.updatedAt || 0) >= (existing.updatedAt || 0);
+    const base = preferIncoming ? incoming : existing;
+    const other = preferIncoming ? existing : incoming;
+    const questions = { ...other.questions, ...base.questions };
+    for (const id of Object.keys(other.questions || {})) {
+      const a = base.questions?.[id];
+      const b = other.questions?.[id];
+      if (a && b) {
+        questions[id] = {
+          correct: Math.max(a.correct, b.correct),
+          wrong: Math.max(a.wrong, b.wrong),
+          lastResult:
+            (a.lastSeenAt || 0) >= (b.lastSeenAt || 0)
+              ? a.lastResult
+              : b.lastResult,
+          lastSeenAt: Math.max(a.lastSeenAt || 0, b.lastSeenAt || 0),
+        };
+      }
+    }
+    current[version] = {
+      questions,
+      streak: Math.max(existing.streak, incoming.streak || 0),
+      bestStreak: Math.max(existing.bestStreak, incoming.bestStreak || 0),
+      simulationsPassed: Math.max(
+        existing.simulationsPassed,
+        incoming.simulationsPassed || 0
+      ),
+      simulationsTaken: Math.max(
+        existing.simulationsTaken,
+        incoming.simulationsTaken || 0
+      ),
+      updatedAt: Date.now(),
+    };
+  }
+
+  writeAll(current);
+  return { ok: true, versions };
+}

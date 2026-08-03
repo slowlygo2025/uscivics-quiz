@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
+import { trackEligibilityStart } from "@/lib/analytics";
 
 type Step = "q1" | "q2" | "result";
 type ResultKind = "senior" | "2025" | "2008";
@@ -109,6 +110,7 @@ export default function EligibilityFlow({ locale }: { locale: Locale }) {
                   : `/${locale}/practice/${resultVersion[result]}`
               }
               className="gw-btn gw-btn-primary w-full sm:w-fit"
+              onClick={() => void trackEligibilityStart(result)}
             >
               {dict.startPractice}
               <span aria-hidden>→</span>

@@ -1,13 +1,13 @@
-import type { TestVersion } from "./types";
+import type { Locale, TestVersion } from "./types";
 
 export type DrillDef = {
   slug: string;
   version: TestVersion;
   /** English bank question IDs (stable across locales). */
   ids: number[];
-  title: { en: string; es: string };
-  description: { en: string; es: string };
-  lead: { en: string; es: string };
+  title: Record<Locale, string>;
+  description: Record<Locale, string>;
+  lead: Record<Locale, string>;
 };
 
 /**
@@ -22,14 +22,41 @@ export const SEO_DRILLS: DrillDef[] = [
     title: {
       en: "All Key Dates — 2025 Civics Test",
       es: "Todas las fechas clave — Examen cívico 2025",
+      zh: "所有关键日期 — 2025年公民考试",
+      vi: "Tất cả các ngày quan trọng — Bài thi công dân 2025",
+      tl: "Lahat ng Mahahalagang Petsa — Civics Test 2025",
+      ar: "جميع التواريخ المهمة — اختبار الجنسية 2025",
+      ko: "모든 핵심 날짜 — 2025 시민권 시험",
+      hi: "सभी महत्वपूर्ण तिथियाँ — 2025 नागरिकता परीक्षा",
+      ru: "Все ключевые даты — гражданский экзамен 2025",
+      ht: "Tout Dat Enpòtan yo — Tès Sivik 2025",
+      fr: "Toutes les dates clés — Examen civique 2025",
     },
     description: {
       en: "Practice the USCIS 2025 civics questions about important dates in U.S. history and holidays — with free audio.",
       es: "Practicá las preguntas del examen cívico 2025 sobre fechas importantes de la historia de EE.UU. y feriados — con audio gratis.",
+      zh: "练习2025年USCIS公民考试中关于美国历史重要日期和节日的题目 — 免费配有语音朗读。",
+      vi: "Luyện tập các câu hỏi công dân USCIS 2025 về những ngày quan trọng trong lịch sử Hoa Kỳ và các ngày lễ — có âm thanh miễn phí.",
+      tl: "Mag-ensayo ng mga tanong sa civics test 2025 ng USCIS tungkol sa mahahalagang petsa sa kasaysayan ng Estados Unidos at mga pista opisyal — may libreng audio.",
+      ar: "تدرّب على أسئلة اختبار الجنسية USCIS لعام 2025 حول التواريخ المهمة في تاريخ الولايات المتحدة والأعياد — مع صوت مجاني.",
+      ko: "미국 역사와 공휴일의 중요한 날짜에 관한 2025년 USCIS 시민권 시험 문제를 무료 오디오와 함께 연습하세요.",
+      hi: "अमेरिकी इतिहास और छुट्टियों की महत्वपूर्ण तिथियों के बारे में 2025 USCIS नागरिकता परीक्षा के प्रश्नों का अभ्यास करें — मुफ्त ऑडियो के साथ।",
+      ru: "Практикуйте вопросы гражданского экзамена USCIS 2025 года о важных датах в истории США и праздниках — с бесплатным аудио.",
+      ht: "Pratike kesyon tès sivik USCIS 2025 sou dat enpòtan nan istwa Etazini ak jou ferye — ak odyo gratis.",
+      fr: "Entraînez-vous sur les questions de l'examen civique USCIS 2025 sur les dates importantes de l'histoire américaine et les jours fériés — avec audio gratuit.",
     },
     lead: {
       en: "Officers often ask when key events happened. Drill these date questions, hear them aloud, then open full interview practice.",
       es: "Los oficiales suelen preguntar cuándo ocurrieron hechos clave. Practicá estas fechas, escuchalas en voz alta y después abrí la simulación completa.",
+      zh: "移民官经常会问重大事件发生的时间。练习这些日期题目，听语音朗读，然后进行完整的面试模拟。",
+      vi: "Viên chức thường hỏi các sự kiện quan trọng xảy ra khi nào. Hãy luyện các câu hỏi về ngày tháng này, nghe phát âm, rồi mở phần mô phỏng phỏng vấn đầy đủ.",
+      tl: "Madalas itanong ng mga opisyal kung kailan naganap ang mahahalagang pangyayari. I-drill ang mga tanong na ito tungkol sa petsa, pakinggan nang malakas, at pagkatapos ay buksan ang buong pagsasanay sa panayam.",
+      ar: "غالبًا ما يسأل الموظفون عن موعد حدوث الأحداث المهمة. تدرّب على أسئلة التواريخ هذه، استمع إليها، ثم افتح المحاكاة الكاملة للمقابلة.",
+      ko: "면접관은 주요 사건이 언제 일어났는지 자주 묻습니다. 이 날짜 문제들을 연습하고, 소리 내어 듣고, 전체 인터뷰 시뮬레이션을 열어보세요.",
+      hi: "अधिकारी अक्सर पूछते हैं कि महत्वपूर्ण घटनाएँ कब हुईं। इन तिथि प्रश्नों का अभ्यास करें, उन्हें ज़ोर से सुनें, फिर पूरा इंटरव्यू अभ्यास खोलें।",
+      ru: "Сотрудники часто спрашивают, когда произошли ключевые события. Отработайте эти вопросы о датах, прослушайте их вслух, а затем откройте полную симуляцию собеседования.",
+      ht: "Ofisye yo souvan mande kilè evènman enpòtan yo te pase. Pratike kesyon dat sa yo, tande yo awotvwa, epi louvri simulasyon entèvyou konplè a.",
+      fr: "Les agents demandent souvent quand des événements clés ont eu lieu. Entraînez-vous sur ces questions de dates, écoutez-les à voix haute, puis ouvrez la simulation d'entretien complète.",
     },
   },
   {
@@ -39,14 +66,41 @@ export const SEO_DRILLS: DrillDef[] = [
     title: {
       en: "All Key Names — 2025 Civics Test",
       es: "Todos los nombres clave — Examen cívico 2025",
+      zh: "所有关键人名 — 2025年公民考试",
+      vi: "Tất cả các tên quan trọng — Bài thi công dân 2025",
+      tl: "Lahat ng Mahahalagang Pangalan — Civics Test 2025",
+      ar: "جميع الأسماء المهمة — اختبار الجنسية 2025",
+      ko: "모든 핵심 인물 — 2025 시민권 시험",
+      hi: "सभी महत्वपूर्ण नाम — 2025 नागरिकता परीक्षा",
+      ru: "Все ключевые имена — гражданский экзамен 2025",
+      ht: "Tout Non Enpòtan yo — Tès Sivik 2025",
+      fr: "Tous les noms clés — Examen civique 2025",
     },
     description: {
       en: "Memorize the people you must know for the 2025 USCIS civics test: founders, presidents, and civil rights leaders.",
       es: "Memorizá las personas que tenés que saber para el examen cívico 2025: fundadores, presidentes y líderes de derechos civiles.",
+      zh: "记住2025年USCIS公民考试中必须知道的人物：开国元勋、总统和民权领袖。",
+      vi: "Ghi nhớ những nhân vật bạn cần biết cho bài thi công dân USCIS 2025: những người sáng lập, tổng thống và các nhà lãnh đạo dân quyền.",
+      tl: "Isaulo ang mga taong dapat mong malaman para sa civics test 2025 ng USCIS: mga founder, pangulo, at mga lider ng karapatang sibil.",
+      ar: "احفظ الأشخاص الذين يجب أن تعرفهم لاختبار الجنسية USCIS لعام 2025: المؤسسون والرؤساء وقادة الحقوق المدنية.",
+      ko: "2025 USCIS 시민권 시험에서 알아야 할 인물들을 암기하세요: 건국자, 대통령, 시민권 지도자.",
+      hi: "2025 USCIS नागरिकता परीक्षा के लिए आपको जिन लोगों को जानना आवश्यक है उन्हें याद करें: संस्थापक, राष्ट्रपति और नागरिक अधिकार नेता।",
+      ru: "Запомните людей, которых нужно знать для гражданского экзамена USCIS 2025 года: основатели, президенты и лидеры движения за гражданские права.",
+      ht: "Memorize moun ou dwe konnen pou tès sivik USCIS 2025 la: fondatè, prezidan, ak lidè dwa sivil.",
+      fr: "Mémorisez les personnes que vous devez connaître pour l'examen civique USCIS 2025 : fondateurs, présidents et leaders des droits civiques.",
     },
     lead: {
       en: "Name questions are high-frequency in interviews. Study accepted answers, say them out loud, then simulate the full test.",
       es: "Las preguntas de nombres son frecuentes en la entrevista. Estudiá las respuestas aceptadas, decilas en voz alta y simulá el examen completo.",
+      zh: "人名题在面试中出现频率很高。学习被接受的答案，大声说出来，然后模拟完整考试。",
+      vi: "Câu hỏi về tên thường gặp trong phỏng vấn. Học các câu trả lời được chấp nhận, đọc to lên, rồi mô phỏng bài thi đầy đủ.",
+      tl: "Madalas lumabas ang mga tanong tungkol sa pangalan sa panayam. Pag-aralan ang tamang sagot, sabihin nang malakas, pagkatapos ay gayahin ang buong pagsusulit.",
+      ar: "أسئلة الأسماء شائعة جدًا في المقابلات. ادرس الإجابات المقبولة، وقلها بصوت عالٍ، ثم حاكِ الاختبار الكامل.",
+      ko: "인물 관련 질문은 인터뷰에서 자주 나옵니다. 정답을 공부하고 소리 내어 말한 후 전체 시험을 시뮬레이션하세요.",
+      hi: "इंटरव्यू में नाम से जुड़े प्रश्न बहुत आम हैं। स्वीकृत उत्तरों का अध्ययन करें, उन्हें ज़ोर से बोलें, फिर पूरी परीक्षा का अनुकरण करें।",
+      ru: "Вопросы об именах часто встречаются на собеседованиях. Изучите правильные ответы, произнесите их вслух, а затем смоделируйте полный экзамен.",
+      ht: "Kesyon sou non yo souvan poze nan entèvyou. Etidye repons ki aksepte yo, di yo awotvwa, epi simile tès konplè a.",
+      fr: "Les questions sur les noms reviennent souvent en entretien. Étudiez les réponses acceptées, dites-les à voix haute, puis simulez l'examen complet.",
     },
   },
   {
@@ -56,14 +110,41 @@ export const SEO_DRILLS: DrillDef[] = [
     title: {
       en: "Current Officials — Answers That Change (2025)",
       es: "Oficiales actuales — Respuestas que cambian (2025)",
+      zh: "现任官员 — 会变化的答案（2025）",
+      vi: "Các quan chức hiện tại — Câu trả lời có thể thay đổi (2025)",
+      tl: "Kasalukuyang mga Opisyal — Mga Sagot na Nagbabago (2025)",
+      ar: "المسؤولون الحاليون — إجابات تتغيّر (2025)",
+      ko: "현직 공직자 — 바뀌는 답변 (2025)",
+      hi: "वर्तमान अधिकारी — बदलते उत्तर (2025)",
+      ru: "Действующие должностные лица — ответы, которые меняются (2025)",
+      ht: "Ofisyèl Aktyèl yo — Repons ki Chanje (2025)",
+      fr: "Officiels actuels — Réponses qui changent (2025)",
     },
     description: {
       en: "Practice 2025 civics questions about the President, Vice President, Speaker, Chief Justice, senators, representative, and governor.",
       es: "Practicá preguntas 2025 sobre el Presidente, Vicepresidente, Speaker, Chief Justice, senadores, representante y gobernador.",
+      zh: "练习2025年关于总统、副总统、众议院议长、首席大法官、参议员、众议员和州长的公民考试题。",
+      vi: "Luyện tập các câu hỏi công dân 2025 về Tổng thống, Phó Tổng thống, Chủ tịch Hạ viện, Chánh án Tối cao Pháp viện, thượng nghị sĩ, dân biểu và thống đốc.",
+      tl: "Mag-ensayo ng mga tanong 2025 tungkol sa Pangulo, Pangalawang Pangulo, Speaker, Chief Justice, mga senador, kinatawan, at gobernador.",
+      ar: "تدرّب على أسئلة 2025 حول الرئيس ونائب الرئيس ورئيس مجلس النواب وكبير القضاة وأعضاء مجلس الشيوخ والنائب والحاكم.",
+      ko: "대통령, 부통령, 하원의장, 대법원장, 상원의원, 하원의원, 주지사에 관한 2025년 시민권 시험 문제를 연습하세요.",
+      hi: "राष्ट्रपति, उपराष्ट्रपति, स्पीकर, मुख्य न्यायाधीश, सीनेटरों, प्रतिनिधि और गवर्नर के बारे में 2025 के नागरिकता प्रश्नों का अभ्यास करें।",
+      ru: "Практикуйте вопросы 2025 года о президенте, вице-президенте, спикере, председателе Верховного суда, сенаторах, представителе и губернаторе.",
+      ht: "Pratike kesyon 2025 sou Prezidan, Vis Prezidan, Speaker, Chief Justice, senatè, reprezantan, ak gouvènè.",
+      fr: "Entraînez-vous sur les questions 2025 sur le Président, le Vice-Président, le Speaker, le juge en chef, les sénateurs, le représentant et le gouverneur.",
     },
     lead: {
       en: "These answers change with elections. Review federal names in practice, use ZIP lookup for your state officials, and recheck before interview day.",
       es: "Estas respuestas cambian con las elecciones. Revisá nombres federales en la práctica, usá ZIP para tus oficiales estatales y verificá antes del día de la entrevista.",
+      zh: "这些答案会随选举变化。在练习中复习联邦官员姓名，使用邮编查询你所在州的官员，并在面试前再次确认。",
+      vi: "Những câu trả lời này thay đổi theo các cuộc bầu cử. Ôn lại tên các quan chức liên bang trong phần luyện tập, dùng tra cứu mã ZIP để biết quan chức bang của bạn, và kiểm tra lại trước ngày phỏng vấn.",
+      tl: "Nagbabago ang mga sagot na ito depende sa halalan. Suriin ang mga pangalan sa pederal na antas sa pagsasanay, gamitin ang paghahanap gamit ang ZIP para sa iyong mga opisyal sa estado, at i-recheck bago ang araw ng panayam.",
+      ar: "تتغيّر هذه الإجابات مع الانتخابات. راجع الأسماء الفيدرالية في التدريب، واستخدم البحث بالرمز البريدي لمعرفة مسؤولي ولايتك، وتحقق مرة أخرى قبل يوم المقابلة.",
+      ko: "이 답변들은 선거에 따라 바뀝니다. 연습에서 연방 공직자 이름을 복습하고, ZIP 코드 조회로 주 공직자를 확인하고, 면접 전 다시 확인하세요.",
+      hi: "ये उत्तर चुनावों के साथ बदलते हैं। अभ्यास में संघीय नामों की समीक्षा करें, अपने राज्य के अधिकारियों के लिए ZIP लुकअप का उपयोग करें, और इंटरव्यू के दिन से पहले फिर से जांचें।",
+      ru: "Эти ответы меняются с выборами. Повторите федеральные имена на практике, используйте поиск по почтовому индексу для чиновников вашего штата и перепроверьте перед собеседованием.",
+      ht: "Repons sa yo chanje ak eleksyon. Revize non federal yo nan pratik la, itilize rechèch ZIP pou ofisyèl eta ou, epi tcheke ankò anvan jou entèvyou a.",
+      fr: "Ces réponses changent avec les élections. Révisez les noms fédéraux à l'entraînement, utilisez la recherche par code postal pour vos officiels d'État, et revérifiez avant le jour de l'entretien.",
     },
   },
   {
@@ -73,14 +154,41 @@ export const SEO_DRILLS: DrillDef[] = [
     title: {
       en: "All Key Dates — 2008 Civics Test",
       es: "Todas las fechas clave — Examen cívico 2008",
+      zh: "所有关键日期 — 2008年公民考试",
+      vi: "Tất cả các ngày quan trọng — Bài thi công dân 2008",
+      tl: "Lahat ng Mahahalagang Petsa — Civics Test 2008",
+      ar: "جميع التواريخ المهمة — اختبار الجنسية 2008",
+      ko: "모든 핵심 날짜 — 2008 시민권 시험",
+      hi: "सभी महत्वपूर्ण तिथियाँ — 2008 नागरिकता परीक्षा",
+      ru: "Все ключевые даты — гражданский экзамен 2008",
+      ht: "Tout Dat Enpòtan yo — Tès Sivik 2008",
+      fr: "Toutes les dates clés — Examen civique 2008",
     },
     description: {
       en: "Practice date and holiday questions from the 2008 (100-question) USCIS civics test.",
       es: "Practicá preguntas de fechas y feriados del examen cívico USCIS 2008 (100 preguntas).",
+      zh: "练习2008年（100题）USCIS公民考试中的日期与节日题目。",
+      vi: "Luyện tập các câu hỏi về ngày tháng và ngày lễ trong bài thi công dân USCIS 2008 (100 câu).",
+      tl: "Mag-ensayo ng mga tanong tungkol sa petsa at pista opisyal mula sa civics test 2008 ng USCIS (100 tanong).",
+      ar: "تدرّب على أسئلة التواريخ والأعياد من اختبار الجنسية USCIS لعام 2008 (100 سؤال).",
+      ko: "2008년(100문항) USCIS 시민권 시험의 날짜와 공휴일 문제를 연습하세요.",
+      hi: "2008 (100-प्रश्न) USCIS नागरिकता परीक्षा के तिथि और छुट्टी संबंधी प्रश्नों का अभ्यास करें।",
+      ru: "Практикуйте вопросы о датах и праздниках из гражданского экзамена USCIS 2008 года (100 вопросов).",
+      ht: "Pratike kesyon sou dat ak jou ferye nan tès sivik USCIS 2008 la (100 kesyon).",
+      fr: "Entraînez-vous sur les questions de dates et de jours fériés de l'examen civique USCIS 2008 (100 questions).",
     },
     lead: {
       en: "For applicants who filed Form N-400 before October 20, 2025. Drill dates, then practice the full 100-question bank.",
       es: "Para solicitantes que presentaron el N-400 antes del 20 de octubre de 2025. Practicá fechas y después el banco completo de 100.",
+      zh: "适用于在2025年10月20日之前提交N-400表格的申请人。先练习日期题，然后练习完整的100题题库。",
+      vi: "Dành cho người nộp đơn N-400 trước ngày 20 tháng 10 năm 2025. Luyện tập các câu hỏi về ngày tháng, sau đó luyện toàn bộ 100 câu.",
+      tl: "Para sa mga nag-apply na nagsumite ng Form N-400 bago ang Oktubre 20, 2025. I-drill ang mga petsa, pagkatapos ay pagsanayan ang buong 100 tanong.",
+      ar: "لمقدمي الطلبات الذين قدموا النموذج N-400 قبل 20 أكتوبر 2025. تدرّب على التواريخ، ثم تدرّب على بنك الأسئلة الكامل المكون من 100 سؤال.",
+      ko: "2025년 10월 20일 이전에 N-400 양식을 제출한 신청자를 위한 것입니다. 날짜 문제를 연습한 후 전체 100문항을 연습하세요.",
+      hi: "उन आवेदकों के लिए जिन्होंने 20 अक्टूबर, 2025 से पहले फॉर्म N-400 दाखिल किया था। तिथियों का अभ्यास करें, फिर पूरे 100-प्रश्न बैंक का अभ्यास करें।",
+      ru: "Для заявителей, подавших форму N-400 до 20 октября 2025 года. Отработайте даты, затем практикуйте весь банк из 100 вопросов.",
+      ht: "Pou aplikan ki te soumèt Fòm N-400 anvan 20 oktòb 2025. Pratike dat yo, epi pratike tout bank 100 kesyon an.",
+      fr: "Pour les candidats ayant déposé le formulaire N-400 avant le 20 octobre 2025. Entraînez-vous sur les dates, puis pratiquez la banque complète de 100 questions.",
     },
   },
   {
@@ -90,14 +198,41 @@ export const SEO_DRILLS: DrillDef[] = [
     title: {
       en: "All Key Names — 2008 Civics Test",
       es: "Todos los nombres clave — Examen cívico 2008",
+      zh: "所有关键人名 — 2008年公民考试",
+      vi: "Tất cả các tên quan trọng — Bài thi công dân 2008",
+      tl: "Lahat ng Mahahalagang Pangalan — Civics Test 2008",
+      ar: "جميع الأسماء المهمة — اختبار الجنسية 2008",
+      ko: "모든 핵심 인물 — 2008 시민권 시험",
+      hi: "सभी महत्वपूर्ण नाम — 2008 नागरिकता परीक्षा",
+      ru: "Все ключевые имена — гражданский экзамен 2008",
+      ht: "Tout Non Enpòtan yo — Tès Sivik 2008",
+      fr: "Tous les noms clés — Examen civique 2008",
     },
     description: {
       en: "Practice famous-name questions from the 2008 USCIS civics test — founders, presidents, and leaders.",
       es: "Practicá preguntas de nombres famosos del examen cívico 2008 — fundadores, presidentes y líderes.",
+      zh: "练习2008年USCIS公民考试中的著名人物题目 — 开国元勋、总统和领袖。",
+      vi: "Luyện tập các câu hỏi về những nhân vật nổi tiếng trong bài thi công dân USCIS 2008 — những người sáng lập, tổng thống và các nhà lãnh đạo.",
+      tl: "Mag-ensayo ng mga tanong tungkol sa mga sikat na pangalan mula sa civics test 2008 ng USCIS — mga founder, pangulo, at lider.",
+      ar: "تدرّب على أسئلة الأسماء المشهورة من اختبار الجنسية USCIS لعام 2008 — المؤسسون والرؤساء والقادة.",
+      ko: "2008 USCIS 시민권 시험의 유명 인물 문제를 연습하세요 — 건국자, 대통령, 지도자.",
+      hi: "2008 USCIS नागरिकता परीक्षा के प्रसिद्ध नामों के प्रश्नों का अभ्यास करें — संस्थापक, राष्ट्रपति और नेता।",
+      ru: "Практикуйте вопросы об известных именах из гражданского экзамена USCIS 2008 года — основатели, президенты и лидеры.",
+      ht: "Pratike kesyon sou non moun ki popilè nan tès sivik USCIS 2008 la — fondatè, prezidan, ak lidè.",
+      fr: "Entraînez-vous sur les questions de noms célèbres de l'examen civique USCIS 2008 — fondateurs, présidents et leaders.",
     },
     lead: {
       en: "Focus on the people you must name on the 2008 test. Hear English audio, then run a full interview simulation.",
       es: "Enfocate en las personas que debés nombrar en el examen 2008. Escuchá el audio en inglés y después simulá la entrevista completa.",
+      zh: "重点关注2008年考试中你必须说出的人物姓名。先听英语发音，然后进行完整的面试模拟。",
+      vi: "Tập trung vào những người bạn phải nêu tên trong bài thi 2008. Nghe âm thanh tiếng Anh, sau đó chạy mô phỏng phỏng vấn đầy đủ.",
+      tl: "Tumuon sa mga taong kailangan mong pangalanan sa pagsusulit 2008. Pakinggan ang audio sa Ingles, pagkatapos ay gawin ang buong simulation ng panayam.",
+      ar: "ركّز على الأشخاص الذين يجب عليك تسميتهم في اختبار 2008. استمع إلى الصوت باللغة الإنجليزية، ثم قم بإجراء محاكاة كاملة للمقابلة.",
+      ko: "2008년 시험에서 이름을 말해야 하는 인물에 집중하세요. 영어 오디오를 듣고 전체 인터뷰 시뮬레이션을 진행하세요.",
+      hi: "2008 परीक्षा में आपको जिन लोगों के नाम बताने हैं उन पर ध्यान दें। अंग्रेज़ी ऑडियो सुनें, फिर पूरा इंटरव्यू सिमुलेशन चलाएँ।",
+      ru: "Сосредоточьтесь на людях, которых нужно назвать на экзамене 2008 года. Прослушайте аудио на английском, затем проведите полную симуляцию собеседования.",
+      ht: "Konsantre sou moun ou dwe nonmen nan tès 2008 la. Tande odyo an angle, epi fè yon simulasyon entèvyou konplè.",
+      fr: "Concentrez-vous sur les personnes que vous devez nommer à l'examen 2008. Écoutez l'audio en anglais, puis effectuez une simulation d'entretien complète.",
     },
   },
   {
@@ -107,14 +242,41 @@ export const SEO_DRILLS: DrillDef[] = [
     title: {
       en: "Current Officials — Answers That Change (2008)",
       es: "Oficiales actuales — Respuestas que cambian (2008)",
+      zh: "现任官员 — 会变化的答案（2008）",
+      vi: "Các quan chức hiện tại — Câu trả lời có thể thay đổi (2008)",
+      tl: "Kasalukuyang mga Opisyal — Mga Sagot na Nagbabago (2008)",
+      ar: "المسؤولون الحاليون — إجابات تتغيّر (2008)",
+      ko: "현직 공직자 — 바뀌는 답변 (2008)",
+      hi: "वर्तमान अधिकारी — बदलते उत्तर (2008)",
+      ru: "Действующие должностные лица — ответы, которые меняются (2008)",
+      ht: "Ofisyèl Aktyèl yo — Repons ki Chanje (2008)",
+      fr: "Officiels actuels — Réponses qui changent (2008)",
     },
     description: {
       en: "Practice 2008 civics questions about current federal and state officials that change with elections.",
       es: "Practicá preguntas 2008 sobre oficiales federales y estatales actuales que cambian con las elecciones.",
+      zh: "练习2008年关于随选举变化的联邦和州现任官员的公民考试题。",
+      vi: "Luyện tập các câu hỏi công dân 2008 về các quan chức liên bang và tiểu bang hiện tại, những người có thể thay đổi theo bầu cử.",
+      tl: "Mag-ensayo ng mga tanong 2008 tungkol sa kasalukuyang mga opisyal ng pederal at estado na nagbabago depende sa halalan.",
+      ar: "تدرّب على أسئلة 2008 حول المسؤولين الفيدراليين والولائيين الحاليين الذين يتغيرون مع الانتخابات.",
+      ko: "선거에 따라 바뀌는 현재 연방 및 주 공직자에 관한 2008년 시민권 시험 문제를 연습하세요.",
+      hi: "चुनावों के साथ बदलने वाले वर्तमान संघीय और राज्य अधिकारियों के बारे में 2008 के नागरिकता प्रश्नों का अभ्यास करें।",
+      ru: "Практикуйте вопросы 2008 года о нынешних федеральных и штатных чиновниках, которые меняются с выборами.",
+      ht: "Pratike kesyon 2008 sou ofisyèl federal ak eta aktyèl ki chanje ak eleksyon.",
+      fr: "Entraînez-vous sur les questions 2008 sur les officiels fédéraux et d'État actuels qui changent avec les élections.",
     },
     lead: {
       en: "Verify who serves now before your interview. Use ZIP lookup in practice for senators and your representative.",
       es: "Verificá quién sirve ahora antes de la entrevista. Usá la búsqueda por ZIP en la práctica para senadores y tu representante.",
+      zh: "在面试前确认现任官员是谁。在练习中使用邮编查询参议员和众议员。",
+      vi: "Xác minh ai đang tại nhiệm trước khi phỏng vấn. Dùng tra cứu mã ZIP trong phần luyện tập để biết thượng nghị sĩ và dân biểu của bạn.",
+      tl: "Tiyakin kung sino ang naglilingkod ngayon bago ang panayam. Gamitin ang paghahanap gamit ang ZIP sa pagsasanay para sa mga senador at iyong kinatawan.",
+      ar: "تحقق من هم في الخدمة الآن قبل مقابلتك. استخدم البحث بالرمز البريدي في التدريب لمعرفة أعضاء مجلس الشيوخ وممثلك.",
+      ko: "면접 전에 현재 누가 재직 중인지 확인하세요. 연습에서 ZIP 코드 조회로 상원의원과 하원의원을 확인하세요.",
+      hi: "इंटरव्यू से पहले यह सत्यापित करें कि अभी कौन पद पर है। सीनेटरों और अपने प्रतिनिधि के लिए अभ्यास में ZIP लुकअप का उपयोग करें।",
+      ru: "Проверьте, кто сейчас занимает должность, перед собеседованием. Используйте поиск по почтовому индексу для сенаторов и вашего представителя.",
+      ht: "Verifye kiyès k ap sèvi kounye a anvan entèvyou ou. Itilize rechèch ZIP nan pratik la pou senatè ak reprezantan ou.",
+      fr: "Vérifiez qui est en fonction avant votre entretien. Utilisez la recherche par code postal dans l'entraînement pour vos sénateurs et votre représentant.",
     },
   },
 ];
@@ -124,10 +286,10 @@ export function getDrillBySlug(slug: string): DrillDef | undefined {
 }
 
 export function drillCopy(drill: DrillDef, locale: string) {
-  const lang = locale === "es" ? "es" : "en";
+  const lang = (locale in drill.title ? locale : "en") as Locale;
   return {
-    title: drill.title[lang],
-    description: drill.description[lang],
-    lead: drill.lead[lang],
+    title: drill.title[lang] ?? drill.title.en,
+    description: drill.description[lang] ?? drill.description.en,
+    lead: drill.lead[lang] ?? drill.lead.en,
   };
 }

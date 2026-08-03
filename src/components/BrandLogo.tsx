@@ -1,3 +1,7 @@
+"use client";
+
+import { useId } from "react";
+
 type BrandLogoProps = {
   /** Visible brand name (localized). */
   title: string;
@@ -21,13 +25,14 @@ export default function BrandLogo({
   size = "md",
   className = "",
 }: BrandLogoProps) {
+  const uid = useId().replace(/:/g, "");
   const onDark = variant === "onDark";
   const ink = onDark ? "#ffffff" : "#005288";
   const muted = onDark ? "rgba(255,255,255,0.72)" : "#5a5b5d";
   const sealStroke = onDark ? "#c0c2c4" : "#8a8d91";
   const sealFill = onDark ? "#003a5d" : "#f0f4f8";
   const accent = "#c41230";
-  const ringId = `seal-ring-${variant}-${size}`;
+  const ringId = `seal-ring-${uid}`;
 
   const seal = size === "lg" ? 76 : size === "sm" ? 42 : 52;
   const titleClass =
@@ -61,8 +66,22 @@ export default function BrandLogo({
             d="M32,32 m-22,0 a22,22 0 1,1 44,0 a22,22 0 1,1 -44,0"
           />
         </defs>
-        <circle cx="32" cy="32" r="31" fill={sealFill} stroke={sealStroke} strokeWidth="1.5" />
-        <circle cx="32" cy="32" r="27.5" fill="none" stroke={sealStroke} strokeWidth="0.85" />
+        <circle
+          cx="32"
+          cy="32"
+          r="31"
+          fill={sealFill}
+          stroke={sealStroke}
+          strokeWidth="1.5"
+        />
+        <circle
+          cx="32"
+          cy="32"
+          r="27.5"
+          fill="none"
+          stroke={sealStroke}
+          strokeWidth="0.85"
+        />
         <text
           fill={ink}
           fontSize="4.2"
@@ -74,13 +93,11 @@ export default function BrandLogo({
             USCIVICS PRACTICE
           </textPath>
         </text>
-        {/* Stars */}
         <g fill={ink}>
           <circle cx="32" cy="18" r="1.2" />
           <circle cx="26.5" cy="19.8" r="1" />
           <circle cx="37.5" cy="19.8" r="1" />
         </g>
-        {/* Open book */}
         <path
           d="M16 27c5.8-1.8 10.4-1.1 16 2 5.6-3.1 10.2-3.8 16-2v14.5c-5.8-1.7-10.4-1-16 2.1-5.6-3.1-10.2-3.8-16-2.1V27z"
           fill={ink}

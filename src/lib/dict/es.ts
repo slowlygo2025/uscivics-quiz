@@ -274,4 +274,14 @@ export const es: Dictionary = {
   seoDrillsLead:
     "Enfocate en lo más difícil: fechas clave, nombres famosos y oficiales cuyas respuestas cambian con las elecciones — audio gratis en cada pregunta.",
   seoStatesCount: "páginas de estados y DC",
+  questionsSearchLabel: "Buscar preguntas cívicas",
+  questionsSearchSubmit: "Buscar",
+  questionsSearchHint:
+    "Buscá por número de pregunta, palabras clave o respuestas en los bancos de 2008 y 2025.",
+  questionsSearchResults: "Coincidencias",
+  exportProgress: "Exportar progreso",
+  importProgress: "Importar progreso",
+  exportProgressHint: "Guarda un archivo de respaldo para pasar el progreso a otro dispositivo.",
+  importProgressDone: "Progreso importado.",
+  importProgressError: "No se pudo importar ese archivo. Usa una exportación de USCivics Quiz.",
 };

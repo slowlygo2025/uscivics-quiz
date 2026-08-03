@@ -83,7 +83,10 @@ export function organizationJsonLd() {
     email: "contact@uscivics-quiz.com",
     description:
       "Free USCIS naturalization civics and English test practice — 2008 and 2025 question banks.",
-    sameAs: [],
+    sameAs: [
+      "https://github.com/slowlygo2025/uscivics-quiz",
+      "https://uscivics-quiz.vercel.app",
+    ],
   };
 }
 
@@ -96,7 +99,10 @@ export function websiteJsonLd() {
     inLanguage: LOCALES.map((l) => l),
     potentialAction: {
       "@type": "SearchAction",
-      target: `${SITE_URL}/en/questions?q={search_term_string}`,
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/en/questions?q={search_term_string}`,
+      },
       "query-input": "required name=search_term_string",
     },
   };

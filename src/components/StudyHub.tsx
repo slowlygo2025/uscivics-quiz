@@ -29,6 +29,8 @@ import {
   recordGrade,
   recordSimulation,
   summarizeProgress,
+  exportAllProgress,
+  importAllProgress,
   type Grade,
   type VersionProgress,
 } from "@/lib/progress";
@@ -42,6 +44,11 @@ import {
   useUscisUpdatesContext,
 } from "@/components/UscisUpdatesProvider";
 import { TTS_LANG } from "@/lib/locales";
+import {
+  trackStartPractice,
+  trackStudyMode,
+  trackSimEnd,
+} from "@/lib/analytics";
 
 type StudyMode =
   | "flashcards"
@@ -124,6 +131,10 @@ export default function StudyHub({
     setProgress(loadProgress(version));
   }, [ready, version]);
 
+  useEffect(() => {
+    void trackStartPractice(version, senior);
+  }, [version, senior]);
+
   const bankOptions = useMemo(
     () => ({ seniorOnly: senior, category }),
     [senior, category]
@@ -162,13 +173,19 @@ export default function StudyHub({
         saveProgress(version, next);
         return next;
       });
+      void trackSimEnd(passed, version, senior);
     },
-    [version]
+    [version, senior]
   );
 
   function handleReset() {
     if (!window.confirm(dict.resetConfirm)) return;
     resetProgress(version);
+    setProgress(loadProgress(version));
+    setTick((t) => t + 1);
+  }
+
+  function handleProgressImported() {
     setProgress(loadProgress(version));
     setTick((t) => t + 1);
   }
@@ -196,6 +213,7 @@ export default function StudyHub({
         bank={fullBank}
         categories={categories}
         onReset={handleReset}
+        onImported={handleProgressImported}
       />
 
       <ChangingAnswersBanner dict={dict} />
@@ -205,7 +223,14 @@ export default function StudyHub({
         <ZipOfficials dict={dict} />
       </div>
 
-      <ModeTabs dict={dict} mode={mode} onChange={setMode} />
+      <ModeTabs
+        dict={dict}
+        mode={mode}
+        onChange={(next) => {
+          setMode(next);
+          void trackStudyMode(next, version);
+        }}
+      />
 
       {mode !== "simulate" && (
         <CategoryFilters
@@ -308,6 +333,7 @@ function ProgressPanel({
   bank,
   categories,
   onReset,
+  onImported,
 }: {
   dict: Dictionary;
   summary: ReturnType<typeof summarizeProgress>;
@@ -315,11 +341,50 @@ function ProgressPanel({
   bank: CivicsQuestion[];
   categories: string[];
   onReset: () => void;
+  onImported: () => void;
 }) {
+  const fileRef = useRef<HTMLInputElement>(null);
+  const [transferMsg, setTransferMsg] = useState<string | null>(null);
+
   const seenPct =
     summary.total === 0
       ? 0
       : Math.round((summary.seen / summary.total) * 100);
+
+  function handleExport() {
+    const backup = exportAllProgress();
+    const blob = new Blob([JSON.stringify(backup, null, 2)], {
+      type: "application/json",
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    const stamp = new Date().toISOString().slice(0, 10);
+    a.href = url;
+    a.download = `uscivics-progress-${stamp}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    setTransferMsg(null);
+  }
+
+  function handleImportFile(file: File | undefined) {
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const parsed = JSON.parse(String(reader.result));
+        const result = importAllProgress(parsed);
+        if (!result.ok) {
+          setTransferMsg(dict.importProgressError);
+          return;
+        }
+        setTransferMsg(dict.importProgressDone);
+        onImported();
+      } catch {
+        setTransferMsg(dict.importProgressError);
+      }
+    };
+    reader.readAsText(file);
+  }
 
   return (
     <section className="gw-rise gw-rise-delay-1 rounded-2xl border border-line bg-surface/90 p-5 sm:p-6">
@@ -380,6 +445,41 @@ function ProgressPanel({
             );
           })}
         </ul>
+      </div>
+
+      <div className="mt-6 border-t border-line pt-5">
+        <p className="text-xs text-muted">{dict.exportProgressHint}</p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={handleExport}
+            className="rounded-lg border border-line bg-mist/50 px-3 py-1.5 text-xs font-medium text-ink-soft transition-colors hover:border-signal/40 hover:text-ink"
+          >
+            {dict.exportProgress}
+          </button>
+          <button
+            type="button"
+            onClick={() => fileRef.current?.click()}
+            className="rounded-lg border border-line bg-mist/50 px-3 py-1.5 text-xs font-medium text-ink-soft transition-colors hover:border-signal/40 hover:text-ink"
+          >
+            {dict.importProgress}
+          </button>
+          <input
+            ref={fileRef}
+            type="file"
+            accept="application/json,.json"
+            className="hidden"
+            onChange={(e) => {
+              handleImportFile(e.target.files?.[0]);
+              e.target.value = "";
+            }}
+          />
+        </div>
+        {transferMsg ? (
+          <p className="mt-2 text-xs text-ink-soft" role="status">
+            {transferMsg}
+          </p>
+        ) : null}
       </div>
     </section>
   );
@@ -806,7 +906,9 @@ function DrillMode({
   onGrade: (id: number, g: Grade) => void;
 }) {
   const progressRef = useRef(progress);
-  progressRef.current = progress;
+  useEffect(() => {
+    progressRef.current = progress;
+  }, [progress]);
 
   const pick = useCallback(() => {
     if (smart) {

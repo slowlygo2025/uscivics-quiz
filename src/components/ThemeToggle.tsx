@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 
 export const THEME_KEY = "uscivics-theme";
 
@@ -34,6 +34,16 @@ export function setTheme(theme: Theme) {
     // ignore
   }
   applyTheme(theme);
+  window.dispatchEvent(new Event("uscivics-theme"));
+}
+
+function subscribe(onStoreChange: () => void) {
+  window.addEventListener("uscivics-theme", onStoreChange);
+  window.addEventListener("storage", onStoreChange);
+  return () => {
+    window.removeEventListener("uscivics-theme", onStoreChange);
+    window.removeEventListener("storage", onStoreChange);
+  };
 }
 
 /** Inline boot script — keep in sync with getPreferredTheme(). */
@@ -48,20 +58,20 @@ export default function ThemeToggle({
   labelDark: string;
   variant?: "default" | "header";
 }) {
-  const [theme, setThemeState] = useState<Theme>("light");
-  const [ready, setReady] = useState(false);
-
-  useEffect(() => {
-    const initial = getPreferredTheme();
-    setThemeState(initial);
-    applyTheme(initial);
-    setReady(true);
-  }, []);
+  // Server snapshot always "light" so SSR HTML is stable; client reads real theme.
+  const theme = useSyncExternalStore(
+    subscribe,
+    getPreferredTheme,
+    () => "light" as Theme
+  );
+  const ready = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false
+  );
 
   function toggle() {
-    const next: Theme = theme === "dark" ? "light" : "dark";
-    setThemeState(next);
-    setTheme(next);
+    setTheme(theme === "dark" ? "light" : "dark");
   }
 
   const isDark = theme === "dark";
@@ -81,7 +91,9 @@ export default function ThemeToggle({
       title={label}
       suppressHydrationWarning
     >
-      <span className="sr-only">{label}</span>
+      <span className="sr-only" suppressHydrationWarning>
+        {label}
+      </span>
       {!ready ? (
         <span aria-hidden className="h-4 w-4 rounded-full bg-mist" />
       ) : isDark ? (

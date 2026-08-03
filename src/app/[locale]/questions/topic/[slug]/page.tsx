@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale } from "@/lib/locales";
-import { SEO_TOPICS, getTopicBySlug } from "@/lib/seo-topics";
+import { SEO_TOPICS, getTopicBySlug, topicCopy } from "@/lib/seo-topics";
 import { buildPageMetadata } from "@/lib/seo";
 import { QuestionsPageShell } from "@/components/QuestionsPageShell";
 
@@ -22,11 +22,12 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const topic = getTopicBySlug(slug);
   if (!topic) return {};
+  const copy = topicCopy(topic, locale);
   return buildPageMetadata({
     locale: locale as Locale,
     path: `/questions/topic/${slug}`,
-    title: topic.title,
-    description: topic.description,
+    title: copy.title,
+    description: copy.description,
   });
 }
 
@@ -41,12 +42,13 @@ export default async function TopicPage({
   if (!topic) notFound();
   const locale = raw as Locale;
   const dict = getDictionary(locale);
+  const copy = topicCopy(topic, locale);
   return (
     <QuestionsPageShell
       dict={dict}
       locale={locale}
-      title={topic.title}
-      lead={topic.description}
+      title={copy.title}
+      lead={copy.description}
       version={topic.version}
       categoryEn={topic.categoryEn}
       practiceHref={`/${locale}/practice/${topic.version}`}

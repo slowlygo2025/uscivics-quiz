@@ -13,7 +13,7 @@ import { fr } from "./dict/fr";
 
 export type { Dictionary };
 
-export const dictionary: Record<Locale, Partial<Dictionary>> = {
+export const dictionary: Record<Locale, Dictionary> = {
   en,
   es,
   zh,
@@ -28,5 +28,5 @@ export const dictionary: Record<Locale, Partial<Dictionary>> = {
 };
 
 export function getDictionary(locale: Locale): Dictionary {
-  return { ...en, ...dictionary[locale] };
+  return dictionary[locale] ?? en;
 }

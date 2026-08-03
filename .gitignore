@@ -12,6 +12,10 @@
 
 # testing
 /coverage
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
 
 # next.js
 /.next/
@@ -43,3 +47,7 @@ next-env.d.ts
 
 # local question-source downloads (regenerate with scripts/build-questions.mjs)
 /scripts/raw/
+
+# Google service account keys
+/secrets/
+*.json.bak

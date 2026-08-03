@@ -4,11 +4,13 @@ import { notFound } from "next/navigation";
 import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale } from "@/lib/locales";
-import { SEO_TOPICS, SEO_STATE_CODES } from "@/lib/seo-topics";
+import { SEO_TOPICS, SEO_STATE_CODES, topicCopy } from "@/lib/seo-topics";
 import { SEO_DRILLS, drillCopy } from "@/lib/seo-drills";
 import { getStateInfo } from "@/lib/states";
 import { buildPageMetadata, breadcrumbJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
+import QuestionsSearch from "@/components/QuestionsSearch";
+import { getQuestionBank } from "@/lib/questions";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -32,13 +34,19 @@ export async function generateMetadata({
 
 export default async function QuestionsHubPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string }>;
+  searchParams: Promise<{ q?: string }>;
 }) {
   const { locale: raw } = await params;
   if (!isLocale(raw)) notFound();
   const locale = raw as Locale;
   const dict = getDictionary(locale);
+  const { q = "" } = await searchParams;
+  const initialQuery = typeof q === "string" ? q : "";
+  const bank2008 = getQuestionBank("2008", locale);
+  const bank2025 = getQuestionBank("2025", locale);
 
   return (
     <div className="space-y-10">
@@ -56,6 +64,14 @@ export default async function QuestionsHubPage({
           {dict.seoQuestionsHubLead}
         </p>
       </header>
+
+      <QuestionsSearch
+        locale={locale}
+        dict={dict}
+        initialQuery={initialQuery}
+        bank2008={bank2008}
+        bank2025={bank2025}
+      />
 
       <section className="grid gap-3 sm:grid-cols-2">
         <Link href={`/${locale}/questions/all-128`} className="gw-practice-link">
@@ -114,16 +130,19 @@ export default async function QuestionsHubPage({
           {dict.seoTopicsHeading}
         </h2>
         <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-          {SEO_TOPICS.map((t) => (
-            <li key={t.slug}>
-              <Link
-                href={`/${locale}/questions/topic/${t.slug}`}
-                className="block border border-line bg-surface px-4 py-3 font-semibold text-signal underline-offset-2 hover:border-signal hover:underline"
-              >
-                {t.title}
-              </Link>
-            </li>
-          ))}
+          {SEO_TOPICS.map((t) => {
+            const copy = topicCopy(t, locale);
+            return (
+              <li key={t.slug}>
+                <Link
+                  href={`/${locale}/questions/topic/${t.slug}`}
+                  className="block border border-line bg-surface px-4 py-3 font-semibold text-signal underline-offset-2 hover:border-signal hover:underline"
+                >
+                  {copy.title}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </section>
 
