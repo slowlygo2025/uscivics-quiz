@@ -54,8 +54,9 @@ GSC scripts need a Google service account JSON at `secrets/gsc-service-account.j
 |------|----------|------|
 | USCIS officials | `0 6 * * *` | `/api/uscis-updates` |
 | SEO ops | `15 7 * * *` | `/api/cron/seo` — warm + sitemap + Tier1 EN/ES + rotating Tier2 + search pulse |
-| Warm | `0 */6 * * *` | `/api/cron/warm` — money pages only (no Indexing quota) |
+| Warm | `0 19 * * *` | `/api/cron/warm` — second daily warm (Hobby: max 1×/day per job) |
 
+> Note: Vercel Hobby only allows **daily** cron expressions. For sub-daily warm, use an external uptime ping to `/api/monitoring-health` or upgrade to Pro.
 **Vercel env (required for SEO cron):**
 
 | Variable | Purpose |
