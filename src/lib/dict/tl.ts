@@ -284,4 +284,9 @@ export const tl: Dictionary = {
   exportProgressHint: "Mag-save ng backup file para ilipat ang progreso sa ibang device.",
   importProgressDone: "Na-import ang progreso.",
   importProgressError: "Hindi ma-import ang file. Gumamit ng export mula sa USCivics Quiz.",
+  relatedStudyHeading: "Magpatuloy sa pag-aaral",
+  relatedStudyLead: "Lumipat sa mga gabay, listahan ng tanong, at practice ng interview para sa parehong paksa.",
+  relatedLearn: "Mga gabay",
+  relatedQuestions: "Mga listahan ng tanong",
+  relatedPractice: "Practice",
 };

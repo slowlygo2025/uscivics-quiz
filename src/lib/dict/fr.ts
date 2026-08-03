@@ -282,4 +282,9 @@ export const fr: Dictionary = {
   exportProgressHint: "Enregistrez une sauvegarde pour transférer la progression sur un autre appareil.",
   importProgressDone: "Progression importée.",
   importProgressError: "Impossible d'importer ce fichier. Utilisez une exportation USCivics Quiz.",
+  relatedStudyHeading: "Continuer a etudier",
+  relatedStudyLead: "Passez entre guides, listes de questions et pratique d'entretien pour le meme sujet.",
+  relatedLearn: "Guides",
+  relatedQuestions: "Listes de questions",
+  relatedPractice: "Pratique",
 };

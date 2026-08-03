@@ -261,4 +261,9 @@ export const zh: Dictionary = {
   exportProgressHint: "保存备份文件，以便将进度转移到其他设备。",
   importProgressDone: "进度已导入。",
   importProgressError: "无法导入该文件。请使用 USCivics Quiz 导出的文件。",
+  relatedStudyHeading: "继续学习",
+  relatedStudyLead: "在同一主题的指南、题库页面和面试练习之间跳转。",
+  relatedLearn: "指南",
+  relatedQuestions: "题库",
+  relatedPractice: "练习",
 };

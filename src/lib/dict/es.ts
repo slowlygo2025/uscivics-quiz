@@ -235,13 +235,13 @@ export const es: Dictionary = {
   seoQuestionsHubTitle: "Preguntas cívicas USCIS — landings gratis",
   seoQuestionsHubLead:
     "Explorá las 100 y 128 preguntas oficiales por versión, tema, 65/20 o estados principales — con audio gratis.",
-  seoAll128Title: "Las 128 preguntas cívicas USCIS (2025)",
+  seoAll128Title: "Las 128 preguntas cívicas USCIS (2025) — Práctica gratis",
   seoAll128Lead:
     "Lista completa del examen cívico 2025. Escuchá cada pregunta gratis y practicá en modo entrevista.",
-  seoAll100Title: "Las 100 preguntas cívicas USCIS (2008)",
+  seoAll100Title: "Las 100 preguntas cívicas USCIS (2008) — Práctica gratis",
   seoAll100Lead:
     "Lista completa del examen cívico 2008. Para quienes presentaron el N-400 antes del 20 de octubre de 2025.",
-  seoSeniorTitle: "Preguntas especiales 65/20",
+  seoSeniorTitle: "65/20 preguntas cívicas: 20 con estrella (65 años + 20 LPR)",
   seoSeniorLead:
     "Si tenés 65+ y sos residente permanente hace 20+ años, estudiá estas preguntas marcadas. Piden 10; necesitás 6. El civismo puede ser en tu idioma.",
   seoStartPractice: "Abrir práctica interactiva",
@@ -284,4 +284,9 @@ export const es: Dictionary = {
   exportProgressHint: "Guarda un archivo de respaldo para pasar el progreso a otro dispositivo.",
   importProgressDone: "Progreso importado.",
   importProgressError: "No se pudo importar ese archivo. Usa una exportación de USCivics Quiz.",
+  relatedStudyHeading: "Seguí estudiando",
+  relatedStudyLead: "Saltá entre guías, listados de preguntas y práctica de entrevista del mismo tema.",
+  relatedLearn: "Guías",
+  relatedQuestions: "Listas de preguntas",
+  relatedPractice: "Práctica",
 };

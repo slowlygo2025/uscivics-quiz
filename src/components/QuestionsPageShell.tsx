@@ -4,6 +4,7 @@ import type { Dictionary } from "@/lib/dictionary";
 import { getQuestionBank, getEnglishQuestion } from "@/lib/questions";
 import SeoQuestionList from "@/components/SeoQuestionList";
 import JsonLd from "@/components/JsonLd";
+import { RelatedStudyLinksForPath } from "@/components/RelatedStudyLinks";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
 export function buildEnglishMap(
@@ -151,6 +152,9 @@ export function QuestionsPageShell({
           {dict.seoAllLandings}
         </Link>
       </p>
+      {path ? (
+        <RelatedStudyLinksForPath path={path} locale={locale} dict={dict} />
+      ) : null}
     </div>
   );
 }

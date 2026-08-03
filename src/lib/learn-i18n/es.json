@@ -162,24 +162,28 @@
     ]
   },
   "65-20": {
-    "title": "Consideración especial 65/20 — Examen cívico explicado",
-    "description": "Cómo funciona la consideración cívica 65/20: 20 preguntas marcadas con estrella, se hacen 10, 6 para aprobar y examen cívico en el idioma de tu elección.",
+    "title": "Examen cívico 65/20 explicado: 20 preguntas con estrella (65 años + 20 de LPR)",
+    "description": "¿Calificás para 65/20? Estudiá solo 20 preguntas USCIS con estrella — 10 en la entrevista, 6 para aprobar — en el idioma que elijas. Práctica senior gratis 2008 y 2025.",
     "sections": [
       {
-        "heading": "Para quién es",
-        "body": "Los solicitantes de 65 años o más que llevan 20 años o más como residentes permanentes legales pueden calificar para un conjunto especial de preguntas cívicas."
+        "heading": "Quién califica para 65/20",
+        "body": "Podés calificar si tenés 65 años o más y sos residente permanente legal desde hace al menos 20 años al presentar. USCIS decide según tu caso; esta guía explica el estudio, no la aprobación."
       },
       {
-        "heading": "Cómo funciona el examen",
-        "body": "Estudiás 20 preguntas marcadas con estrella de tu versión del examen (2008 o 2025, según la fecha de presentación del N-400). El oficial hace 10; necesitás 6 correctas para aprobar."
+        "heading": "Cómo es la entrevista 65/20",
+        "body": "En lugar del banco completo, estudiás 20 preguntas con estrella de tu versión (2008 o 2025 según la fecha de N-400). El oficial pregunta hasta 10; necesitás 6 correctas."
       },
       {
         "heading": "Idioma de elección",
-        "body": "Con esta consideración, podés rendir el examen cívico en el idioma que elijas. Llevá un intérprete si las reglas vigentes de entrevista lo requieren para tu situación."
+        "body": "Con esta consideración especial, podés hacer el examen cívico en tu idioma preferido. Confirmá reglas de intérprete. Las exenciones de inglés pueden aplicar por separado."
       },
       {
-        "heading": "Practicá el conjunto marcado",
-        "body": "Usá nuestra página de preguntas 65/20 y el modo de práctica para personas mayores para repasar solo las preguntas que importan en este camino — siempre diciendo las respuestas en voz alta."
+        "heading": "Practicá solo el set con estrella",
+        "body": "Abrí nuestra lista senior (65/20) y el modo de práctica para no perder tiempo en preguntas que no te van a hacer. Decí las respuestas en voz alta."
+      },
+      {
+        "heading": "Confirmá 2008 vs 2025 primero",
+        "body": "65/20 usa preguntas con estrella de la versión que marca tu fecha de presentación. Usá la guía N-400 y el flujo de elegibilidad antes de memorizar."
       }
     ]
   },
@@ -294,24 +298,28 @@
     ]
   },
   "n-400-filing-date": {
-    "title": "Fecha de presentación del N-400 y qué examen cívico rendís (2008 vs 2025)",
-    "description": "Cómo la fecha de presentación de tu Formulario N-400 define si rendís el examen cívico 2008 o 2025 de USCIS — y cómo practicar con el banco correcto.",
+    "title": "Fecha de N-400: ¿qué examen cívico te toca — 2008 o 2025?",
+    "description": "La fecha de presentación del Formulario N-400 decide entre 2008 (100 preguntas) y 2025 (128). Conocé el corte del 20 de octubre de 2025 y practicá el banco correcto gratis.",
     "sections": [
       {
-        "heading": "Regla general",
-        "body": "Los solicitantes que presentaron el Formulario N-400 antes del 20 de octubre de 2025 generalmente rinden el examen cívico 2008. Quienes lo presentaron en esa fecha o después generalmente rinden el examen cívico 2025. Siempre confirmá con la orientación vigente de USCIS para tu situación."
+        "heading": "El corte del 20 de octubre de 2025",
+        "body": "Quienes presentaron el N-400 antes del 20 de octubre de 2025 suelen rendir el examen 2008 (100 preguntas, 10, 6 para aprobar). Quienes presentaron ese día o después suelen rendir el 2025 (128, 20, 12). Verificá siempre con USCIS."
       },
       {
-        "heading": "Por qué importa más la fecha de presentación que «la fecha de hoy»",
-        "body": "Mucha gente estudia por defecto la lista más nueva de 128 preguntas. Si tu fecha de presentación te corresponde el examen 2008, deberías practicar el banco de 100 preguntas y la regla de aprobar con 6 de 10."
+        "heading": "La fecha de filing importa más que “hoy”",
+        "body": "Mucha gente empieza la lista de 128 por defecto. Si tu recibo indica 2008, practicá el banco de 100 y la regla 6 de 10."
       },
       {
-        "heading": "Verificá antes de memorizar",
-        "body": "Revisá tu comprobante de presentación, luego usá nuestro flujo gratuito de elegibilidad. Abrí all-100 o all-128 según corresponda. Sumá 65/20 solo si esa consideración aplica en tu caso."
+        "heading": "Cómo verificar y practicar",
+        "body": "Buscá tu evidencia de presentación, usá el flujo de elegibilidad gratis y abrí all-100 o all-128. Sumá 65/20 solo si aplica."
       },
       {
-        "heading": "¿Todavía no estás seguro?",
-        "body": "Este sitio no puede consultar el estado de tu caso en USCIS. Si tu documentación no está clara, consultá a tu abogado o representante acreditado — y luego practicá el banco que te confirmen."
+        "heading": "La simulación debe coincidir con tu versión",
+        "body": "Usá práctica 2008 o 2025 para que las reglas de aprobar/reprobar coincidan. Sumá inglés lectura y escritura si no estás exento."
+      },
+      {
+        "heading": "Si el papeleo no es claro",
+        "body": "Este sitio no consulta el estatus USCIS. Preguntá a tu abogado o representante acreditado y practicá ese banco aquí gratis."
       }
     ]
   },
@@ -466,6 +474,98 @@
       {
         "heading": "Otros estados",
         "body": "Publicamos páginas de estudio para todos los estados y D.C. Elegí tu estado desde el hub de preguntas si no vivís en California."
+      }
+    ]
+  },
+  "dates-names-officials-drills": {
+    "title": "Drills cívicos: fechas, nombres famosos y funcionarios que cambian",
+    "description": "Drills enfocados USCIS para lo más difícil — fechas clave, nombres famosos y funcionarios que cambian. Audio gratis en cada pregunta para 2008 y 2025.",
+    "sections": [
+      {
+        "heading": "Por qué los drills ayudan más",
+        "body": "La mayoría de errores se agrupan en años/números, nombres famosos y funcionarios electos. Drills cortos corrigen eso más rápido que releer toda la lista."
+      },
+      {
+        "heading": "Drill de fechas",
+        "body": "Practicá años de la Constitución, guerras, enmiendas y “cuándo” en voz alta. Abrí el drill de fechas 2025 o 2008 y después simulá la entrevista."
+      },
+      {
+        "heading": "Drill de nombres",
+        "body": "Fundadores, presidentes y líderes de derechos civiles aparecen seguido. Usá el drill de nombres hasta responder sin mirar."
+      },
+      {
+        "heading": "Drill de funcionarios",
+        "body": "Presidente, Vicepresidente, Speaker, Chief Justice, senadores, representante, gobernador y capital pueden cambiar. Repasá la semana de la entrevista."
+      },
+      {
+        "heading": "Siguiente paso",
+        "body": "Elegí tu versión con la guía N-400, hacé los drills y después una simulación completa."
+      }
+    ]
+  },
+  "texas-civics-answers": {
+    "title": "Respuestas cívicas de Texas: capital, gobernador y senadores",
+    "description": "Estudiá respuestas de Texas para el examen de ciudadanía — capital Austin, gobernador actual y cómo hallar senadores y representante por ZIP. Práctica gratis.",
+    "sections": [
+      {
+        "heading": "Capital y gobernador de Texas",
+        "body": "La capital de Texas es Austin. El gobernador puede cambiar; usá la página estatal de Texas y verificá antes de la entrevista."
+      },
+      {
+        "heading": "Senadores y representante",
+        "body": "Texas tiene dos senadores. Tu representante depende del distrito. Ingresá tu ZIP en la práctica."
+      },
+      {
+        "heading": "Combiná con el drill de funcionarios",
+        "body": "También importan los nombres federales. Usá el drill de funcionarios más la página de Texas."
+      },
+      {
+        "heading": "Practicá la entrevista completa",
+        "body": "Confirmá 2008 vs 2025 con tu N-400 y simulá la entrevista oral."
+      }
+    ]
+  },
+  "florida-civics-answers": {
+    "title": "Respuestas cívicas de Florida: capital, gobernador y oficiales",
+    "description": "Respuestas USCIS para Florida — capital Tallahassee, gobernador, senadores y representante por ZIP. Práctica gratis de naturalización.",
+    "sections": [
+      {
+        "heading": "Capital y gobernador de Florida",
+        "body": "La capital es Tallahassee. Confirmá el gobernador en la página estatal de Florida cerca de la entrevista."
+      },
+      {
+        "heading": "Senadores y representante",
+        "body": "Usá la búsqueda por ZIP en la práctica. No memorices listas aleatorias que pueden estar desactualizadas."
+      },
+      {
+        "heading": "Respuestas federales que cambian",
+        "body": "Combiná el estudio local de Florida con el drill de funcionarios federales."
+      },
+      {
+        "heading": "Práctica cívica completa",
+        "body": "Después de los nombres locales, practicá el banco completo de tu versión (2008 o 2025)."
+      }
+    ]
+  },
+  "new-york-civics-answers": {
+    "title": "Respuestas cívicas de Nueva York: capital, gobernador y ZIP",
+    "description": "Preparate para respuestas USCIS de Nueva York — capital Albany, gobernador, senadores y representante. Práctica gratis para la entrevista.",
+    "sections": [
+      {
+        "heading": "Capital y gobernador de Nueva York",
+        "body": "La capital es Albany. Confirmá el gobernador actual en la página estatal de Nueva York."
+      },
+      {
+        "heading": "Distritos NYC vs resto del estado",
+        "body": "Los distritos de la Cámara cambian entre NYC y el resto del estado. El ZIP es la forma más segura de estudiar al representante correcto."
+      },
+      {
+        "heading": "Funcionarios que cambian",
+        "body": "Usá el drill de funcionarios para nombres federales y la página de Nueva York para capital y gobernador."
+      },
+      {
+        "heading": "Práctica lista para la entrevista",
+        "body": "Emparejá 2008 o 2025 con tu fecha N-400 y practicá respuestas en voz alta."
       }
     ]
   }

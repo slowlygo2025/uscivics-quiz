@@ -282,4 +282,9 @@ export const vi: Dictionary = {
   exportProgressHint: "Lưu tệp sao lưu để chuyển tiến độ sang thiết bị khác.",
   importProgressDone: "Đã nhập tiến độ.",
   importProgressError: "Không thể nhập tệp đó. Hãy dùng tệp xuất từ USCivics Quiz.",
+  relatedStudyHeading: "Tiep tuc hoc",
+  relatedStudyLead: "Chuyen giua huong dan, danh sach cau hoi va luyen phong van cung chu de.",
+  relatedLearn: "Huong dan",
+  relatedQuestions: "Danh sach cau hoi",
+  relatedPractice: "Luyen tap",
 };

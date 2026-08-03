@@ -5,8 +5,9 @@ import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale } from "@/lib/locales";
 import { LEARN_POSTS, getLearnPost, learnPostCopy } from "@/lib/learn-posts";
-import { buildPageMetadata, articleJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
+import { RelatedStudyLinksForLearn } from "@/components/RelatedStudyLinks";
+import { buildPageMetadata, articleJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   return LOCALES.flatMap((locale) =>
@@ -101,6 +102,7 @@ export default async function LearnPostPage({
           {dict.seoAll128Title}
         </Link>
       </div>
+      <RelatedStudyLinksForLearn slug={slug} locale={locale} dict={dict} />
     </article>
   );
 }

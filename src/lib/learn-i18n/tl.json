@@ -162,24 +162,28 @@
     ]
   },
   "65-20": {
-    "title": "Espesyal na Konsiderasyon na 65/20 — Ipinaliwanag ang Civics Test",
-    "description": "Paano gumagana ang civics consideration na 65/20: 20 starred questions, 10 ang itatanong, 6 para pumasa, at language of choice para sa civics.",
+    "title": "65/20 Civics Test Explained: 20 Starred Questions (Age 65 + 20 Years LPR)",
+    "description": "Qualify for 65/20? Study only 20 starred USCIS civics questions — 10 asked, 6 to pass — in your language of choice. Free senior practice for 2008 and 2025.",
     "sections": [
       {
-        "heading": "Para kanino ito",
-        "body": "Maaaring kwalipikado ang mga aplikanteng 65 taong gulang pataas at lawful permanent resident na 20 taon o higit pa para sa espesyal na set ng civics questions."
+        "heading": "Who qualifies for 65/20",
+        "body": "You may qualify if you are 65 or older and have been a lawful permanent resident for at least 20 years when you file. USCIS still decides based on your case — this guide explains the study path, not case approval."
       },
       {
-        "heading": "Paano gumagana ang test",
-        "body": "Pag-aaralan mo ang 20 starred questions mula sa bersyon ng test mo (2008 o 2025, batay sa petsa ng paghahain ng N-400). 10 ang itatanong ng opisyal; kailangan ng 6 na tama para pumasa."
+        "heading": "How the 65/20 civics interview works",
+        "body": "Instead of the full bank, you study a starred set of 20 questions from your test version (2008 or 2025, based on N-400 filing date). The officer asks up to 10; you need 6 correct to pass."
       },
       {
-        "heading": "Language of choice",
-        "body": "Sa konsiderasyong ito, maaari mong kunin ang civics test sa wikang pipiliin mo. Magdala ng interpreter kung kinakailangan ng kasalukuyang interview rules para sa iyong sitwasyon."
+        "heading": "Language of choice for civics",
+        "body": "Under this special consideration, you may take the civics test in your preferred language. Confirm interpreter rules for your interview. English reading and writing exemptions may also apply separately — check USCIS guidance."
       },
       {
-        "heading": "I-practice ang starred set",
-        "body": "Gamitin ang aming 65/20 question landing at senior practice mode para drill lang ang mga tanong na mahalaga para sa landas na ito — sabihin pa rin ang mga sagot nang malakas."
+        "heading": "Practice only the starred set",
+        "body": "Open our senior (65/20) question list and practice mode so you do not waste time on questions you will not be asked. Still say answers out loud — the interview is oral."
+      },
+      {
+        "heading": "Confirm 2008 vs 2025 first",
+        "body": "65/20 uses starred questions from whichever civics version your filing date requires. Use the N-400 filing date guide and eligibility flow before you memorize."
       }
     ]
   },
@@ -294,24 +298,28 @@
     ]
   },
   "n-400-filing-date": {
-    "title": "Petsa ng Paghahain ng N-400 at Aling Civics Test ang Kukunin Mo (2008 vs 2025)",
-    "description": "Paano ang petsa ng paghahain ng Form N-400 ang magdedesisyon kung kukunin mo ang 2008 o 2025 USCIS civics test — at paano mag-practice sa tamang bank.",
+    "title": "N-400 Filing Date: Which Civics Test Do You Take — 2008 or 2025?",
+    "description": "Your Form N-400 filing date decides 2008 (100 questions) vs 2025 (128 questions). Learn the October 20, 2025 cutoff and practice the correct free bank.",
     "sections": [
       {
-        "heading": "Pangkalahatang tuntunin",
-        "body": "Ang mga aplikanteng naghain ng Form N-400 bago ang Oktubre 20, 2025 ay karaniwang kumukuha ng 2008 civics test. Ang mga naghain sa petsang iyon o pagkatapos ay karaniwang kumukuha ng 2025 civics test. Laging kumpirmahin laban sa kasalukuyang gabay ng USCIS para sa sitwasyon mo."
+        "heading": "The October 20, 2025 cutoff",
+        "body": "Applicants who filed Form N-400 before October 20, 2025 generally take the 2008 civics test (100 questions, 10 asked, 6 to pass). Applicants who filed on or after that date generally take the 2025 test (128 questions, 20 asked, 12 to pass). Always verify with current USCIS rules for your case."
       },
       {
-        "heading": "Bakit mas mahalaga ang petsa ng paghahain kaysa “petsa ngayon”",
-        "body": "Madalas default na pinag-aaralan ng mga tao ang pinakabagong 128-question list. Kung ang petsa ng paghahain mo ay sa 2008 test, dapat kang mag-practice sa 100-question bank at sa 6-of-10 pass rule."
+        "heading": "Filing date beats “today’s date”",
+        "body": "Many people start the newest 128-question list by default. If your receipt date puts you on 2008, practice the 100-question bank and the 6-of-10 pass rule instead — or you will study the wrong set."
       },
       {
-        "heading": "Suriin bago mag-memorize",
-        "body": "Tingnan ang ebidensya ng paghahain mo, pagkatapos gamitin ang aming libreng eligibility flow. Buksan ang all-100 o all-128 para tumugma. Idagdag ang 65/20 lamang kung naaangkop sa iyo ang konsiderasyong iyon."
+        "heading": "How to check and practice",
+        "body": "Find your filing evidence, run our free eligibility flow, then open all-100 or all-128. Add 65/20 senior practice only if that consideration applies."
       },
       {
-        "heading": "Hindi pa rin sigurado?",
-        "body": "Hindi masusuri ng site na ito ang status ng USCIS case mo. Kung hindi malinaw ang papeles mo, tanungin ang abogado o accredited representative mo — pagkatapos mag-practice sa bank na kumpirmahin nila."
+        "heading": "Interview simulation matches the version",
+        "body": "Use practice for 2008 or 2025 so early-stop pass/fail rules match your interview. Pair with English reading and writing if you are not exempt."
+      },
+      {
+        "heading": "When paperwork is unclear",
+        "body": "This site cannot check USCIS case status. Ask your attorney or accredited representative which civics version applies, then practice that bank here for free."
       }
     ]
   },
@@ -466,6 +474,98 @@
       {
         "heading": "Ibang mga estado",
         "body": "May study pages kami para sa lahat ng estado at D.C. Piliin ang estado mo mula sa questions hub kung hindi ka nakatira sa California."
+      }
+    ]
+  },
+  "dates-names-officials-drills": {
+    "title": "Civics Drills: Dates, Famous Names, and Changing Officials (Free)",
+    "description": "Focused USCIS civics drills for the hardest clusters — key dates, famous names, and officials whose answers change. Free audio on every question for 2008 and 2025.",
+    "sections": [
+      {
+        "heading": "Why drills beat random review",
+        "body": "Most misses cluster in three places: years and numbers, famous names, and officials who change with elections. Short drills fix those faster than rereading the full list."
+      },
+      {
+        "heading": "Dates drill",
+        "body": "Practice Constitution years, wars, amendments, and “when” facts out loud. Open the 2025 or 2008 dates drill landing, then return to interview simulation."
+      },
+      {
+        "heading": "Names drill",
+        "body": "Founders, presidents, and civil rights leaders show up often. Use the names drill until you can answer without peeking — then hear the English wording with free audio."
+      },
+      {
+        "heading": "Officials drill",
+        "body": "President, Vice President, Speaker, Chief Justice, senators, representative, governor, and capital can change. Drill the officials set and recheck the week of your interview."
+      },
+      {
+        "heading": "Next step",
+        "body": "Pick your test version with the N-400 filing date guide, run the matching drills, then practice a full simulation."
+      }
+    ]
+  },
+  "texas-civics-answers": {
+    "title": "Texas Civics Test Answers: Capital, Governor, Senators (USCIS)",
+    "description": "Study Texas answers for the U.S. citizenship civics test — capital Austin, current governor, and how to find your senators and representative by ZIP. Free practice.",
+    "sections": [
+      {
+        "heading": "Texas capital and governor",
+        "body": "For USCIS civics, Texas’s capital is Austin. The governor’s name can change with elections — use our Texas state study page and verify again before interview day."
+      },
+      {
+        "heading": "Senators and your representative",
+        "body": "Texas has two U.S. senators for the whole state. Your House representative depends on your district. Enter your ZIP in practice to study the right names."
+      },
+      {
+        "heading": "Pair with the officials drill",
+        "body": "Federal names (President, Vice President, Speaker, Chief Justice) matter too. Use the officials drill plus your Texas state page so changing answers stay fresh."
+      },
+      {
+        "heading": "Practice the full interview",
+        "body": "Confirm 2008 vs 2025 with your N-400 filing date, then run interview simulation. Local officials are only part of the oral test."
+      }
+    ]
+  },
+  "florida-civics-answers": {
+    "title": "Florida Civics Test Answers: Capital, Governor, Local Officials",
+    "description": "USCIS civics answers for Florida — capital Tallahassee, governor, senators, and House representative by ZIP. Free naturalization practice.",
+    "sections": [
+      {
+        "heading": "Florida capital and governor",
+        "body": "Florida’s capital is Tallahassee. Study the current governor on our Florida state page and recheck close to your interview — elections can change the name."
+      },
+      {
+        "heading": "Senators and representative",
+        "body": "Use ZIP lookup in practice for your U.S. senators and representative. Do not memorize a random online list that might be outdated for your district."
+      },
+      {
+        "heading": "Changing federal answers",
+        "body": "Combine Florida local study with the officials drill for President, Vice President, Speaker, and Chief Justice."
+      },
+      {
+        "heading": "Full civics practice",
+        "body": "After local names, practice the full bank for your filing-date version (2008 or 2025) with free audio and simulation."
+      }
+    ]
+  },
+  "new-york-civics-answers": {
+    "title": "New York Civics Test Answers: Capital, Governor, and ZIP Officials",
+    "description": "Prepare New York USCIS civics answers — capital Albany, governor, senators, and your representative. Free citizenship interview practice.",
+    "sections": [
+      {
+        "heading": "New York capital and governor",
+        "body": "New York’s capital is Albany. Confirm the current governor on our New York state study page before interview day."
+      },
+      {
+        "heading": "NYC vs upstate districts",
+        "body": "House districts differ across New York City and the rest of the state. ZIP lookup is the safest way to study the correct representative."
+      },
+      {
+        "heading": "Officials who change",
+        "body": "Use the officials drill for federal names and the New York state page for capital and governor. Recheck the week of your appointment."
+      },
+      {
+        "heading": "Interview-ready practice",
+        "body": "Match 2008 or 2025 to your N-400 filing date, then practice oral answers out loud — not only silent reading."
       }
     ]
   }

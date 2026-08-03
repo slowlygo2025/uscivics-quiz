@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Locale, TestVersion } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import StudyHub from "@/components/StudyHub";
+import { RelatedStudyLinksForPath } from "@/components/RelatedStudyLinks";
 import { buildPageMetadata } from "@/lib/seo";
 import { isLocale } from "@/lib/locales";
 
@@ -20,14 +21,19 @@ export async function generateMetadata({
   const { locale, version } = await params;
   if (!isLocale(locale) || !VERSIONS.includes(version as TestVersion)) return {};
   const dict = getDictionary(locale as Locale);
-  const title = version === "2025" ? dict.practice2025 : dict.practice2008;
+  const title =
+    version === "2025"
+      ? `${dict.practice2025} — Free USCIS Interview Simulation`
+      : `${dict.practice2008} — Free USCIS Interview Simulation`;
   const description =
-    version === "2025" ? dict.practice2025Meta : dict.practice2008Meta;
+    version === "2025"
+      ? `${dict.practice2025Meta}. Free flashcards, smart review, oral practice, and early-stop interview simulation for the 2025 civics test.`
+      : `${dict.practice2008Meta}. Free flashcards, smart review, oral practice, and early-stop interview simulation for the 2008 civics test.`;
   return buildPageMetadata({
     locale: locale as Locale,
     path: `/practice/${version}`,
     title,
-    description: `${title} — ${description}`,
+    description,
   });
 }
 
@@ -38,15 +44,24 @@ export default async function PracticePage({
   params: Promise<{ locale: string; version: string }>;
   searchParams: Promise<{ senior?: string }>;
 }) {
-  const { locale, version } = await params;
+  const { locale: raw, version } = await params;
   const { senior } = await searchParams;
-  if (!VERSIONS.includes(version as TestVersion)) notFound();
+  if (!isLocale(raw) || !VERSIONS.includes(version as TestVersion)) notFound();
+  const locale = raw as Locale;
+  const dict = getDictionary(locale);
 
   return (
-    <StudyHub
-      locale={locale as Locale}
-      version={version as TestVersion}
-      senior={senior === "1"}
-    />
+    <div className="space-y-8">
+      <StudyHub
+        locale={locale}
+        version={version as TestVersion}
+        senior={senior === "1"}
+      />
+      <RelatedStudyLinksForPath
+        path={`/practice/${version}`}
+        locale={locale}
+        dict={dict}
+      />
+    </div>
   );
 }

@@ -276,4 +276,9 @@ export const ko: Dictionary = {
   exportProgressHint: "다른 기기로 진행 상황을 옮기려면 백업 파일을 저장하세요.",
   importProgressDone: "진행 상황을 가져왔습니다.",
   importProgressError: "파일을 가져올 수 없습니다. USCivics Quiz 내보내기 파일을 사용하세요.",
+  relatedStudyHeading: "계속 공부하기",
+  relatedStudyLead: "같은 주제의 가이드, 문제 목록, 면접 연습으로 이동하세요.",
+  relatedLearn: "가이드",
+  relatedQuestions: "문제 목록",
+  relatedPractice: "연습",
 };

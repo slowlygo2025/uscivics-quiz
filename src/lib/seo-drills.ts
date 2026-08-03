@@ -20,7 +20,7 @@ export const SEO_DRILLS: DrillDef[] = [
     version: "2025",
     ids: [79, 82, 98, 102, 104, 115, 116, 125, 126, 127, 128],
     title: {
-      en: "All Key Dates — 2025 Civics Test",
+      en: "Key Dates Drill — 2025 Civics Test (Free Practice)",
       es: "Todas las fechas clave — Examen cívico 2025",
       zh: "所有关键日期 — 2025年公民考试",
       vi: "Tất cả các ngày quan trọng — Bài thi công dân 2025",
@@ -64,7 +64,7 @@ export const SEO_DRILLS: DrillDef[] = [
     version: "2025",
     ids: [74, 78, 85, 86, 87, 88, 89, 94, 99, 105, 107, 108, 113],
     title: {
-      en: "All Key Names — 2025 Civics Test",
+      en: "Famous Names Drill — 2025 Civics Test (Free Practice)",
       es: "Todos los nombres clave — Examen cívico 2025",
       zh: "所有关键人名 — 2025年公民考试",
       vi: "Tất cả các tên quan trọng — Bài thi công dân 2025",
@@ -108,7 +108,7 @@ export const SEO_DRILLS: DrillDef[] = [
     version: "2025",
     ids: [23, 29, 30, 38, 39, 57, 61, 62],
     title: {
-      en: "Current Officials — Answers That Change (2025)",
+      en: "Changing Officials Drill — 2025 Civics (Free Practice)",
       es: "Oficiales actuales — Respuestas que cambian (2025)",
       zh: "现任官员 — 会变化的答案（2025）",
       vi: "Các quan chức hiện tại — Câu trả lời có thể thay đổi (2025)",
@@ -152,7 +152,7 @@ export const SEO_DRILLS: DrillDef[] = [
     version: "2008",
     ids: [56, 57, 63, 66, 86, 99, 100],
     title: {
-      en: "All Key Dates — 2008 Civics Test",
+      en: "Key Dates Drill — 2008 Civics Test (Free Practice)",
       es: "Todas las fechas clave — Examen cívico 2008",
       zh: "所有关键日期 — 2008年公民考试",
       vi: "Tất cả các ngày quan trọng — Bài thi công dân 2008",
@@ -196,7 +196,7 @@ export const SEO_DRILLS: DrillDef[] = [
     version: "2008",
     ids: [58, 59, 61, 62, 68, 69, 70, 75, 77, 79, 80, 85],
     title: {
-      en: "All Key Names — 2008 Civics Test",
+      en: "Famous Names Drill — 2008 Civics Test (Free Practice)",
       es: "Todos los nombres clave — Examen cívico 2008",
       zh: "所有关键人名 — 2008年公民考试",
       vi: "Tất cả các tên quan trọng — Bài thi công dân 2008",
@@ -240,7 +240,7 @@ export const SEO_DRILLS: DrillDef[] = [
     version: "2008",
     ids: [20, 23, 28, 29, 40, 43, 44, 46, 47],
     title: {
-      en: "Current Officials — Answers That Change (2008)",
+      en: "Changing Officials Drill — 2008 Civics (Free Practice)",
       es: "Oficiales actuales — Respuestas que cambian (2008)",
       zh: "现任官员 — 会变化的答案（2008）",
       vi: "Các quan chức hiện tại — Câu trả lời có thể thay đổi (2008)",

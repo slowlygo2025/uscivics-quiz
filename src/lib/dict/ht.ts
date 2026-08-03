@@ -278,4 +278,9 @@ export const ht: Dictionary = {
   exportProgressHint: "Sove yon fichye backup pou deplase pwogre a sou yon lòt aparèy.",
   importProgressDone: "Pwogre enpote.",
   importProgressError: "Pa t kapab enpote fichye sa a. Itilize yon ekspòtasyon USCivics Quiz.",
+  relatedStudyHeading: "Kontinye etidye",
+  relatedStudyLead: "Sote ant gid, lis kesyon, ak pratik entèvyou pou menm sijè a.",
+  relatedLearn: "Gid",
+  relatedQuestions: "Lis kesyon",
+  relatedPractice: "Pratik",
 };

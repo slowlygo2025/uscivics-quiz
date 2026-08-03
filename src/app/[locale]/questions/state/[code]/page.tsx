@@ -6,8 +6,9 @@ import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale } from "@/lib/locales";
 import { SEO_STATE_CODES, isSeoStateCode } from "@/lib/seo-topics";
 import { getStateInfo, STATES } from "@/lib/states";
-import { buildPageMetadata, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
+import { RelatedStudyLinksForPath } from "@/components/RelatedStudyLinks";
+import { buildPageMetadata, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   return LOCALES.flatMap((locale) =>
@@ -28,12 +29,12 @@ export async function generateMetadata({
   const st = getStateInfo(code.toUpperCase())!;
   const title =
     locale === "es"
-      ? `Práctica cívica ${st.name} — Capital y gobernador`
-      : `${st.name} Civics Test Practice — Capital & Governor`;
+      ? `${st.name}: capital y gobernador para el examen cívico USCIS`
+      : `${st.name} Civics Test Answers: Capital ${st.capital}, Governor & ZIP Officials`;
   const description =
     locale === "es"
-      ? `Estudiá respuestas que cambian del examen USCIS para ${st.name}: capital ${st.capital}, gobernador ${st.governor}. Práctica gratis para la entrevista de naturalización.`
-      : `Study changing USCIS civics answers for ${st.name}: capital ${st.capital}, governor ${st.governor}. Free practice for the naturalization interview.`;
+      ? `Estudiá respuestas USCIS para ${st.name}: capital ${st.capital}, gobernador ${st.governor}, senadores y representante por ZIP. Práctica gratis para la entrevista de naturalización.`
+      : `Study USCIS civics answers for ${st.name} — capital ${st.capital}, governor ${st.governor}, senators, and your House representative by ZIP. Free naturalization interview practice.`;
   return buildPageMetadata({
     locale: locale as Locale,
     path: `/questions/state/${code.toLowerCase()}`,
@@ -175,6 +176,12 @@ export default async function StatePage({
             })}
         </ul>
       </section>
+
+      <RelatedStudyLinksForPath
+        path={`/questions/state/${code.toLowerCase()}`}
+        locale={locale}
+        dict={dict}
+      />
     </div>
   );
 }

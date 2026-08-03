@@ -272,4 +272,9 @@ export const ar: Dictionary = {
   exportProgressHint: "احفظ ملف نسخ احتياطي لنقل التقدم إلى جهاز آخر.",
   importProgressDone: "تم استيراد التقدم.",
   importProgressError: "تعذر استيراد هذا الملف. استخدم ملف تصدير من USCivics Quiz.",
+  relatedStudyHeading: "تابع الدراسة",
+  relatedStudyLead: "انتقل بين الأدلة وقوائم الأسئلة وممارسة المقابلة لنفس الموضوع.",
+  relatedLearn: "أدلة",
+  relatedQuestions: "قوائم الأسئلة",
+  relatedPractice: "تمرين",
 };

@@ -16,6 +16,8 @@
     "gsc:tier": "npx --yes tsx scripts/gsc-index-tier.mjs",
     "gsc:rotate": "npx --yes tsx scripts/gsc-rotate-key.mjs",
     "gsc:install-key": "npx --yes tsx scripts/gsc-install-new-key.mjs",
+    "gsc:insights": "node scripts/gsc-search-insights.mjs",
+    "learn:sync": "node scripts/sync-learn-content.mjs",
     "sentry:push-env": "node scripts/sentry-push-env.mjs"
   },
   "dependencies": {

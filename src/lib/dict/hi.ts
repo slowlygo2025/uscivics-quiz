@@ -277,4 +277,9 @@ export const hi: Dictionary = {
   exportProgressHint: "दूसरे डिवाइस पर प्रगति ले जाने के लिए बैकअप फ़ाइल सहेजें।",
   importProgressDone: "प्रगति आयात हो गई।",
   importProgressError: "फ़ाइल आयात नहीं हो सकी। USCivics Quiz निर्यात फ़ाइल उपयोग करें।",
+  relatedStudyHeading: "पढ़ाई जारी रखें",
+  relatedStudyLead: "एक ही विषय के गाइड, प्रश्न सूचियों और इंटरव्यू प्रैक्टिस के बीच जाएँ।",
+  relatedLearn: "गाइड",
+  relatedQuestions: "प्रश्न सूचियाँ",
+  relatedPractice: "प्रैक्टिस",
 };

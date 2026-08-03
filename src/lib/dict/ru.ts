@@ -278,4 +278,9 @@ export const ru: Dictionary = {
   exportProgressHint: "Сохраните резервную копию, чтобы перенести прогресс на другое устройство.",
   importProgressDone: "Прогресс импортирован.",
   importProgressError: "Не удалось импортировать файл. Используйте экспорт USCivics Quiz.",
+  relatedStudyHeading: "Продолжайте учиться",
+  relatedStudyLead: "Переходите между гайдами, списками вопросов и практикой собеседования по одной теме.",
+  relatedLearn: "Гайды",
+  relatedQuestions: "Списки вопросов",
+  relatedPractice: "Практика",
 };
