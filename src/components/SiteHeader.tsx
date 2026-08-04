@@ -44,7 +44,7 @@ export default function SiteHeader({
           <BrandLogo
             title={dict.brand}
             subtitle={dict.logoSubtitle}
-            variant="onLight"
+            variant="auto"
             size="sm"
           />
         </Link>

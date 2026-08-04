@@ -185,11 +185,17 @@ html.dark .gw-shell::before {
   color: var(--ink);
 }
 
-/* Trust disclosure — always light (readable; not a fake dark .gov bar). */
+/* Trust disclosure — light by default; themed dark variant (high contrast, not a fake .gov bar). */
 .gw-gov-banner {
   border-bottom: 1px solid #dfe1e2;
   background: #f0f0f0;
   color: #1b1b1b;
+}
+
+html.dark .gw-gov-banner {
+  border-bottom-color: #2a3748;
+  background: #101820;
+  color: #f0f0f0;
 }
 
 .gw-gov-banner__inner {
@@ -214,6 +220,11 @@ html.dark .gw-shell::before {
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
 }
 
+html.dark .gw-gov-banner__flag {
+  border-color: rgba(255, 255, 255, 0.28);
+  box-shadow: none;
+}
+
 .gw-gov-banner__lead {
   margin: 0;
   font-size: 0.8125rem;
@@ -234,9 +245,19 @@ html.dark .gw-shell::before {
   vertical-align: 0.05em;
 }
 
+html.dark .gw-gov-banner__badge {
+  border-color: #73b3e7;
+  color: #9dc6ea;
+  background: color-mix(in srgb, #73b3e7 12%, transparent);
+}
+
 .gw-gov-banner__text {
   font-weight: 600;
   color: #1b1b1b;
+}
+
+html.dark .gw-gov-banner__text {
+  color: #f0f0f0;
 }
 
 .gw-gov-banner__toggle {
@@ -256,6 +277,14 @@ html.dark .gw-shell::before {
 
 .gw-gov-banner__toggle:hover {
   color: #003a5d;
+}
+
+html.dark .gw-gov-banner__toggle {
+  color: #9dc6ea;
+}
+
+html.dark .gw-gov-banner__toggle:hover {
+  color: #c5ddf2;
 }
 
 .gw-gov-banner__chevron {
@@ -280,6 +309,10 @@ html.dark .gw-shell::before {
   padding-top: 0.65rem;
 }
 
+html.dark .gw-gov-banner__panel {
+  border-top-color: #2a3748;
+}
+
 @media (min-width: 640px) {
   .gw-gov-banner__panel {
     grid-template-columns: 1fr 1fr;
@@ -294,11 +327,19 @@ html.dark .gw-shell::before {
   color: #1b1b1b;
 }
 
+html.dark .gw-gov-banner__card-title {
+  color: #f0f0f0;
+}
+
 .gw-gov-banner__card-body {
   margin: 0.25rem 0 0;
   font-size: 0.8125rem;
   line-height: 1.45;
   color: #565c65;
+}
+
+html.dark .gw-gov-banner__card-body {
+  color: #a9aeb4;
 }
 
 @keyframes gw-rise {

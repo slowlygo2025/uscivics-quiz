@@ -44,7 +44,7 @@ export default async function LocaleLayout({
             <BrandLogo
               title={dict.brand}
               subtitle={dict.logoSubtitle}
-              variant="onLight"
+              variant="auto"
               size="md"
             />
           </div>

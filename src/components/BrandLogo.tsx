@@ -1,18 +1,35 @@
 "use client";
 
-import { useId } from "react";
+import { useId, useSyncExternalStore } from "react";
+import {
+  getPreferredTheme,
+  type Theme,
+} from "@/components/ThemeToggle";
 
 type BrandLogoProps = {
   /** Visible brand name (localized). */
   title: string;
   /** Optional second line under the mark. */
   subtitle?: string;
-  /** Color scheme for header (dark blue) vs paper backgrounds. */
-  variant?: "onDark" | "onLight";
+  /**
+   * onDark = white lockup (hero).
+   * onLight = blue lockup (light surfaces).
+   * auto = follows theme for header/footer that invert with dark mode.
+   */
+  variant?: "onDark" | "onLight" | "auto";
   /** Compact header lockup vs larger hero. */
   size?: "sm" | "md" | "lg";
   className?: string;
 };
+
+function subscribeTheme(onStoreChange: () => void) {
+  window.addEventListener("uscivics-theme", onStoreChange);
+  window.addEventListener("storage", onStoreChange);
+  return () => {
+    window.removeEventListener("uscivics-theme", onStoreChange);
+    window.removeEventListener("storage", onStoreChange);
+  };
+}
 
 /**
  * Original seal + wordmark for USCivics Quiz.
@@ -26,7 +43,18 @@ export default function BrandLogo({
   className = "",
 }: BrandLogoProps) {
   const uid = useId().replace(/:/g, "");
-  const onDark = variant === "onDark";
+  const theme = useSyncExternalStore(
+    subscribeTheme,
+    getPreferredTheme,
+    () => "light" as Theme
+  );
+  const resolved =
+    variant === "auto"
+      ? theme === "dark"
+        ? "onDark"
+        : "onLight"
+      : variant;
+  const onDark = resolved === "onDark";
   const ink = onDark ? "#ffffff" : "#005288";
   const muted = onDark ? "rgba(255,255,255,0.72)" : "#5a5b5d";
   const sealStroke = onDark ? "#c0c2c4" : "#8a8d91";
