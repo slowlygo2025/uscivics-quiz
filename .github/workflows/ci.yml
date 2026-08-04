@@ -34,6 +34,9 @@ jobs:
       - name: i18n integrity
         run: npm run check:i18n
 
+      - name: Firestore rules sanity
+        run: npm run check:firestore-rules
+
       - name: Production build
         run: npm run build
         env:
