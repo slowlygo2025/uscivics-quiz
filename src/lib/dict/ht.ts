@@ -4,8 +4,14 @@ export const ht: Dictionary = {
   brand: "USCivics Quiz",
   logoSubtitle: "Pratik sivik",
   siteName: "USCivics Quiz",
-  tagline: "Aplikasyon gratis pou pratike civics USCIS — konnen dat depoze N-400 ou (2008 vs 2025), epi kòmanse an kèk segonn. Pa gen enskripsyon.",
-  heroSupport: "Bank kesyon ofisyèl ak odyo, flashcards, ak simulasyon entèvyou — nan plis pase 10 lang.",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — Pratik sivik USCIS gratis",
+  homeMetaDescription:
+    "USCivics Quiz sou uscivics-quiz.com — pratik sivik USCIS gratis. Kesyon ofisyèl 2008 ak 2025, odyo, flashcards, simulasyon entèvyou. Pa gen enskripsyon.",
+  tagline:
+    "USCivics Quiz — pratik sivik USCIS gratis. Konnen dat depoze N-400 ou (2008 vs 2025), epi kòmanse an kèk segonn. Pa gen enskripsyon.",
+  heroSupport:
+    "Pratike sou uscivics-quiz.com ak bank kesyon ofisyèl la — odyo, flashcards, ak simulasyon entèvyou nan plis pase 10 lang.",
   startEligibility: "Jwenn vèsyon mwen",
   practiceHeading: "Kòmanse pratike",
   practiceCta: "Louvri pratik la",

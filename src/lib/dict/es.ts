@@ -4,10 +4,14 @@ export const es: Dictionary = {
   brand: "USCivics Quiz",
   logoSubtitle: "Práctica cívica",
   siteName: "USCivics Quiz",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — Práctica cívica USCIS gratis",
+  homeMetaDescription:
+    "USCivics Quiz en uscivics-quiz.com — práctica gratuita de civismo USCIS. Preguntas oficiales 2008 y 2025, audio, flashcards y simulación de entrevista. Sin registro.",
   tagline:
-    "App gratuita de práctica cívica USCIS — sabé tu fecha de N-400 (2008 vs 2025) y empezá en segundos. Sin registro.",
+    "USCivics Quiz — práctica cívica USCIS gratis. Sabé tu fecha de N-400 (2008 vs 2025) y empezá en segundos. Sin registro.",
   heroSupport:
-    "Banco oficial con audio, flashcards y simulación de entrevista — en más de 10 idiomas.",
+    "Practicá en uscivics-quiz.com con el banco oficial — audio, flashcards y simulación de entrevista en más de 10 idiomas.",
   startEligibility: "Descubrir mi versión",
   practiceHeading: "Empezar a practicar",
   practiceCta: "Abrir práctica",

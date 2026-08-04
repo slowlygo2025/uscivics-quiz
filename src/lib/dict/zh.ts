@@ -4,8 +4,14 @@ export const zh: Dictionary = {
   brand: "USCivics Quiz",
   logoSubtitle: "公民测验练习",
   siteName: "USCivics Quiz",
-  tagline: "免费 USCIS 公民测验练习应用 — 先确认 N-400 递交日期（2008 或 2025），几秒即可开始。无需注册。",
-  heroSupport: "官方题库含音频、闪卡与真实面试模拟 — 支持 10+ 种语言。",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — 免费 USCIS 公民测验练习",
+  homeMetaDescription:
+    "USCivics Quiz（uscivics-quiz.com）— 免费 USCIS 入籍公民测验练习。官方 2008 与 2025 题库、音频、闪卡与面试模拟。无需注册。",
+  tagline:
+    "USCivics Quiz — 免费 USCIS 公民测验练习。先确认 N-400 递交日期（2008 或 2025），几秒即可开始。无需注册。",
+  heroSupport:
+    "在 uscivics-quiz.com 练习官方题库 — 含音频、闪卡与真实面试模拟，支持 10+ 种语言。",
   startEligibility: "查找我的考试版本",
   practiceHeading: "开始练习",
   practiceCta: "打开练习",

@@ -4,8 +4,14 @@ export const ko: Dictionary = {
   brand: "USCivics Quiz",
   logoSubtitle: "시민권 연습",
   siteName: "USCivics Quiz",
-  tagline: "무료 USCIS 시민권 연습 앱 — N-400 제출일(2008 vs 2025)을 확인한 뒤 몇 초 만에 시작. 가입 없음.",
-  heroSupport: "공식 문제은행 + 오디오, 플래시카드, 면접 시뮬레이션 — 10개 이상 언어.",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — 무료 USCIS 시민권 연습",
+  homeMetaDescription:
+    "USCivics Quiz (uscivics-quiz.com) — 무료 USCIS 시민권 연습. 공식 2008·2025 문제, 오디오, 플래시카드, 면접 시뮬레이션. 가입 없음.",
+  tagline:
+    "USCivics Quiz — 무료 USCIS 시민권 연습. N-400 제출일(2008 vs 2025)을 확인한 뒤 몇 초 만에 시작. 가입 없음.",
+  heroSupport:
+    "uscivics-quiz.com에서 공식 문제은행으로 연습 — 오디오, 플래시카드, 면접 시뮬레이션, 10개 이상 언어.",
   startEligibility: "내 시험 버전 찾기",
   practiceHeading: "연습 시작하기",
   practiceCta: "연습 열기",

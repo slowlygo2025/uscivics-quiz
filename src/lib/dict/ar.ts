@@ -4,8 +4,14 @@ export const ar: Dictionary = {
   brand: "USCivics Quiz",
   logoSubtitle: "تدريب المواطنة",
   siteName: "USCivics Quiz",
-  tagline: "تطبيق مجاني لتدريب اختبار المواطنة USCIS — اعرف تاريخ تقديم N-400 (2008 مقابل 2025) ثم ابدأ في ثوانٍ. بلا تسجيل.",
-  heroSupport: "بنك أسئلة رسمي مع صوت وبطاقات ومحاكاة مقابلة — بأكثر من 10 لغات.",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — تدريب مجاني لاختبار المواطنة USCIS",
+  homeMetaDescription:
+    "USCivics Quiz على uscivics-quiz.com — تدريب مجاني لاختبار المواطنة USCIS. أسئلة رسمية 2008 و2025، صوت، بطاقات، ومحاكاة مقابلة. بلا تسجيل.",
+  tagline:
+    "USCivics Quiz — تدريب مجاني لاختبار المواطنة USCIS. اعرف تاريخ تقديم N-400 (2008 مقابل 2025) ثم ابدأ في ثوانٍ. بلا تسجيل.",
+  heroSupport:
+    "تدرّب على uscivics-quiz.com مع البنك الرسمي — صوت وبطاقات ومحاكاة مقابلة بأكثر من 10 لغات.",
   startEligibility: "اعرف نسختي",
   practiceHeading: "ابدأ التمرين",
   practiceCta: "فتح التمرين",

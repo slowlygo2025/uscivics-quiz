@@ -84,16 +84,24 @@ export function buildPageMetadata({
   };
 }
 
+const BRAND_ALTERNATE_NAMES = [
+  "uscivics-quiz",
+  "uscivics quiz",
+  "US Civics Quiz",
+  "uscivics-quiz.com",
+];
+
 export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: SITE_NAME,
+    alternateName: BRAND_ALTERNATE_NAMES,
     url: SITE_URL,
     logo: `${SITE_URL}/brand-seal.svg`,
     email: "contact@uscivics-quiz.com",
     description:
-      "Free USCIS naturalization civics and English test practice — 2008 and 2025 question banks.",
+      "USCivics Quiz (uscivics-quiz.com) — free USCIS naturalization civics and English test practice — 2008 and 2025 question banks.",
     sameAs: [
       "https://github.com/slowlygo2025/uscivics-quiz",
       "https://uscivics-quiz.vercel.app",
@@ -106,6 +114,7 @@ export function websiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
+    alternateName: BRAND_ALTERNATE_NAMES,
     url: SITE_URL,
     inLanguage: LOCALES.map((l) => l),
     potentialAction: {

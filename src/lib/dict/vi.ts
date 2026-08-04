@@ -4,8 +4,14 @@ export const vi: Dictionary = {
   brand: "USCivics Quiz",
   logoSubtitle: "Luyện thi công dân",
   siteName: "USCivics Quiz",
-  tagline: "Ứng dụng luyện thi công dân USCIS miễn phí — biết ngày nộp N-400 (2008 vs 2025), bắt đầu trong vài giây. Không đăng ký.",
-  heroSupport: "Ngân hàng câu hỏi chính thức với audio, flashcard và mô phỏng phỏng vấn — hơn 10 ngôn ngữ.",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — Luyện thi công dân USCIS miễn phí",
+  homeMetaDescription:
+    "USCivics Quiz tại uscivics-quiz.com — luyện thi công dân USCIS miễn phí. Câu hỏi chính thức 2008 & 2025, audio, flashcard, mô phỏng phỏng vấn. Không đăng ký.",
+  tagline:
+    "USCivics Quiz — luyện thi công dân USCIS miễn phí. Biết ngày nộp N-400 (2008 vs 2025), bắt đầu trong vài giây. Không đăng ký.",
+  heroSupport:
+    "Luyện trên uscivics-quiz.com với ngân hàng câu hỏi chính thức — audio, flashcard và mô phỏng phỏng vấn, hơn 10 ngôn ngữ.",
   startEligibility: "Tìm phiên bản của tôi",
   practiceHeading: "Bắt đầu luyện tập",
   practiceCta: "Mở phần luyện tập",

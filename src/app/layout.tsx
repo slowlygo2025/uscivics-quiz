@@ -52,6 +52,10 @@ export const metadata: Metadata = {
     statusBarStyle: "default",
   },
   keywords: [
+    "USCivics Quiz",
+    "uscivics quiz",
+    "uscivics-quiz",
+    "uscivics-quiz.com",
     "US citizenship test",
     "US civics quiz",
     "civics test practice",

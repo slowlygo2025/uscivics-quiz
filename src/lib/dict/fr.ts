@@ -4,8 +4,14 @@ export const fr: Dictionary = {
   brand: "USCivics Quiz",
   logoSubtitle: "Pratique civique",
   siteName: "USCivics Quiz",
-  tagline: "Application gratuite de pratique civique USCIS — connaissez votre date de dépôt N-400 (2008 vs 2025), puis commencez en quelques secondes. Sans inscription.",
-  heroSupport: "Banque officielle avec audio, flashcards et simulation d'entretien — en plus de 10 langues.",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — Pratique civique USCIS gratuite",
+  homeMetaDescription:
+    "USCivics Quiz sur uscivics-quiz.com — pratique gratuite du test civique USCIS. Questions officielles 2008 et 2025, audio, flashcards, simulation d'entretien. Sans inscription.",
+  tagline:
+    "USCivics Quiz — pratique civique USCIS gratuite. Connaissez votre date de dépôt N-400 (2008 vs 2025), puis commencez en quelques secondes. Sans inscription.",
+  heroSupport:
+    "Entraînez-vous sur uscivics-quiz.com avec la banque officielle — audio, flashcards et simulation d'entretien en plus de 10 langues.",
   startEligibility: "Trouver ma version",
   practiceHeading: "Commencer la pratique",
   practiceCta: "Ouvrir la pratique",

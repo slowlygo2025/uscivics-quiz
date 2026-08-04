@@ -4,8 +4,14 @@ export const hi: Dictionary = {
   brand: "USCivics Quiz",
   logoSubtitle: "नागरिक अभ्यास",
   siteName: "USCivics Quiz",
-  tagline: "मुफ़्त USCIS नागरिक अभ्यास ऐप — अपना N-400 दाखिल करने की तारीख जानें (2008 बनाम 2025), फिर सेकंडों में शुरू करें। साइन-अप नहीं।",
-  heroSupport: "आधिकारिक प्रश्न बैंक ऑडियो, फ्लैशकार्ड और इंटरव्यू सिमुलेशन के साथ — 10+ भाषाएँ।",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — मुफ़्त USCIS नागरिक अभ्यास",
+  homeMetaDescription:
+    "USCivics Quiz (uscivics-quiz.com) — मुफ़्त USCIS नागरिकता नागरिक अभ्यास। आधिकारिक 2008 और 2025 प्रश्न, ऑडियो, फ्लैशकार्ड, इंटरव्यू सिमुलेशन। साइन-अप नहीं।",
+  tagline:
+    "USCivics Quiz — मुफ़्त USCIS नागरिक अभ्यास। अपना N-400 दाखिल करने की तारीख जानें (2008 बनाम 2025), फिर सेकंडों में शुरू करें। साइन-अप नहीं।",
+  heroSupport:
+    "uscivics-quiz.com पर आधिकारिक प्रश्न बैंक से अभ्यास करें — ऑडियो, फ्लैशकार्ड और इंटरव्यू सिमुलेशन, 10+ भाषाएँ।",
   startEligibility: "मेरा टेस्ट संस्करण खोजें",
   practiceHeading: "अभ्यास शुरू करें",
   practiceCta: "अभ्यास खोलें",

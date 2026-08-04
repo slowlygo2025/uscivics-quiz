@@ -4,8 +4,14 @@ export const tl: Dictionary = {
   brand: "USCivics Quiz",
   logoSubtitle: "Civics practice",
   siteName: "USCivics Quiz",
-  tagline: "Libreng USCIS civics practice app — alamin ang N-400 filing date (2008 vs 2025), tapos magsimula sa ilang segundo. Walang sign-up.",
-  heroSupport: "Opisyal na question bank na may audio, flashcards, at interview simulation — sa 10+ wika.",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — Libreng USCIS Civics Practice",
+  homeMetaDescription:
+    "USCivics Quiz sa uscivics-quiz.com — libreng USCIS naturalization civics practice. Opisyal na 2008 at 2025 questions, audio, flashcards, interview simulation. Walang sign-up.",
+  tagline:
+    "USCivics Quiz — libreng USCIS civics practice. Alamin ang N-400 filing date (2008 vs 2025), tapos magsimula sa ilang segundo. Walang sign-up.",
+  heroSupport:
+    "Mag-practice sa uscivics-quiz.com gamit ang opisyal na question bank — audio, flashcards, at interview simulation sa 10+ wika.",
   startEligibility: "Hanapin ang bersyon ko",
   practiceHeading: "Magsimulang magpraktis",
   practiceCta: "Buksan ang praktis",

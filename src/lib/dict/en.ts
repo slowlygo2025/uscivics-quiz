@@ -3,10 +3,14 @@ export const en = {
   brand: "USCivics Quiz",
   logoSubtitle: "Civics practice",
   siteName: "USCivics Quiz",
+  homeMetaTitle:
+    "USCivics Quiz (uscivics-quiz) — Free USCIS Civics Practice",
+  homeMetaDescription:
+    "USCivics Quiz at uscivics-quiz.com — free USCIS naturalization civics practice. Official 2008 & 2025 questions, audio, flashcards, interview simulation. No sign-up.",
   tagline:
-    "Free USCIS civics practice app — know your N-400 filing date (2008 vs 2025), then start in seconds. No sign-up.",
+    "USCivics Quiz — free USCIS civics practice. Know your N-400 filing date (2008 vs 2025), then start in seconds. No sign-up.",
   heroSupport:
-    "Official question bank with audio, flashcards, and a real interview simulation — in 10+ languages.",
+    "Practice on uscivics-quiz.com with the official question bank — audio, flashcards, and a real interview simulation in 10+ languages.",
   startEligibility: "Find my test version",
   practiceHeading: "Start practicing",
   practiceCta: "Open practice",

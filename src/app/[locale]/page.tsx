@@ -20,14 +20,16 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale as Locale);
-  return buildPageMetadata({
+  const meta = buildPageMetadata({
     locale: locale as Locale,
     path: "",
-    title: dict.siteName,
-    description: dict.tagline,
+    title: dict.homeMetaTitle,
+    description: dict.homeMetaDescription,
     image: absoluteImageUrl(SITE_IMAGES.homeHero.src),
     imageAlt: SITE_IMAGES.homeHero.alt,
   });
+  // Absolute title avoids "Brand | Brand" from the root template.
+  return { ...meta, title: { absolute: dict.homeMetaTitle } };
 }
 
 export default async function HomePage({
@@ -42,10 +44,10 @@ export default async function HomePage({
     <div className="flex flex-col">
       <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
       <HeroWithPhoto image={SITE_IMAGES.homeHero} priority>
-        <h1 className="gw-rise">
+        <h1 className="gw-rise" aria-label={dict.brand}>
           <BrandLogo
             title={dict.brand}
-            subtitle={dict.officialBadge}
+            subtitle={dict.logoSubtitle}
             variant="onDark"
             size="lg"
           />
