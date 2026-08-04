@@ -201,9 +201,8 @@ html.dark .gw-gov-banner {
 .gw-gov-banner__inner {
   margin-inline: auto;
   display: flex;
+  justify-content: center;
   max-width: 80rem;
-  align-items: flex-start;
-  gap: 0.625rem;
   padding: 0.5rem 1rem;
 }
 
@@ -211,6 +210,18 @@ html.dark .gw-gov-banner {
   .gw-gov-banner__inner {
     padding-inline: 1.5rem;
   }
+}
+
+.gw-gov-banner__cluster {
+  width: 100%;
+  max-width: 46rem;
+}
+
+.gw-gov-banner__row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
 }
 
 .gw-gov-banner__flag {
@@ -227,8 +238,10 @@ html.dark .gw-gov-banner__flag {
 
 .gw-gov-banner__lead {
   margin: 0;
+  max-width: 40rem;
   font-size: 0.8125rem;
   line-height: 1.45;
+  text-align: start;
 }
 
 .gw-gov-banner__badge {
@@ -307,6 +320,7 @@ html.dark .gw-gov-banner__toggle:hover {
   gap: 0.65rem;
   border-top: 1px solid #c9c9c9;
   padding-top: 0.65rem;
+  text-align: center;
 }
 
 html.dark .gw-gov-banner__panel {
@@ -317,6 +331,7 @@ html.dark .gw-gov-banner__panel {
   .gw-gov-banner__panel {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    text-align: start;
   }
 }
 

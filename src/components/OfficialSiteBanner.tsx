@@ -34,25 +34,27 @@ export default function OfficialSiteBanner({ dict }: { dict: Dictionary }) {
   return (
     <div className="gw-gov-banner">
       <div className="gw-gov-banner__inner">
-        <UsFlagIcon className="gw-gov-banner__flag" />
-        <div className="min-w-0 flex-1">
-          <p className="gw-gov-banner__lead">
-            <span className="gw-gov-banner__badge">{dict.govBannerBadge}</span>
-            <span className="gw-gov-banner__text">{dict.govBannerLead}</span>{" "}
-            <button
-              type="button"
-              className="gw-gov-banner__toggle"
-              aria-expanded={open}
-              aria-controls={panelId}
-              onClick={() => setOpen((v) => !v)}
-            >
-              {dict.govBannerHow}
-              <span
-                aria-hidden
-                className={`gw-gov-banner__chevron ${open ? "is-open" : ""}`}
-              />
-            </button>
-          </p>
+        <div className="gw-gov-banner__cluster">
+          <div className="gw-gov-banner__row">
+            <UsFlagIcon className="gw-gov-banner__flag" />
+            <p className="gw-gov-banner__lead">
+              <span className="gw-gov-banner__badge">{dict.govBannerBadge}</span>
+              <span className="gw-gov-banner__text">{dict.govBannerLead}</span>{" "}
+              <button
+                type="button"
+                className="gw-gov-banner__toggle"
+                aria-expanded={open}
+                aria-controls={panelId}
+                onClick={() => setOpen((v) => !v)}
+              >
+                {dict.govBannerHow}
+                <span
+                  aria-hidden
+                  className={`gw-gov-banner__chevron ${open ? "is-open" : ""}`}
+                />
+              </button>
+            </p>
+          </div>
 
           {open ? (
             <div id={panelId} className="gw-gov-banner__panel" role="region">
@@ -68,7 +70,9 @@ export default function OfficialSiteBanner({ dict }: { dict: Dictionary }) {
                 <p className="gw-gov-banner__card-title">
                   {dict.govBannerSecureTitle}
                 </p>
-                <p className="gw-gov-banner__card-body">{dict.govBannerSecure}</p>
+                <p className="gw-gov-banner__card-body">
+                  {dict.govBannerSecure}
+                </p>
               </div>
             </div>
           ) : null}
