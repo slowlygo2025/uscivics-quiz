@@ -311,6 +311,10 @@ export const en = {
   relatedLearn: "Guides",
   relatedQuestions: "Question lists",
   relatedPractice: "Practice",
+  premiumWaitlistTitle: "Keep progress across devices (coming soon)",
+  premiumWaitlistLead: "Core practice stays free forever. Join the waitlist for optional cloud sync — no paywall on the question bank.",
+  premiumWaitlistCta: "Notify me when premium ships",
+  premiumWaitlistDone: "You are on the waitlist on this device.",
 } as const;
 
 export type DictKeys = keyof typeof en;

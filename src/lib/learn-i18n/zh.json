@@ -162,28 +162,24 @@
     ]
   },
   "65-20": {
-    "title": "65/20 公民测验说明：20 道星标题（65 岁 + 20 年 LPR）",
-    "description": "年满 65 且 LPR 满 20 年？只需学习 20 道星标 USCIS 题——问 10 题，需对 6 题。免费 · 无需注册 · 音频 · 几秒开始 · 10+ 语言。",
+    "title": "65/20 特别考量：更少星标题",
+    "description": "年满 65 且永久居民满 20 年？了解 65/20 路径、星标题列表，以及免费音频与模拟练习——无需注册，几秒开始。",
     "sections": [
       {
-        "heading": "Who qualifies for 65/20",
-        "body": "You may qualify if you are 65 or older and have been a lawful permanent resident for at least 20 years when you file. USCIS still decides based on your case — this guide explains the study path, not case approval."
+        "heading": "谁可能符合",
+        "body": "年满 65 且作为合法永久居民满 20 年或以上的申请人，可能获得特别考量：官员从选定的 20 道星标题中提问（通常最多 10 题，需 6 题正确）。规则可能更新——以 USCIS 为准。"
       },
       {
-        "heading": "How the 65/20 civics interview works",
-        "body": "Instead of the full bank, you study a starred set of 20 questions from your test version (2008 or 2025, based on N-400 filing date). The officer asks up to 10; you need 6 correct to pass."
+        "heading": "仍须确认测验版本",
+        "body": "65/20 不取消 N-400 递交日期逻辑。你仍可能对应 2008 或 2025 星标集。先做资格检查。"
       },
       {
-        "heading": "Language of choice for civics",
-        "body": "Under this special consideration, you may take the civics test in your preferred language. Confirm interpreter rules for your interview. English reading and writing exemptions may also apply separately — check USCIS guidance."
+        "heading": "如何练习",
+        "body": "打开老年/星标列表，用老年模式练习 2008 或 2025。大声跟读；真实测验是口试。"
       },
       {
-        "heading": "Practice only the starred set",
-        "body": "Open our senior (65/20) question list and practice mode so you do not waste time on questions you will not be asked. Still say answers out loud — the interview is oral."
-      },
-      {
-        "heading": "Confirm 2008 vs 2025 first",
-        "body": "65/20 uses starred questions from whichever civics version your filing date requires. Use the N-400 filing date guide and eligibility flow before you memorize."
+        "heading": "语言选择",
+        "body": "符合条件时，公民测验可能可用自选语言进行。英语豁免规则单独适用——详见 USCIS。"
       }
     ]
   },
@@ -258,24 +254,24 @@
     "description": "面试英语或公民题未过？接下来通常怎样、如何选对题库（2008/2025/65/20），以及免费音频与模拟重考练习——无需注册。",
     "sections": [
       {
-        "heading": "You usually get another chance",
-        "body": "If you fail the English or civics portion, USCIS generally gives you another opportunity to take the failed portion. Exact timing follows current USCIS policy for your case — this site is not legal advice."
+        "heading": "通常还有一次机会",
+        "body": "若英语或公民部分未通过，USCIS 一般会再给一次机会考未通过部分。具体时间按你个案的现行政策——本站不是法律意见。"
       },
       {
-        "heading": "Confirm the bank before you restart",
-        "body": "Retest prep fails when you study the wrong list. Check N-400 filing date (2008 vs 2025) or 65/20 eligibility first, then practice only that bank."
+        "heading": "重考前先确认题库",
+        "body": "学错清单会导致重考准备失败。先核对 N-400 递交日期（2008 vs 2025）或 65/20 资格，再只练习该题库。"
       },
       {
-        "heading": "Use the wait wisely",
-        "body": "Daily short sessions beat last-minute cramming. Focus on what you missed: civics, reading, writing, or speaking. Start free practice in seconds — no account."
+        "heading": "善用等待时间",
+        "body": "每天短时练习胜过考前突击。聚焦未过部分：公民、阅读、写作或口语。免费练习几秒即可开始——无需账户。"
       },
       {
-        "heading": "Civics retest prep",
-        "body": "Drill weak questions and changing officials. Run interview simulations until you clear 6/10 or 12/20 with room to spare. Hear questions aloud in English."
+        "heading": "公民重考准备",
+        "body": "专攻薄弱题与会变更的官员题。跑面试模拟直到稳定超过 6/10 或 12/20。用英语听题。"
       },
       {
-        "heading": "English retest prep",
-        "body": "Use official reading and writing vocabulary with audio. For speaking, answer application questions clearly. Pair with our English practice pages."
+        "heading": "英语重考准备",
+        "body": "用官方读写词汇与音频练习。口语上清楚回答申请相关问题。搭配本站英语练习页。"
       }
     ]
   },
@@ -284,46 +280,46 @@
     "description": "先确认正确题库（递交日或 65/20），再每日练习、口语与模拟周——免费、无需注册、10+ 语言。",
     "sections": [
       {
-        "heading": "Day 1–2: Confirm your version",
-        "body": "Use Find my test version or the which-test guide. Filing Form N-400 before vs on/after October 20, 2025 decides 2008 (100 Q) vs 2025 (128 Q). Wrong bank wastes the whole month."
+        "heading": "第 1–2 天：确认版本",
+        "body": "使用「查找我的测验版本」或 which-test 指南。N-400 递交日决定 2008（100 题）或 2025（128 题）。题库错了整月都白费。"
       },
       {
-        "heading": "Day 3–14: Cover the bank",
-        "body": "Study 15–25 minutes daily with flashcards and topic drills. Mark weak items. Hear English questions aloud even if you also study in another language — interview civics is oral in English unless an exception applies."
+        "heading": "第 3–14 天：覆盖题库",
+        "body": "每天 15–25 分钟闪卡与主题练习。标记薄弱项。即使用其他语言学习，也要用英语听题——面试公民题通常用英语（除非适用例外）。"
       },
       {
-        "heading": "Day 15–24: Fix weak spots + changing answers",
-        "body": "Use smart review. Recheck President, senators, representative, governor, and capital with ZIP lookup. Drill dates and names if those trip you up."
+        "heading": "第 15–24 天：补弱 + 会变答案",
+        "body": "用智能复习。用邮编核对总统、参议员、众议员、州长与首府。日期与人名易错则专项练习。"
       },
       {
-        "heading": "Day 25–30: Simulate interview week",
-        "body": "Run full interview simulations daily until you consistently pass (6/10 or 12/20). Add English reading/writing sessions. Sleep well before the appointment."
+        "heading": "第 25–30 天：模拟面试周",
+        "body": "每天完整模拟直到稳定及格（6/10 或 12/20）。加上英语读写。约见前睡好。"
       }
     ]
   },
   "n-400-filing-date": {
-    "title": "N-400 递交日期：参加 2008 还是 2025 公民测验？",
-    "description": "N-400 递交日期决定 2008（100）或 2025（128）。免费 · 无需注册 · 几秒开始——资格核对 + 官方题库音频与面试模拟。",
+    "title": "N-400 递交日期：考 2008 还是 2025？",
+    "description": "N-400 递交日期决定 2008（100）还是 2025（128）。免费·无需注册·几秒开始——资格检查 + 官方题库练习，含音频与面试模拟。",
     "sections": [
       {
-        "heading": "The October 20, 2025 cutoff",
-        "body": "Applicants who filed Form N-400 before October 20, 2025 generally take the 2008 civics test (100 questions, 10 asked, 6 to pass). Applicants who filed on or after that date generally take the 2025 test (128 questions, 20 asked, 12 to pass). Always verify with current USCIS rules for your case."
+        "heading": "2025 年 10 月 20 日分界",
+        "body": "在该日之前递交 N-400 的申请人通常考 2008 公民测验（100 题库，问至多 10 题，需 6 题正确）。当日或之后递交通常考 2025（128 题，问至多 20 题，需 12 题）。请以 USCIS 现行规则核实你的个案。"
       },
       {
-        "heading": "Filing date beats “today’s date”",
-        "body": "Many people start the newest 128-question list by default. If your receipt date puts you on 2008, practice the 100-question bank and the 6-of-10 pass rule instead — or you will study the wrong set."
+        "heading": "递交日期优先于「今天的日期」",
+        "body": "很多人默认学最新的 128 题。若收据日期属于 2008，应练习 100 题库与 6/10 及格规则——否则学错套题。"
       },
       {
-        "heading": "How to check and practice",
-        "body": "Find your filing evidence, run our free eligibility flow, then open all-100 or all-128. Add 65/20 senior practice only if that consideration applies."
+        "heading": "如何核对并练习",
+        "body": "找到递交证明，运行免费资格流程，然后打开全部 100 或 128 题。仅在适用时再加 65/20 老年练习。"
       },
       {
-        "heading": "Interview simulation matches the version",
-        "body": "Use practice for 2008 or 2025 so early-stop pass/fail rules match your interview. Pair with English reading and writing if you are not exempt."
+        "heading": "面试模拟匹配版本",
+        "body": "按 2008 或 2025 练习，使提前停止的及格/不及格规则与面试一致。若无豁免，请搭配英语读写。"
       },
       {
-        "heading": "When paperwork is unclear",
-        "body": "This site cannot check USCIS case status. Ask your attorney or accredited representative which civics version applies, then practice that bank here for free."
+        "heading": "材料不清时",
+        "body": "本站无法查询 USCIS 案件状态。向律师或认可代表确认适用版本，然后在此免费练习该题库。"
       }
     ]
   },
@@ -420,24 +416,24 @@
     "description": "归化英语读写如何考、官方词汇练习，以及免费听写句子——并与正确公民题库搭配。无需注册。",
     "sections": [
       {
-        "heading": "What you must show",
-        "body": "Unless exempt, you must demonstrate basic English: speaking during the interview, reading one sentence correctly, and writing one sentence correctly (from small sets of attempts)."
+        "heading": "你需要展示什么",
+        "body": "除非豁免，你须展示基础英语：面试口语、正确读出一句、正确写出一句（尝试次数有限）。"
       },
       {
-        "heading": "Stick to official vocabulary",
-        "body": "Reading and writing use USCIS vocabulary lists. Random English apps help less than sentences built from those words — people, civics terms, places, holidays, and common verbs."
+        "heading": "紧盯官方词汇",
+        "body": "读写使用 USCIS 词汇表。随机英语 App 不如用这些词组成的句子——人物、公民词、地点、节日与常用动词。"
       },
       {
-        "heading": "Practice method",
-        "body": "Hear the sentence, read it aloud, then write it from dictation. Check spelling. Repeat missed sentences the next day."
+        "heading": "练习方法",
+        "body": "听句子、朗读、听写。检查拼写。错过的句子次日再练。"
       },
       {
-        "heading": "Same day as civics — right bank first",
-        "body": "English reading/writing did not change with the 2025 civics update, but your civics bank still depends on N-400 filing date or 65/20. Confirm the civics version, then open English practice here for free."
+        "heading": "与公民同天——先对题库",
+        "body": "2025 公民更新未改读写，但公民题库仍取决于 N-400 或 65/20。先确认公民版本，再在此免费练英语。"
       },
       {
-        "heading": "Practice here for free",
-        "body": "Open our English reading and writing pages. Combine with civics speak mode and interview simulation so the whole interview feels familiar — start in seconds, no account."
+        "heading": "在此免费练习",
+        "body": "打开英语读写页。结合公民 speak 模式与面试模拟——几秒开始，无需账户。"
       }
     ]
   },
@@ -582,20 +578,20 @@
     "description": "先选对 USCIS 题库再学习——N-400 递交日期（2008 vs 2025）、65/20 老年路径、免费资格检查、音频与面试模拟。无需注册。",
     "sections": [
       {
-        "heading": "Start here — do not guess the bank",
-        "body": "Studying the wrong list is the most expensive mistake in civics prep. Your Form N-400 filing date decides 2008 (100 questions) vs 2025 (128 questions). Age 65+ with 20 years as a permanent resident may qualify for the 65/20 starred set. Confirm before flashcards."
+        "heading": "从这里开始——不要猜题库",
+        "body": "学错清单是最昂贵的错误。N-400 递交日期决定 2008（100 题）还是 2025（128 题）。年满 65 且永久居民满 20 年可能适用 65/20 星标题。先确认再刷闪卡。"
       },
       {
-        "heading": "Path A — N-400 filing date (most applicants)",
-        "body": "Filed before October 20, 2025 → 2008 test (up to 10 asked, need 6). Filed on or after that date → 2025 test (up to 20 asked, need 12). Use our N-400 filing date guide, then practice the matching bank with audio and simulation."
+        "heading": "路径 A——N-400 递交日期（多数申请人）",
+        "body": "2025 年 10 月 20 日之前递交 → 2008 测验（最多问 10 题，需答对 6 题）。当日或之后 → 2025 测验（最多 20 题，需 12 题）。使用 N-400 指南后练习对应题库，含音频与模拟。"
       },
       {
-        "heading": "Path B — 65/20 special consideration",
-        "body": "If you are 65 or older and have been a lawful permanent resident for 20+ years, USCIS may ask from a smaller starred bank (need 6 of up to 10). Language-of-choice rules can apply. See our 65/20 guide and senior practice list."
+        "heading": "路径 B——65/20 特别考量",
+        "body": "若年满 65 且合法永久居民满 20 年，USCIS 可能从更小的星标题库提问（最多 10 题需 6 题正确）。可能适用自选语言。见 65/20 指南与老年练习列表。"
       },
       {
-        "heading": "60-second check, then practice",
-        "body": "Run Find my test version (free, no account). Then open practice for 2008 or 2025 — or senior mode — and start in seconds. Pair civics with English reading and writing unless you are exempt."
+        "heading": "60 秒检查，然后练习",
+        "body": "运行「查找我的测验版本」（免费、无需账户）。打开 2008 或 2025 练习——或老年模式——几秒即可开始。若无豁免，请搭配英语读写。"
       }
     ]
   }

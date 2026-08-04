@@ -95,3 +95,8 @@ export function trackOutboundClick(url: string, label?: string) {
     ...(label ? { link_label: label.slice(0, 40) } : {}),
   });
 }
+
+/** Soft monetization interest (Phase 0 waitlist) — never gates practice. */
+export function trackPremiumInterest() {
+  return trackEvent("premium_interest", { source: "practice_hub" });
+}

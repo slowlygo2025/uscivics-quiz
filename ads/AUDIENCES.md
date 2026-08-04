@@ -1,6 +1,6 @@
 # Audiencias — USCQ Search Core (Observación)
 
-Campaign stays **Paused**. Use audiences in **Observation** only (not Targeting).
+Campaign is **Enabled** (2026-08-03). Use audiences in **Observation** only (not Targeting) until volume justifies RLSA.
 
 ## Prerequisites
 1. Complete GA4 ↔ Ads link (`ads/CONVERSIONS.md`).
@@ -18,15 +18,15 @@ Campaign stays **Paused**. Use audiences in **Observation** only (not Targeting)
 
 | List | Mode | Notes |
 |------|------|--------|
-| All Users of uscivics-quiz | Observation | Applied on USCQ Search Core |
+| All Users of uscivics-quiz | Observation | Applied on USCQ Search Core (may stay “en revisión” until Google approves) |
 | Site visitors 30d / 90d | Observation | Create in GA4 when Search Analytics / users exist |
 | Started practice (`start_practice`) | Observation | GA4 audience → publish to Ads when event volume exists |
-| Converted — start_practice | Exclusion | Apply on activation (`ads/GOLIVE.md`) |
+| Converted — start_practice | Exclusion | Apply as soon as audience is Eligible (`ads/GOLIVE.md`) |
 
 Do **not** use Targeting / exclusive until volume. See `ads/SEO-ADS-MAP.md`.
 
 ## Exclude converters
-On activation day: Audiencias → Exclusions → converters for `start_practice` if offered.
+Audiencias → Exclusions → converters for `start_practice` when the audience is Eligible (not stuck in review).
 
 ## RLSA (later)
 After 7+ days live: raise bid modifiers on “Site visitors 30d” / “Started practice” in Observation reports.

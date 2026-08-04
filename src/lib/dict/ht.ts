@@ -298,4 +298,8 @@ export const ht: Dictionary = {
   relatedLearn: "Gid",
   relatedQuestions: "Lis kesyon",
   relatedPractice: "Pratik",
+  premiumWaitlistTitle: "Pwogrè sou plizyè aparèy (byento)",
+  premiumWaitlistLead: "Pratik prensipal la rete gratis pou toutan. Antre nan waitlist pou sync nwaj opsyonèl — pa gen paywall sou bank kesyon yo.",
+  premiumWaitlistCta: "Fè m konnen lè premium soti",
+  premiumWaitlistDone: "Ou nan waitlist sou aparèy sa a.",
 };

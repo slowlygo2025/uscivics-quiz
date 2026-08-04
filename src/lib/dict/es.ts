@@ -311,4 +311,8 @@ export const es: Dictionary = {
   relatedLearn: "Guías",
   relatedQuestions: "Listas de preguntas",
   relatedPractice: "Práctica",
+  premiumWaitlistTitle: "Progreso entre dispositivos (próximamente)",
+  premiumWaitlistLead: "La práctica central sigue gratis para siempre. Unite a la lista de espera para sync opcional en la nube — sin paywall del banco de preguntas.",
+  premiumWaitlistCta: "Avisame cuando salga premium",
+  premiumWaitlistDone: "Estás en la lista de espera en este dispositivo.",
 };

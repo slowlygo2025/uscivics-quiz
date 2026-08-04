@@ -291,5 +291,9 @@ export const ar: Dictionary = {
   relatedStudyLead: "انتقل بين الأدلة وقوائم الأسئلة وممارسة المقابلة لنفس الموضوع.",
   relatedLearn: "أدلة",
   relatedQuestions: "قوائم الأسئلة",
-  relatedPractice: "تمرين",
+  relatedPractice: "تدريب",
+  premiumWaitlistTitle: "تقدّم عبر الأجهزة (قريبًا)",
+  premiumWaitlistLead: "الممارسة الأساسية مجانية دائمًا. انضم لقائمة الانتظار لمزامنة سحابية اختيارية — بلا جدار دفع لبنك الأسئلة.",
+  premiumWaitlistCta: "أخبرني عند إطلاق premium",
+  premiumWaitlistDone: "أنت على قائمة الانتظار على هذا الجهاز.",
 };

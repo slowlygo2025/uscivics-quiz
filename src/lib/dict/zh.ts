@@ -284,4 +284,8 @@ export const zh: Dictionary = {
   relatedLearn: "指南",
   relatedQuestions: "题库",
   relatedPractice: "练习",
+  premiumWaitlistTitle: "跨设备进度（即将推出）",
+  premiumWaitlistLead: "核心练习永久免费。加入候补名单获取可选云同步——题库不设付费墙。",
+  premiumWaitlistCta: "上线时通知我",
+  premiumWaitlistDone: "已在本设备加入候补名单。",
 };

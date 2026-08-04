@@ -298,4 +298,8 @@ export const ru: Dictionary = {
   relatedLearn: "Гайды",
   relatedQuestions: "Списки вопросов",
   relatedPractice: "Практика",
+  premiumWaitlistTitle: "Прогресс между устройствами (скоро)",
+  premiumWaitlistLead: "Основная практика навсегда бесплатна. Waitlist для опциональной облачной синхронизации — без paywall на банк вопросов.",
+  premiumWaitlistCta: "Сообщить о запуске premium",
+  premiumWaitlistDone: "Вы в waitlist на этом устройстве.",
 };

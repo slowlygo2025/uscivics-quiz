@@ -297,4 +297,8 @@ export const ko: Dictionary = {
   relatedLearn: "가이드",
   relatedQuestions: "문제 목록",
   relatedPractice: "연습",
+  premiumWaitlistTitle: "기기 간 진도 (곧 제공)",
+  premiumWaitlistLead: "핵심 연습은 영원히 무료입니다. 선택적 클라우드 동기화 대기열에 합류하세요 — 문제은행 페이월 없음.",
+  premiumWaitlistCta: "프리미엄 출시 시 알림",
+  premiumWaitlistDone: "이 기기에서 대기열에 등록되었습니다.",
 };

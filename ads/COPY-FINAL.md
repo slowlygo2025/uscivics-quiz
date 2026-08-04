@@ -1,5 +1,5 @@
 # Keywords + RSA finales — USCQ Search Core
-Cuenta: **207-823-9713** · Campaña pausada · English · United States · solo Search
+Cuenta: **207-823-9713** · Campaña **Enabled** (2026-08-03) · English · United States · solo Search
 
 ## Estructura
 

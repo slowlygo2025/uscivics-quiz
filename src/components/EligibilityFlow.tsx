@@ -119,7 +119,7 @@ export default function EligibilityFlow({ locale }: { locale: Locale }) {
               className="gw-btn gw-btn-primary w-full sm:w-fit"
               onClick={() => void trackEligibilityStart(result)}
             >
-              {dict.startPractice}
+              {dict.startInSecondsCta}
               <span aria-hidden>→</span>
             </Link>
             <p className="text-xs leading-relaxed text-muted">{dict.disclaimer}</p>

@@ -301,5 +301,9 @@ export const vi: Dictionary = {
   relatedStudyLead: "Chuyen giua huong dan, danh sach cau hoi va luyen phong van cung chu de.",
   relatedLearn: "Huong dan",
   relatedQuestions: "Danh sach cau hoi",
-  relatedPractice: "Luyen tap",
+  relatedPractice: "Luyện tập",
+  premiumWaitlistTitle: "Tiến độ đa thiết bị (sắp ra mắt)",
+  premiumWaitlistLead: "Luyện cốt lõi vẫn miễn phí mãi. Tham gia waitlist để đồng bộ đám mây tùy chọn — không paywall ngân hàng câu hỏi.",
+  premiumWaitlistCta: "Báo tôi khi premium ra mắt",
+  premiumWaitlistDone: "Bạn đã vào waitlist trên thiết bị này.",
 };

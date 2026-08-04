@@ -301,4 +301,8 @@ export const fr: Dictionary = {
   relatedLearn: "Guides",
   relatedQuestions: "Listes de questions",
   relatedPractice: "Pratique",
+  premiumWaitlistTitle: "Progression multi-appareils (bientôt)",
+  premiumWaitlistLead: "La pratique centrale reste gratuite pour toujours. Rejoignez la liste pour une sync cloud optionnelle — pas de paywall sur la banque de questions.",
+  premiumWaitlistCta: "Me prévenir quand le premium arrive",
+  premiumWaitlistDone: "Vous êtes sur la liste d’attente sur cet appareil.",
 };

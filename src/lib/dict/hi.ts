@@ -296,5 +296,9 @@ export const hi: Dictionary = {
   relatedStudyLead: "एक ही विषय के गाइड, प्रश्न सूचियों और इंटरव्यू प्रैक्टिस के बीच जाएँ।",
   relatedLearn: "गाइड",
   relatedQuestions: "प्रश्न सूचियाँ",
-  relatedPractice: "प्रैक्टिस",
+  relatedPractice: "अभ्यास",
+  premiumWaitlistTitle: "डिवाइसों पर प्रगति (जल्द)",
+  premiumWaitlistLead: "मुख्य अभ्यास हमेशा मुफ़्त। वैकल्पिक क्लाउड सिंक वेटलिस्ट में शामिल हों — प्रश्न बैंक पर पेवॉल नहीं।",
+  premiumWaitlistCta: "प्रीमियम आने पर सूचित करें",
+  premiumWaitlistDone: "आप इस डिवाइस पर वेटलिस्ट में हैं।",
 };

@@ -51,6 +51,7 @@ import {
   trackCompleteQuiz,
 } from "@/lib/analytics";
 import TrustDiffStrip from "@/components/TrustDiffStrip";
+import PremiumWaitlist from "@/components/PremiumWaitlist";
 
 type StudyMode =
   | "flashcards"
@@ -212,6 +213,8 @@ export default function StudyHub({
           <TrustDiffStrip dict={dict} variant="compact" />
         </div>
       </header>
+
+      <PremiumWaitlist dict={dict} />
 
       <ProgressPanel
         dict={dict}

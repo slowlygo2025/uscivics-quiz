@@ -69,4 +69,6 @@ Do **not** scale generic blog posts; deepen this cluster + internal links + Tier
 
 ## Secondary events (import when live in GA4 28d)
 
-`complete_quiz`, `eligibility_complete`, `senior_list_open` — never primary for bidding.
+`complete_quiz`, `eligibility_complete`, `senior_list_open`, `premium_interest` — never primary for bidding.
+
+Monetization path: [`ads/MONETIZATION.md`](MONETIZATION.md) (Phase 0 waitlist live).

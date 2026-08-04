@@ -303,4 +303,8 @@ export const tl: Dictionary = {
   relatedLearn: "Mga gabay",
   relatedQuestions: "Mga listahan ng tanong",
   relatedPractice: "Practice",
+  premiumWaitlistTitle: "Progress sa ibang device (malapit na)",
+  premiumWaitlistLead: "Libre magpakailanman ang core practice. Sumali sa waitlist para sa optional cloud sync — walang paywall sa question bank.",
+  premiumWaitlistCta: "Abisuhan ako kapag may premium",
+  premiumWaitlistDone: "Nasa waitlist ka na sa device na ito.",
 };

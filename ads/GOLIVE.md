@@ -17,7 +17,7 @@
 
 1. [x] Ads UI → **USCQ Search Core** → **Enabled** (budget ~10 USD/day, Manual CPC). Ad groups + ads + KWs aptos (algunas brand “volumen bajo”).
 2. [x] Confirm conversion **start_practice** — GA4 import, goal **Registros**, primaria, ventana 90d, recuento Una. Columnas campaña muestran Conversiones + objetivo Registros (aún 0 — sin clics Ads).
-3. [ ] Exclusions: convertidos / `start_practice` — **pendiente** (All Users Observation aún “en revisión”; sin audiencia convertidos).
+3. [ ] Exclusions: convertidos / `start_practice` — **bloqueada** (2026-08-04): audiencia “All Users of uscivics-quiz” sigue **en revisión**; no hay audiencia convertidos Eligible ni pestaña Exclusiones usable. Reintentar cuando Observation esté Apto.
 4. [x] Do **not** enable Display, partners, AI Max, broad match, Smart Bidding on day 1.
 5. Follow [`ads/OPS.md`](OPS.md) D1–D14 (search terms, negatives, pause KW if CPC > 2 USD and 0 clicks after ≥50 imps).
 
