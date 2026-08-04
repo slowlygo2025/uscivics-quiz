@@ -1,6 +1,6 @@
-# Brand + Competitor keywords (Paused groups)
+# Brand + Competitor keywords
 
-**Estado UI (ago 2026):** `AG Brand` y `AG Competitors` creados bajo **USCQ Search Core** (campaña **Paused**). Revisar CPC 0,55 y RSA si el wizard dejó defaults.
+**Estado UI (ago 2026):** `AG Brand` y `AG Competitors` bajo **USCQ Search Core** (**Enabled**). CPC ~0,55.
 
 ## AG Brand — default CPC 0,55 — Final URL
 https://uscivics-quiz.com/en?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=brand
@@ -14,8 +14,8 @@ Keywords:
 ```
 
 RSA (short):
-- Headlines: USCivics Quiz Free Practice | Official USCIS Civics Prep | No Sign-Up Required | Free Interview Simulation | English and Espanol | Start Civics Practice
-- Descriptions: Free USCIS civics practice for the 2008 and 2025 tests. Flashcards, audio, and interview simulation. || Independent study tool — not affiliated with USCIS. Start free in seconds.
+- Headlines: USCivics Quiz Free Practice | Official USCIS Civics Prep | No Sign-Up Required | Start in Seconds | Free Interview Simulation | 10+ Languages | Study the Right Bank
+- Descriptions: Free USCIS civics practice for 2008 and 2025 — audio and interview simulation. No sign-up. || Independent study tool — not affiliated with USCIS. Start free in seconds in 10+ languages.
 
 ## AG Competitors — default CPC 0,55 — Final URL
 https://uscivics-quiz.com/en/questions/all-128?utm_source=google&utm_medium=cpc&utm_campaign=uscq_search&utm_content=competitors
@@ -29,8 +29,8 @@ Keywords (phrase, high-intent only):
 ```
 
 RSA:
-- Headlines: Free USCIS Civics Practice | All 128 Questions Free | No Sign-Up Needed | 2025 Citizenship Test Prep | Interview Simulation Free | Official Question Bank
-- Descriptions: Practice all 128 official USCIS civics questions free with audio and simulation. || No account required. Updated for the 2025 test. Start in seconds.
+- Headlines: Free USCIS Civics Practice | All 128 Questions Free | No Sign-Up Needed | Start in Seconds | Interview Simulation Free | Official Question Bank | 10+ Languages
+- Descriptions: Practice all 128 official USCIS civics questions free with audio and simulation. || No account required. Updated for 2025. Start in seconds — 10+ languages.
 
 ## Negatives extras
 See `ads/negatives.txt` — add any missing at campaign level (Palabras clave negativas → campaña).

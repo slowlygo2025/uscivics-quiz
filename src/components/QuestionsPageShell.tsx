@@ -5,6 +5,7 @@ import { getQuestionBank, getEnglishQuestion } from "@/lib/questions";
 import SeoQuestionList from "@/components/SeoQuestionList";
 import JsonLd from "@/components/JsonLd";
 import { RelatedStudyLinksForPath } from "@/components/RelatedStudyLinks";
+import TrustDiffStrip from "@/components/TrustDiffStrip";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
 export function buildEnglishMap(
@@ -119,6 +120,16 @@ export function QuestionsPageShell({
         </p>
         <p className="mt-2 text-sm text-muted">
           {questions.length} {dict.seoQuestionsCount}
+        </p>
+        <TrustDiffStrip dict={dict} variant="compact" />
+        <p className="mt-4">
+          <Link
+            href={practiceHref}
+            className="gw-btn inline-flex"
+          >
+            {dict.startInSecondsCta}
+            <span aria-hidden>→</span>
+          </Link>
         </p>
       </header>
 

@@ -21,14 +21,8 @@ export async function generateMetadata({
   const { locale, version } = await params;
   if (!isLocale(locale) || !VERSIONS.includes(version as TestVersion)) return {};
   const dict = getDictionary(locale as Locale);
-  const title =
-    version === "2025"
-      ? `${dict.practice2025} — Free USCIS Interview Simulation`
-      : `${dict.practice2008} — Free USCIS Interview Simulation`;
-  const description =
-    version === "2025"
-      ? `${dict.practice2025Meta}. Free flashcards, smart review, oral practice, and early-stop interview simulation for the 2025 civics test.`
-      : `${dict.practice2008Meta}. Free flashcards, smart review, oral practice, and early-stop interview simulation for the 2008 civics test.`;
+  const title = `${version === "2025" ? dict.practice2025 : dict.practice2008} — ${dict.practiceMetaTitleSuffix}`;
+  const description = dict.practiceHubLead;
   return buildPageMetadata({
     locale: locale as Locale,
     path: `/practice/${version}`,

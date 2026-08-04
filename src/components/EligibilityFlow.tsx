@@ -8,6 +8,7 @@ import {
   trackEligibilityComplete,
   trackEligibilityStart,
 } from "@/lib/analytics";
+import TrustDiffStrip from "@/components/TrustDiffStrip";
 
 type Step = "q1" | "q2" | "result";
 type ResultKind = "senior" | "2025" | "2008";
@@ -59,6 +60,7 @@ export default function EligibilityFlow({ locale }: { locale: Locale }) {
       <p className="mt-3 text-base leading-relaxed text-muted sm:text-lg">
         {dict.eligibilityLead}
       </p>
+      <TrustDiffStrip dict={dict} variant="compact" />
 
       <div className="mt-8 h-1.5 overflow-hidden rounded-full bg-mist">
         <div

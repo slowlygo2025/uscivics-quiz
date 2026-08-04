@@ -7,6 +7,7 @@ import { LOCALES, isLocale } from "@/lib/locales";
 import { LEARN_POSTS, getLearnPost, learnPostCopy } from "@/lib/learn-posts";
 import JsonLd from "@/components/JsonLd";
 import EditorialCover from "@/components/EditorialCover";
+import TrustDiffStrip from "@/components/TrustDiffStrip";
 import { RelatedStudyLinksForLearn } from "@/components/RelatedStudyLinks";
 import {
   hrefFor,
@@ -96,6 +97,11 @@ export default async function LearnPostPage({
           <p className="mt-3 text-base leading-relaxed text-muted sm:text-lg">
             {copy.description}
           </p>
+          {(slug === "n-400-filing-date" ||
+            slug === "65-20" ||
+            slug === "2025-changes") && (
+            <TrustDiffStrip dict={dict} variant="compact" />
+          )}
         </div>
       </header>
       <div className="space-y-8">

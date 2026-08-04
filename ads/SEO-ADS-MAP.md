@@ -32,6 +32,15 @@ UTMs: [`ads/UTM.md`](UTM.md). Primary conversion: `start_practice`.
 2. If high-intent and fits a row above → add KW (Paused OK) with matching final URL + UTM.
 3. If new intent → learn slug or extend map; keep Tier 1 for Ads money URLs (`indexing-priority.ts`).
 
+## Canonical competitive messaging (landings + RSA)
+
+Mirror in product `TrustDiffStrip` / dict `diff*`:
+
+1. Free · No sign-up · Start in seconds  
+2. Right bank: N-400 filing / eligibility / 65-20  
+3. Official USCIS · Audio · Interview simulation  
+4. 10+ languages  
+
 ## Audiences
 
 | List | Mode | Status |

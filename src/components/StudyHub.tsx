@@ -50,6 +50,7 @@ import {
   trackSimEnd,
   trackCompleteQuiz,
 } from "@/lib/analytics";
+import TrustDiffStrip from "@/components/TrustDiffStrip";
 
 type StudyMode =
   | "flashcards"
@@ -196,7 +197,7 @@ export default function StudyHub({
     <UscisUpdatesProvider>
     <div className="space-y-8">
       <header className="gw-rise flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-        <div>
+        <div className="max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-signal">
             {senior ? dict.seniorBadge : version}
             <span className="mx-2 text-muted/40">·</span>
@@ -205,6 +206,10 @@ export default function StudyHub({
           <h1 className="mt-1 font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
             {version === "2025" ? dict.practice2025 : dict.practice2008}
           </h1>
+          <p className="mt-2 text-base leading-relaxed text-muted">
+            {dict.practiceHubLead}
+          </p>
+          <TrustDiffStrip dict={dict} variant="compact" />
         </div>
       </header>
 
