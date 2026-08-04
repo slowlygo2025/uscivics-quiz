@@ -33,12 +33,12 @@ export default async function LocaleLayout({
       <CookieConsent locale={locale} />
       <OutboundClickTracker />
 
-      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 sm:px-6 sm:py-10">
+      <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 sm:py-10 lg:px-8">
         {children}
       </main>
 
       <footer className="gw-safe-bottom border-t border-line bg-surface">
-        <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
+        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
           <div className="h-1 w-16 bg-[var(--header)]" aria-hidden />
           <div className="mt-5">
             <BrandLogo

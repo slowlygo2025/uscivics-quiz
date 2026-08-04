@@ -13,7 +13,7 @@ export default function HeroWithPhoto({
   priority?: boolean;
 }) {
   return (
-    <section className="gw-hero gw-hero--photo -mx-4 border border-line sm:-mx-6">
+    <section className="gw-hero gw-hero--photo gw-hero--bleed">
       <Image
         src={image.src}
         alt=""
