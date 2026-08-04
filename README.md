@@ -24,9 +24,25 @@ Open [http://localhost:3000](http://localhost:3000) — locale proxy sends `/` �
 
 | Variable | Purpose |
 |----------|---------|
-| `NEXT_PUBLIC_FIREBASE_*` | Client Analytics (only loads after cookie “Accept all”) |
+| `NEXT_PUBLIC_FIREBASE_*` | Client Analytics + optional Auth/Firestore sync |
+| `RESEND_API_KEY` | Contact form email (Vercel). Push: `npm run resend:push-env` |
+| `CONTACT_TO` / `CONTACT_FROM` | Contact inbox / From header |
 
-See `.env.example`. Never commit `.env.local` or `secrets/`.
+See `.env.example`, `resend.env.example`, `firebase.env.example`. Never commit `.env.local` or `secrets/`.
+
+### Contact email (Resend)
+
+1. Create a key at [resend.com/api-keys](https://resend.com/api-keys)
+2. `mkdir secrets` → copy `resend.env.example` to `secrets/resend.env` and fill values
+3. `npm run resend:push-env` then redeploy production
+
+### Cloud sync (Firebase)
+
+1. Enable **Email/Password** in Firebase Authentication
+2. Create **Firestore** if needed
+3. `npm run firebase:rules -- --deploy` (after `firebase use <projectId>`)
+
+Rules live in `firestore.rules` (`users/{uid}/data/progress` only).
 
 ## Scripts
 

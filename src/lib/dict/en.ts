@@ -8,9 +8,9 @@ export const en = {
   homeMetaDescription:
     "USCivics Quiz at uscivics-quiz.com — free USCIS naturalization civics practice. Official 2008 & 2025 questions, audio, flashcards, interview simulation. No sign-up.",
   tagline:
-    "USCivics Quiz — free USCIS civics practice. Know your N-400 filing date (2008 vs 2025), then start in seconds. No sign-up.",
+    "Free USCIS civics practice — know your N-400 filing date, then start in seconds.",
   heroSupport:
-    "Practice on uscivics-quiz.com with the official question bank — audio, flashcards, and a real interview simulation in 10+ languages.",
+    "Official question bank with audio, flashcards, and interview simulation in 10+ languages. No sign-up.",
   startEligibility: "Find my test version",
   practiceHeading: "Start practicing",
   practiceCta: "Open practice",
@@ -45,19 +45,29 @@ export const en = {
   eligibilityTitle: "Which civics test do you take?",
   eligibilityMetaTitle: "Which USCIS Civics Test? 2008, 2025 or 65/20",
   eligibilityLead:
-    "Two quick questions. We’ll point you to the right question bank before you study — 2008, 2025, or 65/20.",
+    "A few quick questions. We’ll point you to the right question bank before you study — 2008, 2025, or 65/20. Always confirm on uscis.gov.",
   practiceSeoTitle2008: "2008 Civics Practice — Free USCIS Test",
   practiceSeoTitle2025: "2025 Civics Practice — Free USCIS Test",
   dateUpdatedLabel: "Updated",
   q1: "Did you file Form N-400 before October 20, 2025?",
+  q1Hint:
+    "Your filing date decides 2008 vs 2025. If you are not sure, check your N-400 receipt or uscis.gov — you can still practice either bank.",
   q2: "Are you 65 or older AND a permanent resident for 20+ years?",
+  q2Age: "Are you 65 or older?",
+  q2Years: "Have you been a lawful permanent resident (green card) for 20 years or more?",
   yes: "Yes",
   no: "No",
   notSure: "I'm not sure",
   resultSenior:
-    "You qualify for the simplified 65/20 test: 10 questions from a marked set of 20 — need 6 correct.",
+    "You may qualify for the simplified 65/20 civics test: 10 questions from a marked set of 20 — need 6 correct. Confirm eligibility with USCIS.",
   result2008: "You take the 2008 version: up to 10 of 100 questions — need 6 correct.",
   result2025: "You take the 2025 version: up to 20 of 128 questions — need 12 correct.",
+  resultUnsure:
+    "We can’t safely pick 2008 vs 2025 without your N-400 filing date. Practice either bank, or confirm on uscis.gov before your interview.",
+  eligibilityEnglishExemptNote:
+    "Separate English exemptions (for example 50/20 or 55/15) do not change which civics bank you study — only the English reading/writing parts. See our English practice and uscis.gov.",
+  eligibilityOfficialNote:
+    "This helper is educational only. USCIS decides your test version — verify at uscis.gov before interview day.",
   startPractice: "Start practice",
   question: "Question",
   of: "of",
@@ -343,10 +353,45 @@ export const en = {
   relatedLearn: "Guides",
   relatedQuestions: "Question lists",
   relatedPractice: "Practice",
-  premiumWaitlistTitle: "Keep progress across devices (coming soon)",
-  premiumWaitlistLead: "Core practice stays free forever. Join the waitlist for optional cloud sync — no paywall on the question bank.",
-  premiumWaitlistCta: "Notify me when premium ships",
-  premiumWaitlistDone: "You are on the waitlist on this device.",
+  errorPageTitle: "Something went wrong",
+  errorPageLead:
+    "We logged the error so we can fix it. You can try again or go back home.",
+  errorPageRetry: "Try again",
+  errorPageHome: "Back home",
+  notFoundTitle: "Page not found",
+  notFoundLead:
+    "That link does not match a page on USCivics Quiz. Check the URL or continue studying from home.",
+  notFoundHome: "Back home",
+  contactFormLead:
+    "Send a message — we read every email. Do not include sensitive immigration case numbers you would not put in email.",
+  contactFormName: "Your name",
+  contactFormEmail: "Your email",
+  contactFormMessage: "Message",
+  contactFormSubmit: "Send message",
+  contactFormSending: "Sending…",
+  contactFormSuccess: "Thanks — your message was sent. We will reply by email.",
+  contactFormError: "Could not send through the form.",
+  contactFormFallback: "Open your email app instead",
+  accountSyncTitle: "Optional cloud sync",
+  accountSyncLead:
+    "Practice stays free without an account. Sign in to back up progress across devices. We never put the question bank behind a paywall.",
+  accountEmail: "Email",
+  accountPassword: "Password (min 8 characters)",
+  accountSignIn: "Sign in",
+  accountCreate: "Create account",
+  accountSignOut: "Sign out",
+  accountSyncNow: "Sync progress now",
+  accountSynced: "Progress synced.",
+  accountSyncError: "Could not sync. Check your connection and try again.",
+  accountSignedInAs: "Signed in as",
+  accountUnavailable:
+    "Cloud sync is not configured on this deployment yet. Export/import still works offline.",
+  accountDeleted: "Account deleted.",
+  accountDeleteConfirm: "Delete your account and cloud progress? Local progress on this device stays until you clear site data.",
+  accountDelete: "Delete account",
+  accountResetSent: "Password reset email sent — check your inbox.",
+  accountResetPassword: "Reset password",
+  skipToContent: "Skip to main content",
   linkUpdates: "Civics test updates",
   affiliateHeading: "Related prep (optional)",
   affiliateLead:

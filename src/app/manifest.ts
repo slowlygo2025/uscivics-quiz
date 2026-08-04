@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
     short_name: "USCivics",
     description:
       "Free USCIS naturalization civics and English test practice — 2008 & 2025.",
-    start_url: "/en",
+    start_url: "/",
     scope: "/",
     display: "standalone",
     orientation: "portrait-primary",
@@ -14,6 +14,7 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#005288",
     categories: ["education", "lifestyle"],
     lang: "en",
+    dir: "ltr",
     icons: [
       {
         src: "/icon-192",

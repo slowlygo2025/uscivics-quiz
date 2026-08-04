@@ -61,7 +61,7 @@ export default async function HomePage({
         ]}
       />
       <HeroWithPhoto image={SITE_IMAGES.homeHero} priority>
-        <h1 className="gw-rise" aria-label={dict.brand}>
+        <h1 className="gw-rise gw-hero__brand" aria-label={dict.brand}>
           <BrandLogo
             title={dict.brand}
             subtitle={dict.logoSubtitle}
@@ -70,40 +70,37 @@ export default async function HomePage({
           />
         </h1>
 
-        <div className="gw-rise gw-rise-delay-1 space-y-3">
-          <p className="max-w-xl text-xl font-semibold leading-snug tracking-tight text-white sm:text-2xl lg:text-[1.7rem]">
-            {dict.tagline}
-          </p>
-          <p className="max-w-md text-base leading-relaxed text-white/78 sm:text-lg">
-            {dict.heroSupport}
-          </p>
+        <div className="gw-rise gw-rise-delay-1 gw-hero__copy">
+          <p className="gw-hero__headline">{dict.tagline}</p>
+          <p className="gw-hero__support">{dict.heroSupport}</p>
         </div>
 
-        <div className="gw-rise gw-rise-delay-2 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+        <div className="gw-rise gw-rise-delay-2 gw-hero__actions">
           <Link href={`/${locale}/eligibility`} className="gw-btn gw-btn-block-sm gw-btn-hero">
             {dict.startEligibility}
             <span aria-hidden>→</span>
           </Link>
           <Link
             href={`/${locale}/practice/2025`}
-            className="text-sm font-semibold text-white/90 underline-offset-4 hover:underline"
+            className="gw-hero__secondary"
           >
-            {dict.startInSecondsCta} →
+            {dict.startInSecondsCta}
+            <span aria-hidden>→</span>
           </Link>
         </div>
 
-        <p className="gw-rise gw-rise-delay-3 flex flex-wrap gap-x-3 gap-y-1 text-sm font-medium tracking-wide text-white/65">
+        <p className="gw-rise gw-rise-delay-3 gw-hero__meta">
           <span>{dict.freeBadge}</span>
           <span aria-hidden>·</span>
           <span>{dict.officialBadge}</span>
           <span aria-hidden>·</span>
           <span>{dict.bilingualBadge}</span>
         </p>
-
-        <div className="gw-rise gw-rise-delay-3 w-full max-w-3xl">
-          <TrustDiffStrip dict={dict} variant="hero" onDark />
-        </div>
       </HeroWithPhoto>
+
+      <div className="mt-8 sm:mt-10">
+        <TrustDiffStrip dict={dict} variant="compact" />
+      </div>
 
       <div className="mt-10 sm:mt-12">
         <TestVersionNotice dict={dict} locale={locale as Locale} />

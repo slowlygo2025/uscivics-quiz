@@ -158,7 +158,9 @@ export default function BrandLogo({
         </span>
         {subtitle ? (
           <span
-            className={`font-sans font-semibold uppercase tracking-[0.14em] ${subClass}`}
+            className={`font-sans font-semibold uppercase tracking-[0.14em] ${subClass} ${
+              size === "sm" ? "max-[360px]:hidden" : ""
+            }`}
             style={{ color: muted }}
           >
             {subtitle}

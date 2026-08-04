@@ -51,7 +51,7 @@ import {
   trackCompleteQuiz,
 } from "@/lib/analytics";
 import TrustDiffStrip from "@/components/TrustDiffStrip";
-import PremiumWaitlist from "@/components/PremiumWaitlist";
+import AccountSyncPanel from "@/components/AccountSyncPanel";
 import RelatedPrep from "@/components/RelatedPrep";
 
 type StudyMode =
@@ -215,7 +215,7 @@ export default function StudyHub({
         </div>
       </header>
 
-      <PremiumWaitlist dict={dict} />
+      <AccountSyncPanel dict={dict} />
 
       <ProgressPanel
         dict={dict}

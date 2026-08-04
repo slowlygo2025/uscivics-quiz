@@ -75,4 +75,4 @@ If the event is missing from the GA4 picker: open the site with **Accept all**, 
 - [x] Columnas de informe muestran la conversión (objetivo Registros / `start_practice`; volumen 0 hasta tráfico Ads)
 - [x] Consentimiento “Accept all” requerido en el sitio (sin consent = sin evento)
 - [x] `outbound_click` cableado en FE (engagement; no importar como conversión Ads)
-- [ ] Exclusión convertidos en campaña (recheck 2026-08-04: API test-only; UI cuando Observation Apto)
+- [ ] Exclusión convertidos en campaña (recheck 2026-08-04: login OK; Observation aún en revisión → cuando Apto)

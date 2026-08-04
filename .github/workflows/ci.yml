@@ -44,7 +44,7 @@ jobs:
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Smoke e2e
+      - name: Smoke + a11y e2e
         run: npm run test:e2e
         env:
           CI: true

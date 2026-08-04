@@ -26,7 +26,7 @@ MCC: 194-190-5637 · No usar Mr.Saimek (785-145-5619).
 - [x] GA4 vinculado (548194641) · `start_practice` **principal**
 - [ ] Secundarias cuando existan en GA4 28d
 - [x] Observation: All Users of uscivics-quiz
-- [ ] Exclusión convertidos — recheck 2026-08-04: API test-only + UI login pendiente; aplicar cuando Observation Apto ([`GOLIVE.md`](GOLIVE.md))
+- [ ] Exclusión convertidos — recheck 2026-08-04: login OK; Observation aún en revisión; aplicar cuando Apto ([`GOLIVE.md`](GOLIVE.md))
 
 ### SEO ↔ Ads loop
 - [x] [`SEO-OPS.md`](SEO-OPS.md) ritual + `gsc:insights` / `gsc:report` (0 queries aún)

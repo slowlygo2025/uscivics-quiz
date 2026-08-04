@@ -29,14 +29,12 @@ export default function SiteHeader({
     `/${locale}/eligibility`,
     `/${locale}/practice/2025`,
     `/${locale}/practice/2008`,
-    `/${locale}/questions/senior`,
     `/${locale}/questions`,
-    `/${locale}/updates`,
   ]);
 
   return (
     <header className="gw-header gw-safe-top sticky top-0 z-40">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8">
+      <div className="gw-page flex items-center justify-between gap-3 py-3">
         <Link
           href={`/${locale}`}
           className="min-w-0 shrink opacity-100 transition-opacity hover:opacity-90"
@@ -49,7 +47,8 @@ export default function SiteHeader({
           />
         </Link>
 
-        <div className="flex min-w-0 shrink-0 items-center gap-1.5 sm:gap-2">
+        <div className="flex min-w-0 shrink-0 items-center gap-1 sm:gap-1.5 md:gap-2">
+          {/* Full nav only on very wide screens — avoids cramped mid-size desktops */}
           <nav
             aria-label={dict.navHome}
             className="hidden items-center gap-2.5 2xl:flex 2xl:gap-3.5"
@@ -65,9 +64,10 @@ export default function SiteHeader({
             ))}
           </nav>
 
+          {/* Core links from xl — tablet/laptop use the menu for the rest */}
           <nav
             aria-label={dict.navHome}
-            className="hidden items-center gap-2.5 lg:flex 2xl:hidden"
+            className="hidden items-center gap-2 xl:flex 2xl:hidden xl:gap-3"
           >
             {fullLinks
               .filter((l) => midHrefs.has(l.href))
@@ -82,7 +82,7 @@ export default function SiteHeader({
               ))}
           </nav>
 
-          <div className="hidden h-5 w-px bg-line lg:block" aria-hidden />
+          <div className="hidden h-5 w-px bg-line xl:block" aria-hidden />
 
           <LanguageSwitcher locale={locale} variant="header" />
           <ThemeToggle

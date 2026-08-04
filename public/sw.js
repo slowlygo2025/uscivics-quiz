@@ -1,6 +1,14 @@
-/** Minimal app-shell service worker — network-first navigations, cache static assets. */
-const CACHE = "uscivics-shell-v1";
-const PRECACHE = ["/", "/en", "/brand-seal.svg", "/manifest.webmanifest"];
+/** App-shell + practice asset service worker — network-first navigations. */
+const CACHE = "uscivics-shell-v3";
+const PRECACHE = [
+  "/",
+  "/en",
+  "/es",
+  "/brand-seal.svg",
+  "/manifest.webmanifest",
+  "/icon-192",
+  "/icon-512",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -24,7 +32,6 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
-  // Never cache API / monitoring / auth-ish paths
   if (
     url.pathname.startsWith("/api/") ||
     url.pathname.startsWith("/monitoring")
@@ -32,7 +39,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Navigations: network first, fall back to cache
+  // Navigations: network first, fall back to cached shell
   if (request.mode === "navigate") {
     event.respondWith(
       fetch(request)
@@ -41,12 +48,41 @@ self.addEventListener("fetch", (event) => {
           caches.open(CACHE).then((c) => c.put(request, copy));
           return res;
         })
-        .catch(() => caches.match(request).then((r) => r || caches.match("/en")))
+        .catch(() =>
+          caches
+            .match(request)
+            .then((r) => r || caches.match("/") || caches.match("/en"))
+        )
     );
     return;
   }
 
-  // Static: stale-while-revalidate
+  // JS/CSS chunks that embed question banks: cache after first success (offline practice)
+  const isAppAsset =
+    url.pathname.startsWith("/_next/static/") ||
+    url.pathname.endsWith(".js") ||
+    url.pathname.endsWith(".css") ||
+    url.pathname.endsWith(".woff2");
+
+  if (isAppAsset) {
+    event.respondWith(
+      caches.match(request).then((cached) => {
+        const network = fetch(request)
+          .then((res) => {
+            if (res.ok) {
+              const copy = res.clone();
+              caches.open(CACHE).then((c) => c.put(request, copy));
+            }
+            return res;
+          })
+          .catch(() => cached);
+        return cached || network;
+      })
+    );
+    return;
+  }
+
+  // Other static: stale-while-revalidate
   event.respondWith(
     caches.match(request).then((cached) => {
       const network = fetch(request)

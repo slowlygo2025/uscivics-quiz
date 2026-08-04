@@ -1,0 +1,19 @@
+rules_version = '2';
+
+/**
+ * Cloud sync progress — users/{uid}/data/progress
+ * Deploy: firebase deploy --only firestore:rules
+ * Enable Email/Password in Firebase Console → Authentication → Sign-in method.
+ */
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId}/data/{docId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId
+        && docId == "progress";
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

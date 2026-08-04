@@ -51,7 +51,7 @@ export default function MobileNav({
   ];
 
   return (
-    <div className="lg:hidden">
+    <div className="2xl:hidden">
       <button
         type="button"
         className="inline-flex h-10 w-10 items-center justify-center rounded-[var(--radius)] text-ink-soft touch-manipulation transition-colors hover:bg-mist hover:text-ink"
@@ -90,7 +90,7 @@ export default function MobileNav({
           />
           <nav
             id={panelId}
-            className="gw-safe-bottom fixed inset-x-0 bottom-0 z-50 max-h-[85vh] overflow-y-auto rounded-t-2xl border border-line bg-surface px-4 pb-4 pt-3 shadow-[0_-16px_48px_rgba(11,28,44,0.18)]"
+            className="gw-safe-bottom fixed inset-x-0 bottom-0 z-50 max-h-[min(85vh,85dvh)] overflow-y-auto rounded-t-2xl border border-line bg-surface px-[var(--page-gutter)] pb-4 pt-3 shadow-[0_-16px_48px_rgba(11,28,44,0.18)]"
           >
             <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-line" />
             <ul className="flex flex-col gap-1">

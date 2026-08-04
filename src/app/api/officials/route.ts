@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { getStateInfo } from "@/lib/states";
 import type { OfficialPerson, OfficialsResponse } from "@/lib/officials";
+import { clientIp, rateLimit } from "@/lib/rate-limit";
 
 type RepsContactMember = {
   type: string;
@@ -23,6 +24,19 @@ function fullName(m: RepsContactMember) {
 }
 
 export async function GET(request: Request) {
+  const ip = clientIp(request);
+  const limited = await rateLimit({
+    key: `officials:${ip}`,
+    max: 30,
+    windowMs: 60_000,
+  });
+  if (!limited.ok) {
+    return NextResponse.json(
+      { error: "Too many lookups. Try again in a minute." },
+      { status: 429 }
+    );
+  }
+
   const { searchParams } = new URL(request.url);
   const zip = (searchParams.get("zip") ?? "").replace(/\D/g, "").slice(0, 5);
 

@@ -8,6 +8,11 @@ import OfficialSiteBanner from "@/components/OfficialSiteBanner";
 import SiteHeader from "@/components/SiteHeader";
 import CookieConsent from "@/components/CookieConsent";
 import OutboundClickTracker from "@/components/OutboundClickTracker";
+import DocumentLocale from "@/components/DocumentLocale";
+import {
+  localeScriptFontClass,
+  localeUsesScriptFont,
+} from "@/lib/locale-fonts";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -25,20 +30,35 @@ export default async function LocaleLayout({
   const locale = raw as Locale;
   const dict = getDictionary(locale);
   const rtl = isRtlLocale(locale);
+  const scriptFont = localeScriptFontClass(locale);
+  const useScript = localeUsesScriptFont(locale);
 
   return (
-    <div className="gw-shell" lang={locale} dir={rtl ? "rtl" : "ltr"}>
+    <div
+      className={`gw-shell ${scriptFont}`.trim()}
+      lang={locale}
+      dir={rtl ? "rtl" : "ltr"}
+      data-script-font={useScript ? "1" : undefined}
+    >
+      <DocumentLocale locale={locale} rtl={rtl} />
+      <a href="#main-content" className="gw-skip-link">
+        {dict.skipToContent}
+      </a>
       <OfficialSiteBanner dict={dict} />
       <SiteHeader locale={locale} dict={dict} />
       <CookieConsent locale={locale} />
       <OutboundClickTracker />
 
-      <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 sm:py-10 lg:px-8">
+      <main
+        id="main-content"
+        tabIndex={-1}
+        className="gw-page mx-auto w-full flex-1 py-6 sm:py-10"
+      >
         {children}
       </main>
 
       <footer className="gw-safe-bottom border-t border-line bg-surface">
-        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="gw-page py-10">
           <div className="h-1 w-16 bg-[var(--header)]" aria-hidden />
           <div className="mt-5">
             <BrandLogo

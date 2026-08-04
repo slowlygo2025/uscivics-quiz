@@ -13,6 +13,7 @@ import {
 import { buildPageMetadata, webPageJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 import EditorialCover from "@/components/EditorialCover";
+import ContactForm from "@/components/ContactForm";
 import { SITE_IMAGES, absoluteImageUrl } from "@/lib/site-images";
 
 export function generateStaticParams() {
@@ -112,14 +113,17 @@ export default async function LegalPage({
               {s.body}
             </p>
             {page.slug === "contact" && i === 0 ? (
-              <p className="mt-3">
-                <a
-                  href={`mailto:${CONTACT_EMAIL_EXPORT}`}
-                  className="font-semibold text-signal underline-offset-2 hover:underline"
-                >
-                  {CONTACT_EMAIL_EXPORT}
-                </a>
-              </p>
+              <>
+                <p className="mt-3">
+                  <a
+                    href={`mailto:${CONTACT_EMAIL_EXPORT}`}
+                    className="font-semibold text-signal underline-offset-2 hover:underline"
+                  >
+                    {CONTACT_EMAIL_EXPORT}
+                  </a>
+                </p>
+                <ContactForm locale={locale} dict={dict} />
+              </>
             ) : null}
           </section>
         ))}
