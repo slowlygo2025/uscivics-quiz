@@ -185,6 +185,122 @@ html.dark .gw-shell::before {
   color: var(--ink);
 }
 
+/* Trust disclosure — always light (readable; not a fake dark .gov bar). */
+.gw-gov-banner {
+  border-bottom: 1px solid #dfe1e2;
+  background: #f0f0f0;
+  color: #1b1b1b;
+}
+
+.gw-gov-banner__inner {
+  margin-inline: auto;
+  display: flex;
+  max-width: 80rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .gw-gov-banner__inner {
+    padding-inline: 1.5rem;
+  }
+}
+
+.gw-gov-banner__flag {
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+}
+
+.gw-gov-banner__lead {
+  margin: 0;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+}
+
+.gw-gov-banner__badge {
+  display: inline-block;
+  margin-inline-end: 0.4rem;
+  border: 1px solid #005288;
+  border-radius: 2px;
+  padding: 0.05rem 0.35rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #005288;
+  vertical-align: 0.05em;
+}
+
+.gw-gov-banner__text {
+  font-weight: 600;
+  color: #1b1b1b;
+}
+
+.gw-gov-banner__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-weight: 600;
+  color: #005288;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+}
+
+.gw-gov-banner__toggle:hover {
+  color: #003a5d;
+}
+
+.gw-gov-banner__chevron {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-1px);
+  transition: transform 0.15s ease;
+}
+
+.gw-gov-banner__chevron.is-open {
+  transform: rotate(225deg) translateY(-1px);
+}
+
+.gw-gov-banner__panel {
+  margin-top: 0.65rem;
+  display: grid;
+  gap: 0.65rem;
+  border-top: 1px solid #c9c9c9;
+  padding-top: 0.65rem;
+}
+
+@media (min-width: 640px) {
+  .gw-gov-banner__panel {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+.gw-gov-banner__card-title {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #1b1b1b;
+}
+
+.gw-gov-banner__card-body {
+  margin: 0.25rem 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: #565c65;
+}
+
 @keyframes gw-rise {
   from {
     opacity: 0;

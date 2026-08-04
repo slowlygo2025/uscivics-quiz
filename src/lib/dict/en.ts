@@ -148,13 +148,16 @@ export const en = {
   navLearn: "Guides",
   navUpdates: "Updates",
   navCitizenship: "My version",
+  govBannerBadge: "Not .gov",
   govBannerLead:
-    "An unofficial practice website — not a U.S. government site.",
+    "Independent civics practice — not a U.S. government website.",
   govBannerHow: "Here’s how you know",
+  govBannerOfficialTitle: "Official sites use .gov",
   govBannerOfficial:
-    "Official USCIS websites use .gov and are published by the U.S. government. This site is an independent study tool.",
+    "USCIS and other U.S. government sites end in .gov. This site is a free, independent study tool — not affiliated with or endorsed by USCIS.",
+  govBannerSecureTitle: "Verify before interview day",
   govBannerSecure:
-    "Always verify changing answers and rules on uscis.gov before your interview.",
+    "Always confirm changing answers and test rules on uscis.gov before your interview.",
   updatesHubTitle: "Civics test updates",
   updatesHubLead:
     "Filing date (2008 vs 2025), officials that change, and ZIP lookup — a narrow exam changelog, not a news feed.",
