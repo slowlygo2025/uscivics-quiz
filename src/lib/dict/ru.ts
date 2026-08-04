@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const ru: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "Официальная практика USCIS",
+  logoSubtitle: "Практика по гражданственности",
   siteName: "USCivics Quiz",
   tagline: "Бесплатное приложение для практики гражданственности USCIS — узнайте дату подачи N-400 (2008 vs 2025) и начните за секунды. Без регистрации.",
   heroSupport: "Официальный банк вопросов с аудио, карточками и симуляцией собеседования — на 10+ языках.",

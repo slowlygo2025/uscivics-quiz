@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const ht: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "Pratik ofisyèl USCIS",
+  logoSubtitle: "Pratik sivik",
   siteName: "USCivics Quiz",
   tagline: "Aplikasyon gratis pou pratike civics USCIS — konnen dat depoze N-400 ou (2008 vs 2025), epi kòmanse an kèk segonn. Pa gen enskripsyon.",
   heroSupport: "Bank kesyon ofisyèl ak odyo, flashcards, ak simulasyon entèvyou — nan plis pase 10 lang.",

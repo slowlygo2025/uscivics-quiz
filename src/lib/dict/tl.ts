@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const tl: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "Opisyal na USCIS practice",
+  logoSubtitle: "Civics practice",
   siteName: "USCivics Quiz",
   tagline: "Libreng USCIS civics practice app — alamin ang N-400 filing date (2008 vs 2025), tapos magsimula sa ilang segundo. Walang sign-up.",
   heroSupport: "Opisyal na question bank na may audio, flashcards, at interview simulation — sa 10+ wika.",

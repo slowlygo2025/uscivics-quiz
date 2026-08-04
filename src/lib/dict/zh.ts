@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const zh: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "官方 USCIS 练习",
+  logoSubtitle: "公民测验练习",
   siteName: "USCivics Quiz",
   tagline: "免费 USCIS 公民测验练习应用 — 先确认 N-400 递交日期（2008 或 2025），几秒即可开始。无需注册。",
   heroSupport: "官方题库含音频、闪卡与真实面试模拟 — 支持 10+ 种语言。",

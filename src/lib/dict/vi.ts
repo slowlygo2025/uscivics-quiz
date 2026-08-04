@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const vi: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "Luyện tập USCIS chính thức",
+  logoSubtitle: "Luyện thi công dân",
   siteName: "USCivics Quiz",
   tagline: "Ứng dụng luyện thi công dân USCIS miễn phí — biết ngày nộp N-400 (2008 vs 2025), bắt đầu trong vài giây. Không đăng ký.",
   heroSupport: "Ngân hàng câu hỏi chính thức với audio, flashcard và mô phỏng phỏng vấn — hơn 10 ngôn ngữ.",

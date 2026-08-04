@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const hi: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "आधिकारिक USCIS अभ्यास",
+  logoSubtitle: "नागरिक अभ्यास",
   siteName: "USCivics Quiz",
   tagline: "मुफ़्त USCIS नागरिक अभ्यास ऐप — अपना N-400 दाखिल करने की तारीख जानें (2008 बनाम 2025), फिर सेकंडों में शुरू करें। साइन-अप नहीं।",
   heroSupport: "आधिकारिक प्रश्न बैंक ऑडियो, फ्लैशकार्ड और इंटरव्यू सिमुलेशन के साथ — 10+ भाषाएँ।",

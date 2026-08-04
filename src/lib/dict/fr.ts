@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const fr: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "Pratique officielle USCIS",
+  logoSubtitle: "Pratique civique",
   siteName: "USCivics Quiz",
   tagline: "Application gratuite de pratique civique USCIS — connaissez votre date de dépôt N-400 (2008 vs 2025), puis commencez en quelques secondes. Sans inscription.",
   heroSupport: "Banque officielle avec audio, flashcards et simulation d'entretien — en plus de 10 langues.",

@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const ar: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "تدريب USCIS الرسمي",
+  logoSubtitle: "تدريب المواطنة",
   siteName: "USCivics Quiz",
   tagline: "تطبيق مجاني لتدريب اختبار المواطنة USCIS — اعرف تاريخ تقديم N-400 (2008 مقابل 2025) ثم ابدأ في ثوانٍ. بلا تسجيل.",
   heroSupport: "بنك أسئلة رسمي مع صوت وبطاقات ومحاكاة مقابلة — بأكثر من 10 لغات.",

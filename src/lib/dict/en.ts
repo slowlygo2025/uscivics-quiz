@@ -1,7 +1,7 @@
 /** Shared English dictionary — source of truth for keys. */
 export const en = {
   brand: "USCivics Quiz",
-  logoSubtitle: "Official USCIS practice",
+  logoSubtitle: "Civics practice",
   siteName: "USCivics Quiz",
   tagline:
     "Free USCIS civics practice app — know your N-400 filing date (2008 vs 2025), then start in seconds. No sign-up.",

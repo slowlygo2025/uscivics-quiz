@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const es: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "Práctica oficial USCIS",
+  logoSubtitle: "Práctica cívica",
   siteName: "USCivics Quiz",
   tagline:
     "App gratuita de práctica cívica USCIS — sabé tu fecha de N-400 (2008 vs 2025) y empezá en segundos. Sin registro.",

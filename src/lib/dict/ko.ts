@@ -2,7 +2,7 @@ import type { Dictionary } from "./en";
 
 export const ko: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "공식 USCIS 연습",
+  logoSubtitle: "시민권 연습",
   siteName: "USCivics Quiz",
   tagline: "무료 USCIS 시민권 연습 앱 — N-400 제출일(2008 vs 2025)을 확인한 뒤 몇 초 만에 시작. 가입 없음.",
   heroSupport: "공식 문제은행 + 오디오, 플래시카드, 면접 시뮬레이션 — 10개 이상 언어.",
