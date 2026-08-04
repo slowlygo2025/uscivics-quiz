@@ -6,6 +6,7 @@ import { LOCALES, isLocale } from "@/lib/locales";
 import { SEO_TOPICS, getTopicBySlug, topicCopy } from "@/lib/seo-topics";
 import { buildPageMetadata } from "@/lib/seo";
 import { QuestionsPageShell } from "@/components/QuestionsPageShell";
+import { absoluteImageUrl, ogForQuestionsLanding } from "@/lib/site-images";
 
 export function generateStaticParams() {
   return LOCALES.flatMap((locale) =>
@@ -23,11 +24,14 @@ export async function generateMetadata({
   const topic = getTopicBySlug(slug);
   if (!topic) return {};
   const copy = topicCopy(topic, locale);
+  const og = ogForQuestionsLanding({ kind: "topic" });
   return buildPageMetadata({
     locale: locale as Locale,
     path: `/questions/topic/${slug}`,
     title: copy.title,
     description: copy.description,
+    image: absoluteImageUrl(og.src),
+    imageAlt: og.alt,
   });
 }
 

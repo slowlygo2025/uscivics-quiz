@@ -5,6 +5,7 @@ import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale } from "@/lib/locales";
 import { LEARN_POSTS, getLearnPost, learnPostCopy } from "@/lib/learn-posts";
+import { getLearnDates } from "@/lib/learn-dates";
 import JsonLd from "@/components/JsonLd";
 import EditorialCover from "@/components/EditorialCover";
 import TrustDiffStrip from "@/components/TrustDiffStrip";
@@ -40,13 +41,14 @@ export async function generateMetadata({
   if (!post) return {};
   const copy = learnPostCopy(post, locale);
   const cover = imageForLearnSlug(slug);
+  const og = absoluteImageUrl(ogPathForLearnSlug(slug));
   return buildPageMetadata({
     locale: locale as Locale,
     path: `/learn/${slug}`,
     title: copy.title,
     description: copy.description,
     type: "article",
-    image: absoluteImageUrl(ogPathForLearnSlug(slug)),
+    image: og,
     imageAlt: cover.alt,
   });
 }
@@ -64,6 +66,14 @@ export default async function LearnPostPage({
   const dict = getDictionary(locale);
   const copy = learnPostCopy(post, locale);
   const cover = imageForLearnSlug(slug);
+  const dates = getLearnDates(slug);
+  const og = absoluteImageUrl(ogPathForLearnSlug(slug));
+  const updatedLabel = new Intl.DateTimeFormat(locale, {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
+  }).format(new Date(`${dates.modified}T12:00:00.000Z`));
 
   return (
     <article className="mx-auto max-w-3xl space-y-8">
@@ -74,6 +84,9 @@ export default async function LearnPostPage({
             path: `/learn/${slug}`,
             title: copy.title,
             description: copy.description,
+            datePublished: dates.published,
+            dateModified: dates.modified,
+            image: og,
           }),
           breadcrumbJsonLd(locale, [
             { name: dict.navLearn, path: "/learn" },
@@ -97,6 +110,10 @@ export default async function LearnPostPage({
           </h1>
           <p className="mt-3 text-base leading-relaxed text-muted sm:text-lg">
             {copy.description}
+          </p>
+          <p className="mt-2 text-sm text-muted">
+            {dict.dateUpdatedLabel}{" "}
+            <time dateTime={dates.modified}>{updatedLabel}</time>
           </p>
           {(slug === "n-400-filing-date" ||
             slug === "65-20" ||

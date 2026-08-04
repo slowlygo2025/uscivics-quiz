@@ -6,6 +6,7 @@ import { LOCALES, isLocale } from "@/lib/locales";
 import { SEO_DRILLS, getDrillBySlug, drillCopy } from "@/lib/seo-drills";
 import { buildPageMetadata } from "@/lib/seo";
 import { QuestionsPageShell } from "@/components/QuestionsPageShell";
+import { absoluteImageUrl, ogForQuestionsLanding } from "@/lib/site-images";
 
 export function generateStaticParams() {
   return LOCALES.flatMap((locale) =>
@@ -23,11 +24,14 @@ export async function generateMetadata({
   const drill = getDrillBySlug(slug);
   if (!drill) return {};
   const copy = drillCopy(drill, locale);
+  const og = ogForQuestionsLanding({ kind: "drill" });
   return buildPageMetadata({
     locale: locale as Locale,
     path: `/questions/drill/${slug}`,
     title: copy.title,
     description: copy.description,
+    image: absoluteImageUrl(og.src),
+    imageAlt: og.alt,
   });
 }
 

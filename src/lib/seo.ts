@@ -34,6 +34,7 @@ export function buildPageMetadata({
   type = "website",
   image,
   imageAlt,
+  absoluteTitle = false,
 }: {
   locale: Locale;
   /** Path without locale prefix, e.g. `/learn/interview` */
@@ -44,6 +45,8 @@ export function buildPageMetadata({
   /** Absolute or site-relative OG image URL */
   image?: string;
   imageAlt?: string;
+  /** Skip root `%s | USCivics Quiz` template (home + money pages). */
+  absoluteTitle?: boolean;
 }): Metadata {
   const url = absoluteUrl(locale, path);
   const ogImage = image
@@ -53,7 +56,7 @@ export function buildPageMetadata({
     : DEFAULT_OG_IMAGE;
   const ogAlt = imageAlt ?? SITE_NAME;
   return {
-    title,
+    title: absoluteTitle ? { absolute: title } : title,
     description,
     alternates: {
       canonical: url,
@@ -80,6 +83,7 @@ export function buildPageMetadata({
       title,
       description,
       images: [ogImage],
+      // No brand X/Twitter handle yet — omit twitter:site until one exists.
     },
   };
 }
@@ -128,6 +132,32 @@ export function websiteJsonLd() {
   };
 }
 
+/** Marks the product as a free browser practice tool (not a blog-only site). */
+export function webApplicationJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: SITE_NAME,
+    alternateName: BRAND_ALTERNATE_NAMES,
+    url: SITE_URL,
+    applicationCategory: "EducationalApplication",
+    operatingSystem: "Any",
+    browserRequirements: "Requires a modern web browser with JavaScript",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    description:
+      "Free USCIS naturalization civics practice — 2008 and 2025 question banks, audio, flashcards, and interview simulation in 10+ languages.",
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+  };
+}
+
 export function faqJsonLd(
   items: { question: string; answer: string }[]
 ): Record<string, unknown> {
@@ -150,18 +180,31 @@ export function articleJsonLd({
   path,
   title,
   description,
+  datePublished,
+  dateModified,
+  image,
 }: {
   locale: Locale;
   path: string;
   title: string;
   description: string;
+  datePublished?: string;
+  dateModified?: string;
+  image?: string;
 }) {
+  const published = datePublished ?? dateModified;
+  const modified = dateModified ?? datePublished;
   return {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
     description,
     inLanguage: locale,
+    ...(published
+      ? { datePublished: `${published}T12:00:00.000Z` }
+      : {}),
+    ...(modified ? { dateModified: `${modified}T12:00:00.000Z` } : {}),
+    ...(image ? { image: [image] } : {}),
     author: { "@type": "Organization", name: SITE_NAME },
     publisher: {
       "@type": "Organization",
@@ -172,6 +215,35 @@ export function articleJsonLd({
       },
     },
     mainEntityOfPage: absoluteUrl(locale, path),
+  };
+}
+
+/** Legal / trust pages — not articles. */
+export function webPageJsonLd({
+  locale,
+  path,
+  title,
+  description,
+  pageType = "WebPage",
+}: {
+  locale: Locale;
+  path: string;
+  title: string;
+  description: string;
+  pageType?: "WebPage" | "AboutPage" | "ContactPage";
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": pageType,
+    name: title,
+    description,
+    inLanguage: locale,
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    url: absoluteUrl(locale, path),
   };
 }
 

@@ -7,7 +7,13 @@ import HeroWithPhoto from "@/components/HeroWithPhoto";
 import TestVersionNotice from "@/components/TestVersionNotice";
 import TrustDiffStrip from "@/components/TrustDiffStrip";
 import HomeLiveStrip from "@/components/HomeLiveStrip";
-import { buildPageMetadata, organizationJsonLd, websiteJsonLd } from "@/lib/seo";
+import {
+  buildPageMetadata,
+  organizationJsonLd,
+  websiteJsonLd,
+  webApplicationJsonLd,
+  faqJsonLd,
+} from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 import { isLocale } from "@/lib/locales";
 import { SITE_IMAGES, absoluteImageUrl } from "@/lib/site-images";
@@ -20,16 +26,15 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale as Locale);
-  const meta = buildPageMetadata({
+  return buildPageMetadata({
     locale: locale as Locale,
     path: "",
     title: dict.homeMetaTitle,
     description: dict.homeMetaDescription,
     image: absoluteImageUrl(SITE_IMAGES.homeHero.src),
     imageAlt: SITE_IMAGES.homeHero.alt,
+    absoluteTitle: true,
   });
-  // Absolute title avoids "Brand | Brand" from the root template.
-  return { ...meta, title: { absolute: dict.homeMetaTitle } };
 }
 
 export default async function HomePage({
@@ -42,7 +47,19 @@ export default async function HomePage({
 
   return (
     <div className="flex flex-col">
-      <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
+      <JsonLd
+        data={[
+          organizationJsonLd(),
+          websiteJsonLd(),
+          webApplicationJsonLd(),
+          faqJsonLd([
+            { question: dict.faqQ1, answer: dict.faqA1 },
+            { question: dict.faqQ2, answer: dict.faqA2 },
+            { question: dict.faqQ3, answer: dict.faqA3 },
+            { question: dict.faqQ5, answer: dict.faqA5 },
+          ]),
+        ]}
+      />
       <HeroWithPhoto image={SITE_IMAGES.homeHero} priority>
         <h1 className="gw-rise" aria-label={dict.brand}>
           <BrandLogo

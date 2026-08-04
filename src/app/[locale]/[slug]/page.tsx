@@ -10,7 +10,7 @@ import {
   pageCopy,
   CONTACT_EMAIL_EXPORT,
 } from "@/lib/site-pages";
-import { buildPageMetadata, articleJsonLd, breadcrumbJsonLd } from "@/lib/seo";
+import { buildPageMetadata, webPageJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 import EditorialCover from "@/components/EditorialCover";
 import { SITE_IMAGES, absoluteImageUrl } from "@/lib/site-images";
@@ -19,6 +19,14 @@ export function generateStaticParams() {
   return LOCALES.flatMap((locale) =>
     SITE_PAGES.map((p) => ({ locale, slug: p.slug }))
   );
+}
+
+function pageTypeForSlug(
+  slug: string
+): "WebPage" | "AboutPage" | "ContactPage" {
+  if (slug === "about") return "AboutPage";
+  if (slug === "contact") return "ContactPage";
+  return "WebPage";
 }
 
 export async function generateMetadata({
@@ -37,7 +45,7 @@ export async function generateMetadata({
     path: `/${slug}`,
     title: copy.title,
     description: copy.description,
-    type: "article",
+    type: "website",
     ...(isAbout
       ? {
           image: absoluteImageUrl(SITE_IMAGES.about.src),
@@ -64,11 +72,12 @@ export default async function LegalPage({
     <article className="mx-auto max-w-3xl space-y-8">
       <JsonLd
         data={[
-          articleJsonLd({
+          webPageJsonLd({
             locale,
             path: `/${slug}`,
             title: copy.title,
             description: copy.description,
+            pageType: pageTypeForSlug(slug),
           }),
           breadcrumbJsonLd(locale, [
             { name: dict.navHome, path: "" },

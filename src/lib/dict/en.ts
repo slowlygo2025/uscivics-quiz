@@ -43,8 +43,12 @@ export const en = {
   linkStudyPlan: "30-day study plan",
   linkReadingWriting: "English reading & writing",
   eligibilityTitle: "Which civics test do you take?",
+  eligibilityMetaTitle: "Which USCIS Civics Test? 2008, 2025 or 65/20",
   eligibilityLead:
     "Two quick questions. We’ll point you to the right question bank before you study — 2008, 2025, or 65/20.",
+  practiceSeoTitle2008: "2008 Civics Practice — Free USCIS Test",
+  practiceSeoTitle2025: "2025 Civics Practice — Free USCIS Test",
+  dateUpdatedLabel: "Updated",
   q1: "Did you file Form N-400 before October 20, 2025?",
   q2: "Are you 65 or older AND a permanent resident for 20+ years?",
   yes: "Yes",
@@ -284,13 +288,13 @@ export const en = {
   seoQuestionsHubTitle: "USCIS civics questions — free study landings",
   seoQuestionsHubLead:
     "Browse all 100 and 128 official civics questions by version, topic, 65/20, or top states — with free audio.",
-  seoAll128Title: "All 128 USCIS Civics Questions (2025) — Free Practice",
+  seoAll128Title: "All 128 Civics Questions (2025) — Free",
   seoAll128Lead:
     "Every official 2025 USCIS question with free audio — no sign-up, start in seconds. Then run the interview simulation. Available in 10+ languages.",
-  seoAll100Title: "All 100 USCIS Civics Questions (2008) — Free Practice",
+  seoAll100Title: "All 100 Civics Questions (2008) — Free",
   seoAll100Lead:
     "Full 2008 bank for N-400 filings before October 20, 2025. Free audio, no account — practice the interview simulation when ready.",
-  seoSeniorTitle: "65/20 Civics Questions: 20 Starred (Age 65 + 20 Years LPR)",
+  seoSeniorTitle: "65/20 Starred Civics Questions — Free Practice",
   seoSeniorLead:
     "Age 65+ and 20 years LPR? Study only 20 starred questions (10 asked, 6 to pass). Free audio, no sign-up — start in seconds. 10+ languages.",
   seoStartPractice: "Open interactive practice",

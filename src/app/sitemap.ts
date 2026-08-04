@@ -4,6 +4,7 @@ import { SEO_TOPICS, SEO_STATE_CODES } from "@/lib/seo-topics";
 import { SEO_DRILLS } from "@/lib/seo-drills";
 import { LEARN_POSTS } from "@/lib/learn-posts";
 import { SITE_ORIGIN, sitemapMetaForPath } from "@/lib/indexing-priority";
+import { lastModifiedForPath } from "@/lib/content-dates";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = [
@@ -28,52 +29,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const entries: MetadataRoute.Sitemap = [];
 
-  for (const locale of LOCALES) {
-    for (const path of staticPaths) {
-      const meta = sitemapMetaForPath(path);
+  function push(path: string) {
+    const meta = sitemapMetaForPath(path);
+    for (const locale of LOCALES) {
       entries.push({
         url: `${SITE_ORIGIN}/${locale}${path}`,
-        changeFrequency: meta.changeFrequency,
-        priority: meta.priority,
-      });
-    }
-    for (const t of SEO_TOPICS) {
-      const path = `/questions/topic/${t.slug}`;
-      const meta = sitemapMetaForPath(path);
-      entries.push({
-        url: `${SITE_ORIGIN}/${locale}${path}`,
-        changeFrequency: meta.changeFrequency,
-        priority: meta.priority,
-      });
-    }
-    for (const d of SEO_DRILLS) {
-      const path = `/questions/drill/${d.slug}`;
-      const meta = sitemapMetaForPath(path);
-      entries.push({
-        url: `${SITE_ORIGIN}/${locale}${path}`,
-        changeFrequency: meta.changeFrequency,
-        priority: meta.priority,
-      });
-    }
-    for (const code of SEO_STATE_CODES) {
-      const path = `/questions/state/${code.toLowerCase()}`;
-      const meta = sitemapMetaForPath(path);
-      entries.push({
-        url: `${SITE_ORIGIN}/${locale}${path}`,
-        changeFrequency: meta.changeFrequency,
-        priority: meta.priority,
-      });
-    }
-    for (const p of LEARN_POSTS) {
-      const path = `/learn/${p.slug}`;
-      const meta = sitemapMetaForPath(path);
-      entries.push({
-        url: `${SITE_ORIGIN}/${locale}${path}`,
+        lastModified: lastModifiedForPath(path),
         changeFrequency: meta.changeFrequency,
         priority: meta.priority,
       });
     }
   }
+
+  for (const path of staticPaths) push(path);
+  for (const t of SEO_TOPICS) push(`/questions/topic/${t.slug}`);
+  for (const d of SEO_DRILLS) push(`/questions/drill/${d.slug}`);
+  for (const code of SEO_STATE_CODES) {
+    push(`/questions/state/${code.toLowerCase()}`);
+  }
+  for (const p of LEARN_POSTS) push(`/learn/${p.slug}`);
 
   return entries;
 }

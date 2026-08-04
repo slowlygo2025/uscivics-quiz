@@ -6,6 +6,7 @@ import StudyHub from "@/components/StudyHub";
 import { RelatedStudyLinksForPath } from "@/components/RelatedStudyLinks";
 import { buildPageMetadata } from "@/lib/seo";
 import { isLocale } from "@/lib/locales";
+import { absoluteImageUrl, ogForMoneyPath } from "@/lib/site-images";
 
 const VERSIONS: TestVersion[] = ["2008", "2025"];
 
@@ -21,13 +22,18 @@ export async function generateMetadata({
   const { locale, version } = await params;
   if (!isLocale(locale) || !VERSIONS.includes(version as TestVersion)) return {};
   const dict = getDictionary(locale as Locale);
-  const title = `${version === "2025" ? dict.practice2025 : dict.practice2008} — ${dict.practiceMetaTitleSuffix}`;
-  const description = dict.practiceHubLead;
+  const path = `/practice/${version}`;
+  const og = ogForMoneyPath(path);
+  const title =
+    version === "2025" ? dict.practiceSeoTitle2025 : dict.practiceSeoTitle2008;
   return buildPageMetadata({
     locale: locale as Locale,
-    path: `/practice/${version}`,
+    path,
     title,
-    description,
+    description: dict.practiceHubLead,
+    image: absoluteImageUrl(og.src),
+    imageAlt: og.alt,
+    absoluteTitle: true,
   });
 }
 
@@ -43,7 +49,6 @@ export default async function PracticePage({
   if (!isLocale(raw) || !VERSIONS.includes(version as TestVersion)) notFound();
   const locale = raw as Locale;
   const dict = getDictionary(locale);
-
   return (
     <div className="space-y-8">
       <StudyHub

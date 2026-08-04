@@ -6,6 +6,7 @@ import { LOCALES, isLocale } from "@/lib/locales";
 import { buildPageMetadata } from "@/lib/seo";
 import { QuestionsPageShell } from "@/components/QuestionsPageShell";
 import SeniorListTracker from "@/components/SeniorListTracker";
+import { absoluteImageUrl, ogForMoneyPath } from "@/lib/site-images";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -19,11 +20,15 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const dict = getDictionary(locale);
+  const og = ogForMoneyPath("/questions/senior");
   return buildPageMetadata({
     locale: locale as Locale,
     path: "/questions/senior",
     title: dict.seoSeniorTitle,
     description: dict.seoSeniorLead,
+    image: absoluteImageUrl(og.src),
+    imageAlt: og.alt,
+    absoluteTitle: true,
   });
 }
 

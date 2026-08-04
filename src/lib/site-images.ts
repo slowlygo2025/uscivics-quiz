@@ -145,6 +145,80 @@ export function ogPathForLearnSlug(slug: string): string {
   return LEARN_OG[slug] ?? "/images/og/default.jpg";
 }
 
+export type MoneyOg = { src: string; alt: string };
+
+/** Dedicated OG art for Ads/SEO money URLs (reuse curated public images). */
+export function ogForMoneyPath(path: string): MoneyOg {
+  switch (path) {
+    case "/eligibility":
+      return {
+        src: "/images/og/test-version.jpg",
+        alt: "N-400 filing date decides 2008 vs 2025 civics test",
+      };
+    case "/practice/2025":
+    case "/questions/all-128":
+      return {
+        src: "/images/og/default.jpg",
+        alt: "Free 2025 USCIS civics practice — 128 questions",
+      };
+    case "/practice/2008":
+    case "/questions/all-100":
+      return {
+        src: "/images/og/default.jpg",
+        alt: "Free 2008 USCIS civics practice — 100 questions",
+      };
+    case "/questions/senior":
+      return {
+        src: SITE_IMAGES.clusterSenior.src,
+        alt: SITE_IMAGES.clusterSenior.alt,
+      };
+    default:
+      return {
+        src: "/images/og/default.jpg",
+        alt: SITE_NAME_ALT,
+      };
+  }
+}
+
+const SITE_NAME_ALT = "USCivics Quiz — free USCIS civics practice";
+
+/** OG for topic / drill / state landings. */
+export function ogForQuestionsLanding(opts: {
+  kind: "topic" | "drill" | "state";
+  stateCode?: string;
+}): MoneyOg {
+  if (opts.kind === "state" && opts.stateCode) {
+    const code = opts.stateCode.toUpperCase();
+    if (code === "TX")
+      return { src: SITE_IMAGES.stateTexas.src, alt: SITE_IMAGES.stateTexas.alt };
+    if (code === "FL")
+      return {
+        src: SITE_IMAGES.stateFlorida.src,
+        alt: SITE_IMAGES.stateFlorida.alt,
+      };
+    if (code === "NY")
+      return {
+        src: SITE_IMAGES.stateNewYork.src,
+        alt: SITE_IMAGES.stateNewYork.alt,
+      };
+    if (code === "CA")
+      return {
+        src: SITE_IMAGES.stateCalifornia.src,
+        alt: SITE_IMAGES.stateCalifornia.alt,
+      };
+  }
+  if (opts.kind === "drill") {
+    return {
+      src: SITE_IMAGES.clusterOfficials.src,
+      alt: SITE_IMAGES.clusterOfficials.alt,
+    };
+  }
+  return {
+    src: SITE_IMAGES.clusterStudy.src,
+    alt: SITE_IMAGES.clusterStudy.alt,
+  };
+}
+
 export function absoluteImageUrl(src: string): string {
   if (src.startsWith("http")) return src;
   const base = "https://uscivics-quiz.com";

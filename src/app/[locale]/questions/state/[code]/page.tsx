@@ -9,6 +9,7 @@ import { getStateInfo, STATES } from "@/lib/states";
 import JsonLd from "@/components/JsonLd";
 import { RelatedStudyLinksForPath } from "@/components/RelatedStudyLinks";
 import { buildPageMetadata, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
+import { absoluteImageUrl, ogForQuestionsLanding } from "@/lib/site-images";
 
 export function generateStaticParams() {
   return LOCALES.flatMap((locale) =>
@@ -35,11 +36,17 @@ export async function generateMetadata({
     locale === "es"
       ? `Estudiá respuestas USCIS para ${st.name}: capital ${st.capital}, gobernador ${st.governor}, senadores y representante por ZIP. Práctica gratis para la entrevista de naturalización.`
       : `Study USCIS civics answers for ${st.name} — capital ${st.capital}, governor ${st.governor}, senators, and your House representative by ZIP. Free naturalization interview practice.`;
+  const og = ogForQuestionsLanding({
+    kind: "state",
+    stateCode: code,
+  });
   return buildPageMetadata({
     locale: locale as Locale,
     path: `/questions/state/${code.toLowerCase()}`,
     title,
     description,
+    image: absoluteImageUrl(og.src),
+    imageAlt: og.alt,
   });
 }
 

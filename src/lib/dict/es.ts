@@ -44,8 +44,12 @@ export const es: Dictionary = {
   linkStudyPlan: "Plan de 30 días",
   linkReadingWriting: "Inglés: lectura y escritura",
   eligibilityTitle: "¿Qué examen cívico te toca?",
+  eligibilityMetaTitle: "¿Qué examen cívico USCIS? 2008, 2025 o 65/20",
   eligibilityLead:
     "Dos preguntas rápidas. Te llevamos al banco correcto antes de estudiar — 2008, 2025 o 65/20.",
+  practiceSeoTitle2008: "Práctica cívica 2008 — USCIS gratis",
+  practiceSeoTitle2025: "Práctica cívica 2025 — USCIS gratis",
+  dateUpdatedLabel: "Actualizado",
   q1: "¿Presentaste el Formulario N-400 antes del 20 de octubre de 2025?",
   q2: "¿Tenés 65 años o más Y sos residente permanente desde hace 20+ años?",
   yes: "Sí",
@@ -261,13 +265,13 @@ export const es: Dictionary = {
   seoQuestionsHubTitle: "Preguntas cívicas USCIS — landings gratis",
   seoQuestionsHubLead:
     "Explorá las 100 y 128 preguntas oficiales por versión, tema, 65/20 o estados principales — con audio gratis.",
-  seoAll128Title: "Las 128 preguntas cívicas USCIS (2025) — Práctica gratis",
+  seoAll128Title: "Las 128 preguntas cívicas (2025) — Gratis",
   seoAll128Lead:
     "Las 128 preguntas oficiales USCIS 2025 con audio gratis — sin registro, empezá en segundos. Después simulá la entrevista. En más de 10 idiomas.",
-  seoAll100Title: "Las 100 preguntas cívicas USCIS (2008) — Práctica gratis",
+  seoAll100Title: "Las 100 preguntas cívicas (2008) — Gratis",
   seoAll100Lead:
     "Banco 2008 completo si presentaste el N-400 antes del 20 de octubre de 2025. Audio gratis, sin cuenta — simulá la entrevista cuando quieras.",
-  seoSeniorTitle: "65/20 preguntas cívicas: 20 con estrella (65 años + 20 LPR)",
+  seoSeniorTitle: "Preguntas 65/20 con estrella — Práctica gratis",
   seoSeniorLead:
     "¿65+ y 20 años LPR? Estudiá solo 20 con estrella (piden 10; necesitás 6). Audio gratis, sin registro — empezá en segundos. Más de 10 idiomas.",
   seoStartPractice: "Abrir práctica interactiva",
