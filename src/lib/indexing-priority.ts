@@ -109,6 +109,13 @@ export const INDEX_PRIORITY: IndexPriorityItem[] = [
     changeFrequency: "weekly",
     why: "Ads money: 65/20 explained",
   },
+  {
+    path: "/learn/which-civics-test",
+    tier: 1,
+    priority: 0.93,
+    changeFrequency: "weekly",
+    why: "Money hub: which civics test (2008 / 2025 / 65/20)",
+  },
   // Tier 2 — drills + top learn + top states
   {
     path: "/questions/drill/dates-2025",
@@ -214,6 +221,27 @@ export const INDEX_PRIORITY: IndexPriorityItem[] = [
     priority: 0.84,
     changeFrequency: "monthly",
     why: "Top learn: pass score",
+  },
+  {
+    path: "/learn/fail-citizenship-test",
+    tier: 2,
+    priority: 0.83,
+    changeFrequency: "monthly",
+    why: "Top learn: fail / retest prep",
+  },
+  {
+    path: "/learn/30-day-study-plan",
+    tier: 2,
+    priority: 0.83,
+    changeFrequency: "monthly",
+    why: "Top learn: 30-day study plan",
+  },
+  {
+    path: "/learn/reading-writing-tips",
+    tier: 2,
+    priority: 0.83,
+    changeFrequency: "monthly",
+    why: "Top learn: reading/writing tips",
   },
   {
     path: "/learn/dates-names-officials-drills",

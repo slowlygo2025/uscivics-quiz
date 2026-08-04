@@ -18,9 +18,9 @@ export type LinkCluster = {
 
 const defaults: LinkCluster = {
   learn: [
+    { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
     { path: "/learn/n-400-filing-date", labelKey: "linkN400Filing" },
     { path: "/learn/65-20", labelKey: "link6520" },
-    { path: "/learn/how-many-questions", labelKey: "linkHowMany" },
   ],
   questions: [
     { path: "/questions/all-128", labelKey: "seoAll128Title" },
@@ -34,10 +34,27 @@ const defaults: LinkCluster = {
 
 /** Per-learn-slug related destinations for topical internal linking. */
 const LEARN_LINKS: Record<string, LinkCluster> = {
-  "65-20": {
+  "which-civics-test": {
     learn: [
       { path: "/learn/n-400-filing-date", labelKey: "linkN400Filing" },
-      { path: "/learn/how-many-questions", labelKey: "linkHowMany" },
+      { path: "/learn/65-20", labelKey: "link6520" },
+      { path: "/learn/2025-changes", labelKey: "link2025Changes" },
+    ],
+    questions: [
+      { path: "/questions/all-128", labelKey: "seoAll128Title" },
+      { path: "/questions/all-100", labelKey: "seoAll100Title" },
+      { path: "/questions/senior", labelKey: "navSenior" },
+    ],
+    practice: [
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/practice/2025", labelKey: "navTest2025" },
+      { path: "/practice/2008", labelKey: "navTest2008" },
+    ],
+  },
+  "65-20": {
+    learn: [
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
+      { path: "/learn/n-400-filing-date", labelKey: "linkN400Filing" },
       { path: "/learn/pass-score", labelKey: "linkPassScore" },
     ],
     questions: [
@@ -53,9 +70,9 @@ const LEARN_LINKS: Record<string, LinkCluster> = {
   },
   "n-400-filing-date": {
     learn: [
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
       { path: "/learn/2025-changes", labelKey: "link2025Changes" },
       { path: "/learn/65-20", labelKey: "link6520" },
-      { path: "/learn/how-many-questions", labelKey: "linkHowMany" },
     ],
     questions: [
       { path: "/questions/all-100", labelKey: "seoAll100Title" },
@@ -69,6 +86,7 @@ const LEARN_LINKS: Record<string, LinkCluster> = {
   },
   "2025-changes": {
     learn: [
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
       { path: "/learn/n-400-filing-date", labelKey: "linkN400Filing" },
       { path: "/learn/how-many-questions", labelKey: "linkHowMany" },
     ],
@@ -77,6 +95,53 @@ const LEARN_LINKS: Record<string, LinkCluster> = {
     ],
     practice: [
       { path: "/practice/2025", labelKey: "navTest2025" },
+      { path: "/eligibility", labelKey: "startEligibility" },
+    ],
+  },
+  "fail-citizenship-test": {
+    learn: [
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
+      { path: "/learn/pass-score", labelKey: "linkPassScore" },
+      { path: "/learn/reading-writing-tips", labelKey: "linkReadingWriting" },
+    ],
+    questions: [
+      { path: "/questions/all-128", labelKey: "seoAll128Title" },
+      { path: "/questions/senior", labelKey: "navSenior" },
+    ],
+    practice: [
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/practice/2025", labelKey: "seoStartPractice" },
+      { path: "/english", labelKey: "navEnglish" },
+    ],
+  },
+  "30-day-study-plan": {
+    learn: [
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
+      { path: "/learn/n-400-filing-date", labelKey: "linkN400Filing" },
+      { path: "/learn/pass-score", labelKey: "linkPassScore" },
+    ],
+    questions: [
+      { path: "/questions/all-128", labelKey: "seoAll128Title" },
+      { path: "/questions/senior", labelKey: "navSenior" },
+    ],
+    practice: [
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/practice/2025", labelKey: "seoStartPractice" },
+      { path: "/english", labelKey: "navEnglish" },
+    ],
+  },
+  "reading-writing-tips": {
+    learn: [
+      { path: "/learn/english-test", labelKey: "custom", customLabel: "English test overview" },
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
+      { path: "/learn/interview", labelKey: "custom", customLabel: "Naturalization interview" },
+    ],
+    questions: [
+      { path: "/questions/all-128", labelKey: "seoAll128Title" },
+    ],
+    practice: [
+      { path: "/english", labelKey: "navEnglish" },
+      { path: "/practice/2025", labelKey: "seoStartPractice" },
       { path: "/eligibility", labelKey: "startEligibility" },
     ],
   },
@@ -172,9 +237,9 @@ const PATH_LINKS: Record<string, LinkCluster> = {
   },
   "/eligibility": {
     learn: [
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
       { path: "/learn/n-400-filing-date", labelKey: "linkN400Filing" },
       { path: "/learn/65-20", labelKey: "link6520" },
-      { path: "/learn/2025-changes", labelKey: "link2025Changes" },
     ],
     questions: [
       { path: "/questions/all-128", labelKey: "seoAll128Title" },
@@ -222,12 +287,20 @@ export function linksForPath(path: string): LinkCluster {
  * Money slugs get stronger practice ↔ list wiring.
  */
 export function learnHeroCtas(slug: string): StudyLink[] {
+  if (slug === "which-civics-test") {
+    return [
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/learn/n-400-filing-date", labelKey: "linkN400Filing" },
+      { path: "/learn/65-20", labelKey: "link6520" },
+      { path: "/practice/2025", labelKey: "startInSecondsCta" },
+    ];
+  }
   if (slug === "n-400-filing-date") {
     return [
       { path: "/eligibility", labelKey: "startEligibility" },
       { path: "/practice/2025", labelKey: "navTest2025" },
       { path: "/practice/2008", labelKey: "navTest2008" },
-      { path: "/questions/all-128", labelKey: "seoAll128Title" },
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
     ];
   }
   if (slug === "65-20") {
@@ -235,20 +308,49 @@ export function learnHeroCtas(slug: string): StudyLink[] {
       { path: "/practice/2025?senior=1", labelKey: "seoStartPractice" },
       { path: "/questions/senior", labelKey: "navSenior" },
       { path: "/eligibility", labelKey: "startEligibility" },
-      { path: "/learn/n-400-filing-date", labelKey: "linkN400Filing" },
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
     ];
   }
-  if (slug === "2025-changes" || slug === "how-many-questions" || slug === "pass-score") {
+  if (
+    slug === "2025-changes" ||
+    slug === "how-many-questions" ||
+    slug === "pass-score"
+  ) {
     return [
       { path: "/practice/2025", labelKey: "seoStartPractice" },
       { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
       { path: "/questions/all-128", labelKey: "seoAll128Title" },
+    ];
+  }
+  if (slug === "fail-citizenship-test") {
+    return [
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/practice/2025", labelKey: "startInSecondsCta" },
+      { path: "/english", labelKey: "navEnglish" },
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
+    ];
+  }
+  if (slug === "30-day-study-plan") {
+    return [
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/practice/2025", labelKey: "startInSecondsCta" },
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
+      { path: "/learn/reading-writing-tips", labelKey: "linkReadingWriting" },
+    ];
+  }
+  if (slug === "reading-writing-tips" || slug === "english-test") {
+    return [
+      { path: "/english", labelKey: "navEnglish" },
+      { path: "/practice/2025", labelKey: "seoStartPractice" },
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
     ];
   }
   return [
     { path: "/practice/2025", labelKey: "seoStartPractice" },
     { path: "/eligibility", labelKey: "startEligibility" },
-    { path: "/questions/all-128", labelKey: "seoAll128Title" },
+    { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
   ];
 }
 

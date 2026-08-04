@@ -254,46 +254,50 @@
     ]
   },
   "fail-citizenship-test": {
-    "title": "ماذا يحدث إذا رسبت في اختبار التربية المدنية أو الإنجليزية للجنسية؟",
-    "description": "ما الذي يحدث عادةً إذا لم تنجح في الإنجليزية أو التربية المدنية في مقابلة التجنس، وكيف تستعد لإعادة الاختبار باستخدام أدوات تدريب مجانية.",
+    "title": "ماذا يحدث إذا رسبت في اختبار المدني أو الإنجليزية؟",
+    "description": "رسبت في الإنجليزية أو المدني بالمقابلة؟ ما الذي يحدث عادةً، وكيف تختار البنك الصحيح (2008/2025/65/20)، وتمارين إعادة مجانية بالصوت والمحاكاة — بدون تسجيل.",
     "sections": [
       {
-        "heading": "تحصل عادةً على فرصة أخرى",
-        "body": "إذا رسبت في جزء الإنجليزية أو التربية المدنية، يمنحك USCIS عموماً فرصة أخرى لإعادة الجزء الذي رسبت فيه. يتبع التوقيت والإجراء الدقيقان سياسة USCIS الحالية لحالتك — هذا الموقع ليس استشارة قانونية."
+        "heading": "You usually get another chance",
+        "body": "If you fail the English or civics portion, USCIS generally gives you another opportunity to take the failed portion. Exact timing follows current USCIS policy for your case — this site is not legal advice."
       },
       {
-        "heading": "استغل فترة الانتظار",
-        "body": "لا تنتظر حتى يصل الإشعار التالي لتبدأ الدراسة. جلسات يومية قصيرة أفضل من الحشو في اللحظة الأخيرة. ركّز على الجزء الذي فاتك: بنك التربية المدنية، القراءة، الكتابة، أو التحدث."
+        "heading": "Confirm the bank before you restart",
+        "body": "Retest prep fails when you study the wrong list. Check N-400 filing date (2008 vs 2025) or 65/20 eligibility first, then practice only that bank."
       },
       {
-        "heading": "التحضير لإعادة اختبار التربية المدنية",
-        "body": "أكّد أي نسخة ستخضع لها (2008 مقابل 2025). تدرّب على الأسئلة الضعيفة والمسؤولين المتغيرين، وشغّل محاكاة المقابلة حتى تتجاوز حدّ النجاح بفارق مريح."
+        "heading": "Use the wait wisely",
+        "body": "Daily short sessions beat last-minute cramming. Focus on what you missed: civics, reading, writing, or speaking. Start free practice in seconds — no account."
       },
       {
-        "heading": "التحضير لإعادة اختبار الإنجليزية",
-        "body": "تدرّب على جمل مفردات القراءة والكتابة الرسمية مع صوت. للتحدث، تدرّب على الإجابة عن أسئلة الطلب بوضوح — التواصل الواضح أهم من القواعد المثالية."
+        "heading": "Civics retest prep",
+        "body": "Drill weak questions and changing officials. Run interview simulations until you clear 6/10 or 12/20 with room to spare. Hear questions aloud in English."
+      },
+      {
+        "heading": "English retest prep",
+        "body": "Use official reading and writing vocabulary with audio. For speaking, answer application questions clearly. Pair with our English practice pages."
       }
     ]
   },
   "30-day-study-plan": {
-    "title": "خطة دراسة لمدة 30 يوماً لاختبار التربية المدنية للجنسية الأمريكية",
-    "description": "خطة عملية لمدة 30 يوماً للاستعداد لمقابلة التربية المدنية للتجنس: التحقق من النسخة، التدريبات اليومية، التدريب الشفهي، وأسبوع المحاكاة.",
+    "title": "خطة دراسة 30 يومًا لاختبار المدني الأمريكي",
+    "description": "خطة 30 يومًا تبدأ بالبنك الصحيح (تاريخ التقديم أو 65/20) ثم تمارين يومية وأسبوع محاكاة — مجانًا وبدون تسجيل وبأكثر من 10 لغات.",
     "sections": [
       {
-        "heading": "اليوم 1–2: أكّد نسختك",
-        "body": "استخدم Find my test version. تقديم Form N-400 قبل مقابل في/بعد 20 أكتوبر 2025 يحدد 2008 (100 س) مقابل 2025 (128 س). البنك الخاطئ يهدر الشهر كله."
+        "heading": "Day 1–2: Confirm your version",
+        "body": "Use Find my test version or the which-test guide. Filing Form N-400 before vs on/after October 20, 2025 decides 2008 (100 Q) vs 2025 (128 Q). Wrong bank wastes the whole month."
       },
       {
-        "heading": "اليوم 3–14: غطِّ البنك",
-        "body": "ادرس 15–25 دقيقة يومياً بالبطاقات التعليمية وتدريبات الموضوعات. علّم المواضيع الضعيفة. اسمع أسئلة الإنجليزية بصوت عالٍ حتى لو درست بلغة أخرى أيضاً — أسئلة التربية المدنية في المقابلة تُطرح بالإنجليزية ما لم ينطبق استثناء."
+        "heading": "Day 3–14: Cover the bank",
+        "body": "Study 15–25 minutes daily with flashcards and topic drills. Mark weak items. Hear English questions aloud even if you also study in another language — interview civics is oral in English unless an exception applies."
       },
       {
-        "heading": "اليوم 15–24: أصلح نقاط الضعف + الإجابات المتغيرة",
-        "body": "استخدم المراجعة الذكية. راجع الرئيس، وأعضاء مجلس الشيوخ، وممثل مجلس النواب، والحاكم، وعاصمة الولاية عبر البحث بـ ZIP. تدرّب على التواريخ والأسماء إذا كانت تُربكك."
+        "heading": "Day 15–24: Fix weak spots + changing answers",
+        "body": "Use smart review. Recheck President, senators, representative, governor, and capital with ZIP lookup. Drill dates and names if those trip you up."
       },
       {
-        "heading": "اليوم 25–30: أسبوع محاكاة المقابلة",
-        "body": "شغّل محاكاة المقابلة الكاملة يومياً حتى تنجح باستمرار (6/10 أو 12/20). أضف جلسات قراءة وكتابة بالإنجليزية. نم جيداً قبل الموعد."
+        "heading": "Day 25–30: Simulate interview week",
+        "body": "Run full interview simulations daily until you consistently pass (6/10 or 12/20). Add English reading/writing sessions. Sleep well before the appointment."
       }
     ]
   },
@@ -412,24 +416,28 @@
     ]
   },
   "reading-writing-tips": {
-    "title": "اختبار القراءة والكتابة بالإنجليزية لدى USCIS — نصائح تدريب مجانية",
-    "description": "كيف يعمل اختبارا القراءة والكتابة بالإنجليزية للتجنس، وكيف تستخدم المفردات الرسمية، وأين تتدرّب على جمل مجانية مع صوت.",
+    "title": "اختبار الإنجليزية USCIS قراءة وكتابة — نصائح مجانية",
+    "description": "كيف تعمل القراءة والكتابة في التجنّس وتمارين المفردات الرسمية وجمل مجانية بالصوت — مع البنك المدني الصحيح. بدون تسجيل.",
     "sections": [
       {
-        "heading": "ما الذي يجب أن تُظهره",
-        "body": "ما لم تكن معفى، يجب أن تُثبت إتقاناً أساسياً للإنجليزية: التحدث أثناء المقابلة، قراءة جملة واحدة بشكل صحيح، وكتابة جملة واحدة بشكل صحيح (من مجموعات محاولات صغيرة)."
+        "heading": "What you must show",
+        "body": "Unless exempt, you must demonstrate basic English: speaking during the interview, reading one sentence correctly, and writing one sentence correctly (from small sets of attempts)."
       },
       {
-        "heading": "التزم بالمفردات الرسمية",
-        "body": "القراءة والكتابة تستخدمان قوائم مفردات USCIS. تطبيقات الإنجليزية العشوائية أقل فائدة من جمل مبنية من تلك الكلمات — أشخاص، مصطلحات تربية مدنية، أماكن، أعياد، وأفعال شائعة."
+        "heading": "Stick to official vocabulary",
+        "body": "Reading and writing use USCIS vocabulary lists. Random English apps help less than sentences built from those words — people, civics terms, places, holidays, and common verbs."
       },
       {
-        "heading": "طريقة التدريب",
-        "body": "اسمع الجملة، اقرأها بصوت عالٍ، ثم اكتبها من الإملاء. تحقّق من الإملاء. كرّر الجمل التي أخطأت فيها في اليوم التالي."
+        "heading": "Practice method",
+        "body": "Hear the sentence, read it aloud, then write it from dictation. Check spelling. Repeat missed sentences the next day."
       },
       {
-        "heading": "تدرّب هنا مجاناً",
-        "body": "افتح صفحات القراءة والكتابة بالإنجليزية لدينا. اجمعها مع وضع التحدث للتربية المدنية حتى تبدو المقابلة كاملة مألوفة."
+        "heading": "Same day as civics — right bank first",
+        "body": "English reading/writing did not change with the 2025 civics update, but your civics bank still depends on N-400 filing date or 65/20. Confirm the civics version, then open English practice here for free."
+      },
+      {
+        "heading": "Practice here for free",
+        "body": "Open our English reading and writing pages. Combine with civics speak mode and interview simulation so the whole interview feels familiar — start in seconds, no account."
       }
     ]
   },
@@ -566,6 +574,28 @@
       {
         "heading": "Interview-ready practice",
         "body": "Match 2008 or 2025 to your N-400 filing date, then practice oral answers out loud — not only silent reading."
+      }
+    ]
+  },
+  "which-civics-test": {
+    "title": "أي اختبار مدني أقدّم؟ 2008 أو 2025 أو 65/20",
+    "description": "صفحة واحدة لاختيار بنك أسئلة USCIS الصحيح قبل الدراسة — تاريخ تقديم N-400 (2008 مقابل 2025) ومسار 65/20 وفحص أهلية مجاني وصوت ومحاكاة مقابلة. بدون تسجيل.",
+    "sections": [
+      {
+        "heading": "Start here — do not guess the bank",
+        "body": "Studying the wrong list is the most expensive mistake in civics prep. Your Form N-400 filing date decides 2008 (100 questions) vs 2025 (128 questions). Age 65+ with 20 years as a permanent resident may qualify for the 65/20 starred set. Confirm before flashcards."
+      },
+      {
+        "heading": "Path A — N-400 filing date (most applicants)",
+        "body": "Filed before October 20, 2025 → 2008 test (up to 10 asked, need 6). Filed on or after that date → 2025 test (up to 20 asked, need 12). Use our N-400 filing date guide, then practice the matching bank with audio and simulation."
+      },
+      {
+        "heading": "Path B — 65/20 special consideration",
+        "body": "If you are 65 or older and have been a lawful permanent resident for 20+ years, USCIS may ask from a smaller starred bank (need 6 of up to 10). Language-of-choice rules can apply. See our 65/20 guide and senior practice list."
+      },
+      {
+        "heading": "60-second check, then practice",
+        "body": "Run Find my test version (free, no account). Then open practice for 2008 or 2025 — or senior mode — and start in seconds. Pair civics with English reading and writing unless you are exempt."
       }
     ]
   }

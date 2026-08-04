@@ -34,6 +34,10 @@ export const en = {
   link2025Changes: "2025 civics changes",
   linkPractice2025Senior: "2025 · 65/20 practice",
   linkPractice2008Senior: "2008 · 65/20 practice",
+  linkWhichCivicsTest: "Which civics test do I take?",
+  linkFailTest: "If you fail the test",
+  linkStudyPlan: "30-day study plan",
+  linkReadingWriting: "English reading & writing",
   eligibilityTitle: "Which civics test do you take?",
   eligibilityLead:
     "Two quick questions. We’ll point you to the right question bank before you study — 2008, 2025, or 65/20.",

@@ -15,10 +15,18 @@ Configured on account **207-823-9713**, campaign **USCQ Search Core** (Enabled 2
 Wizard sitelinks (About Us×2, Contact, Reading/Writing, Civics Practice) **deleted** from asset library 2026-08-03. Library now **6/6** money sitelinks only.
 
 ## Callouts (texto destacado)
-Target list (campaign):
-`Free` · `No Sign-Up` · `Start in Seconds` · `Official USCIS Questions` · `Interview Simulation` · `10+ Languages`
+Live **only** on campaign **USCQ Search Core** (`campaignId=24095078622`) — verified 2026-08-04:
 
-Update in Ads UI → Campaña → Recursos / Texto destacado to match (docs synced 2026-08-04).
+| Texto | Nivel | Estado | Policy |
+|-------|-------|--------|--------|
+| Free | Campaña | Habilitado | Apto |
+| No Sign-Up | Campaña | Habilitado | Apto |
+| Start in Seconds | Campaña | Habilitado | Apto |
+| Official USCIS Questions | Campaña | Habilitado | Apto |
+| Interview Simulation | Campaña | Habilitado | Apto |
+| 10+ Languages | Campaña | Habilitado | Apto |
+
+UI: [Asociaciones · CALLOUT · campaña](https://ads.google.com/aw/assetreport/associations?campaignId=24095078622&ocid=8453533147&ascid=8453533147&assetType=CALLOUT&isLegacy=false) — **6/6**, sin nivel cuenta, sin `English and Espanol` / `No Sign-Up Required`.
 
 ## Messaging canónico (landings + RSA)
 1. Free · No sign-up · Start in seconds  

@@ -254,46 +254,50 @@
     ]
   },
   "fail-citizenship-test": {
-    "title": "시민권 또는 영어 시험에 불합격하면 어떻게 되나요?",
-    "description": "귀화 면접에서 영어 또는 시민권 시험에 불합격했을 때 일반적으로 어떤 일이 일어나는지, 무료 연습 도구로 재시험을 준비하는 방법.",
+    "title": "시민권 시빅스 또는 영어 시험에 떨어지면?",
+    "description": "면접에서 영어/시빅스 불합격 시 보통 어떻게 되는지, 올바른 문제은행(2008/2025/65/20) 선택, 오디오·시뮬레이션 무료 재시험 대비 — 가입 없음.",
     "sections": [
       {
-        "heading": "보통 한 번 더 기회가 있습니다",
-        "body": "영어 또는 시민권 부분에 불합격하면 USCIS는 일반적으로 불합격한 부분을 다시 치를 기회를 줍니다. 정확한 일정과 절차는 본인 사례의 현행 USCIS 정책을 따릅니다 — 이 사이트는 법률 자문이 아닙니다."
+        "heading": "You usually get another chance",
+        "body": "If you fail the English or civics portion, USCIS generally gives you another opportunity to take the failed portion. Exact timing follows current USCIS policy for your case — this site is not legal advice."
       },
       {
-        "heading": "대기 기간을 활용하세요",
-        "body": "다음 통지가 올 때까지 기다리지 말고 공부하세요. 매일 짧은 세션이 마지막 벼락치기보다 낫습니다. 놓친 부분에 집중하세요: 시민권 은행, 읽기, 쓰기, 말하기."
+        "heading": "Confirm the bank before you restart",
+        "body": "Retest prep fails when you study the wrong list. Check N-400 filing date (2008 vs 2025) or 65/20 eligibility first, then practice only that bank."
       },
       {
-        "heading": "시민권 재시험 준비",
-        "body": "어떤 버전(2008년 대 2025년)을 치를지 확인하세요. 약한 질문과 바뀌는 공직자를 반복 연습하고, 합격 기준을 여유 있게 넘을 때까지 면접 시뮬레이션을 실행하세요."
+        "heading": "Use the wait wisely",
+        "body": "Daily short sessions beat last-minute cramming. Focus on what you missed: civics, reading, writing, or speaking. Start free practice in seconds — no account."
       },
       {
-        "heading": "영어 재시험 준비",
-        "body": "공식 읽기·쓰기 어휘 문장을 음성과 함께 연습하세요. 말하기는 신청서 질문에 명확히 답하는 연습을 하세요 — 완벽한 문법보다 명확한 의사소통이 더 중요합니다."
+        "heading": "Civics retest prep",
+        "body": "Drill weak questions and changing officials. Run interview simulations until you clear 6/10 or 12/20 with room to spare. Hear questions aloud in English."
+      },
+      {
+        "heading": "English retest prep",
+        "body": "Use official reading and writing vocabulary with audio. For speaking, answer application questions clearly. Pair with our English practice pages."
       }
     ]
   },
   "30-day-study-plan": {
-    "title": "미국 시민권 시민권 시험 30일 학습 계획",
-    "description": "귀화 시민권 면접 준비를 위한 실용적인 30일 계획: 버전 확인, 매일 연습, 구두 연습, 시뮬레이션 주간.",
+    "title": "미국 시민권 시빅스 30일 학습 계획",
+    "description": "올바른 문제은행(제출일 또는 65/20)부터 시작하는 30일 계획, 매일 연습과 시뮬레이션 주간 — 무료, 가입 없음, 10+ 언어.",
     "sections": [
       {
-        "heading": "1–2일차: 버전 확인",
-        "body": "Find my test version을 사용하세요. 2025년 10월 20일 이전 대 당일/이후 Form N-400 제출이 2008(100문항) 대 2025(128문항)를 결정합니다. 잘못된 은행을 쓰면 한 달이 낭비됩니다."
+        "heading": "Day 1–2: Confirm your version",
+        "body": "Use Find my test version or the which-test guide. Filing Form N-400 before vs on/after October 20, 2025 decides 2008 (100 Q) vs 2025 (128 Q). Wrong bank wastes the whole month."
       },
       {
-        "heading": "3–14일차: 은행 전체 다루기",
-        "body": "플래시카드와 주제별 연습으로 매일 15–25분 공부하세요. 약한 항목을 표시하세요. 다른 언어로도 공부하더라도 영어 질문을 소리 내어 들으세요 — 해당 예외가 없으면 면접 시민권 질문은 영어로 진행됩니다."
+        "heading": "Day 3–14: Cover the bank",
+        "body": "Study 15–25 minutes daily with flashcards and topic drills. Mark weak items. Hear English questions aloud even if you also study in another language — interview civics is oral in English unless an exception applies."
       },
       {
-        "heading": "15–24일차: 약점 보완 + 바뀌는 답",
-        "body": "스마트 복습을 사용하세요. ZIP 조회로 대통령, 상원의원, 하원의원, 주지사, 주도를 다시 확인하세요. 날짜와 이름 연습 페이지에서 어려운 부분을 반복하세요."
+        "heading": "Day 15–24: Fix weak spots + changing answers",
+        "body": "Use smart review. Recheck President, senators, representative, governor, and capital with ZIP lookup. Drill dates and names if those trip you up."
       },
       {
-        "heading": "25–30일차: 면접 시뮬레이션 주",
-        "body": "매일 전체 면접 시뮬레이션을 실행하여 꾸준히 합격(6/10 또는 12/20)할 때까지 연습하세요. 영어 읽기·쓰기 세션을 추가하세요. 예약 전날 충분히 주무세요."
+        "heading": "Day 25–30: Simulate interview week",
+        "body": "Run full interview simulations daily until you consistently pass (6/10 or 12/20). Add English reading/writing sessions. Sleep well before the appointment."
       }
     ]
   },
@@ -412,24 +416,28 @@
     ]
   },
   "reading-writing-tips": {
-    "title": "USCIS 영어 읽기·쓰기 시험 — 무료 연습 팁",
-    "description": "귀화 영어 읽기·쓰기 시험 진행 방식, 공식 어휘 사용법, 음성이 있는 무료 문장 연습 위치.",
+    "title": "USCIS 영어 읽기·쓰기 — 무료 연습 팁",
+    "description": "귀화 영어 읽기/쓰기 방식, 공식 어휘, 오디오 문장 연습 — 올바른 시빅스 은행과 함께. 가입 없음.",
     "sections": [
       {
-        "heading": "보여야 할 것",
-        "body": "면제가 아니면 기본 영어를 증명해야 합니다: 면접 중 말하기, 문장 하나 읽기 정답, 문장 하나 쓰기 정답(소수의 시도 중)."
+        "heading": "What you must show",
+        "body": "Unless exempt, you must demonstrate basic English: speaking during the interview, reading one sentence correctly, and writing one sentence correctly (from small sets of attempts)."
       },
       {
-        "heading": "공식 어휘에 집중",
-        "body": "읽기·쓰기는 USCIS 어휘 목록을 사용합니다. 임의 영어 앱보다 그 단어로 만든 문장이 더 유용합니다 — 사람, 시민권 용어, 장소, 휴일, 일반 동사."
+        "heading": "Stick to official vocabulary",
+        "body": "Reading and writing use USCIS vocabulary lists. Random English apps help less than sentences built from those words — people, civics terms, places, holidays, and common verbs."
       },
       {
-        "heading": "연습 방법",
-        "body": "문장을 듣고, 소리 내어 읽고, 받아쓰기로 씁니다. 철자를 확인하세요. 틀린 문장은 다음 날 반복하세요."
+        "heading": "Practice method",
+        "body": "Hear the sentence, read it aloud, then write it from dictation. Check spelling. Repeat missed sentences the next day."
       },
       {
-        "heading": "여기서 무료 연습",
-        "body": "영어 읽기·쓰기 페이지를 여세요. 시민권 말하기 모드와 함께 사용하면 전체 면접이 익숙해집니다."
+        "heading": "Same day as civics — right bank first",
+        "body": "English reading/writing did not change with the 2025 civics update, but your civics bank still depends on N-400 filing date or 65/20. Confirm the civics version, then open English practice here for free."
+      },
+      {
+        "heading": "Practice here for free",
+        "body": "Open our English reading and writing pages. Combine with civics speak mode and interview simulation so the whole interview feels familiar — start in seconds, no account."
       }
     ]
   },
@@ -566,6 +574,28 @@
       {
         "heading": "Interview-ready practice",
         "body": "Match 2008 or 2025 to your N-400 filing date, then practice oral answers out loud — not only silent reading."
+      }
+    ]
+  },
+  "which-civics-test": {
+    "title": "어떤 시민권 시험을 보나요? 2008, 2025, 또는 65/20",
+    "description": "공부 전에 올바른 USCIS 문제 은행을 고르는 한 페이지 — N-400 제출일(2008 vs 2025), 65/20 경로, 무료 적격 확인, 오디오, 면접 시뮬레이션. 가입 없음.",
+    "sections": [
+      {
+        "heading": "Start here — do not guess the bank",
+        "body": "Studying the wrong list is the most expensive mistake in civics prep. Your Form N-400 filing date decides 2008 (100 questions) vs 2025 (128 questions). Age 65+ with 20 years as a permanent resident may qualify for the 65/20 starred set. Confirm before flashcards."
+      },
+      {
+        "heading": "Path A — N-400 filing date (most applicants)",
+        "body": "Filed before October 20, 2025 → 2008 test (up to 10 asked, need 6). Filed on or after that date → 2025 test (up to 20 asked, need 12). Use our N-400 filing date guide, then practice the matching bank with audio and simulation."
+      },
+      {
+        "heading": "Path B — 65/20 special consideration",
+        "body": "If you are 65 or older and have been a lawful permanent resident for 20+ years, USCIS may ask from a smaller starred bank (need 6 of up to 10). Language-of-choice rules can apply. See our 65/20 guide and senior practice list."
+      },
+      {
+        "heading": "60-second check, then practice",
+        "body": "Run Find my test version (free, no account). Then open practice for 2008 or 2025 — or senior mode — and start in seconds. Pair civics with English reading and writing unless you are exempt."
       }
     ]
   }

@@ -96,6 +96,7 @@ export type SiteImageKey = keyof typeof SITE_IMAGES;
 const LEARN_SLUG_IMAGE: Record<string, SiteImageKey> = {
   "n-400-filing-date": "clusterTestVersion",
   "2025-changes": "clusterTestVersion",
+  "which-civics-test": "clusterTestVersion",
   eligibility: "clusterTestVersion",
   "how-many-questions": "clusterTestVersion",
   "pass-score": "clusterTestVersion",
@@ -125,6 +126,7 @@ const LEARN_SLUG_IMAGE: Record<string, SiteImageKey> = {
 const LEARN_OG: Record<string, string> = {
   "n-400-filing-date": "/images/og/test-version.jpg",
   "2025-changes": "/images/og/test-version.jpg",
+  "which-civics-test": "/images/og/test-version.jpg",
   eligibility: "/images/og/test-version.jpg",
   "how-many-questions": "/images/og/test-version.jpg",
   "pass-score": "/images/og/test-version.jpg",

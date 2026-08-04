@@ -254,46 +254,50 @@
     ]
   },
   "fail-citizenship-test": {
-    "title": "नागरिकता सिविक्स या अंग्रेज़ी परीक्षा में असफल होने पर क्या होता है?",
-    "description": "नागरिकीकरण साक्षात्कार में अंग्रेज़ी या सिविक्स में असफल होने पर आमतौर पर क्या होता है, और मुफ़्त अभ्यास उपकरणों से पुनः परीक्षा की तैयारी कैसे करें।",
+    "title": "नागरिक या अंग्रेज़ी परीक्षा में फेल होने पर क्या होता है?",
+    "description": "इंटरव्यू में अंग्रेज़ी/सिविक्स फेल? आगे क्या होता है, सही बैंक (2008/2025/65/20) कैसे चुनें, और ऑडियो/सिमुलेशन से मुफ़्त रीटेस्ट तैयारी — साइन-अप नहीं।",
     "sections": [
       {
-        "heading": "आमतौर पर एक और मौका मिलता है",
-        "body": "यदि आप अंग्रेज़ी या सिविक्स भाग में असफल होते हैं, तो USCIS आमतौर पर असफल भाग को फिर से देने का अवसर देता है। सटीक समय और प्रक्रिया आपके मामले की वर्तमान USCIS नीति के अनुसार होती है — यह साइट कानूनी सलाह नहीं है।"
+        "heading": "You usually get another chance",
+        "body": "If you fail the English or civics portion, USCIS generally gives you another opportunity to take the failed portion. Exact timing follows current USCIS policy for your case — this site is not legal advice."
       },
       {
-        "heading": "प्रतीक्षा का सदुपयोग करें",
-        "body": "अगली सूचना आने तक अध्ययन स्थगित न करें। रोज़ाना छोटे सत्र अंतिम समय की रटने से बेहतर हैं। जिस भाग में चूक हुई उस पर ध्यान दें: सिविक्स बैंक, पढ़ना, लिखना, या बोलना।"
+        "heading": "Confirm the bank before you restart",
+        "body": "Retest prep fails when you study the wrong list. Check N-400 filing date (2008 vs 2025) or 65/20 eligibility first, then practice only that bank."
       },
       {
-        "heading": "सिविक्स पुनः परीक्षा की तैयारी",
-        "body": "पुष्टि करें कि आप कौन सा संस्करण देंगे (2008 बनाम 2025)। कमज़ोर प्रश्नों, बदलने वाले पदाधिकारियों का अभ्यास करें, और उत्तीर्ण सीमा आराम से पार होने तक साक्षात्कार अनुकरण चलाएँ।"
+        "heading": "Use the wait wisely",
+        "body": "Daily short sessions beat last-minute cramming. Focus on what you missed: civics, reading, writing, or speaking. Start free practice in seconds — no account."
       },
       {
-        "heading": "अंग्रेज़ी पुनः परीक्षा की तैयारी",
-        "body": "ऑडियो के साथ आधिकारिक पढ़ने-लिखने की शब्दावली वाक्यों का अभ्यास करें। बोलने के लिए, आवेदन प्रश्नों के स्पष्ट उत्तर का अभ्यास करें — स्पष्ट संवाद पूर्ण व्याकरण से अधिक महत्वपूर्ण है।"
+        "heading": "Civics retest prep",
+        "body": "Drill weak questions and changing officials. Run interview simulations until you clear 6/10 or 12/20 with room to spare. Hear questions aloud in English."
+      },
+      {
+        "heading": "English retest prep",
+        "body": "Use official reading and writing vocabulary with audio. For speaking, answer application questions clearly. Pair with our English practice pages."
       }
     ]
   },
   "30-day-study-plan": {
-    "title": "अमेरिकी नागरिकता सिविक्स परीक्षा के लिए 30-दिन का अध्ययन योजना",
-    "description": "नागरिकीकरण सिविक्स साक्षात्कार की तैयारी के लिए व्यावहारिक 30-दिन की योजना: संस्करण जाँच, दैनिक अभ्यास, मौखिक अभ्यास, और अनुकरण सप्ताह।",
+    "title": "अमेरिकी नागरिक परीक्षा के लिए 30-दिन का प्लान",
+    "description": "सही बैंक (फाइलिंग तारीख या 65/20) से शुरू 30-दिन का प्लान, रोज़ अभ्यास और सिमुलेशन सप्ताह — मुफ़्त, साइन-अप नहीं, 10+ भाषाएँ।",
     "sections": [
       {
-        "heading": "दिन 1–2: अपना संस्करण पुष्टि करें",
-        "body": "Find my test version उपयोग करें। 20 अक्टूबर 2025 से पहले बनाम उस दिन/बाद Form N-400 दाखिल करना 2008 (100 प्र.) बनाम 2025 (128 प्र.) तय करता है। गलत बैंक पूरा महीना बर्बाद कर देता है।"
+        "heading": "Day 1–2: Confirm your version",
+        "body": "Use Find my test version or the which-test guide. Filing Form N-400 before vs on/after October 20, 2025 decides 2008 (100 Q) vs 2025 (128 Q). Wrong bank wastes the whole month."
       },
       {
-        "heading": "दिन 3–14: बैंक कवर करें",
-        "body": "फ़्लैशकार्ड और विषय अभ्यास से रोज़ 15–25 मिनट पढ़ें। कमज़ोर विषय चिह्नित करें। यदि दूसरी भाषा में भी पढ़ते हैं तो भी अंग्रेज़ी प्रश्न ज़ोर से सुनें — जब तक कोई लागू अपवाद न हो, साक्षात्कार सिविक्स प्रश्न अंग्रेज़ी में पूछे जाते हैं।"
+        "heading": "Day 3–14: Cover the bank",
+        "body": "Study 15–25 minutes daily with flashcards and topic drills. Mark weak items. Hear English questions aloud even if you also study in another language — interview civics is oral in English unless an exception applies."
       },
       {
-        "heading": "दिन 15–24: कमज़ोरियाँ + बदलने वाले उत्तर",
-        "body": "स्मार्ट समीक्षा उपयोग करें। ZIP lookup से राष्ट्रपति, सीनेटर, प्रतिनिधि, राज्यपाल, और राजधानी फिर जाँचें। यदि तारीखें और नाम परेशान करते हैं तो उनके अभ्यास पृष्ठों पर काम करें।"
+        "heading": "Day 15–24: Fix weak spots + changing answers",
+        "body": "Use smart review. Recheck President, senators, representative, governor, and capital with ZIP lookup. Drill dates and names if those trip you up."
       },
       {
-        "heading": "दिन 25–30: साक्षात्कार अनुकरण सप्ताह",
-        "body": "पूरा साक्षात्कार अनुकरण रोज़ चलाएँ जब तक लगातार उत्तीर्ण (6/10 या 12/20) न हों। अंग्रेज़ी पढ़ने-लिखने के सत्र जोड़ें। अपॉइंटमेंट से पहले अच्छी नींद लें।"
+        "heading": "Day 25–30: Simulate interview week",
+        "body": "Run full interview simulations daily until you consistently pass (6/10 or 12/20). Add English reading/writing sessions. Sleep well before the appointment."
       }
     ]
   },
@@ -412,24 +416,28 @@
     ]
   },
   "reading-writing-tips": {
-    "title": "USCIS अंग्रेज़ी पढ़ने-लिखने की परीक्षा — मुफ़्त अभ्यास सुझाव",
-    "description": "नागरिकीकरण अंग्रेज़ी पढ़ने-लिखने की परीक्षाएँ कैसे काम करती हैं, आधिकारिक शब्दावली कैसे उपयोग करें, और ऑडियो के साथ मुफ़्त वाक्य कहाँ अभ्यास करें।",
+    "title": "USCIS अंग्रेज़ी रीडिंग-राइटिंग — मुफ़्त टिप्स",
+    "description": "नैचुरलाइज़ेशन रीडिंग/राइटिंग कैसे काम करती है, आधिकारिक शब्दावली और ऑडियो वाक्य — सही सिविक्स बैंक के साथ। साइन-अप नहीं।",
     "sections": [
       {
-        "heading": "आपको क्या दिखाना है",
-        "body": "जब तक छूट न हो, बुनियादी अंग्रेज़ी दिखानी होगी: साक्षात्कार के दौरान बोलना, एक वाक्य सही पढ़ना, और एक वाक्य सही लिखना (छोटे प्रयास समूहों से)।"
+        "heading": "What you must show",
+        "body": "Unless exempt, you must demonstrate basic English: speaking during the interview, reading one sentence correctly, and writing one sentence correctly (from small sets of attempts)."
       },
       {
-        "heading": "आधिकारिक शब्दावली पर टिके रहें",
-        "body": "पढ़ना और लिखना USCIS शब्दावली सूचियाँ उपयोग करते हैं। यादृच्छिक अंग्रेज़ी ऐप उन शब्दों से बने वाक्यों से कम मदद करते हैं — लोग, सिविक्स शब्द, स्थान, छुट्टियाँ, और सामान्य क्रियाएँ।"
+        "heading": "Stick to official vocabulary",
+        "body": "Reading and writing use USCIS vocabulary lists. Random English apps help less than sentences built from those words — people, civics terms, places, holidays, and common verbs."
       },
       {
-        "heading": "अभ्यास विधि",
-        "body": "वाक्य सुनें, ज़ोर से पढ़ें, फिर dictation से लिखें। वर्तनी जाँचें। चूकी हुई वाक्य अगले दिन दोहराएँ।"
+        "heading": "Practice method",
+        "body": "Hear the sentence, read it aloud, then write it from dictation. Check spelling. Repeat missed sentences the next day."
       },
       {
-        "heading": "यहाँ मुफ़्त अभ्यास",
-        "body": "हमारे अंग्रेज़ी पढ़ने-लिखने के पृष्ठ खोलें। सिविक्स speak mode के साथ मिलाएँ ताकि पूरा साक्षात्कार परिचित लगे।"
+        "heading": "Same day as civics — right bank first",
+        "body": "English reading/writing did not change with the 2025 civics update, but your civics bank still depends on N-400 filing date or 65/20. Confirm the civics version, then open English practice here for free."
+      },
+      {
+        "heading": "Practice here for free",
+        "body": "Open our English reading and writing pages. Combine with civics speak mode and interview simulation so the whole interview feels familiar — start in seconds, no account."
       }
     ]
   },
@@ -566,6 +574,28 @@
       {
         "heading": "Interview-ready practice",
         "body": "Match 2008 or 2025 to your N-400 filing date, then practice oral answers out loud — not only silent reading."
+      }
+    ]
+  },
+  "which-civics-test": {
+    "title": "मुझे कौन-सा नागरिक परीक्षा देनी है? 2008, 2025 या 65/20",
+    "description": "पढ़ाई से पहले सही USCIS बैंक चुनें — N-400 फाइलिंग तारीख (2008 बनाम 2025), 65/20 मार्ग, मुफ़्त पात्रता जाँच, ऑडियो और इंटरव्यू सिमुलेशन। साइन-अप नहीं।",
+    "sections": [
+      {
+        "heading": "Start here — do not guess the bank",
+        "body": "Studying the wrong list is the most expensive mistake in civics prep. Your Form N-400 filing date decides 2008 (100 questions) vs 2025 (128 questions). Age 65+ with 20 years as a permanent resident may qualify for the 65/20 starred set. Confirm before flashcards."
+      },
+      {
+        "heading": "Path A — N-400 filing date (most applicants)",
+        "body": "Filed before October 20, 2025 → 2008 test (up to 10 asked, need 6). Filed on or after that date → 2025 test (up to 20 asked, need 12). Use our N-400 filing date guide, then practice the matching bank with audio and simulation."
+      },
+      {
+        "heading": "Path B — 65/20 special consideration",
+        "body": "If you are 65 or older and have been a lawful permanent resident for 20+ years, USCIS may ask from a smaller starred bank (need 6 of up to 10). Language-of-choice rules can apply. See our 65/20 guide and senior practice list."
+      },
+      {
+        "heading": "60-second check, then practice",
+        "body": "Run Find my test version (free, no account). Then open practice for 2008 or 2025 — or senior mode — and start in seconds. Pair civics with English reading and writing unless you are exempt."
       }
     ]
   }

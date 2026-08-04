@@ -254,46 +254,50 @@
     ]
   },
   "fail-citizenship-test": {
-    "title": "¿Qué pasa si reprobás el examen cívico o de inglés de ciudadanía?",
-    "description": "Qué suele ocurrir si no aprobás inglés o educación cívica en la entrevista de naturalización, y cómo prepararte para un nuevo intento con herramientas de práctica gratuitas.",
+    "title": "¿Qué pasa si reprobás el examen cívico o de inglés?",
+    "description": "¿Reprobaste inglés o civismo en la entrevista? Qué suele pasar después, cómo elegir el banco correcto (2008 / 2025 / 65/20) y práctica gratis con audio y simulación — sin registro.",
     "sections": [
       {
-        "heading": "Generalmente tenés otra oportunidad",
-        "body": "Si reprobás la parte de inglés o educación cívica, USCIS generalmente te da otra oportunidad para rendir la parte que no aprobaste. El plazo y el proceso exactos siguen la política vigente de USCIS para tu caso — este sitio no es asesoramiento legal."
+        "heading": "Por lo general hay otra chance",
+        "body": "Si reprobás inglés o civismo, USCIS suele dar otra oportunidad para la parte fallida. Los plazos siguen la política vigente de tu caso — esto no es asesoría legal."
       },
       {
-        "heading": "Aprovechá la espera",
-        "body": "No esperes a que llegue el próximo aviso para estudiar. Sesiones cortas diarias superan el estudio de último momento. Concentrate en la parte que no aprobaste: banco cívico, lectura, escritura o conversación."
+        "heading": "Confirmá el banco antes de reiniciar",
+        "body": "La preparación falla si estudiás la lista equivocada. Revisá fecha de N-400 (2008 vs 2025) o elegibilidad 65/20 primero, y practicá solo ese banco."
       },
       {
-        "heading": "Preparación para el nuevo intento cívico",
-        "body": "Confirmá qué versión rendís (2008 vs 2025). Repasá las preguntas débiles, las respuestas que cambian y hacé simulaciones de entrevista hasta superar el umbral para aprobar con margen."
+        "heading": "Usá la espera con inteligencia",
+        "body": "Sesiones cortas diarias ganan al estudio de último momento. Enfocate en lo que fallaste. Empezá práctica gratis en segundos — sin cuenta."
       },
       {
-        "heading": "Preparación para el nuevo intento de inglés",
-        "body": "Practicá las oraciones oficiales de vocabulario de lectura y escritura con audio. Para la conversación, practicá responder las preguntas de la solicitud con claridad — la gramática perfecta importa menos que comunicarte bien."
+        "heading": "Prep civismo para el retest",
+        "body": "Repasí preguntas débiles y funcionarios que cambian. Corré simulaciones hasta superar 6/10 o 12/20 con margen. Escuchá las preguntas en inglés."
+      },
+      {
+        "heading": "Prep inglés para el retest",
+        "body": "Usá vocabulario oficial de reading/writing con audio. Para speaking, respondé con claridad. Combiná con nuestras páginas de inglés."
       }
     ]
   },
   "30-day-study-plan": {
-    "title": "Plan de estudio de 30 días para el examen cívico de ciudadanía estadounidense",
-    "description": "Un plan práctico de 30 días para prepararte para la entrevista cívica de naturalización: verificación de versión, repasos diarios, práctica oral y semana de simulación.",
+    "title": "Plan de estudio de 30 días para el examen cívico de EE.UU.",
+    "description": "Plan de 30 días que empieza por el banco correcto (fecha de filing o 65/20), luego drills diarios, práctica oral y semana de simulación — gratis, sin registro, 10+ idiomas.",
     "sections": [
       {
         "heading": "Día 1–2: Confirmá tu versión",
-        "body": "Usá Find my test version. Presentar el Formulario N-400 antes vs en/después del 20 de octubre de 2025 define 2008 (100 preguntas) vs 2025 (128 preguntas). El banco equivocado te hace perder todo el mes."
+        "body": "Usá Encontrar mi versión o la guía de qué examen te toca. La fecha del N-400 decide 2008 (100) vs 2025 (128). El banco equivocado desperdicia el mes."
       },
       {
-        "heading": "Día 3–14: Cubrí el banco",
-        "body": "Estudiá 15–25 minutos al día con tarjetas y repasos por tema. Marcá los temas débiles. Escuchá las preguntas en inglés en voz alta aunque también estudies en otro idioma — en la entrevista las preguntas cívicas se hacen en inglés salvo que tengas una excepción aplicable."
+        "heading": "Día 3–14: Cubrir el banco",
+        "body": "15–25 minutos diarios con flashcards y temas. Marcá lo débil. Escuchá las preguntas en inglés aunque también estudies en otro idioma."
       },
       {
-        "heading": "Día 15–24: Corregí puntos débiles y respuestas que cambian",
-        "body": "Usá repaso inteligente. Revisá Presidente, senadores, representante, gobernador y capital con búsqueda por ZIP. Repasá fechas y nombres si esos temas te traban."
+        "heading": "Día 15–24: Debilidades + respuestas que cambian",
+        "body": "Usá repaso inteligente. Rechequeá Presidente, senadores, representante, gobernador y capital con ZIP. Drill de fechas y nombres si te traban."
       },
       {
-        "heading": "Día 25–30: Semana de simulación de entrevista",
-        "body": "Hacé simulaciones completas de entrevista a diario hasta aprobar de forma constante (6/10 o 12/20). Sumá sesiones de lectura y escritura en inglés. Descansá bien antes de la cita."
+        "heading": "Día 25–30: Semana de simulación",
+        "body": "Simulaciones diarias hasta aprobar de forma consistente (6/10 o 12/20). Sumá reading/writing. Dormí bien antes de la cita."
       }
     ]
   },
@@ -412,24 +416,28 @@
     ]
   },
   "reading-writing-tips": {
-    "title": "Examen de lectura y escritura en inglés de USCIS — Consejos de práctica gratuita",
-    "description": "Cómo funcionan los exámenes de lectura y escritura en inglés de naturalización, cómo usar el vocabulario oficial y dónde practicar oraciones gratis con audio.",
+    "title": "Examen de inglés USCIS (lectura y escritura) — tips gratis",
+    "description": "Cómo funcionan reading y writing en la naturalización, vocabulario oficial y oraciones gratis con audio — y cómo combinarlos con el banco cívico correcto. Sin registro.",
     "sections": [
       {
         "heading": "Qué tenés que demostrar",
-        "body": "Salvo exención, tenés que demostrar inglés básico: conversación durante la entrevista, leer una oración correctamente y escribir una oración correctamente (de conjuntos pequeños de intentos)."
+        "body": "Salvo exención, demostrás inglés básico: speaking en la entrevista, leer una oración bien y escribir una oración bien (con pocos intentos)."
       },
       {
-        "heading": "Quedate con el vocabulario oficial",
-        "body": "Lectura y escritura usan las listas de vocabulario de USCIS. Las apps de inglés al azar ayudan menos que oraciones armadas con esas palabras — personas, términos cívicos, lugares, feriados y verbos comunes."
+        "heading": "Quedate en el vocabulario oficial",
+        "body": "Reading y writing usan listas USCIS. Apps de inglés genéricas ayudan menos que oraciones con esas palabras."
       },
       {
         "heading": "Método de práctica",
-        "body": "Escuchá la oración, leela en voz alta y luego escribila de dictado. Revisá la ortografía. Repetí al día siguiente las oraciones que fallaste."
+        "body": "Escuchá la oración, leela en voz alta, escribila al dictado. Revisá ortografía. Repetí al día siguiente las que fallaste."
+      },
+      {
+        "heading": "Mismo día que civismo — primero el banco",
+        "body": "Reading/writing no cambiaron con el update 2025 del civismo, pero tu banco cívico sí depende del N-400 o 65/20. Confirmá la versión y practicá inglés acá gratis."
       },
       {
         "heading": "Practicá acá gratis",
-        "body": "Abrí nuestras páginas de lectura y escritura en inglés. Combiná con el modo de habla cívica para que toda la entrevista te resulte familiar."
+        "body": "Abrí reading y writing. Combiná con speak mode y simulación de entrevista — empezá en segundos, sin cuenta."
       }
     ]
   },
@@ -566,6 +574,28 @@
       {
         "heading": "Práctica lista para la entrevista",
         "body": "Emparejá 2008 o 2025 con tu fecha N-400 y practicá respuestas en voz alta."
+      }
+    ]
+  },
+  "which-civics-test": {
+    "title": "¿Qué examen cívico me toca? 2008, 2025 o 65/20",
+    "description": "Una página para elegir el banco correcto de USCIS antes de estudiar — fecha de N-400 (2008 vs 2025), ruta 65/20, elegibilidad gratis, audio y simulación. Sin registro.",
+    "sections": [
+      {
+        "heading": "Empezá acá — no adivines el banco",
+        "body": "Estudiar la lista equivocada es el error más caro. La fecha de presentación del N-400 decide 2008 (100) vs 2025 (128). Con 65+ y 20 años como residente permanente podés calificar para el set 65/20. Confirmá antes de las flashcards."
+      },
+      {
+        "heading": "Ruta A — fecha de N-400 (mayoría)",
+        "body": "Presentaste antes del 20 oct 2025 → examen 2008 (hasta 10, necesitás 6). Ese día o después → 2025 (hasta 20, necesitás 12). Usá la guía de fecha de N-400 y practicá el banco que te corresponde con audio y simulación."
+      },
+      {
+        "heading": "Ruta B — consideración 65/20",
+        "body": "Si tenés 65+ y 20+ años como residente permanente, USCIS puede preguntar de un banco marcado más chico (6 de hasta 10). Puede aplicar idioma de elección. Mirá la guía 65/20 y la práctica senior."
+      },
+      {
+        "heading": "Chequeo de 60 segundos y a practicar",
+        "body": "Usá Encontrar mi versión (gratis, sin cuenta). Abrí práctica 2008 o 2025 — o modo senior — y empezá en segundos. Sumá reading/writing en inglés si no estás exento."
       }
     ]
   }

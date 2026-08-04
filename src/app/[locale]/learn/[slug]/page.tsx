@@ -99,7 +99,11 @@ export default async function LearnPostPage({
           </p>
           {(slug === "n-400-filing-date" ||
             slug === "65-20" ||
-            slug === "2025-changes") && (
+            slug === "2025-changes" ||
+            slug === "which-civics-test" ||
+            slug === "fail-citizenship-test" ||
+            slug === "30-day-study-plan" ||
+            slug === "reading-writing-tips") && (
             <TrustDiffStrip dict={dict} variant="compact" />
           )}
         </div>

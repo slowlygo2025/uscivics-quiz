@@ -35,6 +35,10 @@ export const es: Dictionary = {
   link2025Changes: "Cambios del civismo 2025",
   linkPractice2025Senior: "2025 · práctica 65/20",
   linkPractice2008Senior: "2008 · práctica 65/20",
+  linkWhichCivicsTest: "¿Qué examen cívico me toca?",
+  linkFailTest: "Si reprobás el examen",
+  linkStudyPlan: "Plan de 30 días",
+  linkReadingWriting: "Inglés: lectura y escritura",
   eligibilityTitle: "¿Qué examen cívico te toca?",
   eligibilityLead:
     "Dos preguntas rápidas. Te llevamos al banco correcto antes de estudiar — 2008, 2025 o 65/20.",

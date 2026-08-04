@@ -7,11 +7,15 @@ UTMs: [`ads/UTM.md`](UTM.md). Primary conversion: `start_practice`.
 | Intent / queries (examples) | Ad group | Final URL (EN) | `utm_content` | Primary event |
 |----------------------------|----------|----------------|---------------|---------------|
 | n-400 filing date, 2008 vs 2025, which civics test | AG Filing Date | `/en/learn/n-400-filing-date` | `filing_date` | `start_practice` |
+| which test hub (2008 / 2025 / 65/20) | AG Filing Date | `/en/learn/which-civics-test` | `which_test` | `start_practice` |
 | which test / eligibility chooser | AG Filing Date | `/en/eligibility` | `eligibility` | `start_practice` / `eligibility_complete` |
 | 65/20, age 65 LPR | AG 65-20 | `/en/learn/65-20` | `6520` | `start_practice` |
 | starred / senior list | AG 65-20 | `/en/questions/senior` | `senior` | `senior_list_open` → `start_practice` |
 | 128 questions, 2025 civics | AG All 128 | `/en/questions/all-128` | `all128` | `start_practice` |
 | citizenship practice test | AG All 128 | `/en/practice/2025` | `practice2025` | `start_practice` |
+| fail civics / retest | — (SEO) | `/en/learn/fail-citizenship-test` | — | `start_practice` |
+| 30 day study plan | — (SEO) | `/en/learn/30-day-study-plan` | — | `start_practice` |
+| reading writing English | — (SEO) | `/en/learn/reading-writing-tips` → `/en/english` | — | `start_practice` |
 | brand: uscivics quiz | AG Brand | `/en` | `brand` | `start_practice` |
 | high-intent free practice competitors | AG Competitors | `/en/questions/all-128` | `competitors` | `start_practice` |
 
@@ -40,6 +44,19 @@ Mirror in product `TrustDiffStrip` / dict `diff*`:
 2. Right bank: N-400 filing / eligibility / 65-20  
 3. Official USCIS · Audio · Interview simulation  
 4. 10+ languages  
+
+## Content cluster (articles / e-learning)
+
+Strategy: mid-pack volume, top-tier **decision** content — not a generic citizenship blog.
+
+| Hub / reinforce | Path | Role |
+|-----------------|------|------|
+| Which test hub | `/learn/which-civics-test` | Cluster entry → N-400 · 65/20 · eligibility · practice |
+| Fail / retest | `/learn/fail-citizenship-test` | Long-tail money + right-bank CTA |
+| 30-day plan | `/learn/30-day-study-plan` | E-learning sequence → practice |
+| Reading/writing | `/learn/reading-writing-tips` | Close CQ gap → `/english` |
+
+Do **not** scale generic blog posts; deepen this cluster + internal links + Tier 1/2 indexing.
 
 ## Audiences
 
