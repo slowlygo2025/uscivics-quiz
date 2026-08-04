@@ -52,6 +52,7 @@ import {
 } from "@/lib/analytics";
 import TrustDiffStrip from "@/components/TrustDiffStrip";
 import PremiumWaitlist from "@/components/PremiumWaitlist";
+import RelatedPrep from "@/components/RelatedPrep";
 
 type StudyMode =
   | "flashcards"
@@ -1119,6 +1120,9 @@ function SimulateMode({
           >
             {dict.endTest}
           </button>
+        </div>
+        <div className="border-t border-line px-6 py-5 sm:px-10">
+          <RelatedPrep dict={dict} source="sim_complete" />
         </div>
       </div>
     );

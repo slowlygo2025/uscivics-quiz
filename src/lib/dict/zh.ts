@@ -307,4 +307,13 @@ export const zh: Dictionary = {
   homeLiveLead: "面试日可用的联邦姓名 — 另有 ZIP 查询参议员、众议员、州长与州府。",
   homeLiveCta: "打开测验更新",
   linkUpdates: "公民测验更新",
+  affiliateHeading: "相关备考（可选）",
+  affiliateLead: "本站核心练习保持免费。有人也会用实体书或闪卡——以下链接可能为我们带来少量佣金。",
+  affiliateDisclosure: "作为 Amazon Associate，我们可能从合格购买中获得佣金。本站与 USCIS 无关联。请始终在 uscis.gov 核实规则。",
+  affiliateItemFlashcards: "公民测验闪卡",
+  affiliateItemFlashcardsBlurb: "实体卡片，方便离屏口语练习。",
+  affiliateItemGuide: "入籍学习指南",
+  affiliateItemGuideBlurb: "纸质概览，搭配本站官方 USCIS 题库。",
+  affiliateItemEnglish: "入籍英语练习",
+  affiliateItemEnglishBlurb: "额外读写支持——也请继续用我们的免费句子练习。",
 };

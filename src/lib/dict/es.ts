@@ -334,4 +334,13 @@ export const es: Dictionary = {
   homeLiveLead: "Nombres federales en vivo para el día de la entrevista — más búsqueda por ZIP para senadores, representante, gobernador y capital.",
   homeLiveCta: "Abrir actualizaciones",
   linkUpdates: "Actualizaciones del examen cívico",
+  affiliateHeading: "Prep relacionado (opcional)",
+  affiliateLead: "La práctica central en este sitio sigue gratis. Algunos también usan un libro o flashcards — los enlaces de abajo pueden darnos una comisión pequeña.",
+  affiliateDisclosure: "Como Amazon Associate podemos ganar con compras calificadas. No estamos afiliados a USCIS. Verificá siempre las reglas en uscis.gov.",
+  affiliateItemFlashcards: "Flashcards de civics",
+  affiliateItemFlashcardsBlurb: "Tarjetas físicas para practicar en voz alta fuera de la pantalla.",
+  affiliateItemGuide: "Guía de naturalización",
+  affiliateItemGuideBlurb: "Resumen impreso para combinar con el banco oficial USCIS aquí.",
+  affiliateItemEnglish: "Inglés para ciudadanía",
+  affiliateItemEnglishBlurb: "Apoyo extra de lectura/escritura — seguí usando nuestros drills gratis.",
 };

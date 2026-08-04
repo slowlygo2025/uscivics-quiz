@@ -325,4 +325,13 @@ export const vi: Dictionary = {
   homeLiveLead: "Tên liên bang trực tiếp cho ngày phỏng vấn — kèm tra ZIP cho thượng nghị sĩ, dân biểu, thống đốc và thủ phủ.",
   homeLiveCta: "Mở cập nhật bài thi",
   linkUpdates: "Cập nhật bài thi công dân",
+  affiliateHeading: "Tài liệu liên quan (tuỳ chọn)",
+  affiliateLead: "Luyện tập cốt lõi trên trang này vẫn miễn phí. Một số người cũng dùng sách hoặc flashcard — liên kết bên dưới có thể mang lại hoa hồng nhỏ.",
+  affiliateDisclosure: "Là Amazon Associate, chúng tôi có thể nhận hoa hồng từ mua hàng đủ điều kiện. Không liên kết với USCIS. Luôn xác minh quy tắc trên uscis.gov.",
+  affiliateItemFlashcards: "Flashcard công dân",
+  affiliateItemFlashcardsBlurb: "Thẻ giấy để luyện nói ngoài màn hình.",
+  affiliateItemGuide: "Hướng dẫn nhập tịch",
+  affiliateItemGuideBlurb: "Tóm tắt in để kèm ngân hàng câu hỏi USCIS tại đây.",
+  affiliateItemEnglish: "Tiếng Anh cho nhập tịch",
+  affiliateItemEnglishBlurb: "Hỗ trợ đọc/viết thêm — vẫn dùng bài luyện câu miễn phí của chúng tôi.",
 };

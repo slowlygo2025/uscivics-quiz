@@ -315,4 +315,13 @@ export const ar: Dictionary = {
   homeLiveLead: "أسماء اتحادية مباشرة ليوم المقابلة — مع بحث ZIP لأعضاء مجلس الشيوخ والممثل والحاكم والعاصمة.",
   homeLiveCta: "فتح تحديثات الاختبار",
   linkUpdates: "تحديثات اختبار المواطنة",
+  affiliateHeading: "تحضير إضافي (اختياري)",
+  affiliateLead: "الممارسة الأساسية في هذا الموقع تبقى مجانية. يستخدم البعض أيضًا كتابًا أو بطاقات — قد نحصل على عمولة صغيرة من الروابط أدناه.",
+  affiliateDisclosure: "بصفتنا Amazon Associate قد نربح من المشتريات المؤهلة. لسنا مرتبطين بـ USCIS. تحقق دائمًا من القواعد على uscis.gov.",
+  affiliateItemFlashcards: "بطاقات اختبار المواطنة",
+  affiliateItemFlashcardsBlurb: "بطاقات ورقية للتدريب الشفهي بعيدًا عن الشاشة.",
+  affiliateItemGuide: "دليل دراسة التجنّس",
+  affiliateItemGuideBlurb: "ملخص مطبوع مع بنك أسئلة USCIS الرسمي هنا.",
+  affiliateItemEnglish: "إنجليزية لاختبار المواطنة",
+  affiliateItemEnglishBlurb: "دعم إضافي للقراءة/الكتابة — استمر أيضًا بتدريبات الجمل المجانية لدينا.",
 };

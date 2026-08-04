@@ -100,3 +100,14 @@ export function trackOutboundClick(url: string, label?: string) {
 export function trackPremiumInterest() {
   return trackEvent("premium_interest", { source: "practice_hub" });
 }
+
+/** Phase 1 affiliate outbound click. */
+export function trackAffiliateClick(
+  itemId: string,
+  source: "learn" | "sim_complete"
+) {
+  return trackEvent("affiliate_click", {
+    item_id: itemId.slice(0, 40),
+    source,
+  });
+}

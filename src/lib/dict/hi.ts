@@ -320,4 +320,13 @@ export const hi: Dictionary = {
   homeLiveLead: "साक्षात्कार के दिन के लिए लाइव संघीय नाम — सीनेटर, प्रतिनिधि, गवर्नर और राजधानी के लिए ZIP खोज सहित।",
   homeLiveCta: "टेस्ट अपडेट खोलें",
   linkUpdates: "नागरिक टेस्ट अपडेट",
+  affiliateHeading: "संबंधित तैयारी (वैकल्पिक)",
+  affiliateLead: "इस साइट पर मुख्य अभ्यास मुफ़्त रहता है। कुछ लोग किताब या फ्लैशकार्ड भी उपयोग करते हैं — नीचे दिए लिंक से हमें छोटी कमीशन मिल सकती है।",
+  affiliateDisclosure: "Amazon Associate के रूप में हम योग्य खरीदारी से कमा सकते हैं। हम USCIS से संबद्ध नहीं हैं। नियम हमेशा uscis.gov पर सत्यापित करें।",
+  affiliateItemFlashcards: "नागरिक फ्लैशकार्ड",
+  affiliateItemFlashcardsBlurb: "स्क्रीन से दूर मौखिक अभ्यास के लिए कार्ड।",
+  affiliateItemGuide: "नैचुरलाइज़ेशन अध्ययन गाइड",
+  affiliateItemGuideBlurb: "यहाँ आधिकारिक USCIS बैंक के साथ प्रिंटेड अवलोकन।",
+  affiliateItemEnglish: "नागरिकता के लिए अंग्रेज़ी",
+  affiliateItemEnglishBlurb: "अतिरिक्त पढ़ना/लिखना — हमारे मुफ़्त वाक्य ड्रिल भी उपयोग करें।",
 };

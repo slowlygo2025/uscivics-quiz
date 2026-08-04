@@ -320,4 +320,13 @@ export const ko: Dictionary = {
   homeLiveLead: "인터뷰 당일용 실시간 연방 이름 — 상원의원·하원의원·주지사·주도 ZIP 조회 포함.",
   homeLiveCta: "시험 업데이트 열기",
   linkUpdates: "시민권 시험 업데이트",
+  affiliateHeading: "관련 준비 자료 (선택)",
+  affiliateLead: "이 사이트의 핵심 연습은 계속 무료입니다. 일부는 책이나 플래시카드도 사용합니다 — 아래 링크로 소액 수수료가 발생할 수 있습니다.",
+  affiliateDisclosure: "Amazon Associate로서 적격 구매에서 수수료를 받을 수 있습니다. USCIS와 제휴하지 않습니다. 규칙은 항상 uscis.gov에서 확인하세요.",
+  affiliateItemFlashcards: "시민권 플래시카드",
+  affiliateItemFlashcardsBlurb: "화면 없이 구두 연습용 실물 카드.",
+  affiliateItemGuide: "귀화 학습 가이드",
+  affiliateItemGuideBlurb: "여기 공식 USCIS 문제은행과 함께 볼 인쇄 개요.",
+  affiliateItemEnglish: "시민권 영어 연습",
+  affiliateItemEnglishBlurb: "추가 읽기/쓰기 지원 — 무료 문장 드릴도 계속 사용하세요.",
 };

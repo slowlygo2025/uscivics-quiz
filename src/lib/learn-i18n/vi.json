@@ -162,24 +162,28 @@
     ]
   },
   "65-20": {
-    "title": "Xét đặc biệt 65/20: ít câu gắn sao hơn",
-    "description": "Từ 65 tuổi và thường trú 20 năm? Hiểu lộ trình 65/20, danh sách gắn sao, và luyện miễn phí với audio/mô phỏng — không đăng ký, bắt đầu trong giây.",
+    "title": "Bài thi civics 65/20: 20 câu có dấu sao",
+    "description": "65 tuổi trở lên và là thường trú nhân hợp pháp 20 năm? Học 20 câu có dấu sao; hỏi tối đa 10, cần đúng 6.",
     "sections": [
       {
-        "heading": "Ai có thể đủ điều kiện",
-        "body": "Ứng viên từ 65 tuổi và thường trú hợp pháp từ 20 năm có thể được xét đặc biệt: viên chức hỏi từ 20 câu gắn sao (thường tối đa 10, cần 6 đúng). Quy tắc có thể đổi — theo USCIS."
-      },
-      {
-        "heading": "Vẫn phải xác nhận phiên bản",
-        "body": "65/20 không hủy logic ngày nộp N-400. Bạn vẫn có thể thuộc bộ gắn sao 2008 hoặc 2025. Chạy kiểm tra đủ điều kiện trước."
+        "heading": "Thông tin chính",
+        "body": "Người đủ điều kiện học 20 câu có dấu sao theo phiên bản bài thi. Viên chức hỏi tối đa 10 câu và cần 6 câu đúng."
       },
       {
         "heading": "Cách luyện",
-        "body": "Mở danh sách senior/starred và luyện chế độ senior cho 2008 hoặc 2025. Nói to đáp án; bài thi thật là miệng."
+        "body": "Nói to đáp án vì bài thi civics là thi vấn đáp."
       },
       {
-        "heading": "Ngôn ngữ tự chọn",
-        "body": "Khi đủ điều kiện, phần civics có thể bằng ngôn ngữ bạn chọn. Miễn tiếng Anh là quy tắc riêng — xem USCIS."
+        "heading": "Đáp án thay đổi",
+        "body": "Chọn ngân hàng 2008 hoặc 2025 theo ngày nộp N-400 của bạn."
+      },
+      {
+        "heading": "Sẵn sàng phỏng vấn",
+        "body": "Dùng thẻ học, ôn tập và mô phỏng đến khi đậu ổn định."
+      },
+      {
+        "heading": "Bước tiếp theo",
+        "body": "Xem quy định USCIS hiện hành để xác nhận trường hợp của bạn."
       }
     ]
   },
@@ -482,94 +486,94 @@
     ]
   },
   "dates-names-officials-drills": {
-    "title": "Civics Drills: Dates, Famous Names, and Changing Officials (Free)",
-    "description": "Focused USCIS civics drills for the hardest clusters — key dates, famous names, and officials whose answers change. Free audio on every question for 2008 and 2025.",
+    "title": "Luyện civics: ngày tháng, tên tuổi và quan chức thay đổi",
+    "description": "Luyện tập trung năm tháng, nhân vật nổi tiếng và quan chức thay đổi theo bầu cử; có audio miễn phí cho 2008 và 2025.",
     "sections": [
       {
-        "heading": "Why drills beat random review",
-        "body": "Most misses cluster in three places: years and numbers, famous names, and officials who change with elections. Short drills fix those faster than rereading the full list."
+        "heading": "Thông tin chính",
+        "body": "Sai sót thường nằm ở năm và số, tên nổi tiếng, và quan chức thay đổi sau bầu cử hoặc bổ nhiệm."
       },
       {
-        "heading": "Dates drill",
-        "body": "Practice Constitution years, wars, amendments, and “when” facts out loud. Open the 2025 or 2008 dates drill landing, then return to interview simulation."
+        "heading": "Cách luyện",
+        "body": "Nói to đáp án vì bài thi civics là thi vấn đáp."
       },
       {
-        "heading": "Names drill",
-        "body": "Founders, presidents, and civil rights leaders show up often. Use the names drill until you can answer without peeking — then hear the English wording with free audio."
+        "heading": "Đáp án thay đổi",
+        "body": "Chọn ngân hàng 2008 hoặc 2025 theo ngày nộp N-400 của bạn."
       },
       {
-        "heading": "Officials drill",
-        "body": "President, Vice President, Speaker, Chief Justice, senators, representative, governor, and capital can change. Drill the officials set and recheck the week of your interview."
+        "heading": "Sẵn sàng phỏng vấn",
+        "body": "Dùng thẻ học, ôn tập và mô phỏng đến khi đậu ổn định."
       },
       {
-        "heading": "Next step",
-        "body": "Pick your test version with the N-400 filing date guide, run the matching drills, then practice a full simulation."
+        "heading": "Bước tiếp theo",
+        "body": "Xem quy định USCIS hiện hành để xác nhận trường hợp của bạn."
       }
     ]
   },
   "texas-civics-answers": {
-    "title": "Texas Civics Test Answers: Capital, Governor, Senators (USCIS)",
-    "description": "Study Texas answers for the U.S. citizenship civics test — capital Austin, current governor, and how to find your senators and representative by ZIP. Free practice.",
+    "title": "Đáp án civics Texas: thủ phủ, thống đốc và thượng nghị sĩ",
+    "description": "Học đáp án USCIS Texas: thủ phủ Austin, thống đốc và cách tìm thượng nghị sĩ, dân biểu bằng ZIP.",
     "sections": [
       {
-        "heading": "Texas capital and governor",
-        "body": "For USCIS civics, Texas’s capital is Austin. The governor’s name can change with elections — use our Texas state study page and verify again before interview day."
+        "heading": "Thông tin chính",
+        "body": "Thủ phủ Texas là Austin. Tên thống đốc có thể thay đổi sau bầu cử, nên kiểm tra trước phỏng vấn."
       },
       {
-        "heading": "Senators and your representative",
-        "body": "Texas has two U.S. senators for the whole state. Your House representative depends on your district. Enter your ZIP in practice to study the right names."
+        "heading": "Cách luyện",
+        "body": "Nói to đáp án vì bài thi civics là thi vấn đáp."
       },
       {
-        "heading": "Pair with the officials drill",
-        "body": "Federal names (President, Vice President, Speaker, Chief Justice) matter too. Use the officials drill plus your Texas state page so changing answers stay fresh."
+        "heading": "Đáp án thay đổi",
+        "body": "Chọn ngân hàng 2008 hoặc 2025 theo ngày nộp N-400 của bạn."
       },
       {
-        "heading": "Practice the full interview",
-        "body": "Confirm 2008 vs 2025 with your N-400 filing date, then run interview simulation. Local officials are only part of the oral test."
+        "heading": "Sẵn sàng phỏng vấn",
+        "body": "Dùng thẻ học, ôn tập và mô phỏng đến khi đậu ổn định."
       }
     ]
   },
   "florida-civics-answers": {
-    "title": "Florida Civics Test Answers: Capital, Governor, Local Officials",
-    "description": "USCIS civics answers for Florida — capital Tallahassee, governor, senators, and House representative by ZIP. Free naturalization practice.",
+    "title": "Đáp án civics Florida: thủ phủ, thống đốc và quan chức",
+    "description": "Học đáp án USCIS Florida: thủ phủ Tallahassee, thống đốc và quan chức theo ZIP.",
     "sections": [
       {
-        "heading": "Florida capital and governor",
-        "body": "Florida’s capital is Tallahassee. Study the current governor on our Florida state page and recheck close to your interview — elections can change the name."
+        "heading": "Thông tin chính",
+        "body": "Thủ phủ Florida là Tallahassee; tên thống đốc và quan chức khác có thể thay đổi."
       },
       {
-        "heading": "Senators and representative",
-        "body": "Use ZIP lookup in practice for your U.S. senators and representative. Do not memorize a random online list that might be outdated for your district."
+        "heading": "Cách luyện",
+        "body": "Nói to đáp án vì bài thi civics là thi vấn đáp."
       },
       {
-        "heading": "Changing federal answers",
-        "body": "Combine Florida local study with the officials drill for President, Vice President, Speaker, and Chief Justice."
+        "heading": "Đáp án thay đổi",
+        "body": "Chọn ngân hàng 2008 hoặc 2025 theo ngày nộp N-400 của bạn."
       },
       {
-        "heading": "Full civics practice",
-        "body": "After local names, practice the full bank for your filing-date version (2008 or 2025) with free audio and simulation."
+        "heading": "Sẵn sàng phỏng vấn",
+        "body": "Dùng thẻ học, ôn tập và mô phỏng đến khi đậu ổn định."
       }
     ]
   },
   "new-york-civics-answers": {
-    "title": "New York Civics Test Answers: Capital, Governor, and ZIP Officials",
-    "description": "Prepare New York USCIS civics answers — capital Albany, governor, senators, and your representative. Free citizenship interview practice.",
+    "title": "Đáp án civics New York: thủ phủ, thống đốc và ZIP",
+    "description": "Chuẩn bị đáp án USCIS New York: thủ phủ Albany, thống đốc, thượng nghị sĩ và dân biểu.",
     "sections": [
       {
-        "heading": "New York capital and governor",
-        "body": "New York’s capital is Albany. Confirm the current governor on our New York state study page before interview day."
+        "heading": "Thông tin chính",
+        "body": "Thủ phủ New York là Albany. Khu vực bầu cử khác nhau giữa Thành phố New York và phần còn lại của bang; tra ZIP là an toàn nhất."
       },
       {
-        "heading": "NYC vs upstate districts",
-        "body": "House districts differ across New York City and the rest of the state. ZIP lookup is the safest way to study the correct representative."
+        "heading": "Cách luyện",
+        "body": "Nói to đáp án vì bài thi civics là thi vấn đáp."
       },
       {
-        "heading": "Officials who change",
-        "body": "Use the officials drill for federal names and the New York state page for capital and governor. Recheck the week of your appointment."
+        "heading": "Đáp án thay đổi",
+        "body": "Chọn ngân hàng 2008 hoặc 2025 theo ngày nộp N-400 của bạn."
       },
       {
-        "heading": "Interview-ready practice",
-        "body": "Match 2008 or 2025 to your N-400 filing date, then practice oral answers out loud — not only silent reading."
+        "heading": "Sẵn sàng phỏng vấn",
+        "body": "Dùng thẻ học, ôn tập và mô phỏng đến khi đậu ổn định."
       }
     ]
   },

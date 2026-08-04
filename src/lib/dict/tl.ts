@@ -326,4 +326,13 @@ export const tl: Dictionary = {
   homeLiveLead: "Live na federal names para sa araw ng interview — kasama ang ZIP lookup para sa senators, representative, governor, at capital.",
   homeLiveCta: "Buksan ang mga update",
   linkUpdates: "Mga update sa civics test",
+  affiliateHeading: "Related prep (opsyonal)",
+  affiliateLead: "Libre pa rin ang core practice dito. Gumagamit din ang iba ng libro o flashcards — maaaring kumita kami ng maliit na commission mula sa mga link sa ibaba.",
+  affiliateDisclosure: "Bilang Amazon Associate, maaari kaming kumita mula sa qualifying purchases. Hindi kami affiliated sa USCIS. Palaging i-verify ang rules sa uscis.gov.",
+  affiliateItemFlashcards: "Civics flash cards",
+  affiliateItemFlashcardsBlurb: "Physical cards para sa oral drill nang walang screen.",
+  affiliateItemGuide: "Naturalization study guide",
+  affiliateItemGuideBlurb: "Printed overview na isasama sa official USCIS bank dito.",
+  affiliateItemEnglish: "English for citizenship practice",
+  affiliateItemEnglishBlurb: "Extra reading/writing support — gamitin pa rin ang free sentence drills namin.",
 };

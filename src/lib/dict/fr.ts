@@ -324,4 +324,13 @@ export const fr: Dictionary = {
   homeLiveLead: "Noms fédéraux en direct pour le jour de l’entretien — plus recherche ZIP pour sénateurs, représentant, gouverneur et capitale.",
   homeLiveCta: "Ouvrir les mises à jour",
   linkUpdates: "Mises à jour du test de civisme",
+  affiliateHeading: "Préparation liée (optionnel)",
+  affiliateLead: "La pratique centrale sur ce site reste gratuite. Certains utilisent aussi un livre ou des flashcards — les liens ci-dessous peuvent nous rapporter une petite commission.",
+  affiliateDisclosure: "En tant qu’Amazon Associate, nous pouvons gagner sur les achats éligibles. Nous ne sommes pas affiliés à l’USCIS. Vérifiez toujours les règles sur uscis.gov.",
+  affiliateItemFlashcards: "Flashcards de civisme",
+  affiliateItemFlashcardsBlurb: "Cartes physiques pour s’entraîner à l’oral hors écran.",
+  affiliateItemGuide: "Guide d’étude naturalisation",
+  affiliateItemGuideBlurb: "Aperçu imprimé à combiner avec la banque officielle USCIS ici.",
+  affiliateItemEnglish: "Anglais pour la citoyenneté",
+  affiliateItemEnglishBlurb: "Soutien lecture/écriture en plus — continuez aussi nos exercices gratuits.",
 };

@@ -8,6 +8,7 @@ import { LEARN_POSTS, getLearnPost, learnPostCopy } from "@/lib/learn-posts";
 import JsonLd from "@/components/JsonLd";
 import EditorialCover from "@/components/EditorialCover";
 import TrustDiffStrip from "@/components/TrustDiffStrip";
+import RelatedPrep from "@/components/RelatedPrep";
 import { RelatedStudyLinksForLearn } from "@/components/RelatedStudyLinks";
 import {
   hrefFor,
@@ -133,6 +134,7 @@ export default async function LearnPostPage({
       </div>
       <p className="text-xs leading-relaxed text-muted">{dict.disclaimer}</p>
       <RelatedStudyLinksForLearn slug={slug} locale={locale} dict={dict} />
+      <RelatedPrep dict={dict} source="learn" />
     </article>
   );
 }

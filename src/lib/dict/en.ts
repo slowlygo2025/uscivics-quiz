@@ -340,6 +340,20 @@ export const en = {
   premiumWaitlistCta: "Notify me when premium ships",
   premiumWaitlistDone: "You are on the waitlist on this device.",
   linkUpdates: "Civics test updates",
+  affiliateHeading: "Related prep (optional)",
+  affiliateLead:
+    "Core practice on this site stays free. Some learners also use a physical book or flashcards — links below may earn us a small commission.",
+  affiliateDisclosure:
+    "As an Amazon Associate we may earn from qualifying purchases. We are not affiliated with USCIS. Always verify rules on uscis.gov.",
+  affiliateItemFlashcards: "Civics flash cards",
+  affiliateItemFlashcardsBlurb:
+    "Physical cards for oral drill away from the screen.",
+  affiliateItemGuide: "Naturalization study guide",
+  affiliateItemGuideBlurb:
+    "Printed overview to pair with the official USCIS question bank here.",
+  affiliateItemEnglish: "English for citizenship practice",
+  affiliateItemEnglishBlurb:
+    "Extra reading/writing support — still use our free sentence drills too.",
 } as const;
 
 export type DictKeys = keyof typeof en;

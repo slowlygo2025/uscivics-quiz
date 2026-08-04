@@ -321,4 +321,13 @@ export const ht: Dictionary = {
   homeLiveLead: "Non federal an dirèk pou jou entèvyou a — plis rechèch ZIP pou senatè, reprezantan, gouvènè ak kapital.",
   homeLiveCta: "Louvri mizajou tès yo",
   linkUpdates: "Mizajou tès sivik",
+  affiliateHeading: "Preparasyon ki gen rapò (opsyonèl)",
+  affiliateLead: "Pratik prensipal sou sit sa a rete gratis. Gen moun ki itilize liv oswa flashcards tou — lyen anba yo ka ban nou yon ti komisyon.",
+  affiliateDisclosure: "Kòm Amazon Associate nou ka touche lajan nan acha ki kalifye. Nou pa afilye ak USCIS. Toujou verifye règ yo sou uscis.gov.",
+  affiliateItemFlashcards: "Flashcards sivik",
+  affiliateItemFlashcardsBlurb: "Kat fizik pou pratike pale san ekran.",
+  affiliateItemGuide: "Gid etid natiralizasyon",
+  affiliateItemGuideBlurb: "Rezime enprime pou asosye ak bank ofisyèl USCIS isit la.",
+  affiliateItemEnglish: "Angle pou sitwayènte",
+  affiliateItemEnglishBlurb: "Sipò lekti/ekri anplis — kontinye itilize egzèsis fraz gratis nou yo.",
 };
