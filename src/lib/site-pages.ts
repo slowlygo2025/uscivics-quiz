@@ -482,7 +482,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "Advertising",
-          body: "If you choose Accept all on our cookie banner, we may show third-party ads (including Monetag / related ad networks). Ad partners may use cookies, pixels, or similar technologies to deliver and measure ads. Their practices are governed by their own policies. Choosing Essential only keeps the study tools working without loading our advertising scripts.",
+          body: "Optional third-party display advertising (for example Monetag) is controlled by a site flag and is currently off while we prioritize Google Ads Search landing quality. If re-enabled, ads load only after Accept all on the cookie banner. Choosing Essential only never loads advertising scripts. Ad partners’ practices are governed by their own policies.",
         },
         {
           heading: "Cookies and similar technologies",

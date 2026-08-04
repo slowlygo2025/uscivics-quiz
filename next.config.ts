@@ -3,7 +3,7 @@ import { withSentryConfig } from "@sentry/nextjs";
 
 /**
  * Security headers for all routes.
- * CSP allows Next, Firebase Analytics, Monetag (consent-gated), and Sentry.
+ * CSP allows Next, Firebase Analytics, optional Monetag (env-gated + consent), and Sentry.
  */
 const ContentSecurityPolicy = [
   "default-src 'self'",

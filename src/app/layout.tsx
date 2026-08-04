@@ -89,7 +89,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        {/* Monetag verification meta only — Multitag loads after cookie consent */}
+        {/* Monetag verification meta only — Multitag OFF unless NEXT_PUBLIC_MONETAG_ENABLED */}
       </head>
       <body
         className="min-h-dvh bg-paper font-sans text-ink"

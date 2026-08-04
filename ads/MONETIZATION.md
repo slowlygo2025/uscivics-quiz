@@ -36,3 +36,34 @@
 1. Create Amazon Associates account for the site niche (study aids).
 2. Set `NEXT_PUBLIC_AMAZON_ASSOCIATE_TAG` in Vercel env and redeploy.
 3. Optionally swap search URLs for deep ASIN links in `src/lib/affiliates.ts`.
+
+## Monetag (display) — decision 2026-08-04
+
+**Goal conflict:** Google Ads Search lands on free practice. Aggressive Monetag formats (popunder / push / vignette) hurt trust, QS/landing experience, and Core Web Vitals — opposite of measuring `start_practice` CPA cleanly.
+
+### Dashboard zones (Excited MULTI, site verified)
+| Zone ID | Type | Risk vs Ads/SEO |
+|---------|------|-----------------|
+| 11486881 | Push Notifications | High — permission spam |
+| 11486880 | Vignette Banner | Medium–high — full-screen interrupt |
+| 11486879 | In-Page Push | High — fake notification UX |
+| 11486878 | OnClick Popunder | Critical — extra tab on click |
+
+Code Multitag `data-zone="266272"` (`src/lib/consent.ts`) bundles those formats. Loading Multitag ≈ loading all of the above after “Accept all”.
+
+### Current control
+| Piece | State |
+|-------|--------|
+| Verification meta (`monetag` in root layout) | **ON** — domain verify only, no creatives |
+| Multitag script (`quge5.com` / zone 266272) | **OFF** unless `NEXT_PUBLIC_MONETAG_ENABLED=true` |
+| Cookie consent | Still gates Firebase; Multitag no-ops while flag off |
+
+### Re-enable later (only if Ads CPA is healthy and you accept UX risk)
+1. Vercel → `NEXT_PUBLIC_MONETAG_ENABLED=true` → redeploy.
+2. Prefer a **single mild** zone in Monetag UI (never Popunder/Push on Ads landing URLs).
+3. Ideally split Multitag: no ads on `/practice/*` and `/eligibility` if Monetag allows URL rules.
+
+### Do not
+- Turn on Popunder/Push while Search Ads is live.
+- Use Monetag revenue to “justify” Smart Bidding / PMax early.
+- Count Monetag impressions as success metrics for citizenship practice trust.

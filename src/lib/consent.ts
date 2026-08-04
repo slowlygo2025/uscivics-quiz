@@ -3,6 +3,22 @@ import type { Locale } from "@/lib/types";
 export const CONSENT_KEY = "uscivics-cookie-consent";
 export type ConsentChoice = "all" | "essential";
 
+/** Multitag zone that bundles Push / Vignette / In-Page Push / Popunder (Excited MULTI). */
+export const MONETAG_MULTITAG_ZONE = "266272";
+
+/**
+ * Monetag Multitag is OFF unless explicitly enabled.
+ * Keep disabled while Google Ads Search + trust/CPA are the priority —
+ * the Multitag fires popunder/push/vignette which hurt landing experience.
+ *
+ * Enable later: Vercel env `NEXT_PUBLIC_MONETAG_ENABLED=true` + redeploy.
+ * Verification meta in root layout stays (does not load ads).
+ */
+export function isMonetagEnabled(): boolean {
+  const v = process.env.NEXT_PUBLIC_MONETAG_ENABLED?.trim().toLowerCase();
+  return v === "1" || v === "true" || v === "yes";
+}
+
 export function readConsent(): ConsentChoice | null {
   try {
     const v = localStorage.getItem(CONSENT_KEY);
@@ -29,23 +45,28 @@ export function writeConsent(choice: ConsentChoice) {
 export function monetagScriptAttrs() {
   return {
     src: "https://quge5.com/88/tag.min.js",
-    "data-zone": "266272",
+    "data-zone": MONETAG_MULTITAG_ZONE,
     async: true,
     "data-cfasync": "false",
   } as const;
 }
 
-/** Inject Monetag Multitag once after marketing consent. */
-export function loadMonetagIfNeeded() {
-  if (typeof document === "undefined") return;
-  if (document.getElementById("monetag-multitag")) return;
+/**
+ * Inject Monetag Multitag once after marketing consent — only when enabled.
+ * Returns whether a script was injected.
+ */
+export function loadMonetagIfNeeded(): boolean {
+  if (typeof document === "undefined") return false;
+  if (!isMonetagEnabled()) return false;
+  if (document.getElementById("monetag-multitag")) return false;
   const s = document.createElement("script");
   s.id = "monetag-multitag";
   s.src = "https://quge5.com/88/tag.min.js";
   s.async = true;
-  s.setAttribute("data-zone", "266272");
+  s.setAttribute("data-zone", MONETAG_MULTITAG_ZONE);
   s.setAttribute("data-cfasync", "false");
   document.head.appendChild(s);
+  return true;
 }
 
 export type ConsentCopy = {
@@ -60,7 +81,7 @@ export type ConsentCopy = {
 export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   en: {
     title: "Cookies & ads",
-    body: "We use essential cookies to run the site, and optional analytics/advertising cookies (including Monetag and Firebase) to keep practice free. Choose Accept all or Essential only. See Privacy for details.",
+    body: "We use essential cookies to run the site, and optional analytics cookies (Firebase) when you Accept all. Third-party display ads stay off unless we explicitly re-enable them. See Privacy for details.",
     accept: "Accept all",
     reject: "Essential only",
     privacy: "Privacy Policy",
@@ -68,7 +89,7 @@ export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   },
   es: {
     title: "Cookies y anuncios",
-    body: "Usamos cookies esenciales para el sitio y, si aceptás, cookies de analítica/publicidad (Monetag y Firebase) para mantener la práctica gratis. Elegí Aceptar todo o Solo esenciales. Ver Privacidad.",
+    body: "Usamos cookies esenciales para el sitio y, si aceptás, cookies de analítica (Firebase). Los anuncios display de terceros están desactivados salvo que los reactivemos. Ver Privacidad.",
     accept: "Aceptar todo",
     reject: "Solo esenciales",
     privacy: "Privacidad",
@@ -76,7 +97,7 @@ export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   },
   zh: {
     title: "Cookie 与广告",
-    body: "我们使用必要 Cookie 运行网站；若您同意，还将使用分析/广告 Cookie（含 Monetag 与 Firebase）以保持免费练习。请选择全部接受或仅必要。详见隐私政策。",
+    body: "我们使用必要 Cookie 运行网站；若您同意，将使用分析 Cookie（Firebase）。第三方展示广告默认关闭，除非我们明确重新启用。详见隐私政策。",
     accept: "全部接受",
     reject: "仅必要",
     privacy: "隐私政策",
@@ -84,7 +105,7 @@ export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   },
   vi: {
     title: "Cookie & quảng cáo",
-    body: "Chúng tôi dùng cookie thiết yếu để chạy trang; nếu bạn đồng ý, cookie phân tích/quảng cáo (Monetag, Firebase) giúp giữ luyện tập miễn phí. Chọn Chấp nhận tất cả hoặc Chỉ thiết yếu. Xem Chính sách quyền riêng tư.",
+    body: "Chúng tôi dùng cookie thiết yếu để chạy trang; nếu bạn đồng ý, cookie phân tích (Firebase). Quảng cáo display bên thứ ba đang tắt trừ khi chúng tôi bật lại. Xem Chính sách quyền riêng tư.",
     accept: "Chấp nhận tất cả",
     reject: "Chỉ thiết yếu",
     privacy: "Quyền riêng tư",
@@ -92,7 +113,7 @@ export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   },
   tl: {
     title: "Cookies at ads",
-    body: "Gumagamit kami ng essential cookies para sa site; kung papayag ka, analytics/advertising cookies (Monetag, Firebase) para manatiling libre ang practice. Piliin ang Accept all o Essential only. Tingnan ang Privacy.",
+    body: "Gumagamit kami ng essential cookies para sa site; kung papayag ka, analytics cookies (Firebase). Naka-off ang third-party display ads maliban kung muling i-enable. Tingnan ang Privacy.",
     accept: "Accept all",
     reject: "Essential only",
     privacy: "Privacy",
@@ -100,15 +121,15 @@ export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   },
   ar: {
     title: "ملفات تعريف الارتباط والإعلانات",
-    body: "نستخدم ملفات أساسية لتشغيل الموقع، واختياريًا ملفات تحليلات/إعلانات (بما فيها Monetag وFirebase) لإبقاء التمرين مجانيًا. اختر قبول الكل أو الأساسية فقط. راجع سياسة الخصوصية.",
+    body: "نستخدم ملفات أساسية لتشغيل الموقع، واختياريًا ملفات التحليلات (Firebase) عند قبول الكل. إعلانات العرض من جهات خارجية متوقفة ما لم نُعد تفعيلها. راجع سياسة الخصوصية.",
     accept: "قبول الكل",
     reject: "الأساسية فقط",
     privacy: "الخصوصية",
-    manage: "إعدادات ملفات الارتباط",
+    manage: "إعدادات ملفات تعريف الارتباط",
   },
   ko: {
     title: "쿠키 및 광고",
-    body: "사이트 운영에 필수 쿠키를 사용하며, 동의 시 분석/광고 쿠키(Monetag, Firebase)로 무료 연습을 유지합니다. 모두 허용 또는 필수만 선택하세요. 개인정보 처리방침을 확인하세요.",
+    body: "사이트 운영에 필수 쿠키를 사용하며, 동의 시 분석 쿠키(Firebase)를 사용합니다. 제3자 디스플레이 광고는 명시적으로 다시 켜기 전까지 꺼져 있습니다. 개인정보 처리방침을 확인하세요.",
     accept: "모두 허용",
     reject: "필수만",
     privacy: "개인정보",
@@ -116,7 +137,7 @@ export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   },
   hi: {
     title: "कुकीज़ और विज्ञापन",
-    body: "हम साइट चलाने के लिए आवश्यक कुकीज़ उपयोग करते हैं; सहमति पर विश्लेषण/विज्ञापन कुकीज़ (Monetag, Firebase) मुफ़्त अभ्यास बनाए रखने में मदद करती हैं। सभी स्वीकार करें या केवल आवश्यक चुनें। गोपनीयता देखें।",
+    body: "हम साइट चलाने के लिए आवश्यक कुकीज़ उपयोग करते हैं; सहमति पर विश्लेषण कुकीज़ (Firebase)। तृतीय-पक्ष डिस्प्ले विज्ञापन तब तक बंद हैं जब तक हम उन्हें फिर से सक्षम न करें। गोपनीयता देखें।",
     accept: "सभी स्वीकार करें",
     reject: "केवल आवश्यक",
     privacy: "गोपनीयता",
@@ -124,7 +145,7 @@ export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   },
   ru: {
     title: "Файлы cookie и реклама",
-    body: "Мы используем необходимые cookie для работы сайта и, при согласии, аналитику/рекламу (Monetag, Firebase), чтобы практика оставалась бесплатной. Выберите «Принять все» или «Только необходимые». См. Политику конфиденциальности.",
+    body: "Мы используем необходимые cookie для работы сайта и, при согласии, аналитику (Firebase). Сторонние display-объявления отключены, пока мы их явно не включим. См. Политику конфиденциальности.",
     accept: "Принять все",
     reject: "Только необходимые",
     privacy: "Конфиденциальность",
@@ -132,7 +153,7 @@ export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   },
   ht: {
     title: "Cookie ak piblisite",
-    body: "Nou itilize cookie esansyèl pou sit la; si ou dakò, cookie analiz/piblisite (Monetag, Firebase) ede kenbe pratik gratis. Chwazi Aksepte tout oswa Esansyèl sèlman. Gade Konfidansyalite.",
+    body: "Nou itilize cookie esansyèl pou sit la; si ou dakò, cookie analiz (Firebase). Piblisite display twazyèm pati yo etenn sof si nou aktive yo ankò. Gade Konfidansyalite.",
     accept: "Aksepte tout",
     reject: "Esansyèl sèlman",
     privacy: "Konfidansyalite",
@@ -140,7 +161,7 @@ export const CONSENT_COPY: Record<Locale, ConsentCopy> = {
   },
   fr: {
     title: "Cookies et publicité",
-    body: "Nous utilisons des cookies essentiels pour le site et, avec votre accord, des cookies d’analyse/publicité (Monetag, Firebase) pour garder la pratique gratuite. Choisissez Tout accepter ou Essentiels seulement. Voir la Confidentialité.",
+    body: "Nous utilisons des cookies essentiels pour le site et, avec votre accord, des cookies d’analyse (Firebase). Les publicités display tierces restent désactivées sauf réactivation explicite. Voir la Confidentialité.",
     accept: "Tout accepter",
     reject: "Essentiels seulement",
     privacy: "Confidentialité",
