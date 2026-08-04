@@ -552,7 +552,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "Compartir",
-          body: "Compartimos datos con proveedores que ayudan a operar el sitio (hosting como Vercel, analítica, publicidad y monitoreo de errores como Sentry). No vendemos tu email como producto. Podemos divulgar información si la ley lo exige o para proteger derechos, seguridad e integridad.",
+          body: "Compartimos datos con proveedores que ayudan a operar el sitio (hosting como Vercel; Firebase Authentication/Firestore y Analytics; envío de email como Resend; publicidad si está habilitada; y monitoreo de errores como Sentry). No vendemos tu email como producto. Podemos divulgar información si la ley lo exige o para proteger derechos, seguridad e integridad.",
         },
         {
           heading: "Menores",
@@ -610,7 +610,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "信息共享",
-          body: "我们会与协助我们运营网站的服务提供商（例如 Vercel 等托管服务、分析和广告服务）共享数据。我们不会将您的电子邮件作为独立产品出售。如果法律要求，或为了保护权利、安全和保障，我们可能会披露信息。",
+          body: "我们会与协助运营网站的服务提供商共享数据（例如 Vercel 托管；Firebase Authentication/Firestore 与 Analytics；Resend 邮件投递；启用时的广告；以及 Sentry 等错误监控）。我们不会将您的电子邮件作为独立产品出售。如果法律要求，或为了保护权利、安全和保障，我们可能会披露信息。",
         },
         {
           heading: "儿童",
@@ -668,7 +668,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "Chia sẻ thông tin",
-          body: "Chúng tôi chia sẻ dữ liệu với các nhà cung cấp dịch vụ giúp vận hành trang web (lưu trữ như Vercel, phân tích, quảng cáo). Chúng tôi không bán email của bạn như một sản phẩm độc lập. Chúng tôi có thể tiết lộ thông tin nếu pháp luật yêu cầu hoặc để bảo vệ quyền, an toàn và bảo mật.",
+          body: "Chúng tôi chia sẻ dữ liệu với các nhà cung cấp giúp vận hành trang (hosting như Vercel; Firebase Authentication/Firestore và Analytics; gửi email như Resend; quảng cáo khi bật; và giám sát lỗi như Sentry). Chúng tôi không bán email của bạn như một sản phẩm độc lập. Chúng tôi có thể tiết lộ thông tin nếu pháp luật yêu cầu hoặc để bảo vệ quyền, an toàn và bảo mật.",
         },
         {
           heading: "Trẻ em",
@@ -726,7 +726,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "Pagbabahagi",
-          body: "Ibinabahagi namin ang datos sa mga service provider na tumutulong magpatakbo ng site (hosting tulad ng Vercel, analytics, advertising). Hindi namin ibinebenta ang iyong email bilang hiwalay na produkto. Maaari kaming maglantad ng impormasyon kung hinihingi ng batas o para protektahan ang karapatan, kaligtasan, at seguridad.",
+          body: "Ibinabahagi namin ang datos sa mga service provider (hosting tulad ng Vercel; Firebase Authentication/Firestore at Analytics; email tulad ng Resend; advertising kung naka-enable; at error monitoring tulad ng Sentry). Hindi namin ibinebenta ang iyong email bilang hiwalay na produkto. Maaari kaming maglantad ng impormasyon kung hinihingi ng batas o para protektahan ang karapatan, kaligtasan, at seguridad.",
         },
         {
           heading: "Mga bata",
@@ -784,7 +784,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "مشاركة البيانات",
-          body: "نشارك البيانات مع مزودي الخدمات الذين يساعدوننا في تشغيل الموقع (الاستضافة مثل Vercel، والتحليلات، والإعلانات). لا نبيع بريدك الإلكتروني كمنتج مستقل. قد نكشف عن المعلومات إذا اقتضى القانون ذلك أو لحماية الحقوق والسلامة والأمن.",
+          body: "نشارك البيانات مع مزودي الخدمات الذين يساعدوننا في تشغيل الموقع (الاستضافة مثل Vercel؛ وFirebase Authentication/Firestore وAnalytics؛ وتسليم البريد مثل Resend؛ والإعلانات عند التفعيل؛ ومراقبة الأخطاء مثل Sentry). لا نبيع بريدك الإلكتروني كمنتج مستقل. قد نكشف عن المعلومات إذا اقتضى القانون ذلك أو لحماية الحقوق والسلامة والأمن.",
         },
         {
           heading: "الأطفال",
@@ -842,7 +842,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "정보 공유",
-          body: "저희는 사이트 운영을 돕는 서비스 제공업체(Vercel과 같은 호스팅, 분석, 광고)와 데이터를 공유합니다. 귀하의 이메일을 독립 상품으로 판매하지 않습니다. 법률상 요구되거나 권리, 안전, 보안을 보호하기 위해 정보를 공개할 수 있습니다.",
+          body: "저희는 사이트 운영을 돕는 서비스 제공업체와 데이터를 공유합니다(Vercel 호스팅; Firebase Authentication/Firestore 및 Analytics; Resend 이메일; 활성화 시 광고; Sentry 오류 모니터링). 귀하의 이메일을 독립 상품으로 판매하지 않습니다. 법률상 요구되거나 권리, 안전, 보안을 보호하기 위해 정보를 공개할 수 있습니다.",
         },
         {
           heading: "아동",
@@ -900,7 +900,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "साझाकरण",
-          body: "हम उन सेवा प्रदाताओं के साथ डेटा साझा करते हैं जो साइट चलाने में हमारी मदद करते हैं (Vercel जैसी होस्टिंग, एनालिटिक्स, विज्ञापन)। हम आपके ईमेल को एक स्टैंडअलोन उत्पाद के रूप में नहीं बेचते। कानून द्वारा आवश्यक होने पर या अधिकारों, सुरक्षा की रक्षा के लिए हम जानकारी प्रकट कर सकते हैं।",
+          body: "हम उन सेवा प्रदाताओं के साथ डेटा साझा करते हैं जो साइट चलाते हैं (Vercel होस्टिंग; Firebase Authentication/Firestore और Analytics; Resend ईमेल; सक्षम होने पर विज्ञापन; और Sentry त्रुटि निगरानी)। हम आपके ईमेल को एक स्टैंडअलोन उत्पाद के रूप में नहीं बेचते। कानून द्वारा आवश्यक होने पर या अधिकारों, सुरक्षा की रक्षा के लिए हम जानकारी प्रकट कर सकते हैं।",
         },
         {
           heading: "बच्चे",
@@ -958,7 +958,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "Передача данных",
-          body: "Мы передаём данные поставщикам услуг, которые помогают нам управлять сайтом (хостинг, например Vercel, аналитика, реклама). Мы не продаём вашу электронную почту как отдельный продукт. Мы можем раскрывать информацию, если этого требует закон, или для защиты прав, безопасности.",
+          body: "Мы передаём данные поставщикам, которые помогают управлять сайтом (хостинг Vercel; Firebase Authentication/Firestore и Analytics; доставка почты Resend; реклама при включении; мониторинг ошибок Sentry). Мы не продаём вашу электронную почту как отдельный продукт. Мы можем раскрывать информацию, если этого требует закон, или для защиты прав, безопасности.",
         },
         {
           heading: "Дети",
@@ -1016,7 +1016,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "Pataje",
-          body: "Nou pataje done ak founisè sèvis ki ede nou fè sit la fonksyone (ebèjman tankou Vercel, analiz, piblisite). Nou pa vann imel ou kòm yon pwodwi endepandan. Nou ka divilge enfòmasyon si lalwa egzije sa oswa pou pwoteje dwa, sekirite.",
+          body: "Nou pataje done ak founisè sèvis ki ede sit la (ebèjman Vercel; Firebase Authentication/Firestore ak Analytics; imel Resend; piblisite lè aktif; ak siveyans erè Sentry). Nou pa vann imel ou kòm yon pwodwi endepandan. Nou ka divilge enfòmasyon si lalwa egzije sa oswa pou pwoteje dwa, sekirite.",
         },
         {
           heading: "Timoun",
@@ -1074,7 +1074,7 @@ export const SITE_PAGES: SitePage[] = [
         },
         {
           heading: "Partage",
-          body: "Nous partageons des données avec des prestataires de services qui nous aident à exploiter le site (hébergement comme Vercel, analytique, publicité). Nous ne vendons pas votre e-mail en tant que produit autonome. Nous pouvons divulguer des informations si la loi l'exige ou pour protéger les droits, la sécurité.",
+          body: "Nous partageons des données avec des prestataires qui aident à exploiter le site (hébergement Vercel ; Firebase Authentication/Firestore et Analytics ; envoi d'e-mails Resend ; publicité si activée ; surveillance d'erreurs Sentry). Nous ne vendons pas votre e-mail en tant que produit autonome. Nous pouvons divulguer des informations si la loi l'exige ou pour protéger les droits, la sécurité.",
         },
         {
           heading: "Enfants",
