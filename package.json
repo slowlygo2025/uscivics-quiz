@@ -9,6 +9,7 @@
     "lint": "eslint",
     "check:i18n": "node scripts/check-i18n.mjs",
     "check:firestore-rules": "node scripts/check-firestore-rules.mjs",
+    "test:unit": "npx --yes tsx --test src/lib/progress-merge.test.ts src/lib/rate-limit.test.ts",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:a11y": "playwright test e2e/a11y.spec.ts",

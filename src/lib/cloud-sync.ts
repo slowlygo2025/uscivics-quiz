@@ -23,6 +23,7 @@ import {
   saveProgress,
   type VersionProgress,
 } from "@/lib/progress";
+import { mergeProgress } from "@/lib/progress-merge";
 
 const DOC = "progress";
 
@@ -89,30 +90,6 @@ export async function deleteAccount(user: User) {
 }
 
 type CloudBlob = Partial<Record<TestVersion, VersionProgress>>;
-
-function mergeProgress(
-  local: VersionProgress,
-  remote: VersionProgress
-): VersionProgress {
-  const questions = { ...remote.questions };
-  for (const [id, stats] of Object.entries(local.questions)) {
-    const prev = questions[id];
-    if (!prev || stats.lastSeenAt >= prev.lastSeenAt) {
-      questions[id] = stats;
-    }
-  }
-  return {
-    questions,
-    streak: Math.max(local.streak, remote.streak),
-    bestStreak: Math.max(local.bestStreak, remote.bestStreak),
-    simulationsPassed: Math.max(
-      local.simulationsPassed,
-      remote.simulationsPassed
-    ),
-    simulationsTaken: Math.max(local.simulationsTaken, remote.simulationsTaken),
-    updatedAt: Math.max(local.updatedAt, remote.updatedAt),
-  };
-}
 
 /** Pull remote, merge with local, write both ways. */
 export async function syncProgress(uid: string): Promise<void> {

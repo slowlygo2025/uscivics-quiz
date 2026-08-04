@@ -1,0 +1,40 @@
+name: Governors scrape
+
+on:
+  schedule:
+    # Mondays 12:00 UTC
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scrape:
+    name: Scrape + open PR if changed
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Scrape governors
+        run: node scripts/scrape-governors.mjs
+
+      - name: Create PR if data changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore: refresh governors snapshot from Wikipedia"
+          title: "chore: refresh US governors data"
+          body: |
+            Automated weekly scrape (`npm run scrape:governors`).
+
+            Review governor name changes, then merge to keep ZIP→officials study data fresh.
+          branch: chore/governors-refresh
+          delete-branch: true

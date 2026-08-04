@@ -1,30 +1,47 @@
 /**
  * Rate limit for serverless routes.
- * Uses Upstash Redis REST when configured; otherwise in-memory (per instance).
+ *
+ * Priority:
+ * 1. Upstash Redis REST (durable across instances) when env is set
+ * 2. Process-global memory Map (warm instances) as fallback
  *
  * Env (optional):
  *   UPSTASH_REDIS_REST_URL
  *   UPSTASH_REDIS_REST_TOKEN
  */
 
-type LimitResult = { ok: boolean; remaining: number };
+export type LimitResult = { ok: boolean; remaining: number; backend: "upstash" | "memory" };
 
-const memory = new Map<string, { count: number; reset: number }>();
+type MemoryStore = Map<string, { count: number; reset: number }>;
 
-function memoryLimit(
+declare global {
+  // eslint-disable-next-line no-var
+  var __uscivicsRateLimitStore: MemoryStore | undefined;
+}
+
+function memoryStore(): MemoryStore {
+  if (!globalThis.__uscivicsRateLimitStore) {
+    globalThis.__uscivicsRateLimitStore = new Map();
+  }
+  return globalThis.__uscivicsRateLimitStore;
+}
+
+/** Pure in-memory limiter (exported for unit tests). */
+export function memoryLimit(
+  store: MemoryStore,
   key: string,
   max: number,
-  windowMs: number
+  windowMs: number,
+  now = Date.now()
 ): LimitResult {
-  const now = Date.now();
-  const row = memory.get(key);
+  const row = store.get(key);
   if (!row || now > row.reset) {
-    memory.set(key, { count: 1, reset: now + windowMs });
-    return { ok: true, remaining: max - 1 };
+    store.set(key, { count: 1, reset: now + windowMs });
+    return { ok: true, remaining: max - 1, backend: "memory" };
   }
-  if (row.count >= max) return { ok: false, remaining: 0 };
+  if (row.count >= max) return { ok: false, remaining: 0, backend: "memory" };
   row.count += 1;
-  return { ok: true, remaining: max - row.count };
+  return { ok: true, remaining: max - row.count, backend: "memory" };
 }
 
 async function upstashLimit(
@@ -57,10 +74,32 @@ async function upstashLimit(
     return {
       ok: count <= max,
       remaining: Math.max(0, max - count),
+      backend: "upstash",
     };
   } catch {
     return null;
   }
+}
+
+/**
+ * Apply several limit keys; fails if ANY bucket is exhausted.
+ * Use for IP + email (or other dimensions) on the same request.
+ */
+export async function rateLimitAll(
+  keys: string[],
+  opts: { max: number; windowMs: number }
+): Promise<LimitResult> {
+  let worst: LimitResult = {
+    ok: true,
+    remaining: opts.max,
+    backend: "memory",
+  };
+  for (const key of keys) {
+    const r = await rateLimit({ key, ...opts });
+    if (r.remaining < worst.remaining || !r.ok) worst = r;
+    if (!r.ok) return r;
+  }
+  return worst;
 }
 
 export async function rateLimit(opts: {
@@ -71,7 +110,7 @@ export async function rateLimit(opts: {
   const windowSec = Math.max(1, Math.ceil(opts.windowMs / 1000));
   const remote = await upstashLimit(opts.key, opts.max, windowSec);
   if (remote) return remote;
-  return memoryLimit(opts.key, opts.max, opts.windowMs);
+  return memoryLimit(memoryStore(), opts.key, opts.max, opts.windowMs);
 }
 
 export function clientIp(request: Request): string {
@@ -80,4 +119,9 @@ export function clientIp(request: Request): string {
     request.headers.get("x-real-ip") ||
     "unknown"
   );
+}
+
+/** Stable fingerprint for email rate buckets (not a hash secret). */
+export function emailBucket(email: string): string {
+  return email.trim().toLowerCase().slice(0, 160);
 }

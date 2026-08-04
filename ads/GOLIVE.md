@@ -17,12 +17,9 @@
 
 1. [x] Ads UI → **USCQ Search Core** → **Enabled** (budget ~10 USD/day, Manual CPC). Ad groups + ads + KWs aptos (algunas brand “volumen bajo”).
 2. [x] Confirm conversion **start_practice** — GA4 import, goal **Registros**, primaria, ventana 90d, recuento Una. Columnas campaña muestran Conversiones + objetivo Registros (aún 0 — sin clics Ads).
-3. [ ] Exclusions: convertidos / `start_practice` — **bloqueada** (recheck 2026-08-04 ~03:26 UTC+1):
-   - Ads API: developer token **solo test accounts** (sin Basic) → no se puede aplicar por API.
-   - UI: login OK (cuenta accesible). Campaña **Apto**; 21 impr. / 1 clic / 0,54 USD (día 3 ago).
-   - Observation **“All Users of uscivics-quiz”**: sigue **Entidad no apta / Audiencia en proceso de revisión** → no aplicar exclusión aún.
-   - Overlay Ads: “Turn off ad blockers” + panel Configuración en blanco — desactivar ad blocker en `ads.google.com` para editar exclusiones.
-   - Cuando Observation pase a **Apto**: Audiencias → Exclusiones → convertidos `start_practice`.
+3. [ ] Exclusions: convertidos / `start_practice` — **Google-side** (see [`ads/EXCLUSIONS.md`](EXCLUSIONS.md)):
+   - Code/tracking ready; blocked on Observation audience Eligible + Basic API token.
+   - UI: Audiencias → Exclusions when audience is Apto; disable ad blocker on ads.google.com.
    - Script: `node scripts/gads-list-audiences.mjs` (útil tras Basic access).
 4. [x] Do **not** enable Display, partners, AI Max, broad match, Smart Bidding on day 1.
 5. Follow [`ads/OPS.md`](OPS.md) D1–D14 (search terms, negatives, pause KW if CPC > 2 USD and 0 clicks after ≥50 imps).

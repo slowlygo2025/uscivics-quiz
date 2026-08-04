@@ -1,7 +1,11 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { CONTACT_EMAIL_EXPORT } from "@/lib/site-pages";
-import { clientIp, rateLimit } from "@/lib/rate-limit";
+import {
+  clientIp,
+  emailBucket,
+  rateLimitAll,
+} from "@/lib/rate-limit";
 
 export const runtime = "nodejs";
 
@@ -11,17 +15,6 @@ function isEmail(v: string) {
 
 export async function POST(request: Request) {
   const ip = clientIp(request);
-  const limited = await rateLimit({
-    key: `contact:${ip}`,
-    max: 5,
-    windowMs: 60_000,
-  });
-  if (!limited.ok) {
-    return NextResponse.json(
-      { ok: false, error: "rate_limited" },
-      { status: 429 }
-    );
-  }
 
   let body: {
     name?: string;
@@ -48,6 +41,17 @@ export async function POST(request: Request) {
 
   if (!name || !email || !message || !isEmail(email)) {
     return NextResponse.json({ ok: false, error: "validation" }, { status: 400 });
+  }
+
+  const limited = await rateLimitAll(
+    [`contact:ip:${ip}`, `contact:email:${emailBucket(email)}`],
+    { max: 5, windowMs: 60_000 }
+  );
+  if (!limited.ok) {
+    return NextResponse.json(
+      { ok: false, error: "rate_limited" },
+      { status: 429 }
+    );
   }
 
   const apiKey = process.env.RESEND_API_KEY?.trim();
