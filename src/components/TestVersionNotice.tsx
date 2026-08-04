@@ -1,13 +1,31 @@
+import Link from "next/link";
 import type { Dictionary } from "@/lib/dictionary";
+import type { Locale } from "@/lib/types";
 
-/** USCIS-style filing-date notice: alert + table only (no duplicate CTA/copy). */
-export default function TestVersionNotice({ dict }: { dict: Dictionary }) {
+/** USCIS-style filing-date notice: alert + table + link to Updates hub. */
+export default function TestVersionNotice({
+  dict,
+  locale,
+}: {
+  dict: Dictionary;
+  locale?: Locale;
+}) {
   return (
     <section className="gw-rise overflow-hidden border border-line bg-surface shadow-[var(--shadow-soft)]">
       <div className="border-b border-line bg-mist/40 px-4 py-3.5 sm:px-5">
-        <h2 className="font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-ink sm:text-xl">
-          {dict.uscisUpdatesPageTitle}
-        </h2>
+        <div className="flex flex-wrap items-end justify-between gap-2">
+          <h2 className="font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-ink sm:text-xl">
+            {dict.uscisUpdatesPageTitle}
+          </h2>
+          {locale ? (
+            <Link
+              href={`/${locale}/updates`}
+              className="text-sm font-semibold text-signal underline-offset-2 hover:underline"
+            >
+              {dict.homeLiveCta} →
+            </Link>
+          ) : null}
+        </div>
       </div>
 
       <div className="gw-uscis-alert m-4 sm:m-5" role="status">

@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/english/reading",
     "/english/writing",
     "/learn",
+    "/updates",
     "/questions",
     "/questions/all-128",
     "/questions/all-100",

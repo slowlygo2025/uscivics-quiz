@@ -36,12 +36,12 @@ import {
 } from "@/lib/progress";
 import ZipOfficials from "@/components/ZipOfficials";
 import FederalOfficials from "@/components/FederalOfficials";
+import ChangingAnswersBanner from "@/components/ChangingAnswersBanner";
 import SpeakButton from "@/components/SpeakButton";
 import SpeakPracticeMode from "@/components/SpeakPracticeMode";
 import {
   UscisUpdatesProvider,
   useFederalAnswers,
-  useUscisUpdatesContext,
 } from "@/components/UscisUpdatesProvider";
 import { TTS_LANG } from "@/lib/locales";
 import {
@@ -226,10 +226,10 @@ export default function StudyHub({
         onImported={handleProgressImported}
       />
 
-      <ChangingAnswersBanner dict={dict} />
+      <ChangingAnswersBanner dict={dict} locale={locale} />
 
       <div className="grid gap-4 md:grid-cols-2">
-        <FederalOfficials dict={dict} />
+        <FederalOfficials dict={dict} locale={locale} />
         <ZipOfficials dict={dict} />
       </div>
 
@@ -505,23 +505,6 @@ function Stat({ label, value }: { label: string; value: string }) {
         {value}
       </p>
     </div>
-  );
-}
-
-function ChangingAnswersBanner({ dict }: { dict: Dictionary }) {
-  const updates = useUscisUpdatesContext();
-  return (
-    <aside className="rounded-2xl border border-amber/25 bg-amber-soft/80 px-5 py-4 sm:px-6">
-      <p className="text-sm font-semibold text-amber">{dict.changingBannerTitle}</p>
-      <p className="mt-1 text-sm leading-relaxed text-ink-soft">
-        {dict.changingBannerBody}
-      </p>
-      {updates.alert ? (
-        <p className="mt-2 text-xs leading-relaxed text-muted line-clamp-3">
-          {updates.alert}
-        </p>
-      ) : null}
-    </aside>
   );
 }
 

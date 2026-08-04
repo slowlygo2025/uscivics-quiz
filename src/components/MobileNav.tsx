@@ -29,7 +29,7 @@ export default function MobileNav({
     };
   }, [open]);
 
-  const links = [
+  const primary = [
     { href: `/${locale}`, label: dict.navHome },
     { href: `/${locale}/eligibility`, label: dict.navCitizenship },
     { href: `/${locale}/practice/2025`, label: dict.navTest2025 },
@@ -38,6 +38,10 @@ export default function MobileNav({
     { href: `/${locale}/questions`, label: dict.navQuestions },
     { href: `/${locale}/english/reading`, label: dict.navReadingTest },
     { href: `/${locale}/english/writing`, label: dict.navWritingTest },
+    { href: `/${locale}/updates`, label: dict.navUpdates },
+  ];
+
+  const secondary = [
     { href: `/${locale}/learn`, label: dict.navLearn },
     { href: `/${locale}/english`, label: dict.navEnglish },
     { href: `/${locale}/about`, label: dict.navAbout },
@@ -86,16 +90,32 @@ export default function MobileNav({
           />
           <nav
             id={panelId}
-            className="gw-safe-bottom fixed inset-x-0 bottom-0 z-50 rounded-t-2xl border border-line bg-surface px-4 pb-4 pt-3 shadow-[0_-16px_48px_rgba(11,28,44,0.18)]"
+            className="gw-safe-bottom fixed inset-x-0 bottom-0 z-50 max-h-[85vh] overflow-y-auto rounded-t-2xl border border-line bg-surface px-4 pb-4 pt-3 shadow-[0_-16px_48px_rgba(11,28,44,0.18)]"
           >
             <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-line" />
             <ul className="flex flex-col gap-1">
-              {links.map((l) => (
+              {primary.map((l) => (
                 <li key={l.href}>
                   <Link
                     href={l.href}
                     onClick={() => setOpen(false)}
                     className="flex min-h-12 items-center rounded-xl px-3 text-sm font-semibold uppercase tracking-[0.1em] text-ink-soft transition-colors active:bg-mist hover:bg-mist hover:text-ink"
+                  >
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-3 px-3 text-[10px] font-semibold uppercase tracking-[0.14em] text-muted">
+              {dict.legalBadge}
+            </p>
+            <ul className="mt-1 flex flex-col gap-1">
+              {secondary.map((l) => (
+                <li key={l.href}>
+                  <Link
+                    href={l.href}
+                    onClick={() => setOpen(false)}
+                    className="flex min-h-11 items-center rounded-xl px-3 text-sm font-medium text-muted transition-colors active:bg-mist hover:bg-mist hover:text-ink"
                   >
                     {l.label}
                   </Link>

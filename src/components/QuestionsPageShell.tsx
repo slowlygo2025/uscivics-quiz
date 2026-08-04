@@ -157,10 +157,10 @@ export function QuestionsPageShell({
         </Link>
         {" · "}
         <Link
-          href={`/${locale}/learn`}
+          href={`/${locale}/updates`}
           className="font-semibold text-signal underline-offset-2 hover:underline"
         >
-          {dict.navLearn}
+          {dict.navUpdates}
         </Link>
         {" · "}
         <Link
@@ -168,6 +168,13 @@ export function QuestionsPageShell({
           className="font-semibold text-signal underline-offset-2 hover:underline"
         >
           {dict.seoAllLandings}
+        </Link>
+        {" · "}
+        <Link
+          href={`/${locale}/learn`}
+          className="font-semibold text-signal underline-offset-2 hover:underline"
+        >
+          {dict.navLearn}
         </Link>
       </p>
       {path ? (

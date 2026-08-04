@@ -6,6 +6,7 @@ import BrandLogo from "@/components/BrandLogo";
 import HeroWithPhoto from "@/components/HeroWithPhoto";
 import TestVersionNotice from "@/components/TestVersionNotice";
 import TrustDiffStrip from "@/components/TrustDiffStrip";
+import HomeLiveStrip from "@/components/HomeLiveStrip";
 import { buildPageMetadata, organizationJsonLd, websiteJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 import { isLocale } from "@/lib/locales";
@@ -86,7 +87,11 @@ export default async function HomePage({
       </HeroWithPhoto>
 
       <div className="mt-10 sm:mt-12">
-        <TestVersionNotice dict={dict} />
+        <TestVersionNotice dict={dict} locale={locale as Locale} />
+      </div>
+
+      <div className="mt-10 sm:mt-12">
+        <HomeLiveStrip dict={dict} locale={locale as Locale} />
       </div>
 
       <section className="mt-14 sm:mt-16">
@@ -141,6 +146,13 @@ export default async function HomePage({
             className="font-semibold text-signal underline-offset-2 hover:underline"
           >
             {dict.navPractice}
+          </Link>
+          {" · "}
+          <Link
+            href={`/${locale}/updates`}
+            className="font-semibold text-signal underline-offset-2 hover:underline"
+          >
+            {dict.navUpdates}
           </Link>
         </p>
       </section>

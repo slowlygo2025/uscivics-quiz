@@ -249,6 +249,23 @@ const PATH_LINKS: Record<string, LinkCluster> = {
     practice: [
       { path: "/practice/2025", labelKey: "navTest2025" },
       { path: "/practice/2008", labelKey: "navTest2008" },
+      { path: "/updates", labelKey: "linkUpdates" },
+    ],
+  },
+  "/updates": {
+    learn: [
+      { path: "/learn/n-400-filing-date", labelKey: "linkN400Filing" },
+      { path: "/learn/which-civics-test", labelKey: "linkWhichCivicsTest" },
+      { path: "/learn/2025-changes", labelKey: "link2025Changes" },
+    ],
+    questions: [
+      { path: "/questions/drill/officials-2025", labelKey: "custom", customLabel: "Officials drill (2025)" },
+      { path: "/questions/senior", labelKey: "navSenior" },
+    ],
+    practice: [
+      { path: "/eligibility", labelKey: "startEligibility" },
+      { path: "/practice/2025", labelKey: "navTest2025" },
+      { path: "/practice/2008", labelKey: "navTest2008" },
     ],
   },
 };

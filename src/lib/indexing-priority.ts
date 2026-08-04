@@ -54,6 +54,13 @@ export const INDEX_PRIORITY: IndexPriorityItem[] = [
     why: "Version chooser conversion",
   },
   {
+    path: "/updates",
+    tier: 1,
+    priority: 0.91,
+    changeFrequency: "daily",
+    why: "Narrow policy/exam updates hub + live officials",
+  },
+  {
     path: "/practice/2025",
     tier: 1,
     priority: 0.9,

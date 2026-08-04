@@ -2,10 +2,10 @@ import type { Dictionary } from "./en";
 
 export const es: Dictionary = {
   brand: "USCivics Quiz",
-  logoSubtitle: "Práctica cívica",
+  logoSubtitle: "Práctica oficial USCIS",
   siteName: "USCivics Quiz",
   tagline:
-    "Práctica USCIS gratis — sabé tu fecha de N-400 (2008 vs 2025) y empezá en segundos. Sin registro.",
+    "App gratuita de práctica cívica USCIS — sabé tu fecha de N-400 (2008 vs 2025) y empezá en segundos. Sin registro.",
   heroSupport:
     "Banco oficial con audio, flashcards y simulación de entrevista — en más de 10 idiomas.",
   startEligibility: "Descubrir mi versión",
@@ -117,7 +117,7 @@ export const es: Dictionary = {
   changingBannerTitle: "Respuestas que cambian",
   changingBannerBody:
     "Algunas respuestas dependen de elecciones o nombramientos. Verificá siempre a los oficiales actuales antes de tu entrevista.",
-  changingBannerLink: "Ver actualizaciones USCIS",
+  changingBannerLink: "Abrir actualizaciones del examen",
   changingCardNote: "Esta respuesta puede cambiar — verificá en USCIS antes de tu entrevista.",
   interviewHowTitle: "Cómo funciona la entrevista real",
   interviewHow1: "El oficial pregunta en voz alta del banco oficial.",
@@ -146,8 +146,8 @@ export const es: Dictionary = {
   speakAnswers: "Oír respuestas (EN)",
   speakPractice: "Decí la respuesta en inglés en voz alta — la entrevista es oral.",
   navPractice: "Practicar",
-  navLearn: "Aprender",
-  navCitizenship: "Ciudadanía EE.UU.",
+  navLearn: "Guías",
+  navCitizenship: "Mi versión",
   navCivicsTest: "Examen cívico",
   navReadingTest: "Reading test",
   navWritingTest: "Writing test",
@@ -315,4 +315,20 @@ export const es: Dictionary = {
   premiumWaitlistLead: "La práctica central sigue gratis para siempre. Unite a la lista de espera para sync opcional en la nube — sin paywall del banco de preguntas.",
   premiumWaitlistCta: "Avisame cuando salga premium",
   premiumWaitlistDone: "Estás en la lista de espera en este dispositivo.",
+  navUpdates: "Actualizaciones",
+  govBannerLead: "Sitio de práctica no oficial — no es un sitio del gobierno de EE. UU.",
+  govBannerHow: "Así lo sabés",
+  govBannerOfficial: "Los sitios oficiales de USCIS usan .gov y los publica el gobierno de EE. UU. Este sitio es una herramienta de estudio independiente.",
+  govBannerSecure: "Verificá siempre las respuestas que cambian y las reglas en uscis.gov antes de tu entrevista.",
+  updatesHubTitle: "Actualizaciones del examen cívico",
+  updatesHubLead: "Fecha de presentación (2008 vs 2025), funcionarios que cambian y búsqueda por ZIP — changelog estrecho del examen, no un feed de noticias.",
+  updatesPolicyHeading: "Notas de política y examen",
+  updatesLiveHeading: "Funcionarios en vivo y respuestas locales",
+  updatesLiveBadge: "En vivo",
+  updatesCachedBadge: "En caché",
+  updatesVerifyNote: "Confirmá los nombres la semana de tu entrevista. Elecciones y nombramientos pueden cambiar las respuestas aceptadas.",
+  homeLiveHeading: "Funcionarios actuales",
+  homeLiveLead: "Nombres federales en vivo para el día de la entrevista — más búsqueda por ZIP para senadores, representante, gobernador y capital.",
+  homeLiveCta: "Abrir actualizaciones",
+  linkUpdates: "Actualizaciones del examen cívico",
 };

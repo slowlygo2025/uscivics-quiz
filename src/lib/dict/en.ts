@@ -1,10 +1,10 @@
 /** Shared English dictionary — source of truth for keys. */
 export const en = {
   brand: "USCivics Quiz",
-  logoSubtitle: "Civics practice",
+  logoSubtitle: "Official USCIS practice",
   siteName: "USCivics Quiz",
   tagline:
-    "Free USCIS civics practice — know your N-400 filing date (2008 vs 2025), then start in seconds. No sign-up.",
+    "Free USCIS civics practice app — know your N-400 filing date (2008 vs 2025), then start in seconds. No sign-up.",
   heroSupport:
     "Official question bank with audio, flashcards, and a real interview simulation — in 10+ languages.",
   startEligibility: "Find my test version",
@@ -116,7 +116,7 @@ export const en = {
   changingBannerTitle: "Answers that change",
   changingBannerBody:
     "Some answers depend on elections or appointments. Always verify current officials before your interview.",
-  changingBannerLink: "Check USCIS test updates",
+  changingBannerLink: "Open civics test updates",
   changingCardNote: "This answer can change — verify at USCIS before your interview.",
   interviewHowTitle: "How the real interview works",
   interviewHow1: "The officer asks questions aloud from the official pool.",
@@ -145,8 +145,29 @@ export const en = {
   speakAnswers: "Hear answers (EN)",
   speakPractice: "Say it out loud in English — the interview is oral.",
   navPractice: "Practice",
-  navLearn: "Learn",
-  navCitizenship: "US Citizenship",
+  navLearn: "Guides",
+  navUpdates: "Updates",
+  navCitizenship: "My version",
+  govBannerLead:
+    "An unofficial practice website — not a U.S. government site.",
+  govBannerHow: "Here’s how you know",
+  govBannerOfficial:
+    "Official USCIS websites use .gov and are published by the U.S. government. This site is an independent study tool.",
+  govBannerSecure:
+    "Always verify changing answers and rules on uscis.gov before your interview.",
+  updatesHubTitle: "Civics test updates",
+  updatesHubLead:
+    "Filing date (2008 vs 2025), officials that change, and ZIP lookup — a narrow exam changelog, not a news feed.",
+  updatesPolicyHeading: "Policy & exam notes",
+  updatesLiveHeading: "Live officials & local answers",
+  updatesLiveBadge: "Live",
+  updatesCachedBadge: "Cached",
+  updatesVerifyNote:
+    "Confirm names the week of your interview. Elections and appointments can change accepted answers.",
+  homeLiveHeading: "Current officials",
+  homeLiveLead:
+    "Live federal names for interview day — plus ZIP lookup for senators, representative, governor, and capital.",
+  homeLiveCta: "Open test updates",
   navCivicsTest: "Civics Test",
   navReadingTest: "Reading Test",
   navWritingTest: "Writing Test",
@@ -315,6 +336,7 @@ export const en = {
   premiumWaitlistLead: "Core practice stays free forever. Join the waitlist for optional cloud sync — no paywall on the question bank.",
   premiumWaitlistCta: "Notify me when premium ships",
   premiumWaitlistDone: "You are on the waitlist on this device.",
+  linkUpdates: "Civics test updates",
 } as const;
 
 export type DictKeys = keyof typeof en;

@@ -13,6 +13,7 @@ export default function SiteHeader({
   locale: Locale;
   dict: Dictionary;
 }) {
+  // Practice-app primary nav — Guides stay in footer / mobile secondary.
   const fullLinks = [
     { href: `/${locale}/eligibility`, label: dict.navCitizenship },
     { href: `/${locale}/practice/2025`, label: dict.navTest2025 },
@@ -21,15 +22,16 @@ export default function SiteHeader({
     { href: `/${locale}/questions`, label: dict.navQuestions },
     { href: `/${locale}/english/reading`, label: dict.navReadingTest },
     { href: `/${locale}/english/writing`, label: dict.navWritingTest },
-    { href: `/${locale}/learn`, label: dict.navLearn },
+    { href: `/${locale}/updates`, label: dict.navUpdates },
   ];
 
   const midHrefs = new Set([
+    `/${locale}/eligibility`,
     `/${locale}/practice/2025`,
     `/${locale}/practice/2008`,
     `/${locale}/questions/senior`,
     `/${locale}/questions`,
-    `/${locale}/learn`,
+    `/${locale}/updates`,
   ]);
 
   return (

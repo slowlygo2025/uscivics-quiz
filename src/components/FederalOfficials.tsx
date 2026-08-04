@@ -1,11 +1,14 @@
 "use client";
 
+import Link from "next/link";
 import type { Dictionary } from "@/lib/dictionary";
+import type { Locale } from "@/lib/types";
 import { asOfDate } from "@/lib/federal-officials";
 import {
   useFederalOfficialsLive,
   useUscisUpdatesContext,
 } from "@/components/UscisUpdatesProvider";
+import { USCIS_TEST_UPDATES } from "@/lib/uscis-links";
 
 const LABELS: Record<string, keyof Dictionary> = {
   president: "federalPresident",
@@ -15,7 +18,13 @@ const LABELS: Record<string, keyof Dictionary> = {
   presidentParty: "federalParty",
 };
 
-export default function FederalOfficials({ dict }: { dict: Dictionary }) {
+export default function FederalOfficials({
+  dict,
+  locale,
+}: {
+  dict: Dictionary;
+  locale: Locale;
+}) {
   const officials = useFederalOfficialsLive();
   const updates = useUscisUpdatesContext();
   const shown = officials.filter((o) => o.office !== "presidentParty");
@@ -43,14 +52,22 @@ export default function FederalOfficials({ dict }: { dict: Dictionary }) {
 
       <p className="mt-4 text-xs text-muted">
         {dict.federalAsOf} {asOfDate(updates.scrapedAt)}
-        {updates.live ? " · live" : ""}.{" "}
+        {" · "}
+        {updates.live ? dict.updatesLiveBadge : dict.updatesCachedBadge}.{" "}
+        <Link
+          href={`/${locale}/updates`}
+          className="font-semibold text-signal underline-offset-2 hover:underline"
+        >
+          {dict.navUpdates}
+        </Link>
+        {" · "}
         <a
-          href="https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates"
+          href={USCIS_TEST_UPDATES}
           target="_blank"
           rel="noopener noreferrer"
           className="font-semibold text-signal underline-offset-2 hover:underline"
         >
-          USCIS test updates
+          USCIS.gov
         </a>
       </p>
     </section>

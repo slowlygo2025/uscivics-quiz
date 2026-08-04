@@ -4,6 +4,7 @@ import type { Locale } from "@/lib/types";
 import { getDictionary } from "@/lib/dictionary";
 import { LOCALES, isLocale, isRtlLocale } from "@/lib/locales";
 import BrandLogo from "@/components/BrandLogo";
+import OfficialSiteBanner from "@/components/OfficialSiteBanner";
 import SiteHeader from "@/components/SiteHeader";
 import CookieConsent from "@/components/CookieConsent";
 import OutboundClickTracker from "@/components/OutboundClickTracker";
@@ -27,6 +28,7 @@ export default async function LocaleLayout({
 
   return (
     <div className="gw-shell" lang={locale} dir={rtl ? "rtl" : "ltr"}>
+      <OfficialSiteBanner dict={dict} />
       <SiteHeader locale={locale} dict={dict} />
       <CookieConsent locale={locale} />
       <OutboundClickTracker />
@@ -51,16 +53,10 @@ export default async function LocaleLayout({
           </p>
           <nav className="mt-6 flex flex-wrap gap-x-5 gap-y-3 text-sm font-semibold text-signal">
             <Link
-              href={`/${locale}/questions`}
+              href={`/${locale}/eligibility`}
               className="inline-flex min-h-10 items-center underline-offset-2 hover:underline"
             >
-              {dict.navQuestions}
-            </Link>
-            <Link
-              href={`/${locale}/learn`}
-              className="inline-flex min-h-10 items-center underline-offset-2 hover:underline"
-            >
-              {dict.navLearn}
+              {dict.startEligibility}
             </Link>
             <Link
               href={`/${locale}/practice/2025`}
@@ -75,10 +71,22 @@ export default async function LocaleLayout({
               {dict.navTest2008}
             </Link>
             <Link
+              href={`/${locale}/questions`}
+              className="inline-flex min-h-10 items-center underline-offset-2 hover:underline"
+            >
+              {dict.navQuestions}
+            </Link>
+            <Link
               href={`/${locale}/questions/senior`}
               className="inline-flex min-h-10 items-center underline-offset-2 hover:underline"
             >
               {dict.navSenior}
+            </Link>
+            <Link
+              href={`/${locale}/updates`}
+              className="inline-flex min-h-10 items-center underline-offset-2 hover:underline"
+            >
+              {dict.navUpdates}
             </Link>
             <Link
               href={`/${locale}/english`}
@@ -87,10 +95,10 @@ export default async function LocaleLayout({
               {dict.navEnglish}
             </Link>
             <Link
-              href={`/${locale}/eligibility`}
+              href={`/${locale}/learn`}
               className="inline-flex min-h-10 items-center underline-offset-2 hover:underline"
             >
-              {dict.startEligibility}
+              {dict.navLearn}
             </Link>
           </nav>
           <nav
