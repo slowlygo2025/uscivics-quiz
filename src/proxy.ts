@@ -46,6 +46,8 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!_next|api|favicon.ico|monitoring|.*\\..*).*)",
+    // Skip Next assets, API, monitoring, static files, and brand/PWA icons
+    // (Google Search favicon + install icons must stay on the hostname root).
+    "/((?!_next|api|favicon\\.ico|icon$|icon-|apple-icon|monitoring|.*\\..*).*)",
   ],
 };

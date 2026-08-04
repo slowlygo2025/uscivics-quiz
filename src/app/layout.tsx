@@ -38,7 +38,14 @@ export const metadata: Metadata = {
   description:
     "Free USCIS naturalization civics test practice. Official 100 and 128 questions in multiple languages, no sign-up. Prep for the citizenship interview.",
   icons: {
-    icon: [{ url: "/brand-seal.svg", type: "image/svg+xml" }],
+    // PNG ≥48px for Google Search results; SVG + 192 for browsers/PWA.
+    icon: [
+      { url: "/icon", type: "image/png", sizes: "48x48" },
+      { url: "/icon-192", type: "image/png", sizes: "192x192" },
+      { url: "/brand-seal.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/apple-icon", type: "image/png", sizes: "180x180" }],
+    shortcut: "/icon",
   },
   verification: {
     google: "7gUP5WlL2v9V2cHBRNPB-LZd_b5Kf3rHeJoxccazPD0",
