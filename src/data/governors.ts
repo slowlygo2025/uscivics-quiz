@@ -1,7 +1,7 @@
 /**
  * Governors + capitals snapshot for ZIP / state study answers.
  * asOf: ISO date of last manual or scripted refresh.
- * Automated refresh: `npm run scrape:governors` → writes this file; cron hits /api/cron/governors.
+ * Automated refresh: \`npm run scrape:governors\` → writes this file; cron hits /api/cron/governors.
  */
 export type GovernorRecord = {
   name: string;
@@ -9,13 +9,13 @@ export type GovernorRecord = {
   governor: string;
 };
 
-export const GOVERNORS_AS_OF = "2026-08-04";
+export const GOVERNORS_AS_OF = "2026-09-07";
 
 export const GOVERNORS: Record<string, GovernorRecord> = {
-  AL: { name: "Alabama", capital: "Montgomery", governor: "Kay Ivey" },
   AK: { name: "Alaska", capital: "Juneau", governor: "Mike Dunleavy" },
-  AZ: { name: "Arizona", capital: "Phoenix", governor: "Katie Hobbs" },
+  AL: { name: "Alabama", capital: "Montgomery", governor: "Kay Ivey" },
   AR: { name: "Arkansas", capital: "Little Rock", governor: "Sarah Huckabee Sanders" },
+  AZ: { name: "Arizona", capital: "Phoenix", governor: "Katie Hobbs" },
   CA: { name: "California", capital: "Sacramento", governor: "Gavin Newsom" },
   CO: { name: "Colorado", capital: "Denver", governor: "Jared Polis" },
   CT: { name: "Connecticut", capital: "Hartford", governor: "Ned Lamont" },
@@ -23,29 +23,29 @@ export const GOVERNORS: Record<string, GovernorRecord> = {
   FL: { name: "Florida", capital: "Tallahassee", governor: "Ron DeSantis" },
   GA: { name: "Georgia", capital: "Atlanta", governor: "Brian Kemp" },
   HI: { name: "Hawaii", capital: "Honolulu", governor: "Josh Green" },
+  IA: { name: "Iowa", capital: "Des Moines", governor: "Kim Reynolds" },
   ID: { name: "Idaho", capital: "Boise", governor: "Brad Little" },
   IL: { name: "Illinois", capital: "Springfield", governor: "JB Pritzker" },
   IN: { name: "Indiana", capital: "Indianapolis", governor: "Mike Braun" },
-  IA: { name: "Iowa", capital: "Des Moines", governor: "Kim Reynolds" },
   KS: { name: "Kansas", capital: "Topeka", governor: "Laura Kelly" },
   KY: { name: "Kentucky", capital: "Frankfort", governor: "Andy Beshear" },
   LA: { name: "Louisiana", capital: "Baton Rouge", governor: "Jeff Landry" },
-  ME: { name: "Maine", capital: "Augusta", governor: "Janet Mills" },
-  MD: { name: "Maryland", capital: "Annapolis", governor: "Wes Moore" },
   MA: { name: "Massachusetts", capital: "Boston", governor: "Maura Healey" },
+  MD: { name: "Maryland", capital: "Annapolis", governor: "Wes Moore" },
+  ME: { name: "Maine", capital: "Augusta", governor: "Janet Mills" },
   MI: { name: "Michigan", capital: "Lansing", governor: "Gretchen Whitmer" },
   MN: { name: "Minnesota", capital: "Saint Paul", governor: "Tim Walz" },
-  MS: { name: "Mississippi", capital: "Jackson", governor: "Tate Reeves" },
   MO: { name: "Missouri", capital: "Jefferson City", governor: "Mike Kehoe" },
+  MS: { name: "Mississippi", capital: "Jackson", governor: "Tate Reeves" },
   MT: { name: "Montana", capital: "Helena", governor: "Greg Gianforte" },
+  NC: { name: "North Carolina", capital: "Raleigh", governor: "Josh Stein" },
+  ND: { name: "North Dakota", capital: "Bismarck", governor: "Kelly Armstrong" },
   NE: { name: "Nebraska", capital: "Lincoln", governor: "Jim Pillen" },
-  NV: { name: "Nevada", capital: "Carson City", governor: "Joe Lombardo" },
   NH: { name: "New Hampshire", capital: "Concord", governor: "Kelly Ayotte" },
   NJ: { name: "New Jersey", capital: "Trenton", governor: "Mikie Sherrill" },
   NM: { name: "New Mexico", capital: "Santa Fe", governor: "Michelle Lujan Grisham" },
+  NV: { name: "Nevada", capital: "Carson City", governor: "Joe Lombardo" },
   NY: { name: "New York", capital: "Albany", governor: "Kathy Hochul" },
-  NC: { name: "North Carolina", capital: "Raleigh", governor: "Josh Stein" },
-  ND: { name: "North Dakota", capital: "Bismarck", governor: "Kelly Armstrong" },
   OH: { name: "Ohio", capital: "Columbus", governor: "Mike DeWine" },
   OK: { name: "Oklahoma", capital: "Oklahoma City", governor: "Kevin Stitt" },
   OR: { name: "Oregon", capital: "Salem", governor: "Tina Kotek" },
@@ -56,15 +56,11 @@ export const GOVERNORS: Record<string, GovernorRecord> = {
   TN: { name: "Tennessee", capital: "Nashville", governor: "Bill Lee" },
   TX: { name: "Texas", capital: "Austin", governor: "Greg Abbott" },
   UT: { name: "Utah", capital: "Salt Lake City", governor: "Spencer Cox" },
-  VT: { name: "Vermont", capital: "Montpelier", governor: "Phil Scott" },
   VA: { name: "Virginia", capital: "Richmond", governor: "Abigail Spanberger" },
+  VT: { name: "Vermont", capital: "Montpelier", governor: "Phil Scott" },
   WA: { name: "Washington", capital: "Olympia", governor: "Bob Ferguson" },
-  WV: { name: "West Virginia", capital: "Charleston", governor: "Patrick Morrisey" },
   WI: { name: "Wisconsin", capital: "Madison", governor: "Tony Evers" },
+  WV: { name: "West Virginia", capital: "Charleston", governor: "Patrick Morrisey" },
   WY: { name: "Wyoming", capital: "Cheyenne", governor: "Mark Gordon" },
-  DC: {
-    name: "District of Columbia",
-    capital: "Washington, D.C.",
-    governor: "Muriel Bowser (Mayor)",
-  },
+  DC: { name: "District of Columbia", capital: "Washington, D.C.", governor: "Muriel Bowser (Mayor)" },
 };
